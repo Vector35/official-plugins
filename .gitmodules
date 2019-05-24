@@ -1,6 +1,0 @@
-[submodule "plugins/sample_plugin"]
-	path = plugins/sample_plugin
-	url = https://github.com/Vector35/sample_plugin
-[submodule "plugins/OpaquePredicatePatcher"]
-	path = plugins/OpaquePredicatePatcher
-	url = https://github.com/Vector35/OpaquePredicatePatcher
