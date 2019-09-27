@@ -1,5 +1,9 @@
 [
     {
+        "name": "Vector35/snippets",
+        "tag": "v1.0-alpha"
+    },
+    {
         "name": "Vector35/OpaquePredicatePatcher",
         "tag": "v1.1.3"
     },
