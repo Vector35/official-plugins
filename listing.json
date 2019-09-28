@@ -1,5 +1,9 @@
 [
     {
+        "name": "Vector35/6502",
+        "tag": "v1.0"
+    },
+    {
         "name": "Vector35/kaitai",
         "tag": "v1.0"
     },
