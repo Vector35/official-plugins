@@ -18,5 +18,9 @@
     {
         "name":"Vector35/sample_plugin",
         "tag":"v1.3.1"
+    },
+    {
+        "name": "Vector35/Z80",
+        "tag": "1.1"
     }
 ]
