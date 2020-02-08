@@ -114,13 +114,13 @@
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 0,
+            "forks_count": 1,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
             "open_issues_count": 0,
             "license": null,
-            "forks": 0,
+            "forks": 1,
             "open_issues": 0,
             "watchers": 0,
             "default_branch": "master",
@@ -130,10 +130,6 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -154,7 +150,7 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "network_count": 0,
+            "network_count": 1,
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/Vector35",
@@ -294,10 +290,6 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -442,7 +434,7 @@
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 0,
+            "forks_count": 1,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -454,7 +446,7 @@
                 "url": "https://api.github.com/licenses/mit",
                 "node_id": "MDc6TGljZW5zZTEz"
             },
-            "forks": 0,
+            "forks": 1,
             "open_issues": 0,
             "watchers": 1,
             "default_branch": "master",
@@ -464,10 +456,6 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -488,7 +476,7 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "network_count": 0,
+            "network_count": 1,
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/Vector35",
@@ -629,15 +617,11 @@
             "watchers": 18,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "push": true,
+                "admin": false,
+                "push": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -820,15 +804,11 @@
             "watchers": 8,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "push": true,
+                "admin": false,
+                "push": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -872,7 +852,7 @@
         "longdescription": "<p>This Z80 architecture plugin was originally written as an example architecture to introduce how to easily add support to Binary Ninja for any new architecture given an existing disassembly library. It originally used the <a href='https://skoolkit.ca/'>SchoolKit</a> python library as a disassembler, but later was updated to work with a <a href='https://github.com/lwerdna/z80dis'>dedicated library</a>.</p><p>This repository has several checkpoints from the <a href='https://binary.ninja/2020/01/08/guide-to-architecture-plugins-part1.html'>blog post</a> that are associated with specific comments.</p>",
         "license": {
             "name": "MIT",
-            "text": "Copyright (c) 2017 Vecto 35 Inc\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+            "text": "Copyright (c) 2017 Vector 35 Inc\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
         },
         "platforms": [
             "Windows",
@@ -889,10 +869,10 @@
                 "z80dis"
             ]
         },
-        "version": "1.1",
+        "version": "1.2",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 776,
-        "lastUpdated": 1578535069,
+        "lastUpdated": 1581192789,
         "projectUrl": "https://github.com/Vector35/Z80",
         "projectData": {
             "id": 200677938,
@@ -961,14 +941,14 @@
             "releases_url": "https://api.github.com/repos/Vector35/Z80/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/Z80/deployments",
             "created_at": "2019-08-05T15:04:30Z",
-            "updated_at": "2020-01-09T01:51:29Z",
-            "pushed_at": "2020-01-09T01:52:28Z",
+            "updated_at": "2020-02-08T20:08:52Z",
+            "pushed_at": "2020-02-08T20:10:08Z",
             "git_url": "git://github.com/Vector35/Z80.git",
             "ssh_url": "git@github.com:Vector35/Z80.git",
             "clone_url": "https://github.com/Vector35/Z80.git",
             "svn_url": "https://github.com/Vector35/Z80",
             "homepage": null,
-            "size": 139,
+            "size": 322,
             "stargazers_count": 2,
             "watchers_count": 2,
             "language": "Python",
@@ -999,10 +979,6 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -1027,9 +1003,9 @@
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/Z80/zipball/1.1",
+        "packageUrl": "https://api.github.com/repos/Vector35/Z80/zipball/1.2",
         "path": "Vector35_Z80",
-        "commit": "2f4ab2a475af897065454ae527e940d71632a388",
+        "commit": "4a91d6cc4e82b814dba7061f9b30565c2d5b6677",
         "minimumBinaryNinjaVersion": 0
     }
 ]
