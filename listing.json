@@ -22,5 +22,9 @@
     {
         "name": "Vector35/Z80",
         "tag": "1.2"
+    },
+    {
+        "name": "Vector35/sigkit",
+        "tag": "v1.0"
     }
 ]
