@@ -125,11 +125,15 @@
             "watchers": 0,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "push": false,
+                "admin": true,
+                "push": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -170,7 +174,7 @@
             "python3"
         ],
         "description": "Browse hex with a tree view populated from Kaitai Struct formats.",
-        "longdescription": "Browse hex with a tree view populated from Kaitai Struct formats. Nearly all formats are precompiled and self contained for easy access from within Binary Ninja.",
+        "longdescription": "This UI plugin allows you to browse a hex dump within Binary Ninja with a tree view informed by [Kaitai Struct](https://kaitai.io/).\n\n![](https://github.com/Vector35/kaitai/blob/master/media/kaitai.gif?raw=true)\n\nThis wires up Kaitai Struct as a parsing library to produce templated dissection of binary files. Of course, this concept itself isn\u2019t new. Plenty of great tools like 010, Hexinator and Synalyze It! have this feature (last two by the same company for different platforms). Thanks to the Kaitai Project not only for the project in general, but also for working with us to resolve some small issues while we were developing the plugin.",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2019 Vector 35 Inc\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -186,10 +190,10 @@
             "Windows": "no special instructions, package manager is recommended"
         },
         "dependencies": {},
-        "version": "1.0",
+        "version": "1.1a",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 1200,
-        "lastUpdated": 1569634913,
+        "lastUpdated": 1583156797,
         "projectUrl": "https://github.com/Vector35/kaitai",
         "projectData": {
             "id": 211350672,
@@ -285,11 +289,15 @@
             "watchers": 1,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "push": false,
+                "admin": true,
+                "push": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -314,9 +322,9 @@
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/kaitai/zipball/v1.0",
+        "packageUrl": "https://api.github.com/repos/Vector35/kaitai/zipball/1.1a",
         "path": "Vector35_kaitai",
-        "commit": "50524d39a477e082ef0c517d19363dc32b9fb726",
+        "commit": "57323714961c640f37e484540c64b069009729d1",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -330,7 +338,7 @@
             "python3"
         ],
         "description": "Example UI plugin demonstrating how to create a snippet manager that allows for quick one-liners to be bound to hotkeys.",
-        "longdescription": "This plugin is dual purpose -- first, it demonstrates the new UI plugin interface available for third-party plugins, and secondly it implements the often-requested functionality of adding a snippet editor. This is particularly useful for binding commonly used snippets of python code from the ScriptingConsole to a hotkey to be able to trigger them more easily.",
+        "longdescription": "The snippet editor started as a simple example UI plugin to demonstrate new features available to UI plugins. It has turned into a functionally useful plugin in its own right. The snippet editor allows you to write small bits of code that might not be big enough to warrant the effort of a full plugin but are longer enough that you don't want to retype them every time in the python-console!\n\nAs an added bonus, all snippets are added to the snippets menu and hot-keys can be associated with them as they make use of the action system. All action-system items are also available through the command-palette (CTL/CMD-p).\n\n![](https://github.com/Vector35/snippets/blob/master/media/snippets.gif?raw=true)\n\n.",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2019 Vector 35 Inc\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -346,10 +354,10 @@
             "Windows": "no special instructions, package manager is recommended"
         },
         "dependencies": {},
-        "version": "1.0",
+        "version": "1.1a",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 1401,
-        "lastUpdated": 1569613828,
+        "lastUpdated": 1583156581,
         "projectUrl": "https://github.com/Vector35/snippets",
         "projectData": {
             "id": 211351389,
@@ -451,11 +459,15 @@
             "watchers": 1,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "push": false,
+                "admin": true,
+                "push": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -480,9 +492,9 @@
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/snippets/zipball/v1.0-alpha",
+        "packageUrl": "https://api.github.com/repos/Vector35/snippets/zipball/1.1a",
         "path": "Vector35_snippets",
-        "commit": "a23bfea3dbd264d112ef8052dc0a7940c189b89e",
+        "commit": "04c8cb90c44df6c32274c3f2f546c7676b1d4338",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -617,11 +629,15 @@
             "watchers": 18,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "push": false,
+                "admin": true,
+                "push": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -804,11 +820,15 @@
             "watchers": 8,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "push": false,
+                "admin": true,
+                "push": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -974,11 +994,15 @@
             "watchers": 2,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "push": false,
+                "admin": true,
+                "push": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -1121,7 +1145,7 @@
             "clone_url": "https://github.com/Vector35/sigkit.git",
             "svn_url": "https://github.com/Vector35/sigkit",
             "homepage": "",
-            "size": 546,
+            "size": 554,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Python",
