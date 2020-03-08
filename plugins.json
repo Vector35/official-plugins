@@ -125,15 +125,11 @@
             "watchers": 0,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "push": true,
+                "admin": false,
+                "push": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -262,7 +258,7 @@
             "releases_url": "https://api.github.com/repos/Vector35/kaitai/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/kaitai/deployments",
             "created_at": "2019-09-27T15:35:34Z",
-            "updated_at": "2020-03-02T13:29:35Z",
+            "updated_at": "2020-03-06T18:58:08Z",
             "pushed_at": "2020-03-02T13:46:28Z",
             "git_url": "git://github.com/Vector35/kaitai.git",
             "ssh_url": "git@github.com:Vector35/kaitai.git",
@@ -270,8 +266,8 @@
             "svn_url": "https://github.com/Vector35/kaitai",
             "homepage": null,
             "size": 10869,
-            "stargazers_count": 1,
-            "watchers_count": 1,
+            "stargazers_count": 2,
+            "watchers_count": 2,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -286,18 +282,14 @@
             "license": null,
             "forks": 1,
             "open_issues": 0,
-            "watchers": 1,
+            "watchers": 2,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "push": true,
+                "admin": false,
+                "push": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -459,15 +451,11 @@
             "watchers": 1,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "push": true,
+                "admin": false,
+                "push": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -629,15 +617,11 @@
             "watchers": 18,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "push": true,
+                "admin": false,
+                "push": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -820,15 +804,11 @@
             "watchers": 8,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "push": true,
+                "admin": false,
+                "push": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -994,15 +974,11 @@
             "watchers": 2,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "push": true,
+                "admin": false,
+                "push": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -1066,10 +1042,10 @@
                 "PySide2"
             ]
         },
-        "version": "1.0.1",
+        "version": "1.1",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 1997,
-        "lastUpdated": 1583472196,
+        "lastUpdated": 1583650549,
         "projectUrl": "https://github.com/Vector35/sigkit",
         "projectData": {
             "id": 193125707,
@@ -1138,8 +1114,8 @@
             "releases_url": "https://api.github.com/repos/Vector35/sigkit/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/sigkit/deployments",
             "created_at": "2019-06-21T15:58:59Z",
-            "updated_at": "2020-03-06T05:19:29Z",
-            "pushed_at": "2020-03-06T05:22:38Z",
+            "updated_at": "2020-03-08T06:53:19Z",
+            "pushed_at": "2020-03-08T06:56:14Z",
             "git_url": "git://github.com/Vector35/sigkit.git",
             "ssh_url": "git@github.com:Vector35/sigkit.git",
             "clone_url": "https://github.com/Vector35/sigkit.git",
@@ -1204,9 +1180,9 @@
             "subscribers_count": 5
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/sigkit/zipball/v1.0.1",
+        "packageUrl": "https://api.github.com/repos/Vector35/sigkit/zipball/v1.1",
         "path": "Vector35_sigkit",
-        "commit": "01cddd8a7b4b04073371439614eafa074709bf3c",
+        "commit": "c4f2bfec32c355af0d6235a625b2bbf67dffd61c",
         "minimumBinaryNinjaVersion": 0
     }
 ]
