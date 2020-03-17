@@ -144,6 +144,7 @@ def main():
     oldPlugins = {}
     if os.path.exists(pluginjson):
         with open(pluginjson) as pluginsFile:
+            print(pluginsFile)
             for i, plugin in enumerate(json.load(pluginsFile)):
                 oldPlugins[plugin["projectData"]["full_name"]] = plugin["lastUpdated"]
 

@@ -26,5 +26,9 @@
     {
         "name": "Vector35/sigkit",
         "tag": "v1.1"
+    },
+    {
+        "name": "Vector35/debugger",
+        "tag": "v1.0-beta"
     }
 ]
