@@ -1236,9 +1236,9 @@
             "Windows": "To install this manually, please see the \"Using Plugins\" section of the [Getting Started Guide](https://docs.binary.ninja/getting-started.html#using-plugins). Or use Binary Ninja's built in plugin manager.",
             "Linux": "To install this manually, please see the \"Using Plugins\" section of the [Getting Started Guide](https://docs.binary.ninja/getting-started.html#using-plugins). Or use Binary Ninja's built in plugin manager."
         },
-        "version": "1.0-beta",
+        "version": "1.0-beta2",
         "minimumbinaryninjaversion": 2015,
-        "lastUpdated": 1586142635,
+        "lastUpdated": 1586143018,
         "projectUrl": "https://github.com/Vector35/debugger",
         "projectData": {
             "id": 224043324,
@@ -1307,8 +1307,8 @@
             "releases_url": "https://api.github.com/repos/Vector35/debugger/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/debugger/deployments",
             "created_at": "2019-11-25T21:17:39Z",
-            "updated_at": "2020-04-03T20:28:54Z",
-            "pushed_at": "2020-04-06T03:10:07Z",
+            "updated_at": "2020-04-06T03:16:41Z",
+            "pushed_at": "2020-04-06T03:16:46Z",
             "git_url": "git://github.com/Vector35/debugger.git",
             "ssh_url": "git@github.com:Vector35/debugger.git",
             "clone_url": "https://github.com/Vector35/debugger.git",
@@ -1373,9 +1373,9 @@
             "subscribers_count": 7
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/debugger/zipball/v1.0-beta1",
+        "packageUrl": "https://api.github.com/repos/Vector35/debugger/zipball/v1.0-beta2",
         "path": "Vector35_debugger",
-        "commit": "a91713c3a2d3fd72f6fef67fea84dbc45b85d8f6",
+        "commit": "f09fd4ee597c3907a47d1181e6f92ea2a0f989ee",
         "minimumBinaryNinjaVersion": 0
     }
 ]
