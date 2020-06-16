@@ -125,8 +125,8 @@
             "watchers": 1,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "push": true,
+                "admin": false,
+                "push": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -258,7 +258,7 @@
             "releases_url": "https://api.github.com/repos/Vector35/kaitai/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/kaitai/deployments",
             "created_at": "2019-09-27T15:35:34Z",
-            "updated_at": "2020-05-30T16:31:31Z",
+            "updated_at": "2020-06-04T21:40:51Z",
             "pushed_at": "2020-03-02T13:46:28Z",
             "git_url": "git://github.com/Vector35/kaitai.git",
             "ssh_url": "git@github.com:Vector35/kaitai.git",
@@ -266,8 +266,8 @@
             "svn_url": "https://github.com/Vector35/kaitai",
             "homepage": null,
             "size": 10869,
-            "stargazers_count": 5,
-            "watchers_count": 5,
+            "stargazers_count": 6,
+            "watchers_count": 6,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -282,11 +282,11 @@
             "license": null,
             "forks": 1,
             "open_issues": 0,
-            "watchers": 5,
+            "watchers": 6,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "push": true,
+                "admin": false,
+                "push": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -419,13 +419,13 @@
             "deployments_url": "https://api.github.com/repos/Vector35/snippets/deployments",
             "created_at": "2019-09-27T15:39:09Z",
             "updated_at": "2020-05-13T17:36:43Z",
-            "pushed_at": "2020-05-13T18:49:22Z",
+            "pushed_at": "2020-06-07T16:31:00Z",
             "git_url": "git://github.com/Vector35/snippets.git",
             "ssh_url": "git@github.com:Vector35/snippets.git",
             "clone_url": "https://github.com/Vector35/snippets.git",
             "svn_url": "https://github.com/Vector35/snippets",
             "homepage": null,
-            "size": 4043,
+            "size": 4057,
             "stargazers_count": 1,
             "watchers_count": 1,
             "language": "Python",
@@ -451,8 +451,8 @@
             "watchers": 1,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "push": true,
+                "admin": false,
+                "push": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -974,8 +974,8 @@
             "watchers": 2,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "push": true,
+                "admin": false,
+                "push": false,
                 "pull": true
             },
             "temp_clone_token": "",
@@ -1021,7 +1021,7 @@
             "python3"
         ],
         "description": "Python tools for working with Signature Libraries",
-        "longdescription": "This plugin provides Python tools for generating, manipulating, viewing, loading, and saving signature libraries (.sig) for the Signature System. This plugin also provides UI integration for easy access from the Binary Ninja UI to common functions in the `Tools\\Signature Library` menu.\n\n\n![Signature Explorer](https://raw.githubusercontent.com/vector35/sigkit/master/images/explorer.png)\n\nAlso included are [example scripts](https://github.com/Vector35/sigkit/tree/master/examples) which demonstrate batch processing and automatic creation of signature libraries for Ubuntu libc.\n",
+        "longdescription": "This plugin provides Python tools for generating, manipulating, viewing, loading, and saving signature libraries (.sig) for the Signature System. This plugin also provides UI integration for easy access from the Binary Ninja UI to common functions in the `Tools\\Signature Library` menu.\n\n\n![Signature Explorer](https://raw.githubusercontent.com/vector35/sigkit/master/images/explorer.png)\n\nAlso included are [example scripts](https://github.com/Vector35/sigkit/tree/master/examples) which demonstrate batch processing and automatic creation of signature libraries for Ubuntu libc.\nYou can also run the Signature Explorer GUI as a standalone app.",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2019-2020 Vector 35 Inc\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -1042,10 +1042,10 @@
                 "PySide2"
             ]
         },
-        "version": "1.1",
+        "version": "1.1.1",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 1997,
-        "lastUpdated": 1583650549,
+        "lastUpdated": 1592293591,
         "projectUrl": "https://github.com/Vector35/sigkit",
         "projectData": {
             "id": 193125707,
@@ -1114,8 +1114,8 @@
             "releases_url": "https://api.github.com/repos/Vector35/sigkit/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/sigkit/deployments",
             "created_at": "2019-06-21T15:58:59Z",
-            "updated_at": "2020-05-18T07:56:57Z",
-            "pushed_at": "2020-03-08T06:56:14Z",
+            "updated_at": "2020-06-16T07:45:11Z",
+            "pushed_at": "2020-06-16T07:46:31Z",
             "git_url": "git://github.com/Vector35/sigkit.git",
             "ssh_url": "git@github.com:Vector35/sigkit.git",
             "clone_url": "https://github.com/Vector35/sigkit.git",
@@ -1134,7 +1134,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 3,
+            "open_issues_count": 2,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -1143,7 +1143,7 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "forks": 0,
-            "open_issues": 3,
+            "open_issues": 2,
             "watchers": 18,
             "default_branch": "master",
             "permissions": {
@@ -1152,6 +1152,10 @@
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -1176,9 +1180,9 @@
             "subscribers_count": 7
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/sigkit/zipball/v1.1",
+        "packageUrl": "https://api.github.com/repos/Vector35/sigkit/zipball/v1.1.1",
         "path": "Vector35_sigkit",
-        "commit": "c4f2bfec32c355af0d6235a625b2bbf67dffd61c",
+        "commit": "5ff79038ad8de538bd2dcd42972b4c3db4638a7c",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -1279,27 +1283,27 @@
             "releases_url": "https://api.github.com/repos/Vector35/debugger/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/debugger/deployments",
             "created_at": "2019-11-25T21:17:39Z",
-            "updated_at": "2020-06-04T19:27:49Z",
-            "pushed_at": "2020-06-04T19:42:29Z",
+            "updated_at": "2020-06-16T02:45:08Z",
+            "pushed_at": "2020-06-14T14:24:02Z",
             "git_url": "git://github.com/Vector35/debugger.git",
             "ssh_url": "git@github.com:Vector35/debugger.git",
             "clone_url": "https://github.com/Vector35/debugger.git",
             "svn_url": "https://github.com/Vector35/debugger",
             "homepage": "",
-            "size": 1578,
-            "stargazers_count": 96,
-            "watchers_count": 96,
+            "size": 1605,
+            "stargazers_count": 101,
+            "watchers_count": 101,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 7,
+            "forks_count": 8,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 33,
+            "open_issues_count": 40,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -1307,16 +1311,20 @@
                 "url": "https://api.github.com/licenses/mit",
                 "node_id": "MDc6TGljZW5zZTEz"
             },
-            "forks": 7,
-            "open_issues": 33,
-            "watchers": 96,
+            "forks": 8,
+            "open_issues": 40,
+            "watchers": 101,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
+                "admin": false,
                 "push": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -1337,8 +1345,8 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "network_count": 7,
-            "subscribers_count": 11
+            "network_count": 8,
+            "subscribers_count": 12
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/debugger/zipball/1.2",
