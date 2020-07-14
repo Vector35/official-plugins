@@ -125,11 +125,15 @@
             "watchers": 1,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "push": false,
+                "admin": true,
+                "push": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -285,11 +289,15 @@
             "watchers": 6,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "push": false,
+                "admin": true,
+                "push": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -451,11 +459,15 @@
             "watchers": 1,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "push": false,
+                "admin": true,
+                "push": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -499,7 +511,7 @@
         "longdescription": "This script will automatically remove conditional branches which have constant conditions. It can be run from the command line via `python -mOpaquePredicatePatcher.__main__` (if the BinaryNinja python library is in your path) or installed as a plugin in your user plugin directory. Read more about how this tool works on our blog: [Automated Opaque Predicate Removal](https://binary.ninja/2017/10/01/automated-opaque-predicate-removal.html)\n\n###Example\n\n![Before and After](opaque_predicate_elimination.gif =400x400 'Before and After')",
         "license": {
             "name": "MIT",
-            "text": "Copyright (c) 2017 Vecto 35 LLC\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+            "text": "Copyright (c) 2017 Vector 35 Inc\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
         },
         "platforms": [
             "Windows",
@@ -512,10 +524,10 @@
             "Darwin": ""
         },
         "dependencies": {},
-        "version": "1.1.3",
-        "author": "Vector 35 LLC",
+        "version": "1.1.4",
+        "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 0,
-        "lastUpdated": 1561049230,
+        "lastUpdated": 1594699619,
         "projectUrl": "https://github.com/Vector35/OpaquePredicatePatcher",
         "projectData": {
             "id": 105457407,
@@ -584,16 +596,16 @@
             "releases_url": "https://api.github.com/repos/Vector35/OpaquePredicatePatcher/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/OpaquePredicatePatcher/deployments",
             "created_at": "2017-10-01T16:48:08Z",
-            "updated_at": "2020-04-13T15:18:38Z",
-            "pushed_at": "2019-07-10T16:10:43Z",
+            "updated_at": "2020-07-14T04:05:33Z",
+            "pushed_at": "2020-07-14T04:06:09Z",
             "git_url": "git://github.com/Vector35/OpaquePredicatePatcher.git",
             "ssh_url": "git@github.com:Vector35/OpaquePredicatePatcher.git",
             "clone_url": "https://github.com/Vector35/OpaquePredicatePatcher.git",
             "svn_url": "https://github.com/Vector35/OpaquePredicatePatcher",
             "homepage": null,
             "size": 2319,
-            "stargazers_count": 20,
-            "watchers_count": 20,
+            "stargazers_count": 23,
+            "watchers_count": 23,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -614,14 +626,18 @@
             },
             "forks": 1,
             "open_issues": 1,
-            "watchers": 20,
+            "watchers": 23,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "push": false,
+                "admin": true,
+                "push": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -646,9 +662,9 @@
             "subscribers_count": 1
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/OpaquePredicatePatcher/zipball/v1.1.3",
+        "packageUrl": "https://api.github.com/repos/Vector35/OpaquePredicatePatcher/zipball/1.1.4",
         "path": "Vector35_OpaquePredicatePatcher",
-        "commit": "4ee9d3f6e00168c79ce447cf3dec0f2f50dedf7d",
+        "commit": "d2e664f249c1d6cecb0ade06ae967ef725067b4e",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -666,7 +682,7 @@
             "python3"
         ],
         "description": "This is a short description meant to fit on one line.",
-        "longdescription": "This is a longer description meant for a sample plugin that demonstrates the metadata format for Binary Ninja plugins.",
+        "longdescription": "This is a longer description meant for a sample plugin that demonstrates the metadata format for Binary Ninja plugins. Note that the [community-plugins repo]() contains a useful [utility](https://github.com/Vector35/community-plugins/blob/master/generate_plugininfo.py) to validate the plugin.json.",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) <year> <copyright holders>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -699,10 +715,10 @@
                 "The sample plugin requires [this random package](https://bogus-domain/this-package/) be installed."
             ]
         },
-        "version": "1.3",
-        "author": "Vector 35 LLC",
+        "version": "1.3.2",
+        "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 1200,
-        "lastUpdated": 1561048870,
+        "lastUpdated": 1594699753,
         "projectUrl": "https://github.com/Vector35/sample_plugin",
         "projectData": {
             "id": 87951201,
@@ -771,8 +787,8 @@
             "releases_url": "https://api.github.com/repos/Vector35/sample_plugin/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/sample_plugin/deployments",
             "created_at": "2017-04-11T15:35:58Z",
-            "updated_at": "2020-05-13T04:16:50Z",
-            "pushed_at": "2019-07-10T16:11:09Z",
+            "updated_at": "2020-07-14T04:08:51Z",
+            "pushed_at": "2020-07-14T04:09:07Z",
             "git_url": "git://github.com/Vector35/sample_plugin.git",
             "ssh_url": "git@github.com:Vector35/sample_plugin.git",
             "clone_url": "https://github.com/Vector35/sample_plugin.git",
@@ -804,11 +820,15 @@
             "watchers": 12,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "push": false,
+                "admin": true,
+                "push": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -833,9 +853,9 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/sample_plugin/zipball/v1.3.1",
+        "packageUrl": "https://api.github.com/repos/Vector35/sample_plugin/zipball/1.3.2",
         "path": "Vector35_sample_plugin",
-        "commit": "b1b51ddda7006255b586e5994b17c543acb4c0be",
+        "commit": "40db1f0ba70152b06d0f56aabc502eae41bd1ceb",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -974,11 +994,15 @@
             "watchers": 2,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "push": false,
+                "admin": true,
+                "push": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -1042,10 +1066,10 @@
                 "PySide2"
             ]
         },
-        "version": "1.1.1",
+        "version": "1.1.2",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 1997,
-        "lastUpdated": 1592293591,
+        "lastUpdated": 1594699948,
         "projectUrl": "https://github.com/Vector35/sigkit",
         "projectData": {
             "id": 193125707,
@@ -1114,16 +1138,16 @@
             "releases_url": "https://api.github.com/repos/Vector35/sigkit/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/sigkit/deployments",
             "created_at": "2019-06-21T15:58:59Z",
-            "updated_at": "2020-06-16T07:45:11Z",
-            "pushed_at": "2020-06-16T07:46:31Z",
+            "updated_at": "2020-07-14T04:11:38Z",
+            "pushed_at": "2020-07-14T04:12:02Z",
             "git_url": "git://github.com/Vector35/sigkit.git",
             "ssh_url": "git@github.com:Vector35/sigkit.git",
             "clone_url": "https://github.com/Vector35/sigkit.git",
             "svn_url": "https://github.com/Vector35/sigkit",
-            "homepage": "",
-            "size": 571,
-            "stargazers_count": 18,
-            "watchers_count": 18,
+            "homepage": "https://binary.ninja/2020/03/11/signature-libraries.html",
+            "size": 572,
+            "stargazers_count": 19,
+            "watchers_count": 19,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1144,7 +1168,7 @@
             },
             "forks": 0,
             "open_issues": 2,
-            "watchers": 18,
+            "watchers": 19,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1180,9 +1204,9 @@
             "subscribers_count": 7
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/sigkit/zipball/v1.1.1",
+        "packageUrl": "https://api.github.com/repos/Vector35/sigkit/zipball/1.1.2",
         "path": "Vector35_sigkit",
-        "commit": "5ff79038ad8de538bd2dcd42972b4c3db4638a7c",
+        "commit": "1f8e4c5849aa09e216d04d2e2e2b2fe493567fe0",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -1283,27 +1307,27 @@
             "releases_url": "https://api.github.com/repos/Vector35/debugger/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/debugger/deployments",
             "created_at": "2019-11-25T21:17:39Z",
-            "updated_at": "2020-06-16T02:45:08Z",
-            "pushed_at": "2020-06-14T14:24:02Z",
+            "updated_at": "2020-07-09T16:13:14Z",
+            "pushed_at": "2020-06-22T21:12:12Z",
             "git_url": "git://github.com/Vector35/debugger.git",
             "ssh_url": "git@github.com:Vector35/debugger.git",
             "clone_url": "https://github.com/Vector35/debugger.git",
             "svn_url": "https://github.com/Vector35/debugger",
             "homepage": "",
-            "size": 1605,
-            "stargazers_count": 101,
-            "watchers_count": 101,
+            "size": 1457,
+            "stargazers_count": 109,
+            "watchers_count": 109,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 8,
+            "forks_count": 10,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 40,
+            "open_issues_count": 39,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -1311,12 +1335,12 @@
                 "url": "https://api.github.com/licenses/mit",
                 "node_id": "MDc6TGljZW5zZTEz"
             },
-            "forks": 8,
-            "open_issues": 40,
-            "watchers": 101,
+            "forks": 10,
+            "open_issues": 39,
+            "watchers": 109,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
+                "admin": true,
                 "push": true,
                 "pull": true
             },
@@ -1345,7 +1369,7 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "network_count": 8,
+            "network_count": 10,
             "subscribers_count": 12
         },
         "authorUrl": "https://github.com/Vector35",
