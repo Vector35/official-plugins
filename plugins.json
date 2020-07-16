@@ -130,10 +130,6 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -294,10 +290,6 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -426,14 +418,14 @@
             "releases_url": "https://api.github.com/repos/Vector35/snippets/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/snippets/deployments",
             "created_at": "2019-09-27T15:39:09Z",
-            "updated_at": "2020-07-14T21:18:25Z",
-            "pushed_at": "2020-07-14T23:48:26Z",
+            "updated_at": "2020-07-15T04:37:49Z",
+            "pushed_at": "2020-07-15T04:54:11Z",
             "git_url": "git://github.com/Vector35/snippets.git",
             "ssh_url": "git@github.com:Vector35/snippets.git",
             "clone_url": "https://github.com/Vector35/snippets.git",
             "svn_url": "https://github.com/Vector35/snippets",
             "homepage": null,
-            "size": 4071,
+            "size": 4102,
             "stargazers_count": 1,
             "watchers_count": 1,
             "language": "Python",
@@ -464,10 +456,6 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -629,15 +617,11 @@
             "watchers": 23,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "push": true,
+                "admin": false,
+                "push": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -820,15 +804,11 @@
             "watchers": 12,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "push": true,
+                "admin": false,
+                "push": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -999,10 +979,6 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -1176,10 +1152,6 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -1236,9 +1208,9 @@
             "Windows": "To install this manually, please see the \"Using Plugins\" section of the [Getting Started Guide](https://docs.binary.ninja/getting-started.html#using-plugins). Or use Binary Ninja's built in plugin manager.",
             "Linux": "To install this manually, please see the \"Using Plugins\" section of the [Getting Started Guide](https://docs.binary.ninja/getting-started.html#using-plugins). Or use Binary Ninja's built in plugin manager."
         },
-        "version": "1.2",
+        "version": "1.3",
         "minimumbinaryninjaversion": 2085,
-        "lastUpdated": 1591299850,
+        "lastUpdated": 1594914427,
         "projectUrl": "https://github.com/Vector35/debugger",
         "projectData": {
             "id": 224043324,
@@ -1307,16 +1279,16 @@
             "releases_url": "https://api.github.com/repos/Vector35/debugger/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/debugger/deployments",
             "created_at": "2019-11-25T21:17:39Z",
-            "updated_at": "2020-07-09T16:13:14Z",
-            "pushed_at": "2020-06-22T21:12:12Z",
+            "updated_at": "2020-07-16T15:47:18Z",
+            "pushed_at": "2020-07-16T15:47:16Z",
             "git_url": "git://github.com/Vector35/debugger.git",
             "ssh_url": "git@github.com:Vector35/debugger.git",
             "clone_url": "https://github.com/Vector35/debugger.git",
             "svn_url": "https://github.com/Vector35/debugger",
             "homepage": "",
             "size": 1457,
-            "stargazers_count": 109,
-            "watchers_count": 109,
+            "stargazers_count": 110,
+            "watchers_count": 110,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1337,7 +1309,7 @@
             },
             "forks": 10,
             "open_issues": 39,
-            "watchers": 109,
+            "watchers": 110,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1345,10 +1317,6 @@
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -1373,9 +1341,9 @@
             "subscribers_count": 12
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/debugger/zipball/1.2",
+        "packageUrl": "https://api.github.com/repos/Vector35/debugger/zipball/1.3",
         "path": "Vector35_debugger",
-        "commit": "81a9cf6be83a13f103c9dc2b817d1aa7fd5f2c93",
+        "commit": "c7218e4b1e3fdf39ef3e7e0dd0e629795b581bd7",
         "minimumBinaryNinjaVersion": 0
     }
 ]
