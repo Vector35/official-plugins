@@ -1384,10 +1384,10 @@
                 "pyelftools"
             ]
         },
-        "version": "1.0.0",
+        "version": "1.0.1",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 1904,
-        "lastUpdated": 1600881952,
+        "lastUpdated": 1600883232,
         "projectUrl": "https://github.com/Vector35/dwarf_import",
         "projectData": {
             "id": 297732788,
@@ -1456,8 +1456,8 @@
             "releases_url": "https://api.github.com/repos/Vector35/dwarf_import/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/dwarf_import/deployments",
             "created_at": "2020-09-22T18:10:12Z",
-            "updated_at": "2020-09-23T17:28:51Z",
-            "pushed_at": "2020-09-23T17:25:52Z",
+            "updated_at": "2020-09-23T17:46:35Z",
+            "pushed_at": "2020-09-23T17:47:12Z",
             "git_url": "git://github.com/Vector35/dwarf_import.git",
             "ssh_url": "git@github.com:Vector35/dwarf_import.git",
             "clone_url": "https://github.com/Vector35/dwarf_import.git",
@@ -1522,9 +1522,9 @@
             "subscribers_count": 5
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/dwarf_import/zipball/1.0.0",
+        "packageUrl": "https://api.github.com/repos/Vector35/dwarf_import/zipball/1.0.1",
         "path": "Vector35_dwarf_import",
-        "commit": "af568a21250aac76d6c93176af83d7c7a2849228",
+        "commit": "43e4f673bd51bdafd2c2ebcf4f2a5cadad2a2a2c",
         "minimumBinaryNinjaVersion": 0
     }
 ]
