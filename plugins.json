@@ -26,10 +26,10 @@
             "Windows": "no special instructions, package manager is recommended"
         },
         "dependencies": {},
-        "version": "1.0.2",
+        "version": "1.0.3",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 1200,
-        "lastUpdated": 1589076931,
+        "lastUpdated": 1602177109,
         "projectUrl": "https://github.com/Vector35/6502",
         "projectData": {
             "id": 211349080,
@@ -98,8 +98,8 @@
             "releases_url": "https://api.github.com/repos/Vector35/6502/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/6502/deployments",
             "created_at": "2019-09-27T15:26:50Z",
-            "updated_at": "2020-05-10T02:14:20Z",
-            "pushed_at": "2020-05-10T02:15:15Z",
+            "updated_at": "2020-10-08T17:11:46Z",
+            "pushed_at": "2020-10-08T17:11:48Z",
             "git_url": "git://github.com/Vector35/6502.git",
             "ssh_url": "git@github.com:Vector35/6502.git",
             "clone_url": "https://github.com/Vector35/6502.git",
@@ -114,22 +114,26 @@
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 1,
+            "forks_count": 2,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
             "open_issues_count": 0,
             "license": null,
-            "forks": 1,
+            "forks": 2,
             "open_issues": 0,
             "watchers": 1,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "push": false,
+                "admin": true,
+                "push": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -150,13 +154,13 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "network_count": 1,
+            "network_count": 2,
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/6502/zipball/1.0.2",
+        "packageUrl": "https://api.github.com/repos/Vector35/6502/zipball/1.0.3",
         "path": "Vector35_6502",
-        "commit": "5b1c41f652730b217913a494f51e5580806d77e8",
+        "commit": "d5edd71b29261790da853038aa6a9cd6e59e1adf",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -285,11 +289,15 @@
             "watchers": 6,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "push": false,
+                "admin": true,
+                "push": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -418,14 +426,14 @@
             "releases_url": "https://api.github.com/repos/Vector35/snippets/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/snippets/deployments",
             "created_at": "2019-09-27T15:39:09Z",
-            "updated_at": "2020-07-15T04:37:49Z",
-            "pushed_at": "2020-09-02T18:16:30Z",
+            "updated_at": "2020-10-01T13:19:13Z",
+            "pushed_at": "2020-10-01T13:19:10Z",
             "git_url": "git://github.com/Vector35/snippets.git",
             "ssh_url": "git@github.com:Vector35/snippets.git",
             "clone_url": "https://github.com/Vector35/snippets.git",
             "svn_url": "https://github.com/Vector35/snippets",
             "homepage": null,
-            "size": 4110,
+            "size": 4112,
             "stargazers_count": 1,
             "watchers_count": 1,
             "language": "Python",
@@ -451,11 +459,15 @@
             "watchers": 1,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "push": false,
+                "admin": true,
+                "push": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -617,11 +629,15 @@
             "watchers": 23,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "push": false,
+                "admin": true,
+                "push": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -804,11 +820,15 @@
             "watchers": 12,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "push": false,
+                "admin": true,
+                "push": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -974,11 +994,15 @@
             "watchers": 2,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "push": false,
+                "admin": true,
+                "push": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "delete_branch_on_merge": false,
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -1316,7 +1340,7 @@
             "watchers": 116,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
+                "admin": true,
                 "push": true,
                 "pull": true
             },
@@ -1463,7 +1487,7 @@
             "clone_url": "https://github.com/Vector35/dwarf_import.git",
             "svn_url": "https://github.com/Vector35/dwarf_import",
             "homepage": "",
-            "size": 40,
+            "size": 2374,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Python",
@@ -1476,7 +1500,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 0,
+            "open_issues_count": 6,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -1485,7 +1509,7 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "forks": 0,
-            "open_issues": 0,
+            "open_issues": 6,
             "watchers": 0,
             "default_branch": "master",
             "permissions": {

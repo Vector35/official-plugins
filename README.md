@@ -2,7 +2,7 @@
 
 | PluginName | Author | Last Updated | License | Type | Description |
 |------------|--------|--------------|---------|----------|-------------|
-|[6502 Architecture Plugin](https://github.com/Vector35/6502)|[Vector 35 Inc](https://github.com/Vector35)|2020-05-09|MIT|architecture|An architecture plugin for 6502 and binary view for NES roms.|
+|[6502 Architecture Plugin](https://github.com/Vector35/6502)|[Vector 35 Inc](https://github.com/Vector35)|2020-10-08|MIT|architecture|An architecture plugin for 6502 and binary view for NES roms.|
 |[Kaitai UI Plugin](https://github.com/Vector35/kaitai)|[Vector 35 Inc](https://github.com/Vector35)|2020-03-02|MIT|ui|Browse hex with a tree view populated from Kaitai Struct formats.|
 |[Snippet UI Plugin](https://github.com/Vector35/snippets)|[Vector 35 Inc](https://github.com/Vector35)|2020-07-14|MIT|ui|Powerful code-editing plugin for writing and managing python code-snippets with syntax highlightingd, hotkey binding and other features|
 |[Opaque Predicate Patcher](https://github.com/Vector35/OpaquePredicatePatcher)|[Vector 35 Inc](https://github.com/Vector35)|2020-07-14|MIT|helper|Automatically patch opaque predicates|
