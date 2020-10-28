@@ -105,7 +105,7 @@
             "clone_url": "https://github.com/Vector35/6502.git",
             "svn_url": "https://github.com/Vector35/6502",
             "homepage": null,
-            "size": 164,
+            "size": 167,
             "stargazers_count": 1,
             "watchers_count": 1,
             "language": "Python",
@@ -354,10 +354,10 @@
             "Windows": "no special instructions, package manager is recommended"
         },
         "dependencies": {},
-        "version": "1.4",
+        "version": "1.6",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 1528,
-        "lastUpdated": 1594770507,
+        "lastUpdated": 1603864673,
         "projectUrl": "https://github.com/Vector35/snippets",
         "projectData": {
             "id": 211351389,
@@ -426,8 +426,8 @@
             "releases_url": "https://api.github.com/repos/Vector35/snippets/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/snippets/deployments",
             "created_at": "2019-09-27T15:39:09Z",
-            "updated_at": "2020-10-01T13:19:13Z",
-            "pushed_at": "2020-10-01T13:19:10Z",
+            "updated_at": "2020-10-28T05:57:50Z",
+            "pushed_at": "2020-10-28T05:57:52Z",
             "git_url": "git://github.com/Vector35/snippets.git",
             "ssh_url": "git@github.com:Vector35/snippets.git",
             "clone_url": "https://github.com/Vector35/snippets.git",
@@ -492,9 +492,9 @@
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/snippets/zipball/1.4",
+        "packageUrl": "https://api.github.com/repos/Vector35/snippets/zipball/1.6",
         "path": "Vector35_snippets",
-        "commit": "b4a2fd81ec13d01ed63066c048c34ec49c676f99",
+        "commit": "b019eaa2ae78d22406dee3942c22a2564f162372",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -803,7 +803,7 @@
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 6,
+            "forks_count": 7,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -815,7 +815,7 @@
                 "url": "https://api.github.com/licenses/mit",
                 "node_id": "MDc6TGljZW5zZTEz"
             },
-            "forks": 6,
+            "forks": 7,
             "open_issues": 0,
             "watchers": 12,
             "default_branch": "master",
@@ -849,7 +849,7 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "network_count": 6,
+            "network_count": 7,
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/Vector35",
@@ -1500,7 +1500,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 6,
+            "open_issues_count": 7,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -1509,7 +1509,7 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "forks": 0,
-            "open_issues": 6,
+            "open_issues": 7,
             "watchers": 0,
             "default_branch": "master",
             "permissions": {
