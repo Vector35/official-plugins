@@ -1,38 +1,38 @@
 [
     {
         "name": "Vector35/6502",
-        "tag": "1.0.3"
+        "auto_update": true
     },
     {
         "name": "Vector35/kaitai",
-        "tag": "1.1a"
+        "auto_update": true
     },
     {
         "name": "Vector35/snippets",
-        "tag": "1.8"
+        "auto_update": true
     },
     {
         "name": "Vector35/OpaquePredicatePatcher",
-        "tag": "1.1.4"
+        "auto_update": true
     },
     {
         "name":"Vector35/sample_plugin",
-        "tag":"1.3.2"
+        "auto_update": true
     },
     {
         "name": "Vector35/Z80",
-        "tag": "1.2"
+        "auto_update": true
     },
     {
         "name": "Vector35/sigkit",
-        "tag": "1.1.3"
+        "auto_update": true
     },
     {
         "name": "Vector35/debugger",
-        "tag": "1.3"
+        "auto_update": true
     },
     {
         "name": "Vector35/dwarf_import",
-        "tag": "1.0.1"
+        "auto_update": true
     }
 ]
