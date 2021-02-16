@@ -1039,11 +1039,11 @@
             "Linux": "",
             "Darwin": ""
         },
-        "dependencies": "PySide2\nflatbuffers\n",
+        "dependencies": "flatbuffers\n",
         "version": "1.1.2",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 1997,
-        "lastUpdated": 1594699948,
+        "lastUpdated": 1613482311,
         "projectUrl": "https://github.com/Vector35/sigkit",
         "projectData": {
             "id": 193125707,
@@ -1112,14 +1112,14 @@
             "releases_url": "https://api.github.com/repos/Vector35/sigkit/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/sigkit/deployments",
             "created_at": "2019-06-21T15:58:59Z",
-            "updated_at": "2020-12-31T02:23:58Z",
-            "pushed_at": "2020-07-14T04:12:02Z",
+            "updated_at": "2021-02-12T21:59:33Z",
+            "pushed_at": "2021-02-16T13:29:32Z",
             "git_url": "git://github.com/Vector35/sigkit.git",
             "ssh_url": "git@github.com:Vector35/sigkit.git",
             "clone_url": "https://github.com/Vector35/sigkit.git",
             "svn_url": "https://github.com/Vector35/sigkit",
             "homepage": "https://binary.ninja/2020/03/11/signature-libraries.html",
-            "size": 582,
+            "size": 583,
             "stargazers_count": 23,
             "watchers_count": 23,
             "language": "Python",
@@ -1178,9 +1178,9 @@
             "subscribers_count": 7
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/sigkit/zipball/1.1.2",
+        "packageUrl": "https://api.github.com/repos/Vector35/sigkit/zipball/1.1.3",
         "path": "Vector35_sigkit",
-        "commit": "1f8e4c5849aa09e216d04d2e2e2b2fe493567fe0",
+        "commit": "90c97dfbb5854081b1d5d97dd84c7b038f77fa27",
         "minimumBinaryNinjaVersion": 0
     },
     {
