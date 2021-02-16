@@ -867,11 +867,11 @@
             "Linux": "pip install z80dis;pip3 install z80dis",
             "Darwin": "pip install z80dis;pip3 install z80dis"
         },
-        "dependencies": "",
+        "dependencies": "z80dis\n",
         "version": "1.2",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 776,
-        "lastUpdated": 1581192789,
+        "lastUpdated": 1613491411,
         "projectUrl": "https://github.com/Vector35/Z80",
         "projectData": {
             "id": 200677938,
@@ -940,8 +940,8 @@
             "releases_url": "https://api.github.com/repos/Vector35/Z80/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/Z80/deployments",
             "created_at": "2019-08-05T15:04:30Z",
-            "updated_at": "2020-02-08T20:08:52Z",
-            "pushed_at": "2020-02-08T20:10:08Z",
+            "updated_at": "2021-02-16T16:01:33Z",
+            "pushed_at": "2021-02-16T16:03:00Z",
             "git_url": "git://github.com/Vector35/Z80.git",
             "ssh_url": "git@github.com:Vector35/Z80.git",
             "clone_url": "https://github.com/Vector35/Z80.git",
@@ -1006,9 +1006,9 @@
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/Z80/zipball/1.2",
+        "packageUrl": "https://api.github.com/repos/Vector35/Z80/zipball/1.2.1",
         "path": "Vector35_Z80",
-        "commit": "4a91d6cc4e82b814dba7061f9b30565c2d5b6677",
+        "commit": "027dfa0d081ff83581f1ac375c084b5b146516fb",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -1212,7 +1212,7 @@
         },
         "version": "1.3",
         "minimumbinaryninjaversion": 2085,
-        "lastUpdated": 1594914427,
+        "lastUpdated": 1613491518,
         "projectUrl": "https://github.com/Vector35/debugger",
         "projectData": {
             "id": 224043324,
@@ -1281,8 +1281,8 @@
             "releases_url": "https://api.github.com/repos/Vector35/debugger/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/debugger/deployments",
             "created_at": "2019-11-25T21:17:39Z",
-            "updated_at": "2021-01-30T18:33:23Z",
-            "pushed_at": "2021-02-04T21:15:10Z",
+            "updated_at": "2021-02-16T16:04:25Z",
+            "pushed_at": "2021-02-16T16:04:55Z",
             "git_url": "git://github.com/Vector35/debugger.git",
             "ssh_url": "git@github.com:Vector35/debugger.git",
             "clone_url": "https://github.com/Vector35/debugger.git",
@@ -1347,10 +1347,10 @@
             "subscribers_count": 12
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/debugger/zipball/1.3",
-        "dependencies": "",
+        "packageUrl": "https://api.github.com/repos/Vector35/debugger/zipball/1.3.1",
+        "dependencies": "colorama\n",
         "path": "Vector35_debugger",
-        "commit": "c7218e4b1e3fdf39ef3e7e0dd0e629795b581bd7",
+        "commit": "3fc11132ba23fa1d7d73307247a8775127c43f43",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -1378,11 +1378,11 @@
             "Linux": null,
             "Windows": null
         },
-        "dependencies": "",
+        "dependencies": "elftools\n",
         "version": "1.0.1",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 1904,
-        "lastUpdated": 1600883232,
+        "lastUpdated": 1613491779,
         "projectUrl": "https://github.com/Vector35/dwarf_import",
         "projectData": {
             "id": 297732788,
@@ -1451,8 +1451,8 @@
             "releases_url": "https://api.github.com/repos/Vector35/dwarf_import/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/dwarf_import/deployments",
             "created_at": "2020-09-22T18:10:12Z",
-            "updated_at": "2021-01-19T16:19:21Z",
-            "pushed_at": "2020-11-28T16:36:59Z",
+            "updated_at": "2021-02-16T16:08:49Z",
+            "pushed_at": "2021-02-16T16:09:18Z",
             "git_url": "git://github.com/Vector35/dwarf_import.git",
             "ssh_url": "git@github.com:Vector35/dwarf_import.git",
             "clone_url": "https://github.com/Vector35/dwarf_import.git",
@@ -1517,9 +1517,9 @@
             "subscribers_count": 6
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/dwarf_import/zipball/1.0.1",
+        "packageUrl": "https://api.github.com/repos/Vector35/dwarf_import/zipball/1.0.2",
         "path": "Vector35_dwarf_import",
-        "commit": "43e4f673bd51bdafd2c2ebcf4f2a5cadad2a2a2c",
+        "commit": "c17bd728994ab6ce12841df802a32b709a7c88a5",
         "minimumBinaryNinjaVersion": 0
     }
 ]
