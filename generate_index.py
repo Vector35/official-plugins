@@ -14,7 +14,7 @@ user = None
 token = None
 
 
-def printProgressBar(iteration, total, prefix = '', length = 80, fill = '█'):
+def printProgressBar(iteration, total, prefix = '', length = 79, fill = '█'):
     filledLength = int(length * iteration // total)
     bar = (fill * filledLength) + ('-' * (length - filledLength))
     percent = 100 * (iteration / float(total))
@@ -96,6 +96,17 @@ def getPluginJson(plugin):
     try:
         content = getfile(pluginjson).json()['content']
         data = json.loads(base64.b64decode(content))
+        if ('longdescription' in data and len(data['longdescription']) < 100) or ('longdescription' not in data):
+            try:
+                for readmefile in ["README.md", "README.MD", "readme.md", "README", "readme", "Readme.md"]:
+                    readmeUrl = f"{projectUrl}/contents/{readmefile}"
+                    readmeJson = getfile(readmeUrl).json()
+                    if all (k in readmeJson for k in ("encoding", "content")):
+                        if readmeJson["encoding"] == "base64":
+                            data['longdescription'] = base64.b64decode(readmeJson["content"]).decode('utf-8')
+                            break
+            except:
+                pass
         if "plugin" in data:
             # Using old style json
             data = data["plugin"]
@@ -124,6 +135,8 @@ def getPluginJson(plugin):
 
     # Replace the fwd slash with _ and then strip all non (alpha, numeric, _ )
     data["path"] = re.sub("[^a-zA-Z0-9_]", "", re.sub("/", "_", projectData["full_name"]))
+    if "subfolders" in data.keys():
+        data["subfolders"] = [re.sub("[^a-zA-Z0-9_]", "", re.sub("/", "_", projectData["full_name"]))] + data["subfolders"]
     data["commit"] = commit
 
     # TODO: Consider adding license info directly from the repository's json data (would need to test unlicensed plugins)
@@ -175,8 +188,11 @@ def main():
 
     newPlugins = []
     updatedPlugins = []
+    removedPlugins = []
+    newList = []
     for i, (name, pluginData) in enumerate(allPlugins.items()):
         # printProgressBar(i, len(allPlugins), prefix="Updating plugins.json:")
+        newList.append(name)
         pluginIsNew = False
         pluginIsUpdated = False
         if name not in oldPlugins:
@@ -192,6 +208,9 @@ def main():
                 newPlugins.append(name)
             elif pluginIsUpdated:
                 updatedPlugins.append(name)
+    for name in oldPlugins:
+        if name not in newList:
+            removedPlugins.append(name)
 
     printProgressBar(len(allPlugins), len(allPlugins), prefix="Updating plugins.json:       ")
     allPluginsList = []
@@ -203,6 +222,9 @@ def main():
         print(f"\t- {plugin}")
     print(f"{len(updatedPlugins)} Updated Plugins:")
     for plugin in updatedPlugins:
+        print(f"\t- {plugin}")
+    print(f"{len(removedPlugins)} Removed Plugins:")
+    for plugin in removedPlugins:
         print(f"\t- {plugin}")
     print(f"Writing {pluginjson}")
     with open(pluginjson, "w") as pluginsFile:
