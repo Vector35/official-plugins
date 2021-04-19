@@ -426,14 +426,14 @@
             "releases_url": "https://api.github.com/repos/Vector35/snippets/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/snippets/deployments",
             "created_at": "2019-09-27T15:39:09Z",
-            "updated_at": "2021-04-06T19:58:07Z",
-            "pushed_at": "2021-04-06T19:58:07Z",
+            "updated_at": "2021-04-07T19:29:25Z",
+            "pushed_at": "2021-04-07T19:29:22Z",
             "git_url": "git://github.com/Vector35/snippets.git",
             "ssh_url": "git@github.com:Vector35/snippets.git",
             "clone_url": "https://github.com/Vector35/snippets.git",
             "svn_url": "https://github.com/Vector35/snippets",
             "homepage": null,
-            "size": 4143,
+            "size": 4149,
             "stargazers_count": 3,
             "watchers_count": 3,
             "language": "Python",
@@ -442,7 +442,7 @@
             "has_downloads": true,
             "has_wiki": true,
             "has_pages": false,
-            "forks_count": 3,
+            "forks_count": 4,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -454,7 +454,7 @@
                 "url": "https://api.github.com/licenses/mit",
                 "node_id": "MDc6TGljZW5zZTEz"
             },
-            "forks": 3,
+            "forks": 4,
             "open_issues": 5,
             "watchers": 3,
             "default_branch": "master",
@@ -488,7 +488,7 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "network_count": 3,
+            "network_count": 4,
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/Vector35",
@@ -682,7 +682,7 @@
             "python3"
         ],
         "description": "This is a short description meant to fit on one line.",
-        "longdescription": "This is a longer description meant for a sample plugin that demonstrates the metadata format for Binary Ninja plugins. Note that the [community-plugins repo]() contains a useful [utility](https://github.com/Vector35/community-plugins/blob/master/generate_plugininfo.py) to validate the plugin.json.",
+        "longdescription": "# Sample Plugin\nAuthor: **Vector 35 Inc**\n\n_This is a short description meant to fit on one line._\n\n## Description:\nThis is a longer description meant for a sample plugin that demonstrates the metadata format for Binary Ninja plugins. Note that the [community-plugins repo]() contains a useful [utility](https://github.com/Vector35/community-plugins/blob/master/generate_plugininfo.py) to validate the plugin.json. Additionally, the [release helper](https://github.com/Vector35/release_helper) plugin is helpful for more easily pushing new releases, incrementing versions, and creating the appropriate GitHub tags.\n\nNote that originally we recommended specifying the contents of this entire file inside of the [plugin.json](./plugin.json) but the latest repository generator will use the readme contents directly which means you should simply leave an empty longdescription field. \n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n * 1200\n\n## License\n\nThis plugin is released under an [MIT license](./license).\n\n## Metadata Version\n\n2\n",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) <year> <copyright holders>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -698,10 +698,10 @@
             "Windows": "Install the following pip packages: ...\n\nInstall the following libraries: ..."
         },
         "dependencies": "",
-        "version": "1.3.2",
+        "version": "1.3.3",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 1200,
-        "lastUpdated": 1594699753,
+        "lastUpdated": 1618282445,
         "projectUrl": "https://github.com/Vector35/sample_plugin",
         "projectData": {
             "id": 87951201,
@@ -770,14 +770,14 @@
             "releases_url": "https://api.github.com/repos/Vector35/sample_plugin/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/sample_plugin/deployments",
             "created_at": "2017-04-11T15:35:58Z",
-            "updated_at": "2020-07-14T04:08:51Z",
-            "pushed_at": "2021-03-18T19:30:20Z",
+            "updated_at": "2021-04-13T02:53:55Z",
+            "pushed_at": "2021-04-13T02:54:04Z",
             "git_url": "git://github.com/Vector35/sample_plugin.git",
             "ssh_url": "git@github.com:Vector35/sample_plugin.git",
             "clone_url": "https://github.com/Vector35/sample_plugin.git",
             "svn_url": "https://github.com/Vector35/sample_plugin",
             "homepage": null,
-            "size": 22,
+            "size": 29,
             "stargazers_count": 12,
             "watchers_count": 12,
             "language": "Python",
@@ -836,9 +836,9 @@
             "subscribers_count": 2
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/sample_plugin/zipball/refs/tags/1.3.2",
+        "packageUrl": "https://api.github.com/repos/Vector35/sample_plugin/zipball/refs/tags/1.3.3",
         "path": "Vector35_sample_plugin",
-        "commit": "40db1f0ba70152b06d0f56aabc502eae41bd1ceb",
+        "commit": "2ac7c4b4671cb83817a0c8becfc9123763346519",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -1301,7 +1301,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 39,
+            "open_issues_count": 40,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -1310,7 +1310,7 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "forks": 13,
-            "open_issues": 39,
+            "open_issues": 40,
             "watchers": 129,
             "default_branch": "master",
             "permissions": {
@@ -1366,7 +1366,7 @@
         "longdescription": "This loads DWARF info from an ELF and propagates function names, arguments, and type info\n\n### Analysis Without DWARF info:\n![](./images/standard_analysis.png)\n\n### Analysis With DWARF info:\n![](./images/DWARF_applied.png)\n",
         "license": {
             "name": "MIT",
-            "text": "Copyright (c) 2020 Vector 35 Inc\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+            "text": "Copyright (c) 2020-2021 Vector 35 Inc\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
         },
         "platforms": [
             "Darwin",
@@ -1378,11 +1378,11 @@
             "Linux": null,
             "Windows": null
         },
-        "dependencies": "elftools\n",
-        "version": "1.0.1",
+        "dependencies": "pyelftools>=0.27\n",
+        "version": "1.0.4",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 1904,
-        "lastUpdated": 1613491779,
+        "lastUpdated": 1618250842,
         "projectUrl": "https://github.com/Vector35/dwarf_import",
         "projectData": {
             "id": 297732788,
@@ -1451,16 +1451,16 @@
             "releases_url": "https://api.github.com/repos/Vector35/dwarf_import/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/dwarf_import/deployments",
             "created_at": "2020-09-22T18:10:12Z",
-            "updated_at": "2021-03-18T21:58:55Z",
-            "pushed_at": "2021-02-16T16:09:18Z",
+            "updated_at": "2021-04-12T23:42:20Z",
+            "pushed_at": "2021-04-12T18:07:22Z",
             "git_url": "git://github.com/Vector35/dwarf_import.git",
             "ssh_url": "git@github.com:Vector35/dwarf_import.git",
             "clone_url": "https://github.com/Vector35/dwarf_import.git",
             "svn_url": "https://github.com/Vector35/dwarf_import",
             "homepage": "",
-            "size": 2374,
-            "stargazers_count": 10,
-            "watchers_count": 10,
+            "size": 2395,
+            "stargazers_count": 11,
+            "watchers_count": 11,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1471,7 +1471,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 8,
+            "open_issues_count": 6,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -1480,8 +1480,8 @@
                 "node_id": "MDc6TGljZW5zZTEz"
             },
             "forks": 3,
-            "open_issues": 8,
-            "watchers": 10,
+            "open_issues": 6,
+            "watchers": 11,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1517,9 +1517,9 @@
             "subscribers_count": 6
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/dwarf_import/zipball/refs/tags/1.0.2",
+        "packageUrl": "https://api.github.com/repos/Vector35/dwarf_import/zipball/refs/tags/1.0.4",
         "path": "Vector35_dwarf_import",
-        "commit": "c17bd728994ab6ce12841df802a32b709a7c88a5",
+        "commit": "7fd4b4b08b5dc455094d99223d491fad608c2364",
         "minimumBinaryNinjaVersion": 0
     }
 ]
