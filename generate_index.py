@@ -92,18 +92,22 @@ def getPluginJson(plugin):
         return None
 
     data = None
-    if "subdirectory" in plugin:
-        pluginjson = f"{projectUrl}/contents/{plugin['subdirectory']}/plugin.json?ref={plugin['tag']}"
+    if "subdir" in plugin:
+        pluginjson = f"{projectUrl}/contents/{plugin['subdir']}/plugin.json?ref={plugin['tag']}"
     else:
         pluginjson = f"{projectUrl}/contents/plugin.json?ref={plugin['tag']}"
     try:
         content = getfile(pluginjson).json()['content']
-        data = json.loads(base64.b64decode(content))
+        try:
+            data = json.loads(base64.b64decode(content))
+        except:
+            print(f"\n\nInvalid json when parsing {pluginjson}.\n")
+            raise
         if ('longdescription' in data and len(data['longdescription']) < 100) or ('longdescription' not in data):
             try:
                 readmes = ["README.md", "README.MD", "readme.md", "README", "readme", "Readme.md"]
-                if "subdirectory" in plugin:
-                    readmes = [f"{plugin['subdirectory']}/{x}" for x in readmes]
+                if "subdir" in plugin:
+                    readmes = [f"{plugin['subdir']}/{x}" for x in readmes]
                 for readmefile in readmes:
                     readmeUrl = f"{projectUrl}/contents/{readmefile}?ref={plugin['tag']}"
                     readmeJson = getfile(readmeUrl).json()
@@ -122,8 +126,8 @@ def getPluginJson(plugin):
 
     requirements_txt = ""
     try:
-        if "subdirectory" in plugin:
-            req_json = getfile(f"{projectUrl}/contents/{plugin['subdirectory']}/requirements.txt?ref={plugin['tag']}").json()
+        if "subdir" in plugin:
+            req_json = getfile(f"{projectUrl}/contents/{plugin['subdir']}/requirements.txt?ref={plugin['tag']}").json()
         else:
             req_json = getfile(f"{projectUrl}/contents/requirements.txt?ref={plugin['tag']}").json()
         if "content" in req_json:
@@ -135,9 +139,11 @@ def getPluginJson(plugin):
         pass
 
     # Additional fields required for internal use
-    data["lastUpdated"] = int(parser.parse(releaseData["published_at"]).timestamp())
+    lastUpdated = int(parser.parse(releaseData["published_at"]).timestamp())
+    data["lastUpdated"] = lastUpdated
     data["projectUrl"] = site + userAndProject
     data["projectData"] = projectData
+    data["projectData"]["updated_at"] = datetime.utcfromtimestamp(lastUpdated).isoformat()
     data["authorUrl"] = site + userName
     data["packageUrl"] = zipUrl
     data["dependencies"] = requirements_txt
@@ -158,8 +164,8 @@ def getPluginJson(plugin):
         data["platforms"] = []
     if "installinstructions" not in data:
         data["installinstructions"] = {}
-    if "subdirectory" in plugin:
-        data["subdirectory"] = plugin["subdirectory"]
+    if "subdir" in plugin:
+        data["subdir"] = plugin["subdir"]
     return data
 
 
