@@ -52,7 +52,11 @@ def getPluginJson(plugin):
                 return None
             plugin['tag'] = releaseData['tag_name']
         except requests.exceptions.HTTPError:
-            print(f" Unable get get url {releaseList}")
+            print(f" Unable to get url {releaseList}")
+            return None
+        except:
+            print(f" Unexpected error when processing url {releaseList}")
+            print(getfile(releaseList).json())
             return None
     else:
 
