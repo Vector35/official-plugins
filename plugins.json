@@ -105,7 +105,7 @@
             "clone_url": "https://github.com/Vector35/6502.git",
             "svn_url": "https://github.com/Vector35/6502",
             "homepage": null,
-            "size": 169,
+            "size": 173,
             "stargazers_count": 3,
             "watchers_count": 3,
             "language": "Python",
@@ -548,10 +548,10 @@
             "Darwin": ""
         },
         "dependencies": "",
-        "version": "1.1.4",
+        "version": "1.1.5",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 0,
-        "lastUpdated": 1594699619,
+        "lastUpdated": 1651526814,
         "projectUrl": "https://github.com/Vector35/OpaquePredicatePatcher",
         "projectData": {
             "id": 105457407,
@@ -620,8 +620,8 @@
             "releases_url": "https://api.github.com/repos/Vector35/OpaquePredicatePatcher/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/OpaquePredicatePatcher/deployments",
             "created_at": "2017-10-01T16:48:08Z",
-            "updated_at": "2020-07-14T04:06:59",
-            "pushed_at": "2020-07-14T04:06:09Z",
+            "updated_at": "2022-05-02T21:26:54",
+            "pushed_at": "2022-05-02T21:26:53Z",
             "git_url": "git://github.com/Vector35/OpaquePredicatePatcher.git",
             "ssh_url": "git@github.com:Vector35/OpaquePredicatePatcher.git",
             "clone_url": "https://github.com/Vector35/OpaquePredicatePatcher.git",
@@ -694,9 +694,9 @@
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/OpaquePredicatePatcher/zipball/refs/tags/1.1.4",
+        "packageUrl": "https://api.github.com/repos/Vector35/OpaquePredicatePatcher/zipball/refs/tags/1.1.5",
         "path": "Vector35_OpaquePredicatePatcher",
-        "commit": "d2e664f249c1d6cecb0ade06ae967ef725067b4e",
+        "commit": "e458fd72042a455b6e31d1db12c9ed0b53736655",
         "minimumBinaryNinjaVersion": 0
     },
     {
