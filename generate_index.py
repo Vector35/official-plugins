@@ -44,19 +44,15 @@ def getPluginJson(plugin):
     releaseData = None
 
     if 'auto_update' in plugin and plugin['auto_update']:
-        releaseList = f"{projectUrl}/releases"
+        latestRelease = f"{projectUrl}/releases/latest"
         try:
-            releaseData = sorted(getfile(releaseList).json(), key=lambda x: x['id'], reverse=True)[0]
+            releaseData = getfile(latestRelease).json()
             if "message" in releaseData and releaseData["message"] == "Not Found":
                 print(f"\n\nERROR: {plugin['name']}, Couldn't get release information. Likely the user created a tag but no associated release.\n")
                 return None
             plugin['tag'] = releaseData['tag_name']
         except requests.exceptions.HTTPError:
-            print(f" Unable to get url {releaseList}")
-            return None
-        except:
-            print(f" Unexpected error when processing url {releaseList}")
-            print(getfile(releaseList).json())
+            print(f" Unable get get url {latestRelease}")
             return None
     else:
 
@@ -111,7 +107,8 @@ def getPluginJson(plugin):
             try:
                 readmes = ["README.md", "README.MD", "readme.md", "README", "readme", "Readme.md"]
                 if "subdir" in plugin:
-                    readmes = [f"{plugin['subdir']}/{x}" for x in readmes]
+                    # Yes, this is suboptimal but I'd rather waste time at generation of this list to make sure we get better long descriptions
+                    readmes = [f"{plugin['subdir']}/{x}" for x in readmes] + readmes
                 for readmefile in readmes:
                     readmeUrl = f"{projectUrl}/contents/{readmefile}?ref={plugin['tag']}"
                     readmeJson = getfile(readmeUrl).json()
@@ -132,6 +129,8 @@ def getPluginJson(plugin):
     try:
         if "subdir" in plugin:
             req_json = getfile(f"{projectUrl}/contents/{plugin['subdir']}/requirements.txt?ref={plugin['tag']}").json()
+            if not "content" in req_json: # Try top-level requirements as well
+                req_json = getfile(f"{projectUrl}/contents/requirements.txt?ref={plugin['tag']}").json()
         else:
             req_json = getfile(f"{projectUrl}/contents/requirements.txt?ref={plugin['tag']}").json()
         if "content" in req_json:
