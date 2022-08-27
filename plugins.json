@@ -1864,10 +1864,10 @@
             "Windows": null
         },
         "dependencies": "pyelftools==0.27\n",
-        "version": "1.1.2",
+        "version": "1.1.3",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 3000,
-        "lastUpdated": 1661283227,
+        "lastUpdated": 1661629663,
         "projectUrl": "https://github.com/Vector35/dwarf_import",
         "projectData": {
             "id": 297732788,
@@ -1936,14 +1936,14 @@
             "releases_url": "https://api.github.com/repos/Vector35/dwarf_import/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/dwarf_import/deployments",
             "created_at": "2020-09-22T18:10:12Z",
-            "updated_at": "2022-08-23T19:33:47",
-            "pushed_at": "2022-08-23T19:33:46Z",
+            "updated_at": "2022-08-27T19:47:43",
+            "pushed_at": "2022-08-27T19:47:43Z",
             "git_url": "git://github.com/Vector35/dwarf_import.git",
             "ssh_url": "git@github.com:Vector35/dwarf_import.git",
             "clone_url": "https://github.com/Vector35/dwarf_import.git",
             "svn_url": "https://github.com/Vector35/dwarf_import",
             "homepage": "",
-            "size": 2465,
+            "size": 2466,
             "stargazers_count": 17,
             "watchers_count": 17,
             "language": "Python",
@@ -1956,7 +1956,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 6,
+            "open_issues_count": 4,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -1986,7 +1986,7 @@
             ],
             "visibility": "public",
             "forks": 5,
-            "open_issues": 6,
+            "open_issues": 4,
             "watchers": 17,
             "default_branch": "master",
             "permissions": {
@@ -2032,9 +2032,9 @@
             "subscribers_count": 6
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/dwarf_import/zipball/refs/tags/1.1.2",
+        "packageUrl": "https://api.github.com/repos/Vector35/dwarf_import/zipball/refs/tags/1.1.3",
         "path": "Vector35_dwarf_import",
-        "commit": "04ec1f04b1b7d0062a5dae533ef360687a0e51a7",
+        "commit": "5f634007acf484726214a4b54a798167771555c7",
         "minimumBinaryNinjaVersion": 0
     }
 ]
