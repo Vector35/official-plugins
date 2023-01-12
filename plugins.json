@@ -136,13 +136,24 @@
             "watchers": 3,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "maintain": false,
-                "push": false,
-                "triage": false,
+                "admin": true,
+                "maintain": true,
+                "push": true,
+                "triage": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "allow_auto_merge": false,
+            "delete_branch_on_merge": false,
+            "allow_update_branch": false,
+            "use_squash_pr_title_as_default": false,
+            "squash_merge_commit_message": "COMMIT_MESSAGES",
+            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+            "merge_commit_message": "PR_TITLE",
+            "merge_commit_title": "MERGE_MESSAGE",
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -162,6 +173,14 @@
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
                 "site_admin": false
+            },
+            "security_and_analysis": {
+                "secret_scanning": {
+                    "status": "disabled"
+                },
+                "secret_scanning_push_protection": {
+                    "status": "disabled"
+                }
             },
             "network_count": 2,
             "subscribers_count": 3
@@ -348,6 +367,14 @@
                 "type": "Organization",
                 "site_admin": false
             },
+            "security_and_analysis": {
+                "secret_scanning": {
+                    "status": "disabled"
+                },
+                "secret_scanning_push_protection": {
+                    "status": "disabled"
+                }
+            },
             "network_count": 1,
             "subscribers_count": 6
         },
@@ -385,10 +412,10 @@
             "Windows": "no special instructions, package manager is recommended"
         },
         "dependencies": "",
-        "version": "1.0.4",
+        "version": "2.0.0",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 1200,
-        "lastUpdated": 1651499023,
+        "lastUpdated": 1673555722,
         "projectUrl": "https://github.com/Vector35/6502",
         "projectData": {
             "id": 211349080,
@@ -457,8 +484,8 @@
             "releases_url": "https://api.github.com/repos/Vector35/6502/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/6502/deployments",
             "created_at": "2019-09-27T15:26:50Z",
-            "updated_at": "2022-05-02T13:43:43",
-            "pushed_at": "2022-05-02T13:43:42Z",
+            "updated_at": "2023-01-12T20:35:22",
+            "pushed_at": "2023-01-12T20:35:16Z",
             "git_url": "git://github.com/Vector35/6502.git",
             "ssh_url": "git@github.com:Vector35/6502.git",
             "clone_url": "https://github.com/Vector35/6502.git",
@@ -528,13 +555,21 @@
                 "type": "Organization",
                 "site_admin": false
             },
+            "security_and_analysis": {
+                "secret_scanning": {
+                    "status": "disabled"
+                },
+                "secret_scanning_push_protection": {
+                    "status": "disabled"
+                }
+            },
             "network_count": 2,
             "subscribers_count": 5
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/6502/zipball/refs/tags/1.0.4",
+        "packageUrl": "https://api.github.com/repos/Vector35/6502/zipball/refs/tags/2.0.0",
         "path": "Vector35_6502",
-        "commit": "d79398baed6ce85e19a1f7593da79df1111d78f5",
+        "commit": "d56241967605a81ed04cded6ecbc4b1032028fcf",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -705,6 +740,14 @@
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
                 "site_admin": false
+            },
+            "security_and_analysis": {
+                "secret_scanning": {
+                    "status": "disabled"
+                },
+                "secret_scanning_push_protection": {
+                    "status": "disabled"
+                }
             },
             "network_count": 3,
             "subscribers_count": 7
@@ -892,6 +935,14 @@
                 "type": "Organization",
                 "site_admin": false
             },
+            "security_and_analysis": {
+                "secret_scanning": {
+                    "status": "disabled"
+                },
+                "secret_scanning_push_protection": {
+                    "status": "disabled"
+                }
+            },
             "network_count": 5,
             "subscribers_count": 6
         },
@@ -1039,13 +1090,24 @@
             "watchers": 41,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "maintain": false,
-                "push": false,
-                "triage": false,
+                "admin": true,
+                "maintain": true,
+                "push": true,
+                "triage": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "allow_auto_merge": false,
+            "delete_branch_on_merge": false,
+            "allow_update_branch": false,
+            "use_squash_pr_title_as_default": false,
+            "squash_merge_commit_message": "COMMIT_MESSAGES",
+            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+            "merge_commit_message": "PR_TITLE",
+            "merge_commit_title": "MERGE_MESSAGE",
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -1065,6 +1127,14 @@
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
                 "site_admin": false
+            },
+            "security_and_analysis": {
+                "secret_scanning": {
+                    "status": "disabled"
+                },
+                "secret_scanning_push_protection": {
+                    "status": "disabled"
+                }
             },
             "network_count": 3,
             "subscribers_count": 4
@@ -1218,8 +1288,8 @@
             "watchers": 14,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "maintain": false,
+                "admin": true,
+                "maintain": true,
                 "push": true,
                 "triage": true,
                 "pull": true
@@ -1255,6 +1325,14 @@
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
                 "site_admin": false
+            },
+            "security_and_analysis": {
+                "secret_scanning": {
+                    "status": "disabled"
+                },
+                "secret_scanning_push_protection": {
+                    "status": "disabled"
+                }
             },
             "network_count": 9,
             "subscribers_count": 6
@@ -1371,7 +1449,7 @@
             "clone_url": "https://github.com/Vector35/Z80.git",
             "svn_url": "https://github.com/Vector35/Z80",
             "homepage": null,
-            "size": 253,
+            "size": 255,
             "stargazers_count": 4,
             "watchers_count": 4,
             "language": "Python",
@@ -1440,6 +1518,14 @@
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
                 "site_admin": false
+            },
+            "security_and_analysis": {
+                "secret_scanning": {
+                    "status": "disabled"
+                },
+                "secret_scanning_push_protection": {
+                    "status": "disabled"
+                }
             },
             "network_count": 3,
             "subscribers_count": 4
@@ -1559,8 +1645,8 @@
             "svn_url": "https://github.com/Vector35/sigkit",
             "homepage": "https://binary.ninja/2020/03/11/signature-libraries.html",
             "size": 538,
-            "stargazers_count": 37,
-            "watchers_count": 37,
+            "stargazers_count": 38,
+            "watchers_count": 38,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1591,7 +1677,7 @@
             "visibility": "public",
             "forks": 5,
             "open_issues": 7,
-            "watchers": 37,
+            "watchers": 38,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1631,6 +1717,14 @@
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
                 "site_admin": false
+            },
+            "security_and_analysis": {
+                "secret_scanning": {
+                    "status": "disabled"
+                },
+                "secret_scanning_push_protection": {
+                    "status": "disabled"
+                }
             },
             "network_count": 5,
             "subscribers_count": 8
@@ -1831,6 +1925,14 @@
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
                 "site_admin": false
+            },
+            "security_and_analysis": {
+                "secret_scanning": {
+                    "status": "disabled"
+                },
+                "secret_scanning_push_protection": {
+                    "status": "disabled"
+                }
             },
             "network_count": 4,
             "subscribers_count": 6
