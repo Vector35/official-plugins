@@ -136,24 +136,13 @@
             "watchers": 3,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "maintain": true,
-                "push": true,
-                "triage": true,
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "allow_auto_merge": false,
-            "delete_branch_on_merge": false,
-            "allow_update_branch": false,
-            "use_squash_pr_title_as_default": false,
-            "squash_merge_commit_message": "COMMIT_MESSAGES",
-            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
-            "merge_commit_message": "PR_TITLE",
-            "merge_commit_title": "MERGE_MESSAGE",
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -173,14 +162,6 @@
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
                 "site_admin": false
-            },
-            "security_and_analysis": {
-                "secret_scanning": {
-                    "status": "disabled"
-                },
-                "secret_scanning_push_protection": {
-                    "status": "disabled"
-                }
             },
             "network_count": 2,
             "subscribers_count": 3
@@ -491,7 +472,7 @@
             "clone_url": "https://github.com/Vector35/6502.git",
             "svn_url": "https://github.com/Vector35/6502",
             "homepage": null,
-            "size": 173,
+            "size": 179,
             "stargazers_count": 3,
             "watchers_count": 3,
             "language": "Python",
@@ -597,11 +578,11 @@
             "Windows": "no special instructions, package manager is recommended"
         },
         "dependencies": "",
-        "version": "1.1.5",
+        "version": "1.1.6",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 3164,
         "longdescription": "This Binary Ninja UI plugin allows you to browse a hex dump within Binary Ninja with a tree view informed by [Kaitai Struct](https://kaitai.io/).\n\n![](https://github.com/Vector35/kaitai/blob/master/media/kaitai.gif?raw=true)\n\nThis wires up Kaitai Struct as a parsing library to produce templated dissection of binary files. Of course, this concept itself isn\u2019t new. Plenty of great tools like 010, Hexinator and Synalyze It! have this feature (last two by the same company for different platforms). Thanks to the Kaitai Project not only for the project in general, but also for working with us to resolve some small issues while we were developing the plugin.\n\n## License\n\nThis plugin is released under a MIT license.\n\n",
-        "lastUpdated": 1660974399,
+        "lastUpdated": 1675360103,
         "projectUrl": "https://github.com/Vector35/kaitai",
         "projectData": {
             "id": 211350672,
@@ -670,14 +651,14 @@
             "releases_url": "https://api.github.com/repos/Vector35/kaitai/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/kaitai/deployments",
             "created_at": "2019-09-27T15:35:34Z",
-            "updated_at": "2022-08-20T05:46:39",
-            "pushed_at": "2022-09-08T15:29:12Z",
+            "updated_at": "2023-02-02T17:48:23",
+            "pushed_at": "2023-02-02T17:46:59Z",
             "git_url": "git://github.com/Vector35/kaitai.git",
             "ssh_url": "git@github.com:Vector35/kaitai.git",
             "clone_url": "https://github.com/Vector35/kaitai.git",
             "svn_url": "https://github.com/Vector35/kaitai",
             "homepage": null,
-            "size": 11440,
+            "size": 11447,
             "stargazers_count": 26,
             "watchers_count": 26,
             "language": "Python",
@@ -687,7 +668,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 3,
+            "forks_count": 4,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -698,7 +679,7 @@
             "web_commit_signoff_required": false,
             "topics": [],
             "visibility": "public",
-            "forks": 3,
+            "forks": 4,
             "open_issues": 0,
             "watchers": 26,
             "default_branch": "master",
@@ -749,13 +730,13 @@
                     "status": "disabled"
                 }
             },
-            "network_count": 3,
-            "subscribers_count": 7
+            "network_count": 4,
+            "subscribers_count": 6
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/kaitai/zipball/refs/tags/1.1.5",
+        "packageUrl": "https://api.github.com/repos/Vector35/kaitai/zipball/refs/tags/1.1.6",
         "path": "Vector35_kaitai",
-        "commit": "48f92feced50f93ed87bf50ee2eba0f577f9d5a6",
+        "commit": "89b25156cfeeb5d68fa993f49d9d57bc5b09f914",
         "minimumBinaryNinjaVersion": 0,
         "subdir": "plugin"
     },
@@ -944,7 +925,7 @@
                 }
             },
             "network_count": 5,
-            "subscribers_count": 6
+            "subscribers_count": 5
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/snippets/zipball/refs/tags/1.21",
@@ -1090,24 +1071,13 @@
             "watchers": 41,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "maintain": true,
-                "push": true,
-                "triage": true,
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "allow_auto_merge": false,
-            "delete_branch_on_merge": false,
-            "allow_update_branch": false,
-            "use_squash_pr_title_as_default": false,
-            "squash_merge_commit_message": "COMMIT_MESSAGES",
-            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
-            "merge_commit_message": "PR_TITLE",
-            "merge_commit_title": "MERGE_MESSAGE",
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -1127,14 +1097,6 @@
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
                 "site_admin": false
-            },
-            "security_and_analysis": {
-                "secret_scanning": {
-                    "status": "disabled"
-                },
-                "secret_scanning_push_protection": {
-                    "status": "disabled"
-                }
             },
             "network_count": 3,
             "subscribers_count": 4
@@ -1288,8 +1250,8 @@
             "watchers": 14,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "maintain": true,
+                "admin": false,
+                "maintain": false,
                 "push": true,
                 "triage": true,
                 "pull": true
@@ -1326,16 +1288,8 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "security_and_analysis": {
-                "secret_scanning": {
-                    "status": "disabled"
-                },
-                "secret_scanning_push_protection": {
-                    "status": "disabled"
-                }
-            },
             "network_count": 9,
-            "subscribers_count": 6
+            "subscribers_count": 5
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/sample_plugin/zipball/refs/tags/1.3.5",
@@ -1727,7 +1681,7 @@
                 }
             },
             "network_count": 5,
-            "subscribers_count": 8
+            "subscribers_count": 7
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/sigkit/zipball/refs/tags/1.2.1",
@@ -1834,15 +1788,15 @@
             "deployments_url": "https://api.github.com/repos/Vector35/dwarf_import/deployments",
             "created_at": "2020-09-22T18:10:12Z",
             "updated_at": "2022-08-31T22:19:59",
-            "pushed_at": "2022-08-31T22:19:59Z",
+            "pushed_at": "2023-01-26T21:45:14Z",
             "git_url": "git://github.com/Vector35/dwarf_import.git",
             "ssh_url": "git@github.com:Vector35/dwarf_import.git",
             "clone_url": "https://github.com/Vector35/dwarf_import.git",
             "svn_url": "https://github.com/Vector35/dwarf_import",
             "homepage": "",
-            "size": 2495,
-            "stargazers_count": 18,
-            "watchers_count": 18,
+            "size": 2497,
+            "stargazers_count": 19,
+            "watchers_count": 19,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1850,7 +1804,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": true,
-            "forks_count": 4,
+            "forks_count": 5,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -1883,9 +1837,9 @@
                 "reversing"
             ],
             "visibility": "public",
-            "forks": 4,
+            "forks": 5,
             "open_issues": 7,
-            "watchers": 18,
+            "watchers": 19,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1934,7 +1888,7 @@
                     "status": "disabled"
                 }
             },
-            "network_count": 4,
+            "network_count": 5,
             "subscribers_count": 6
         },
         "authorUrl": "https://github.com/Vector35",
