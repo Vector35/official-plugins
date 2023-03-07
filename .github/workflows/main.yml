@@ -1,8 +1,12 @@
 name: Update Plugin Repository
 on:
+  push:
+    paths:
+      - 'listing.json'
   workflow_dispatch:
     inputs:
       message:
+        description: 'automatically update readme and plugin.json based on updates and latest listing'
         required: true
 
 jobs:
@@ -12,11 +16,13 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
-        
+
       - name: Install dependencies
         run: pip install -r requirements.txt
 
       - name: Run Generator
+        env:
+          URL_SHORTENER: ${{ secrets.URL_SHORTENER }}
         run: python3 generate_index.py ${{ secrets.M_GITHUB_TOKEN }}
 
       - name: Commit changes
@@ -25,7 +31,7 @@ jobs:
           author_name: ${{ github.actor }}
           author_email: pluginmanager@vector35.com
           message: ${{ inputs.message }}
-          add: '*.json'
+          add: '["*.json", "*.md"]'
 
       - name: Report Status
         if: always()
