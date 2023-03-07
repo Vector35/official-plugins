@@ -136,13 +136,24 @@
             "watchers": 3,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "maintain": false,
-                "push": false,
-                "triage": false,
+                "admin": true,
+                "maintain": true,
+                "push": true,
+                "triage": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "allow_auto_merge": false,
+            "delete_branch_on_merge": false,
+            "allow_update_branch": false,
+            "use_squash_pr_title_as_default": false,
+            "squash_merge_commit_message": "COMMIT_MESSAGES",
+            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+            "merge_commit_message": "PR_TITLE",
+            "merge_commit_title": "MERGE_MESSAGE",
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -163,11 +174,20 @@
                 "type": "Organization",
                 "site_admin": false
             },
+            "security_and_analysis": {
+                "secret_scanning": {
+                    "status": "disabled"
+                },
+                "secret_scanning_push_protection": {
+                    "status": "disabled"
+                }
+            },
             "network_count": 2,
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/unpacme/zipball/refs/tags/1.00",
+        "packageShortUrl": "https://v35.us/5r7y4qn",
         "path": "Vector35_unpacme",
         "commit": "099229616dd24e116db8326288909cf74d9e6838",
         "minimumBinaryNinjaVersion": 0
@@ -274,8 +294,8 @@
             "svn_url": "https://github.com/Vector35/tanto",
             "homepage": "",
             "size": 477,
-            "stargazers_count": 40,
-            "watchers_count": 40,
+            "stargazers_count": 41,
+            "watchers_count": 41,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -287,7 +307,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 1,
+            "open_issues_count": 3,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -306,8 +326,8 @@
             ],
             "visibility": "public",
             "forks": 1,
-            "open_issues": 1,
-            "watchers": 40,
+            "open_issues": 3,
+            "watchers": 41,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -361,6 +381,7 @@
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/tanto/zipball/refs/tags/1.0.1",
+        "packageShortUrl": "https://v35.us/unxv9k3",
         "path": "Vector35_tanto",
         "commit": "9e66a1d05d68738a09629a3d594d957697700e04",
         "minimumBinaryNinjaVersion": 0,
@@ -549,6 +570,7 @@
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/6502/zipball/refs/tags/2.0.0",
+        "packageShortUrl": "https://v35.us/mf6wglf",
         "path": "Vector35_6502",
         "commit": "d56241967605a81ed04cded6ecbc4b1032028fcf",
         "minimumBinaryNinjaVersion": 0
@@ -652,15 +674,15 @@
             "deployments_url": "https://api.github.com/repos/Vector35/kaitai/deployments",
             "created_at": "2019-09-27T15:35:34Z",
             "updated_at": "2023-02-02T17:48:23",
-            "pushed_at": "2023-02-02T17:46:59Z",
+            "pushed_at": "2023-02-02T18:23:17Z",
             "git_url": "git://github.com/Vector35/kaitai.git",
             "ssh_url": "git@github.com:Vector35/kaitai.git",
             "clone_url": "https://github.com/Vector35/kaitai.git",
             "svn_url": "https://github.com/Vector35/kaitai",
             "homepage": null,
-            "size": 11447,
-            "stargazers_count": 26,
-            "watchers_count": 26,
+            "size": 11448,
+            "stargazers_count": 27,
+            "watchers_count": 27,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -681,7 +703,7 @@
             "visibility": "public",
             "forks": 4,
             "open_issues": 0,
-            "watchers": 26,
+            "watchers": 27,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -735,6 +757,7 @@
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/kaitai/zipball/refs/tags/1.1.6",
+        "packageShortUrl": "https://v35.us/7wjju1n",
         "path": "Vector35_kaitai",
         "commit": "89b25156cfeeb5d68fa993f49d9d57bc5b09f914",
         "minimumBinaryNinjaVersion": 0,
@@ -840,13 +863,13 @@
             "deployments_url": "https://api.github.com/repos/Vector35/snippets/deployments",
             "created_at": "2019-09-27T15:39:09Z",
             "updated_at": "2022-10-24T18:26:05",
-            "pushed_at": "2022-11-30T20:19:34Z",
+            "pushed_at": "2023-02-16T02:24:58Z",
             "git_url": "git://github.com/Vector35/snippets.git",
             "ssh_url": "git@github.com:Vector35/snippets.git",
             "clone_url": "https://github.com/Vector35/snippets.git",
             "svn_url": "https://github.com/Vector35/snippets",
             "homepage": null,
-            "size": 4143,
+            "size": 4154,
             "stargazers_count": 15,
             "watchers_count": 15,
             "language": "Python",
@@ -929,6 +952,7 @@
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/snippets/zipball/refs/tags/1.21",
+        "packageShortUrl": "https://v35.us/d673gq3",
         "path": "Vector35_snippets",
         "commit": "d15b969a3e4f81e73458b3e9498ea442b33b10fe",
         "minimumBinaryNinjaVersion": 0
@@ -1040,8 +1064,8 @@
             "svn_url": "https://github.com/Vector35/OpaquePredicatePatcher",
             "homepage": null,
             "size": 2317,
-            "stargazers_count": 41,
-            "watchers_count": 41,
+            "stargazers_count": 43,
+            "watchers_count": 43,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1068,16 +1092,27 @@
             "visibility": "public",
             "forks": 3,
             "open_issues": 1,
-            "watchers": 41,
+            "watchers": 43,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "maintain": false,
-                "push": false,
-                "triage": false,
+                "admin": true,
+                "maintain": true,
+                "push": true,
+                "triage": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "allow_auto_merge": false,
+            "delete_branch_on_merge": false,
+            "allow_update_branch": false,
+            "use_squash_pr_title_as_default": false,
+            "squash_merge_commit_message": "COMMIT_MESSAGES",
+            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+            "merge_commit_message": "PR_TITLE",
+            "merge_commit_title": "MERGE_MESSAGE",
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -1098,11 +1133,20 @@
                 "type": "Organization",
                 "site_admin": false
             },
+            "security_and_analysis": {
+                "secret_scanning": {
+                    "status": "disabled"
+                },
+                "secret_scanning_push_protection": {
+                    "status": "disabled"
+                }
+            },
             "network_count": 3,
             "subscribers_count": 4
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/OpaquePredicatePatcher/zipball/refs/tags/1.1.5",
+        "packageShortUrl": "https://v35.us/2rkokvo",
         "path": "Vector35_OpaquePredicatePatcher",
         "commit": "e458fd72042a455b6e31d1db12c9ed0b53736655",
         "minimumBinaryNinjaVersion": 0
@@ -1250,8 +1294,8 @@
             "watchers": 14,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "maintain": false,
+                "admin": true,
+                "maintain": true,
                 "push": true,
                 "triage": true,
                 "pull": true
@@ -1288,11 +1332,20 @@
                 "type": "Organization",
                 "site_admin": false
             },
+            "security_and_analysis": {
+                "secret_scanning": {
+                    "status": "disabled"
+                },
+                "secret_scanning_push_protection": {
+                    "status": "disabled"
+                }
+            },
             "network_count": 9,
             "subscribers_count": 5
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/sample_plugin/zipball/refs/tags/1.3.5",
+        "packageShortUrl": "https://v35.us/eutejwp",
         "path": "Vector35_sample_plugin",
         "commit": "4ae8dd273831626b069fbb573ff433c565427be4",
         "minimumBinaryNinjaVersion": 0
@@ -1486,6 +1539,7 @@
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/Z80/zipball/refs/tags/1.4",
+        "packageShortUrl": "https://v35.us/bdrr4u2",
         "path": "Vector35_Z80",
         "commit": "e77deef6f3284eb220ef64bd1dd23e369a37f48c",
         "minimumBinaryNinjaVersion": 0
@@ -1599,8 +1653,8 @@
             "svn_url": "https://github.com/Vector35/sigkit",
             "homepage": "https://binary.ninja/2020/03/11/signature-libraries.html",
             "size": 538,
-            "stargazers_count": 38,
-            "watchers_count": 38,
+            "stargazers_count": 39,
+            "watchers_count": 39,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1631,7 +1685,7 @@
             "visibility": "public",
             "forks": 5,
             "open_issues": 7,
-            "watchers": 38,
+            "watchers": 39,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1685,6 +1739,7 @@
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/sigkit/zipball/refs/tags/1.2.1",
+        "packageShortUrl": "https://v35.us/xrqu8dz",
         "path": "Vector35_sigkit",
         "commit": "29920895c6422cdf1ddd85ad892ea18d22b25026",
         "minimumBinaryNinjaVersion": 0
@@ -1808,7 +1863,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 7,
+            "open_issues_count": 9,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -1838,7 +1893,7 @@
             ],
             "visibility": "public",
             "forks": 5,
-            "open_issues": 7,
+            "open_issues": 9,
             "watchers": 19,
             "default_branch": "master",
             "permissions": {
@@ -1893,6 +1948,7 @@
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/dwarf_import/zipball/refs/tags/1.2.0",
+        "packageShortUrl": "https://v35.us/j2vuhwg",
         "path": "Vector35_dwarf_import",
         "commit": "82b286e3a97fe1ecc5f49e9bbef24ae675616fa6",
         "minimumBinaryNinjaVersion": 0
