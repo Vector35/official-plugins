@@ -2,7 +2,7 @@
 
 | PluginName | Author | Last Updated | License | Type | Description |
 |------------|--------|--------------|---------|----------|-------------|
-|[6502 Architecture Plugin](https://github.com/Vector35/6502)|[Vector 35 Inc](https://github.com/Vector35)|2023-01-12|MIT|architecture|An architecture plugin for 6502 and binary view for NES roms.|
+|[6502 Architecture Plugin](https://github.com/Vector35/6502)|[Vector 35 Inc](https://github.com/Vector35)|2023-05-30|MIT|architecture|An architecture plugin for 6502 and binary view for NES roms.|
 |[DWARF Import](https://github.com/Vector35/dwarf_import)|[Vector 35 Inc](https://github.com/Vector35)|2022-08-31|MIT|core|Imports DWARF Info from ELFs|
 |[Kaitai UI Plugin](https://github.com/Vector35/kaitai)|[Vector 35 Inc](https://github.com/Vector35)|2023-02-02|MIT|ui|Browse hex with a tree view populated from Kaitai Struct formats.|
 |[Opaque Predicate Patcher](https://github.com/Vector35/OpaquePredicatePatcher)|[Vector 35 Inc](https://github.com/Vector35)|2022-05-02|MIT|helper|Automatically patch opaque predicates|
