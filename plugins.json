@@ -25,10 +25,10 @@
             "Windows": "no special instructions, package manager is recommended"
         },
         "dependencies": "",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 4333,
-        "lastUpdated": 1686812342,
+        "lastUpdated": 1686854538,
         "projectUrl": "https://github.com/Vector35/efi-resolver",
         "projectData": {
             "id": 653873241,
@@ -97,8 +97,8 @@
             "releases_url": "https://api.github.com/repos/Vector35/efi-resolver/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/efi-resolver/deployments",
             "created_at": "2023-06-14T23:44:54Z",
-            "updated_at": "2023-06-15T06:59:02",
-            "pushed_at": "2023-06-15T06:58:55Z",
+            "updated_at": "2023-06-15T18:42:18",
+            "pushed_at": "2023-06-15T18:41:29Z",
             "git_url": "git://github.com/Vector35/efi-resolver.git",
             "ssh_url": "git@github.com:Vector35/efi-resolver.git",
             "clone_url": "https://github.com/Vector35/efi-resolver.git",
@@ -186,10 +186,10 @@
             "subscribers_count": 3
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/efi-resolver/zipball/refs/tags/1.0.0",
-        "packageShortUrl": "https://v35.us/0psfcme",
+        "packageUrl": "https://api.github.com/repos/Vector35/efi-resolver/zipball/refs/tags/1.0.1",
+        "packageShortUrl": "https://v35.us/cqwlpra",
         "path": "Vector35_efiresolver",
-        "commit": "0a2c9baf835ee540ae99fd43221dbf9301930cb9",
+        "commit": "d570038d91e3579aaed58487a4c0c6a87f70465c",
         "minimumBinaryNinjaVersion": 0
     },
     {
