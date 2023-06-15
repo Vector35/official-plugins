@@ -1,5 +1,9 @@
 [
     {
+        "name": "Vector35/efi-resolver",
+        "auto_update": true
+    },
+    {
         "name": "Vector35/unpacme",
         "auto_update": true
     },
