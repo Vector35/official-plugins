@@ -104,7 +104,7 @@
             "clone_url": "https://github.com/Vector35/efi-resolver.git",
             "svn_url": "https://github.com/Vector35/efi-resolver",
             "homepage": null,
-            "size": 6,
+            "size": 10,
             "stargazers_count": 0,
             "watchers_count": 0,
             "language": "Python",
@@ -183,7 +183,7 @@
                 }
             },
             "network_count": 0,
-            "subscribers_count": 3
+            "subscribers_count": 4
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/efi-resolver/zipball/refs/tags/1.0.1",
