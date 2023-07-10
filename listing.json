@@ -39,9 +39,5 @@
     {
         "name": "Vector35/sigkit",
         "auto_update": true
-    },
-    {
-        "name": "Vector35/dwarf_import",
-        "auto_update": true
     }
 ]
