@@ -105,8 +105,8 @@
             "svn_url": "https://github.com/Vector35/efi-resolver",
             "homepage": null,
             "size": 10,
-            "stargazers_count": 0,
-            "watchers_count": 0,
+            "stargazers_count": 23,
+            "watchers_count": 23,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -114,7 +114,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 0,
+            "forks_count": 1,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -131,9 +131,9 @@
             "web_commit_signoff_required": false,
             "topics": [],
             "visibility": "public",
-            "forks": 0,
+            "forks": 1,
             "open_issues": 0,
-            "watchers": 0,
+            "watchers": 23,
             "default_branch": "main",
             "permissions": {
                 "admin": true,
@@ -180,9 +180,12 @@
                 },
                 "secret_scanning_push_protection": {
                     "status": "disabled"
+                },
+                "dependabot_security_updates": {
+                    "status": "disabled"
                 }
             },
-            "network_count": 0,
+            "network_count": 1,
             "subscribers_count": 4
         },
         "authorUrl": "https://github.com/Vector35",
@@ -373,6 +376,9 @@
                 },
                 "secret_scanning_push_protection": {
                     "status": "disabled"
+                },
+                "dependabot_security_updates": {
+                    "status": "disabled"
                 }
             },
             "network_count": 2,
@@ -487,8 +493,8 @@
             "svn_url": "https://github.com/Vector35/tanto",
             "homepage": "",
             "size": 478,
-            "stargazers_count": 42,
-            "watchers_count": 42,
+            "stargazers_count": 44,
+            "watchers_count": 44,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -520,7 +526,7 @@
             "visibility": "public",
             "forks": 1,
             "open_issues": 3,
-            "watchers": 42,
+            "watchers": 44,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -566,6 +572,9 @@
                     "status": "disabled"
                 },
                 "secret_scanning_push_protection": {
+                    "status": "disabled"
+                },
+                "dependabot_security_updates": {
                     "status": "disabled"
                 }
             },
@@ -756,6 +765,9 @@
                 },
                 "secret_scanning_push_protection": {
                     "status": "disabled"
+                },
+                "dependabot_security_updates": {
+                    "status": "enabled"
                 }
             },
             "network_count": 2,
@@ -874,8 +886,8 @@
             "svn_url": "https://github.com/Vector35/kaitai",
             "homepage": null,
             "size": 11448,
-            "stargazers_count": 29,
-            "watchers_count": 29,
+            "stargazers_count": 31,
+            "watchers_count": 31,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -896,7 +908,7 @@
             "visibility": "public",
             "forks": 4,
             "open_issues": 0,
-            "watchers": 29,
+            "watchers": 31,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -943,6 +955,9 @@
                 },
                 "secret_scanning_push_protection": {
                     "status": "disabled"
+                },
+                "dependabot_security_updates": {
+                    "status": "enabled"
                 }
             },
             "network_count": 4,
@@ -1056,13 +1071,13 @@
             "deployments_url": "https://api.github.com/repos/Vector35/snippets/deployments",
             "created_at": "2019-09-27T15:39:09Z",
             "updated_at": "2023-04-17T15:52:45",
-            "pushed_at": "2023-05-09T21:14:13Z",
+            "pushed_at": "2023-06-23T14:39:19Z",
             "git_url": "git://github.com/Vector35/snippets.git",
             "ssh_url": "git@github.com:Vector35/snippets.git",
             "clone_url": "https://github.com/Vector35/snippets.git",
             "svn_url": "https://github.com/Vector35/snippets",
             "homepage": null,
-            "size": 4194,
+            "size": 4210,
             "stargazers_count": 17,
             "watchers_count": 17,
             "language": "Python",
@@ -1138,6 +1153,9 @@
                 },
                 "secret_scanning_push_protection": {
                     "status": "disabled"
+                },
+                "dependabot_security_updates": {
+                    "status": "enabled"
                 }
             },
             "network_count": 5,
@@ -1257,8 +1275,8 @@
             "svn_url": "https://github.com/Vector35/OpaquePredicatePatcher",
             "homepage": null,
             "size": 2317,
-            "stargazers_count": 45,
-            "watchers_count": 45,
+            "stargazers_count": 47,
+            "watchers_count": 47,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1285,7 +1303,7 @@
             "visibility": "public",
             "forks": 3,
             "open_issues": 1,
-            "watchers": 45,
+            "watchers": 47,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1331,6 +1349,9 @@
                     "status": "disabled"
                 },
                 "secret_scanning_push_protection": {
+                    "status": "disabled"
+                },
+                "dependabot_security_updates": {
                     "status": "disabled"
                 }
             },
@@ -1531,6 +1552,9 @@
                 },
                 "secret_scanning_push_protection": {
                     "status": "disabled"
+                },
+                "dependabot_security_updates": {
+                    "status": "disabled"
                 }
             },
             "network_count": 11,
@@ -1725,6 +1749,9 @@
                 },
                 "secret_scanning_push_protection": {
                     "status": "disabled"
+                },
+                "dependabot_security_updates": {
+                    "status": "enabled"
                 }
             },
             "network_count": 3,
@@ -1925,6 +1952,9 @@
                 },
                 "secret_scanning_push_protection": {
                     "status": "disabled"
+                },
+                "dependabot_security_updates": {
+                    "status": "enabled"
                 }
             },
             "network_count": 6,
@@ -1939,7 +1969,7 @@
     },
     {
         "pluginmetadataversion": 2,
-        "name": "DWARF Import",
+        "name": "DWARF Import (Deprecated)",
         "type": [
             "core"
         ],
@@ -1947,7 +1977,7 @@
             "python3"
         ],
         "description": "Imports DWARF Info from ELFs",
-        "longdescription": "This loads DWARF info from an ELF and propagates function names, arguments, and type info\n\n### Analysis Without DWARF info:\n![](./images/standard_analysis.png)\n\n### Analysis With DWARF info:\n![](./images/DWARF_applied.png)\n",
+        "longdescription": "This plugin is deprecated. Please use our new DWARF Import plugin, which is shipped with the product by default: https://github.com/Vector35/binaryninja-api/issues/3206#issuecomment-1629342753",
         "license": {
             "name": "MIT",
             "text": "Copyright (c) 2020-2022 Vector 35 Inc\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
@@ -1963,10 +1993,10 @@
             "Windows": null
         },
         "dependencies": "pyelftools==0.27\n",
-        "version": "1.2.0",
+        "version": "1.2.1",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 3000,
-        "lastUpdated": 1661984399,
+        "lastUpdated": 1689085897,
         "projectUrl": "https://github.com/Vector35/dwarf_import",
         "projectData": {
             "id": 297732788,
@@ -2035,16 +2065,16 @@
             "releases_url": "https://api.github.com/repos/Vector35/dwarf_import/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/dwarf_import/deployments",
             "created_at": "2020-09-22T18:10:12Z",
-            "updated_at": "2022-08-31T22:19:59",
-            "pushed_at": "2023-03-26T13:50:03Z",
+            "updated_at": "2023-07-11T14:31:37",
+            "pushed_at": "2023-07-11T14:31:22Z",
             "git_url": "git://github.com/Vector35/dwarf_import.git",
             "ssh_url": "git@github.com:Vector35/dwarf_import.git",
             "clone_url": "https://github.com/Vector35/dwarf_import.git",
             "svn_url": "https://github.com/Vector35/dwarf_import",
             "homepage": "",
-            "size": 2504,
-            "stargazers_count": 21,
-            "watchers_count": 21,
+            "size": 2508,
+            "stargazers_count": 22,
+            "watchers_count": 22,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -2056,7 +2086,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 10,
+            "open_issues_count": 2,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -2086,8 +2116,8 @@
             ],
             "visibility": "public",
             "forks": 8,
-            "open_issues": 10,
-            "watchers": 21,
+            "open_issues": 2,
+            "watchers": 22,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -2134,16 +2164,19 @@
                 },
                 "secret_scanning_push_protection": {
                     "status": "disabled"
+                },
+                "dependabot_security_updates": {
+                    "status": "disabled"
                 }
             },
             "network_count": 8,
             "subscribers_count": 8
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/dwarf_import/zipball/refs/tags/1.2.0",
-        "packageShortUrl": "https://v35.us/j2vuhwg",
+        "packageUrl": "https://api.github.com/repos/Vector35/dwarf_import/zipball/refs/tags/1.2.1",
+        "packageShortUrl": "https://v35.us/md2osbo",
         "path": "Vector35_dwarf_import",
-        "commit": "82b286e3a97fe1ecc5f49e9bbef24ae675616fa6",
+        "commit": "123c5988394351d5aa2bedfa9766a6d1b1f02054",
         "minimumBinaryNinjaVersion": 0
     }
 ]
