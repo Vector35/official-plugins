@@ -5,7 +5,7 @@
 |[6502 Architecture Plugin](https://github.com/Vector35/6502)|[Vector 35 Inc](https://github.com/Vector35)|2023-05-30|MIT|architecture|An architecture plugin for 6502 and binary view for NES roms.|
 |[DWARF Import (Deprecated)](https://github.com/Vector35/dwarf_import)|[Vector 35 Inc](https://github.com/Vector35)|2023-07-11|MIT|core|Imports DWARF Info from ELFs|
 |[EFI Resolver](https://github.com/Vector35/efi-resolver)|[Vector 35 Inc](https://github.com/Vector35)|2023-06-15|Apache-2.0|platform|A Binary Ninja plugin that automatically resolves type information for EFI protocol usage.|
-|[Kaitai UI Plugin](https://github.com/Vector35/kaitai)|[Vector 35 Inc](https://github.com/Vector35)|2023-02-02|MIT|ui|Browse hex with a tree view populated from Kaitai Struct formats.|
+|[Kaitai UI Plugin](https://github.com/Vector35/kaitai)|[Vector 35 Inc](https://github.com/Vector35)|2023-09-06|MIT|ui|Browse hex with a tree view populated from Kaitai Struct formats.|
 |[Opaque Predicate Patcher](https://github.com/Vector35/OpaquePredicatePatcher)|[Vector 35 Inc](https://github.com/Vector35)|2022-05-02|MIT|helper|Automatically patch opaque predicates|
 |[Sample Plugin](https://github.com/Vector35/sample_plugin)|[Vector 35 Inc](https://github.com/Vector35)|2021-11-22|MIT|architecture, binaryview, core, helper, ui|This is a short description meant to fit on one line.|
 |[Signature Kit Plugin](https://github.com/Vector35/sigkit)|[Vector 35 Inc](https://github.com/Vector35)|2021-12-02|MIT|core, helper, ui|Python tools for working with Signature Libraries|

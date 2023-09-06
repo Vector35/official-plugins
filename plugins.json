@@ -761,11 +761,11 @@
             "Windows": "no special instructions, package manager is recommended"
         },
         "dependencies": "",
-        "version": "1.1.6",
+        "version": "1.1.7",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 3164,
         "longdescription": "This Binary Ninja UI plugin allows you to browse a hex dump within Binary Ninja with a tree view informed by [Kaitai Struct](https://kaitai.io/).\n\n![](https://github.com/Vector35/kaitai/blob/master/media/kaitai.gif?raw=true)\n\nThis wires up Kaitai Struct as a parsing library to produce templated dissection of binary files. Of course, this concept itself isn\u2019t new. Plenty of great tools like 010, Hexinator and Synalyze It! have this feature (last two by the same company for different platforms). Thanks to the Kaitai Project not only for the project in general, but also for working with us to resolve some small issues while we were developing the plugin.\n\n## License\n\nThis plugin is released under a MIT license.\n\n",
-        "lastUpdated": 1675360103,
+        "lastUpdated": 1694010922,
         "projectUrl": "https://github.com/Vector35/kaitai",
         "projectData": {
             "id": 211350672,
@@ -834,8 +834,8 @@
             "releases_url": "https://api.github.com/repos/Vector35/kaitai/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/kaitai/deployments",
             "created_at": "2019-09-27T15:35:34Z",
-            "updated_at": "2023-02-02T17:48:23",
-            "pushed_at": "2023-05-03T19:25:46Z",
+            "updated_at": "2023-09-06T14:35:22",
+            "pushed_at": "2023-09-06T14:25:30Z",
             "git_url": "git://github.com/Vector35/kaitai.git",
             "ssh_url": "git@github.com:Vector35/kaitai.git",
             "clone_url": "https://github.com/Vector35/kaitai.git",
@@ -920,10 +920,10 @@
             "subscribers_count": 8
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/kaitai/zipball/refs/tags/1.1.6",
-        "packageShortUrl": "https://v35.us/7wjju1n",
+        "packageUrl": "https://api.github.com/repos/Vector35/kaitai/zipball/refs/tags/1.1.7",
+        "packageShortUrl": "",
         "path": "Vector35_kaitai",
-        "commit": "89b25156cfeeb5d68fa993f49d9d57bc5b09f914",
+        "commit": "ebe98d024f75682b77095e87bbe37a999a90fb3c",
         "minimumBinaryNinjaVersion": 0,
         "subdir": "plugin"
     },
