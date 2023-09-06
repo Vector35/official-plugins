@@ -105,8 +105,8 @@
             "svn_url": "https://github.com/Vector35/efi-resolver",
             "homepage": null,
             "size": 10,
-            "stargazers_count": 23,
-            "watchers_count": 23,
+            "stargazers_count": 25,
+            "watchers_count": 25,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -114,7 +114,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 1,
+            "forks_count": 2,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -131,29 +131,18 @@
             "web_commit_signoff_required": false,
             "topics": [],
             "visibility": "public",
-            "forks": 1,
+            "forks": 2,
             "open_issues": 0,
-            "watchers": 23,
+            "watchers": 25,
             "default_branch": "main",
             "permissions": {
-                "admin": true,
-                "maintain": true,
-                "push": true,
-                "triage": true,
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "allow_auto_merge": false,
-            "delete_branch_on_merge": false,
-            "allow_update_branch": false,
-            "use_squash_pr_title_as_default": false,
-            "squash_merge_commit_message": "COMMIT_MESSAGES",
-            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
-            "merge_commit_message": "PR_TITLE",
-            "merge_commit_title": "MERGE_MESSAGE",
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -174,18 +163,7 @@
                 "type": "Organization",
                 "site_admin": false
             },
-            "security_and_analysis": {
-                "secret_scanning": {
-                    "status": "disabled"
-                },
-                "secret_scanning_push_protection": {
-                    "status": "disabled"
-                },
-                "dependabot_security_updates": {
-                    "status": "disabled"
-                }
-            },
-            "network_count": 1,
+            "network_count": 2,
             "subscribers_count": 4
         },
         "authorUrl": "https://github.com/Vector35",
@@ -332,24 +310,13 @@
             "watchers": 6,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "maintain": true,
-                "push": true,
-                "triage": true,
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "allow_auto_merge": false,
-            "delete_branch_on_merge": false,
-            "allow_update_branch": false,
-            "use_squash_pr_title_as_default": false,
-            "squash_merge_commit_message": "COMMIT_MESSAGES",
-            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
-            "merge_commit_message": "PR_TITLE",
-            "merge_commit_title": "MERGE_MESSAGE",
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -369,17 +336,6 @@
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
                 "site_admin": false
-            },
-            "security_and_analysis": {
-                "secret_scanning": {
-                    "status": "disabled"
-                },
-                "secret_scanning_push_protection": {
-                    "status": "disabled"
-                },
-                "dependabot_security_updates": {
-                    "status": "disabled"
-                }
             },
             "network_count": 2,
             "subscribers_count": 5
@@ -493,8 +449,8 @@
             "svn_url": "https://github.com/Vector35/tanto",
             "homepage": "",
             "size": 478,
-            "stargazers_count": 44,
-            "watchers_count": 44,
+            "stargazers_count": 45,
+            "watchers_count": 45,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -526,7 +482,7 @@
             "visibility": "public",
             "forks": 1,
             "open_issues": 3,
-            "watchers": 44,
+            "watchers": 45,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -886,8 +842,8 @@
             "svn_url": "https://github.com/Vector35/kaitai",
             "homepage": null,
             "size": 11448,
-            "stargazers_count": 31,
-            "watchers_count": 31,
+            "stargazers_count": 32,
+            "watchers_count": 32,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -908,7 +864,7 @@
             "visibility": "public",
             "forks": 4,
             "open_issues": 0,
-            "watchers": 31,
+            "watchers": 32,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1306,24 +1262,13 @@
             "watchers": 47,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "maintain": true,
-                "push": true,
-                "triage": true,
+                "admin": false,
+                "maintain": false,
+                "push": false,
+                "triage": false,
                 "pull": true
             },
             "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "allow_auto_merge": false,
-            "delete_branch_on_merge": false,
-            "allow_update_branch": false,
-            "use_squash_pr_title_as_default": false,
-            "squash_merge_commit_message": "COMMIT_MESSAGES",
-            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
-            "merge_commit_message": "PR_TITLE",
-            "merge_commit_title": "MERGE_MESSAGE",
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -1343,17 +1288,6 @@
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
                 "site_admin": false
-            },
-            "security_and_analysis": {
-                "secret_scanning": {
-                    "status": "disabled"
-                },
-                "secret_scanning_push_protection": {
-                    "status": "disabled"
-                },
-                "dependabot_security_updates": {
-                    "status": "disabled"
-                }
             },
             "network_count": 3,
             "subscribers_count": 6
@@ -1475,8 +1409,8 @@
             "svn_url": "https://github.com/Vector35/sample_plugin",
             "homepage": "",
             "size": 33,
-            "stargazers_count": 14,
-            "watchers_count": 14,
+            "stargazers_count": 16,
+            "watchers_count": 16,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -1505,11 +1439,11 @@
             "visibility": "public",
             "forks": 11,
             "open_issues": 0,
-            "watchers": 14,
+            "watchers": 16,
             "default_branch": "master",
             "permissions": {
-                "admin": true,
-                "maintain": true,
+                "admin": false,
+                "maintain": false,
                 "push": true,
                 "triage": true,
                 "pull": true
@@ -1545,17 +1479,6 @@
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
                 "site_admin": false
-            },
-            "security_and_analysis": {
-                "secret_scanning": {
-                    "status": "disabled"
-                },
-                "secret_scanning_push_protection": {
-                    "status": "disabled"
-                },
-                "dependabot_security_updates": {
-                    "status": "disabled"
-                }
             },
             "network_count": 11,
             "subscribers_count": 6
@@ -1594,10 +1517,10 @@
             "Darwin": "pip install z80dis;pip3 install z80dis"
         },
         "dependencies": "z80dis\n",
-        "version": "1.4",
+        "version": "1.5",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 776,
-        "lastUpdated": 1672954131,
+        "lastUpdated": 1694008841,
         "projectUrl": "https://github.com/Vector35/Z80",
         "projectData": {
             "id": 200677938,
@@ -1666,16 +1589,16 @@
             "releases_url": "https://api.github.com/repos/Vector35/Z80/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/Z80/deployments",
             "created_at": "2019-08-05T15:04:30Z",
-            "updated_at": "2023-01-05T21:28:51",
-            "pushed_at": "2023-01-05T21:27:28Z",
+            "updated_at": "2023-09-06T14:00:41",
+            "pushed_at": "2023-09-06T14:01:17Z",
             "git_url": "git://github.com/Vector35/Z80.git",
             "ssh_url": "git@github.com:Vector35/Z80.git",
             "clone_url": "https://github.com/Vector35/Z80.git",
             "svn_url": "https://github.com/Vector35/Z80",
             "homepage": null,
             "size": 255,
-            "stargazers_count": 4,
-            "watchers_count": 4,
+            "stargazers_count": 5,
+            "watchers_count": 5,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1702,7 +1625,7 @@
             "visibility": "public",
             "forks": 3,
             "open_issues": 0,
-            "watchers": 4,
+            "watchers": 5,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1758,10 +1681,10 @@
             "subscribers_count": 5
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/Z80/zipball/refs/tags/1.4",
-        "packageShortUrl": "https://v35.us/bdrr4u2",
+        "packageUrl": "https://api.github.com/repos/Vector35/Z80/zipball/refs/tags/1.5",
+        "packageShortUrl": "",
         "path": "Vector35_Z80",
-        "commit": "e77deef6f3284eb220ef64bd1dd23e369a37f48c",
+        "commit": "e22a17fcf294d59b19511258978ab875f8c5eb75",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -1873,8 +1796,8 @@
             "svn_url": "https://github.com/Vector35/sigkit",
             "homepage": "https://binary.ninja/2020/03/11/signature-libraries.html",
             "size": 538,
-            "stargazers_count": 43,
-            "watchers_count": 43,
+            "stargazers_count": 46,
+            "watchers_count": 46,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1905,7 +1828,7 @@
             "visibility": "public",
             "forks": 6,
             "open_issues": 7,
-            "watchers": 43,
+            "watchers": 46,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -2072,9 +1995,9 @@
             "clone_url": "https://github.com/Vector35/dwarf_import.git",
             "svn_url": "https://github.com/Vector35/dwarf_import",
             "homepage": "",
-            "size": 2508,
-            "stargazers_count": 22,
-            "watchers_count": 22,
+            "size": 2412,
+            "stargazers_count": 23,
+            "watchers_count": 23,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -2086,7 +2009,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 2,
+            "open_issues_count": 1,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -2116,8 +2039,8 @@
             ],
             "visibility": "public",
             "forks": 8,
-            "open_issues": 2,
-            "watchers": 22,
+            "open_issues": 1,
+            "watchers": 23,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
