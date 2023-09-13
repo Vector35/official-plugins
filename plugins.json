@@ -136,13 +136,24 @@
             "watchers": 25,
             "default_branch": "main",
             "permissions": {
-                "admin": false,
-                "maintain": false,
-                "push": false,
-                "triage": false,
+                "admin": true,
+                "maintain": true,
+                "push": true,
+                "triage": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "allow_auto_merge": false,
+            "delete_branch_on_merge": false,
+            "allow_update_branch": false,
+            "use_squash_pr_title_as_default": false,
+            "squash_merge_commit_message": "COMMIT_MESSAGES",
+            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+            "merge_commit_message": "PR_TITLE",
+            "merge_commit_title": "MERGE_MESSAGE",
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -162,6 +173,17 @@
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
                 "site_admin": false
+            },
+            "security_and_analysis": {
+                "secret_scanning": {
+                    "status": "disabled"
+                },
+                "secret_scanning_push_protection": {
+                    "status": "disabled"
+                },
+                "dependabot_security_updates": {
+                    "status": "disabled"
+                }
             },
             "network_count": 2,
             "subscribers_count": 4
@@ -197,12 +219,12 @@
             "Linux": "no special instructions, package manager is recommended",
             "Windows": "no special instructions, package manager is recommended"
         },
-        "dependencies": "pygments>=2.7.0,<2.9.0\n",
-        "version": "1.00",
+        "dependencies": "requests\n",
+        "version": "1.1",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 3469,
-        "longdescription": "# Unpac.Me Plugin (v1.00)\nAuthor: **Vector 35 Inc**\n\n_Simple plugin to interface Binary Ninja with the UnpacMe automatic unpacking service_\n\n## Description:\n\nThis plugin lets you easily submit binaries and download unpacked results from [unpac.me](https://unpac.me/).\n\nYou will first need to sign up for a free account before you can use it. The first time you try to upload or download you will be prompted for your API Key which is available from your [account page](https://www.unpac.me/account).\n\nCurrent features:\n\n- Upload a file to be unpacked. Available from the `Plugins/UnpacMe` menu and command-palette, works on the currently open file.\n- Download a previously extracted file. Available from the `Plugins/UnpacMe` menu and command-palette.\n\n![](https://github.com/Vector35/unpacme/blob/master/media/download.png?raw=true)\n![](https://github.com/Vector35/unpacme/blob/master/media/menu.png?raw=true)\n\n## Installation Instructions\n\nUse the plugin manager or clone this to your [user plugin folder](https://docs.binary.ninja/getting-started.html#user-folder).\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 2469\n\n## Troubleshooting\n\nIf you receive python errors, you may need to upgrade your version of python to support requests with HTTPS support.\n\n## License\n\nThis plugin is released under a MIT license.\n\n## Metadata Version\n\n2\n",
-        "lastUpdated": 1657510030,
+        "longdescription": "# Unpac.Me Plugin (v1.1)\nAuthor: **Vector 35 Inc**\n\n_Simple plugin to interface Binary Ninja with the UnpacMe automatic unpacking service_\n\n## Description:\n\nThis plugin lets you easily submit binaries and download unpacked results from [unpac.me](https://unpac.me/).\n\nYou will first need to sign up for a free account before you can use it. The first time you try to upload or download you will be prompted for your API Key which is available from your [account page](https://www.unpac.me/account).\n\nCurrent features:\n\n- Upload a file to be unpacked. Available from the `Plugins/UnpacMe` menu and command-palette, works on the currently open file.\n- Download a previously extracted file. Available from the `Plugins/UnpacMe` menu and command-palette.\n\n![](https://github.com/Vector35/unpacme/blob/master/media/download.png?raw=true)\n![](https://github.com/Vector35/unpacme/blob/master/media/menu.png?raw=true)\n\n## Installation Instructions\n\nUse the plugin manager or clone this to your [user plugin folder](https://docs.binary.ninja/getting-started.html#user-folder).\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 2469\n\n## Troubleshooting\n\nIf you receive python errors, you may need to upgrade your version of python to support requests with HTTPS support.\n\n## License\n\nThis plugin is released under a MIT license.\n\n## Metadata Version\n\n2\n",
+        "lastUpdated": 1694635570,
         "projectUrl": "https://github.com/Vector35/unpacme",
         "projectData": {
             "id": 511708733,
@@ -271,8 +293,8 @@
             "releases_url": "https://api.github.com/repos/Vector35/unpacme/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/unpacme/deployments",
             "created_at": "2022-07-08T00:07:09Z",
-            "updated_at": "2022-07-11T03:27:10",
-            "pushed_at": "2022-07-11T03:27:09Z",
+            "updated_at": "2023-09-13T20:06:10",
+            "pushed_at": "2023-09-13T20:06:04Z",
             "git_url": "git://github.com/Vector35/unpacme.git",
             "ssh_url": "git@github.com:Vector35/unpacme.git",
             "clone_url": "https://github.com/Vector35/unpacme.git",
@@ -310,13 +332,24 @@
             "watchers": 6,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "maintain": false,
-                "push": false,
-                "triage": false,
+                "admin": true,
+                "maintain": true,
+                "push": true,
+                "triage": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "allow_auto_merge": false,
+            "delete_branch_on_merge": false,
+            "allow_update_branch": false,
+            "use_squash_pr_title_as_default": false,
+            "squash_merge_commit_message": "COMMIT_MESSAGES",
+            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+            "merge_commit_message": "PR_TITLE",
+            "merge_commit_title": "MERGE_MESSAGE",
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -337,14 +370,25 @@
                 "type": "Organization",
                 "site_admin": false
             },
+            "security_and_analysis": {
+                "secret_scanning": {
+                    "status": "disabled"
+                },
+                "secret_scanning_push_protection": {
+                    "status": "disabled"
+                },
+                "dependabot_security_updates": {
+                    "status": "disabled"
+                }
+            },
             "network_count": 2,
             "subscribers_count": 5
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/unpacme/zipball/refs/tags/1.00",
-        "packageShortUrl": "https://v35.us/5r7y4qn",
+        "packageUrl": "https://api.github.com/repos/Vector35/unpacme/zipball/refs/tags/1.1",
+        "packageShortUrl": "https://v35.us/po1rbzi",
         "path": "Vector35_unpacme",
-        "commit": "099229616dd24e116db8326288909cf74d9e6838",
+        "commit": "9d4fce3fa8eae2a233e2e76e7de50ca620881eb2",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -841,9 +885,9 @@
             "clone_url": "https://github.com/Vector35/kaitai.git",
             "svn_url": "https://github.com/Vector35/kaitai",
             "homepage": null,
-            "size": 11448,
-            "stargazers_count": 32,
-            "watchers_count": 32,
+            "size": 11451,
+            "stargazers_count": 31,
+            "watchers_count": 31,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -864,7 +908,7 @@
             "visibility": "public",
             "forks": 4,
             "open_issues": 0,
-            "watchers": 32,
+            "watchers": 31,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -921,7 +965,7 @@
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/kaitai/zipball/refs/tags/1.1.7",
-        "packageShortUrl": "",
+        "packageShortUrl": "https://v35.us/ijt5m8d",
         "path": "Vector35_kaitai",
         "commit": "ebe98d024f75682b77095e87bbe37a999a90fb3c",
         "minimumBinaryNinjaVersion": 0,
@@ -1224,7 +1268,7 @@
             "deployments_url": "https://api.github.com/repos/Vector35/OpaquePredicatePatcher/deployments",
             "created_at": "2017-10-01T16:48:08Z",
             "updated_at": "2022-05-02T21:26:54",
-            "pushed_at": "2022-05-02T21:26:53Z",
+            "pushed_at": "2023-09-13T19:20:30Z",
             "git_url": "git://github.com/Vector35/OpaquePredicatePatcher.git",
             "ssh_url": "git@github.com:Vector35/OpaquePredicatePatcher.git",
             "clone_url": "https://github.com/Vector35/OpaquePredicatePatcher.git",
@@ -1262,13 +1306,24 @@
             "watchers": 47,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "maintain": false,
-                "push": false,
-                "triage": false,
+                "admin": true,
+                "maintain": true,
+                "push": true,
+                "triage": true,
                 "pull": true
             },
             "temp_clone_token": "",
+            "allow_squash_merge": true,
+            "allow_merge_commit": true,
+            "allow_rebase_merge": true,
+            "allow_auto_merge": false,
+            "delete_branch_on_merge": false,
+            "allow_update_branch": false,
+            "use_squash_pr_title_as_default": false,
+            "squash_merge_commit_message": "COMMIT_MESSAGES",
+            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+            "merge_commit_message": "PR_TITLE",
+            "merge_commit_title": "MERGE_MESSAGE",
             "organization": {
                 "login": "Vector35",
                 "id": 10394906,
@@ -1288,6 +1343,17 @@
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
                 "site_admin": false
+            },
+            "security_and_analysis": {
+                "secret_scanning": {
+                    "status": "disabled"
+                },
+                "secret_scanning_push_protection": {
+                    "status": "disabled"
+                },
+                "dependabot_security_updates": {
+                    "status": "disabled"
+                }
             },
             "network_count": 3,
             "subscribers_count": 6
@@ -1409,8 +1475,8 @@
             "svn_url": "https://github.com/Vector35/sample_plugin",
             "homepage": "",
             "size": 33,
-            "stargazers_count": 16,
-            "watchers_count": 16,
+            "stargazers_count": 15,
+            "watchers_count": 15,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -1439,11 +1505,11 @@
             "visibility": "public",
             "forks": 11,
             "open_issues": 0,
-            "watchers": 16,
+            "watchers": 15,
             "default_branch": "master",
             "permissions": {
-                "admin": false,
-                "maintain": false,
+                "admin": true,
+                "maintain": true,
                 "push": true,
                 "triage": true,
                 "pull": true
@@ -1479,6 +1545,17 @@
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
                 "site_admin": false
+            },
+            "security_and_analysis": {
+                "secret_scanning": {
+                    "status": "disabled"
+                },
+                "secret_scanning_push_protection": {
+                    "status": "disabled"
+                },
+                "dependabot_security_updates": {
+                    "status": "disabled"
+                }
             },
             "network_count": 11,
             "subscribers_count": 6
@@ -1596,7 +1673,7 @@
             "clone_url": "https://github.com/Vector35/Z80.git",
             "svn_url": "https://github.com/Vector35/Z80",
             "homepage": null,
-            "size": 255,
+            "size": 257,
             "stargazers_count": 5,
             "watchers_count": 5,
             "language": "Python",
@@ -1682,7 +1759,7 @@
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/Z80/zipball/refs/tags/1.5",
-        "packageShortUrl": "",
+        "packageShortUrl": "https://v35.us/1tu1dtg",
         "path": "Vector35_Z80",
         "commit": "e22a17fcf294d59b19511258978ab875f8c5eb75",
         "minimumBinaryNinjaVersion": 0
@@ -1796,8 +1873,8 @@
             "svn_url": "https://github.com/Vector35/sigkit",
             "homepage": "https://binary.ninja/2020/03/11/signature-libraries.html",
             "size": 538,
-            "stargazers_count": 46,
-            "watchers_count": 46,
+            "stargazers_count": 45,
+            "watchers_count": 45,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1828,7 +1905,7 @@
             "visibility": "public",
             "forks": 6,
             "open_issues": 7,
-            "watchers": 46,
+            "watchers": 45,
             "default_branch": "master",
             "permissions": {
                 "admin": true,

@@ -11,5 +11,5 @@
 |[Signature Kit Plugin](https://github.com/Vector35/sigkit)|[Vector 35 Inc](https://github.com/Vector35)|2021-12-02|MIT|core, helper, ui|Python tools for working with Signature Libraries|
 |[Snippet UI Plugin](https://github.com/Vector35/snippets)|[Vector 35 Inc](https://github.com/Vector35)|2023-04-17|MIT|ui|Powerful code-editing plugin for writing and managing python code-snippets with syntax highlighting, hotkey binding and other features|
 |[Tantō](https://github.com/Vector35/tanto)|[Vector 35 Inc](https://github.com/Vector35)|2022-06-21|MIT|helper, ui|Tantō slices functions to help you can understand them faster.|
-|[UnPack.Me Automation](https://github.com/Vector35/unpacme)|[Vector 35 Inc](https://github.com/Vector35)|2022-07-10|MIT|ui|Automatically analyze a binary via unpac.me|
+|[UnPack.Me Automation](https://github.com/Vector35/unpacme)|[Vector 35 Inc](https://github.com/Vector35)|2023-09-13|MIT|ui|Automatically analyze a binary via unpac.me|
 |[Z80 Architecture Plugin](https://github.com/Vector35/Z80)|[Vector 35 Inc](https://github.com/Vector35)|2023-09-06|MIT|architecture|Sample Z80 architecture plugin written to accompany the <a href='https://binary.ninja/2020/01/08/guide-to-architecture-plugins-part1.html'>introductory blog post</a>.|
