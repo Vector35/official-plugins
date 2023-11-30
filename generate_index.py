@@ -29,7 +29,11 @@ def getfile(url):
 
 def getPluginJson(plugin, shortUrls):
     if "site" in plugin:
-        print("We only currently support github projects")
+        pluginsJson = getfile(plugin["site"]).json()
+        for plugin in pluginsJson:
+            if plugin["name"] == plugin["name"]:
+                return plugin
+        print(f'No plugin matching {plugin["name"]} found in {plugin["site"]}')
         return
 
     site = "https://github.com/"
