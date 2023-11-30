@@ -1,7 +1,7 @@
 [
     {
         "name": "Sidekick",
-        "auto_update": true
+        "site": "https://plugin.staging.sidekick.binary.ninja/plugins.json" 
     },
     {
         "name": "Vector35/efi-resolver",
