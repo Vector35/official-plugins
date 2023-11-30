@@ -105,8 +105,8 @@
             "svn_url": "https://github.com/Vector35/efi-resolver",
             "homepage": null,
             "size": 10,
-            "stargazers_count": 25,
-            "watchers_count": 25,
+            "stargazers_count": 27,
+            "watchers_count": 27,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -133,7 +133,7 @@
             "visibility": "public",
             "forks": 2,
             "open_issues": 0,
-            "watchers": 25,
+            "watchers": 27,
             "default_branch": "main",
             "permissions": {
                 "admin": true,
@@ -182,6 +182,9 @@
                     "status": "disabled"
                 },
                 "dependabot_security_updates": {
+                    "status": "disabled"
+                },
+                "secret_scanning_validity_checks": {
                     "status": "disabled"
                 }
             },
@@ -378,6 +381,9 @@
                     "status": "disabled"
                 },
                 "dependabot_security_updates": {
+                    "status": "disabled"
+                },
+                "secret_scanning_validity_checks": {
                     "status": "disabled"
                 }
             },
@@ -576,6 +582,9 @@
                 },
                 "dependabot_security_updates": {
                     "status": "disabled"
+                },
+                "secret_scanning_validity_checks": {
+                    "status": "disabled"
                 }
             },
             "network_count": 1,
@@ -768,6 +777,9 @@
                 },
                 "dependabot_security_updates": {
                     "status": "enabled"
+                },
+                "secret_scanning_validity_checks": {
+                    "status": "disabled"
                 }
             },
             "network_count": 2,
@@ -879,13 +891,13 @@
             "deployments_url": "https://api.github.com/repos/Vector35/kaitai/deployments",
             "created_at": "2019-09-27T15:35:34Z",
             "updated_at": "2023-09-06T14:35:22",
-            "pushed_at": "2023-09-06T14:25:30Z",
+            "pushed_at": "2023-09-20T16:24:57Z",
             "git_url": "git://github.com/Vector35/kaitai.git",
             "ssh_url": "git@github.com:Vector35/kaitai.git",
             "clone_url": "https://github.com/Vector35/kaitai.git",
             "svn_url": "https://github.com/Vector35/kaitai",
             "homepage": null,
-            "size": 11451,
+            "size": 11452,
             "stargazers_count": 31,
             "watchers_count": 31,
             "language": "Python",
@@ -899,7 +911,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 0,
+            "open_issues_count": 1,
             "license": null,
             "allow_forking": true,
             "is_template": false,
@@ -907,7 +919,7 @@
             "topics": [],
             "visibility": "public",
             "forks": 4,
-            "open_issues": 0,
+            "open_issues": 1,
             "watchers": 31,
             "default_branch": "master",
             "permissions": {
@@ -958,6 +970,9 @@
                 },
                 "dependabot_security_updates": {
                     "status": "enabled"
+                },
+                "secret_scanning_validity_checks": {
+                    "status": "disabled"
                 }
             },
             "network_count": 4,
@@ -1071,13 +1086,13 @@
             "deployments_url": "https://api.github.com/repos/Vector35/snippets/deployments",
             "created_at": "2019-09-27T15:39:09Z",
             "updated_at": "2023-04-17T15:52:45",
-            "pushed_at": "2023-06-23T14:39:19Z",
+            "pushed_at": "2023-09-26T20:55:42Z",
             "git_url": "git://github.com/Vector35/snippets.git",
             "ssh_url": "git@github.com:Vector35/snippets.git",
             "clone_url": "https://github.com/Vector35/snippets.git",
             "svn_url": "https://github.com/Vector35/snippets",
             "homepage": null,
-            "size": 4210,
+            "size": 4207,
             "stargazers_count": 17,
             "watchers_count": 17,
             "language": "Python",
@@ -1156,6 +1171,9 @@
                 },
                 "dependabot_security_updates": {
                     "status": "enabled"
+                },
+                "secret_scanning_validity_checks": {
+                    "status": "disabled"
                 }
             },
             "network_count": 5,
@@ -1275,8 +1293,8 @@
             "svn_url": "https://github.com/Vector35/OpaquePredicatePatcher",
             "homepage": null,
             "size": 2317,
-            "stargazers_count": 47,
-            "watchers_count": 47,
+            "stargazers_count": 52,
+            "watchers_count": 52,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1303,7 +1321,7 @@
             "visibility": "public",
             "forks": 3,
             "open_issues": 1,
-            "watchers": 47,
+            "watchers": 52,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1352,6 +1370,9 @@
                     "status": "disabled"
                 },
                 "dependabot_security_updates": {
+                    "status": "disabled"
+                },
+                "secret_scanning_validity_checks": {
                     "status": "disabled"
                 }
             },
@@ -1484,7 +1505,7 @@
             "has_wiki": false,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 11,
+            "forks_count": 10,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -1503,7 +1524,7 @@
                 "plugin"
             ],
             "visibility": "public",
-            "forks": 11,
+            "forks": 10,
             "open_issues": 0,
             "watchers": 15,
             "default_branch": "master",
@@ -1555,9 +1576,12 @@
                 },
                 "dependabot_security_updates": {
                     "status": "disabled"
+                },
+                "secret_scanning_validity_checks": {
+                    "status": "disabled"
                 }
             },
-            "network_count": 11,
+            "network_count": 10,
             "subscribers_count": 6
         },
         "authorUrl": "https://github.com/Vector35",
@@ -1752,6 +1776,9 @@
                 },
                 "dependabot_security_updates": {
                     "status": "enabled"
+                },
+                "secret_scanning_validity_checks": {
+                    "status": "disabled"
                 }
             },
             "network_count": 3,
@@ -1882,7 +1909,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 6,
+            "forks_count": 7,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -1903,7 +1930,7 @@
                 "reverse-engineering"
             ],
             "visibility": "public",
-            "forks": 6,
+            "forks": 7,
             "open_issues": 7,
             "watchers": 45,
             "default_branch": "master",
@@ -1955,9 +1982,12 @@
                 },
                 "dependabot_security_updates": {
                     "status": "enabled"
+                },
+                "secret_scanning_validity_checks": {
+                    "status": "disabled"
                 }
             },
-            "network_count": 6,
+            "network_count": 7,
             "subscribers_count": 9
         },
         "authorUrl": "https://github.com/Vector35",
@@ -1965,218 +1995,6 @@
         "packageShortUrl": "https://v35.us/xrqu8dz",
         "path": "Vector35_sigkit",
         "commit": "29920895c6422cdf1ddd85ad892ea18d22b25026",
-        "minimumBinaryNinjaVersion": 0
-    },
-    {
-        "pluginmetadataversion": 2,
-        "name": "DWARF Import (Deprecated)",
-        "type": [
-            "core"
-        ],
-        "api": [
-            "python3"
-        ],
-        "description": "Imports DWARF Info from ELFs",
-        "longdescription": "This plugin is deprecated. Please use our new DWARF Import plugin, which is shipped with the product by default: https://github.com/Vector35/binaryninja-api/issues/3206#issuecomment-1629342753",
-        "license": {
-            "name": "MIT",
-            "text": "Copyright (c) 2020-2022 Vector 35 Inc\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
-        },
-        "platforms": [
-            "Darwin",
-            "Linux",
-            "Windows"
-        ],
-        "installinstructions": {
-            "Darwin": null,
-            "Linux": null,
-            "Windows": null
-        },
-        "dependencies": "pyelftools==0.27\n",
-        "version": "1.2.1",
-        "author": "Vector 35 Inc",
-        "minimumbinaryninjaversion": 3000,
-        "lastUpdated": 1689085897,
-        "projectUrl": "https://github.com/Vector35/dwarf_import",
-        "projectData": {
-            "id": 297732788,
-            "node_id": "MDEwOlJlcG9zaXRvcnkyOTc3MzI3ODg=",
-            "name": "dwarf_import",
-            "full_name": "Vector35/dwarf_import",
-            "private": false,
-            "owner": {
-                "login": "Vector35",
-                "id": 10394906,
-                "node_id": "MDEyOk9yZ2FuaXphdGlvbjEwMzk0OTA2",
-                "avatar_url": "https://avatars.githubusercontent.com/u/10394906?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/Vector35",
-                "html_url": "https://github.com/Vector35",
-                "followers_url": "https://api.github.com/users/Vector35/followers",
-                "following_url": "https://api.github.com/users/Vector35/following{/other_user}",
-                "gists_url": "https://api.github.com/users/Vector35/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/Vector35/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/Vector35/subscriptions",
-                "organizations_url": "https://api.github.com/users/Vector35/orgs",
-                "repos_url": "https://api.github.com/users/Vector35/repos",
-                "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/Vector35/received_events",
-                "type": "Organization",
-                "site_admin": false
-            },
-            "html_url": "https://github.com/Vector35/dwarf_import",
-            "description": "This loads DWARF info from an open binary and propagates function names, arguments, and type info",
-            "fork": false,
-            "url": "https://api.github.com/repos/Vector35/dwarf_import",
-            "forks_url": "https://api.github.com/repos/Vector35/dwarf_import/forks",
-            "keys_url": "https://api.github.com/repos/Vector35/dwarf_import/keys{/key_id}",
-            "collaborators_url": "https://api.github.com/repos/Vector35/dwarf_import/collaborators{/collaborator}",
-            "teams_url": "https://api.github.com/repos/Vector35/dwarf_import/teams",
-            "hooks_url": "https://api.github.com/repos/Vector35/dwarf_import/hooks",
-            "issue_events_url": "https://api.github.com/repos/Vector35/dwarf_import/issues/events{/number}",
-            "events_url": "https://api.github.com/repos/Vector35/dwarf_import/events",
-            "assignees_url": "https://api.github.com/repos/Vector35/dwarf_import/assignees{/user}",
-            "branches_url": "https://api.github.com/repos/Vector35/dwarf_import/branches{/branch}",
-            "tags_url": "https://api.github.com/repos/Vector35/dwarf_import/tags",
-            "blobs_url": "https://api.github.com/repos/Vector35/dwarf_import/git/blobs{/sha}",
-            "git_tags_url": "https://api.github.com/repos/Vector35/dwarf_import/git/tags{/sha}",
-            "git_refs_url": "https://api.github.com/repos/Vector35/dwarf_import/git/refs{/sha}",
-            "trees_url": "https://api.github.com/repos/Vector35/dwarf_import/git/trees{/sha}",
-            "statuses_url": "https://api.github.com/repos/Vector35/dwarf_import/statuses/{sha}",
-            "languages_url": "https://api.github.com/repos/Vector35/dwarf_import/languages",
-            "stargazers_url": "https://api.github.com/repos/Vector35/dwarf_import/stargazers",
-            "contributors_url": "https://api.github.com/repos/Vector35/dwarf_import/contributors",
-            "subscribers_url": "https://api.github.com/repos/Vector35/dwarf_import/subscribers",
-            "subscription_url": "https://api.github.com/repos/Vector35/dwarf_import/subscription",
-            "commits_url": "https://api.github.com/repos/Vector35/dwarf_import/commits{/sha}",
-            "git_commits_url": "https://api.github.com/repos/Vector35/dwarf_import/git/commits{/sha}",
-            "comments_url": "https://api.github.com/repos/Vector35/dwarf_import/comments{/number}",
-            "issue_comment_url": "https://api.github.com/repos/Vector35/dwarf_import/issues/comments{/number}",
-            "contents_url": "https://api.github.com/repos/Vector35/dwarf_import/contents/{+path}",
-            "compare_url": "https://api.github.com/repos/Vector35/dwarf_import/compare/{base}...{head}",
-            "merges_url": "https://api.github.com/repos/Vector35/dwarf_import/merges",
-            "archive_url": "https://api.github.com/repos/Vector35/dwarf_import/{archive_format}{/ref}",
-            "downloads_url": "https://api.github.com/repos/Vector35/dwarf_import/downloads",
-            "issues_url": "https://api.github.com/repos/Vector35/dwarf_import/issues{/number}",
-            "pulls_url": "https://api.github.com/repos/Vector35/dwarf_import/pulls{/number}",
-            "milestones_url": "https://api.github.com/repos/Vector35/dwarf_import/milestones{/number}",
-            "notifications_url": "https://api.github.com/repos/Vector35/dwarf_import/notifications{?since,all,participating}",
-            "labels_url": "https://api.github.com/repos/Vector35/dwarf_import/labels{/name}",
-            "releases_url": "https://api.github.com/repos/Vector35/dwarf_import/releases{/id}",
-            "deployments_url": "https://api.github.com/repos/Vector35/dwarf_import/deployments",
-            "created_at": "2020-09-22T18:10:12Z",
-            "updated_at": "2023-07-11T14:31:37",
-            "pushed_at": "2023-07-11T14:31:22Z",
-            "git_url": "git://github.com/Vector35/dwarf_import.git",
-            "ssh_url": "git@github.com:Vector35/dwarf_import.git",
-            "clone_url": "https://github.com/Vector35/dwarf_import.git",
-            "svn_url": "https://github.com/Vector35/dwarf_import",
-            "homepage": "",
-            "size": 2412,
-            "stargazers_count": 23,
-            "watchers_count": 23,
-            "language": "Python",
-            "has_issues": true,
-            "has_projects": true,
-            "has_downloads": true,
-            "has_wiki": true,
-            "has_pages": false,
-            "has_discussions": true,
-            "forks_count": 8,
-            "mirror_url": null,
-            "archived": false,
-            "disabled": false,
-            "open_issues_count": 1,
-            "license": {
-                "key": "mit",
-                "name": "MIT License",
-                "spdx_id": "MIT",
-                "url": "https://api.github.com/licenses/mit",
-                "node_id": "MDc6TGljZW5zZTEz"
-            },
-            "allow_forking": true,
-            "is_template": false,
-            "web_commit_signoff_required": false,
-            "topics": [
-                "binary-reversing",
-                "binaryninja",
-                "binaryninja-plugin",
-                "debug",
-                "debugging",
-                "debugging-tool",
-                "debugging-tools",
-                "debugview",
-                "dwarf",
-                "elf-binaries",
-                "elf-format",
-                "elf-loader",
-                "elf-parser",
-                "reverse-engineering",
-                "reversing"
-            ],
-            "visibility": "public",
-            "forks": 8,
-            "open_issues": 1,
-            "watchers": 23,
-            "default_branch": "master",
-            "permissions": {
-                "admin": true,
-                "maintain": true,
-                "push": true,
-                "triage": true,
-                "pull": true
-            },
-            "temp_clone_token": "",
-            "allow_squash_merge": true,
-            "allow_merge_commit": true,
-            "allow_rebase_merge": true,
-            "allow_auto_merge": false,
-            "delete_branch_on_merge": false,
-            "allow_update_branch": false,
-            "use_squash_pr_title_as_default": false,
-            "squash_merge_commit_message": "COMMIT_MESSAGES",
-            "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
-            "merge_commit_message": "PR_TITLE",
-            "merge_commit_title": "MERGE_MESSAGE",
-            "organization": {
-                "login": "Vector35",
-                "id": 10394906,
-                "node_id": "MDEyOk9yZ2FuaXphdGlvbjEwMzk0OTA2",
-                "avatar_url": "https://avatars.githubusercontent.com/u/10394906?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/Vector35",
-                "html_url": "https://github.com/Vector35",
-                "followers_url": "https://api.github.com/users/Vector35/followers",
-                "following_url": "https://api.github.com/users/Vector35/following{/other_user}",
-                "gists_url": "https://api.github.com/users/Vector35/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/Vector35/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/Vector35/subscriptions",
-                "organizations_url": "https://api.github.com/users/Vector35/orgs",
-                "repos_url": "https://api.github.com/users/Vector35/repos",
-                "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/Vector35/received_events",
-                "type": "Organization",
-                "site_admin": false
-            },
-            "security_and_analysis": {
-                "secret_scanning": {
-                    "status": "disabled"
-                },
-                "secret_scanning_push_protection": {
-                    "status": "disabled"
-                },
-                "dependabot_security_updates": {
-                    "status": "disabled"
-                }
-            },
-            "network_count": 8,
-            "subscribers_count": 8
-        },
-        "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/dwarf_import/zipball/refs/tags/1.2.1",
-        "packageShortUrl": "https://v35.us/md2osbo",
-        "path": "Vector35_dwarf_import",
-        "commit": "123c5988394351d5aa2bedfa9766a6d1b1f02054",
         "minimumBinaryNinjaVersion": 0
     }
 ]
