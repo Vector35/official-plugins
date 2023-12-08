@@ -1,45 +1,6 @@
 [
     {
         "pluginmetadataversion": 2,
-        "name": "Sidekick",
-        "type": [
-            "ui",
-            "helper"
-        ],
-        "api": [
-            "python3"
-        ],
-        "description": "Binary Ninja Sidekick",
-        "longdescription": "# Sidekick\n\nSidekick takes reverse engineering to the next level. Sidekick is an extension to the BinaryNinja desktop application supported by an AI-powered service that provides new capabilities to help users analyze and understand binary programs.\n\n## Closed Beta\n\nThe Sidekick plugin is currently in a closed BETA stage of development and will not be fully functional without an active Sidekick account. To sign up for a Sidekick account and get on the waitlist, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n\nUsers who have been granted access to the Sidekick service should expect the quality of the product to be consistent with this stage of development.\n# Release Notes\n\nSidekick Client Revision: 0.2.68\n\n## Major Changes\n\n### Sidekick Service Plans\n\nNew in this release are Sidekick service plans. Users must purchase a plan in order to gain access to the Sidekick service. Currently, there is a waitlist for purchasing a plan. To get on the waitlist, create a Sidekick account <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n\n### Sidekick API Keys\n\nIn order to access the Sidekick service, you must have a valid API key obtained by purchasing a Sidekick plan. Copy this API key to \"sidekick.api_key\" in Settings.\n\n\nFor more information on Sidekick features, check out the <a href='https://docs.sidekick.binary.ninja/guide/guide'>User's Guide</a>\n\n## Other Updates\n\n- Improvement: (Notebook) Include instruction address information for better notebook contexts\n- Fix: Use demangled names for function names\n- Improvement: (Notebook) Use better language model for notebooks\n- Improvement: (Notebook) Include function names associated with messages when filtering messages\n- Feature: (UI) Add offline/online mode to disable/enable access to the Sidekick service\n",
-        "license": {
-            "name": "Commercial",
-            "text": "This plugin is fully copyright Vector 35 Inc except as otherwise noted in the source. While source is distributed, no rights to the source are granted beyond those to submodules described <a href='https://docs.sidekick.binary.ninja/about/open-source/'>here</a>. Use of this plugin should be consistent with the terms of service available <a href='https://docs.sidekick.binary.ninja/about/terms-of-service/'>here</a>."
-        },
-        "platforms": [
-            "Darwin",
-            "Linux",
-            "Windows"
-        ],
-        "installinstructions": {
-            "Darwin": "no special instructions, package manager is recommended",
-            "Linux": "no special instructions, package manager is recommended",
-            "Windows": "no special instructions, package manager is recommended"
-        },
-        "dependencies": "requests>=2.28.2,<3\npygments>=2.14.0,<3\nnetworkx>=3.0.0,<4\nintervaltree>=3.0.2,<4\nsentence-transformers>=2.2.2,<3\nscikit-learn>=1.1.3,<2\npyjarowinkler>=1.8,<2\nmarkdown\nwatchdog\n",
-        "version": "0.2.68",
-        "author": "Vector 35 Inc",
-        "minimumbinaryninjaversion": 4450,
-        "lastUpdated": 1701418477,
-        "projectUrl": "https://github.com/Vector35/Sidekick",
-        "projectData": {
-            "stargazers_count": 1
-        },
-        "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://plugin.sidekick.binary.ninja/plugins/sidekick-0.2.68.zip",
-        "path": "Vector35_Sidekick"
-    },
-    {
-        "pluginmetadataversion": 2,
         "name": "EFI Resolver",
         "type": [
             "platform"
