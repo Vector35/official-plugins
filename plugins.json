@@ -10,7 +10,7 @@
             "python3"
         ],
         "description": "Binary Ninja Sidekick",
-        "longdescription": "# Sidekick\n\nSidekick makes reversing easy. Sidekick is an extension to the BinaryNinja desktop application supported by an AI-powered service that provides new capabilities to help users analyze and understand binary programs.\n\n## Closed Beta\n\nThe Sidekick plugin is currently in a closed BETA stage of development and will not be fully functional without an active Sidekick account. To sign up for a Sidekick account and get on the waitlist, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n\nUsers who have been granted access to the Sidekick service should expect the quality of the product to be consistent with this stage of development.\n# Release Notes\n\nSidekick Client Revision: 0.2.80\n\n## Major Changes\n\n### IL Support for Notebooks\n\nPreviously, the Notebook assistant only had access to the Pseudo-C IL. Now users can now ask questions for any of the ILs.\n\n### Notebook Assistant Improvement\n\nIn order to better assist requests to the Notebook Assistant, Sidekick can support requests initiated by the backend language model to provide additional information from the binary using the Binary Ninja APIs based on what it determines is needed to complete the user's request for assistance.\n\n### Example Indexes\n\nPreviously, we provided a collection of available indexer scripts as a remote provider, which could only be accessed through the Sidekick service. Many of those scripts do not need access to the Sidekick service to successfully execute. Therefore, we are including those as Examples as part of the plugin available for anyone to use. You're welcome!\n\n## Other Updates\n\n- Fix: Fix ILException ImportError to make compatible with BinaryNinja stable\n- Improvement: Refactor of API client\n- Improvement: (Notebook) Allow user to ask questions for any of the ILs\n- Improvement: (Notebook) Update notebook assistant to provide additional information from the binary when requested by the language model\n- Fix: (Indexes) Fix name/path inconsistencies with the indexers source provider\n- Improvement: (Indexes) Include Example indexes from Sidekick indexes that do not require backend service\n- Fix: (Indexes) Move the indexers search to a background thread to prevent blocking the main UI thread\n- Improvement: (Settings) Configure sidekick.api_key Setting to require restart\n- Fix: (Indexes) Fix regression of adding created indexer to local indexer list\n- Improvement: (UI) Shorten sidebar names, but leave \"Sidekick\" in tooltips\n- Improvement: (UI) (Indexes) Move extra indexer buttons to hamburger menu\n",
+        "longdescription": "# Sidekick\n\nSidekick makes reversing easy. Sidekick is an extension to the BinaryNinja desktop application supported by an AI-powered service that provides new capabilities to help users analyze and understand binary programs.\n\n## Closed Beta\n\nThe Sidekick plugin is currently in a closed BETA stage of development and will not be fully functional without an active Sidekick account. To sign up for a Sidekick account and get on the waitlist, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n\nUsers who have been granted access to the Sidekick service should expect the quality of the product to be consistent with this stage of development.\n# Release Notes\n\nSidekick Client Revision: 0.2.82\n\n## Major Changes\n\n### Improved Variable Naming\n\nAs the title suggests, we've made some improvements to naming variables, or so we think.\n\n### Smarter Function Chunking\n\nSupporting large functions has always been a challenge. We have made another step forward in solving this problem by improving how we chunk functions.\n\n### Backend Code Refactor\n\nWhile transparent to our users, this update on our end will allow us to better maintain the service going forward and hopefully provide everyone with an overall improved quality of Sidekick life.\n\n## Other Updates\n\n- Fix: (Notebook) Break out of chat turns when repetitive functions are encountered\n- Fix: Silence warning about tokenizers library\n- Improvement: (Indexes) Auto-select indexer after creation\n- Fix: Remove unnecessary log messages\n- Improvement: Improved variable naming\n- Improvement: Smarter function chunking\n- Improvement: Support naming of large functions\n- Fix: Improve handling of errors from Sidekick server\n",
         "license": {
             "name": "Commercial",
             "text": "This plugin is fully copyright Vector 35 Inc except as otherwise noted in the source. While source is distributed, no rights to the source are granted beyond those to submodules described <a href='https://docs.sidekick.binary.ninja/about/open-source/'>here</a>. Use of this plugin should be consistent with the terms of service available <a href='https://docs.sidekick.binary.ninja/about/terms-of-service/'>here</a>."
@@ -26,17 +26,17 @@
             "Windows": "no special instructions, package manager is recommended"
         },
         "dependencies": "requests>=2.28.2,<3\npygments>=2.14.0,<3\nnetworkx>=3.0.0,<4\nintervaltree>=3.0.2,<4\nsentence-transformers>=2.2.2,<3\nscikit-learn>=1.1.3,<2\npyjarowinkler>=1.8,<2\nmarkdown\nwatchdog\npydantic>=1.10,<2\n",
-        "version": "0.2.80",
+        "version": "0.2.82",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 4450,
-        "lastUpdated": 1702059485,
+        "lastUpdated": 1703075356,
         "projectUrl": "https://github.com/Vector35/Sidekick",
         "projectData": {
             "full_name": "Vector35/Sidekick",
             "stargazers_count": 1
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://plugin.sidekick.binary.ninja/plugins/sidekick-0.2.80.zip",
+        "packageUrl": "https://plugin.sidekick.binary.ninja/plugins/sidekick-0.2.82.zip",
         "path": "Vector35_Sidekick"
     },
     {
@@ -539,8 +539,8 @@
             "svn_url": "https://github.com/Vector35/tanto",
             "homepage": "",
             "size": 478,
-            "stargazers_count": 45,
-            "watchers_count": 45,
+            "stargazers_count": 44,
+            "watchers_count": 44,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -572,7 +572,7 @@
             "visibility": "public",
             "forks": 1,
             "open_issues": 3,
-            "watchers": 45,
+            "watchers": 44,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -938,8 +938,8 @@
             "svn_url": "https://github.com/Vector35/kaitai",
             "homepage": null,
             "size": 11452,
-            "stargazers_count": 31,
-            "watchers_count": 31,
+            "stargazers_count": 32,
+            "watchers_count": 32,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -960,7 +960,7 @@
             "visibility": "public",
             "forks": 4,
             "open_issues": 1,
-            "watchers": 31,
+            "watchers": 32,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1133,8 +1133,8 @@
             "svn_url": "https://github.com/Vector35/snippets",
             "homepage": null,
             "size": 4207,
-            "stargazers_count": 17,
-            "watchers_count": 17,
+            "stargazers_count": 18,
+            "watchers_count": 18,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1161,7 +1161,7 @@
             "visibility": "public",
             "forks": 5,
             "open_issues": 13,
-            "watchers": 17,
+            "watchers": 18,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
