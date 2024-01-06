@@ -185,7 +185,7 @@ def getPluginJson(plugin, shortUrls):
 
     if isinstance(data["api"], str):
         data["api"] = [data["api"]]
-    if "minimumBinaryNinjaVersion" not in data or not isinstance(data["minimumBinaryNinjaVersion"], int):
+    if ("minimumbinaryninjaversion" not in data or not isinstance(data["minimumbinaryninjaversion"], int)) or ("minimumBinaryNinjaVersion" not in data or not isinstance(data["minimumBinaryNinjaVersion"], int)):
         data["minimumBinaryNinjaVersion"] = 0
     if "platforms" not in data:
         data["platforms"] = []
@@ -225,9 +225,8 @@ def main():
     for i, plugin in enumerate(listing):
         printProgressBar(i, len(listing), prefix="Collecting Plugin JSON files:")
         jsonData = getPluginJson(plugin, shortUrls)
-        if jsonData is None:
-            return
-        allPlugins[plugin["name"]] = jsonData
+        if jsonData is not None:
+            allPlugins[plugin["name"]] = jsonData
     printProgressBar(len(listing), len(listing), prefix="Collecting Plugin JSON files:")
 
     newPlugins = []
@@ -284,6 +283,8 @@ def main():
             readme.write(u"|------------|--------|--------------|---------|----------|-------------|\n")
 
             for plugin in dict(sorted(allPlugins.items(), key=lambda x: x[1]['name'].casefold())).values():
+                if "type" not in plugin:
+                    plugin['type'] = ["None"]
                 readme.write(f"|[{plugin['name']}]({plugin['projectUrl']})"
                     f"|[{plugin['author']}]({plugin['authorUrl']})"
                     f"|{datetime.fromtimestamp(plugin['lastUpdated']).date()}"
