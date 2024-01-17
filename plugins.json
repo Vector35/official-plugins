@@ -10,7 +10,7 @@
             "python3"
         ],
         "description": "Binary Ninja Sidekick",
-        "longdescription": "# Sidekick\n\nSidekick makes reversing easy. Sidekick is an extension to the BinaryNinja desktop application supported by an AI-powered service that provides new capabilities to help users analyze and understand binary programs.\n\n## Limited Public Release\n\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. The ability to purchase a Sidekick plan is available to a limited number of Sidekick account holders. To sign up for a Sidekick account and get on the waitlist, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n# Release Notes\n\nSidekick Client Revision: 0.3.83\n\n## Major Changes\n\n### Limited Public Release\n\nThe time has come to release Sidekick for purchase to a limited number of Sidekick account holders. To sign up for a Sidekick account and get on the waitlist, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n\nSignificant milestones like this warrant incrementing the minor version number. Other than that, we've made a couple of minor bug fixes to the client (see below) and updated our servers in preparation for this event. We look forward to supporting you as users and customers of Sidekick.\n\n\n## Other Updates\n\n- Fix: (Code Insight Map) Fix double-click navigation on edges in code insight map\n- Fix: Fix plugin main menu actions for Sidebar operations\n",
+        "longdescription": "# Sidekick\n\nSidekick makes reversing easy. Sidekick is an extension to the BinaryNinja desktop application supported by an AI-powered service that provides new capabilities to help users analyze and understand binary programs.\n\n## Limited Public Release\n\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. The ability to purchase a Sidekick plan is available to a limited number of Sidekick account holders. To sign up for a Sidekick account and get on the waitlist, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n# Release Notes\n\nSidekick Client Revision: 0.3.85\n\n## Major Changes\n\n### Online Mode Setting\n\nTired of having to always put Sidekick in offline mode on startup? Well, now Sidekick has a Binary Ninja Setting for setting Sidekick in online mode (\"sidekick.online\"). Setting the online mode via the status bar in the UI will also update this Setting.\n\n### API Timeout Setting\n\nPreviously, you could only wait up to 99 seconds for an API to timeout. Now you can wait forever and ever and ever ... (you get the idea).\n\n### Symbol Classification Batching\n\nTo keep everything and everyone happy and working properly, Sidekick now batches requests for symbol classification (used by some Indexer scripts).\n\n\n## Other Updates\n\n- Improvement: (Settings) Make online mode a Binary Ninja Setting\n- Improvement: (Settings) Update sidekick.api_timeout setting to allow for no timeout\n- Fix: Fix function chunking and variable naming on large functions\n- Improvement/Fix: (Indexes) Batch symbols classification requests\n- Fix: Various backend fixes related to unknown server errors in the client\n",
         "license": {
             "name": "Commercial",
             "text": "This plugin is fully copyright Vector 35 Inc except as otherwise noted in the source. While source is distributed, no rights to the source are granted beyond those to submodules described <a href='https://docs.sidekick.binary.ninja/about/open-source/'>here</a>. Use of this plugin should be consistent with the terms of service available <a href='https://docs.sidekick.binary.ninja/about/terms-of-service/'>here</a>."
@@ -26,17 +26,17 @@
             "Windows": "no special instructions, package manager is recommended"
         },
         "dependencies": "requests>=2.28.2,<3\npygments>=2.14.0,<3\nnetworkx>=3.0.0,<4\nintervaltree>=3.0.2,<4\nsentence-transformers>=2.2.2,<3\nscikit-learn>=1.1.3,<2\npyjarowinkler>=1.8,<2\nmarkdown\nwatchdog\npydantic>=1.10,<2\n",
-        "version": "0.3.83",
+        "version": "0.3.85",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 4450,
-        "lastUpdated": 1705350643,
+        "lastUpdated": 1705507401,
         "projectUrl": "https://github.com/vector35/sidekick-public",
         "projectData": {
             "full_name": "Vector35/Sidekick",
             "stargazers_count": 1
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://plugin.sidekick.binary.ninja/plugins/sidekick-0.3.83.zip",
+        "packageUrl": "https://plugin.sidekick.binary.ninja/plugins/sidekick-0.3.85.zip",
         "path": "Vector35_Sidekick"
     },
     {
@@ -145,8 +145,8 @@
             "svn_url": "https://github.com/Vector35/efi-resolver",
             "homepage": null,
             "size": 10,
-            "stargazers_count": 26,
-            "watchers_count": 26,
+            "stargazers_count": 27,
+            "watchers_count": 27,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -173,7 +173,7 @@
             "visibility": "public",
             "forks": 2,
             "open_issues": 0,
-            "watchers": 26,
+            "watchers": 27,
             "default_branch": "main",
             "permissions": {
                 "admin": true,
