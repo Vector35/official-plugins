@@ -10,7 +10,7 @@
             "python3"
         ],
         "description": "Binary Ninja Sidekick",
-        "longdescription": "# Sidekick\n\nSidekick makes reversing easy. Sidekick is an extension to the BinaryNinja desktop application supported by an AI-powered service that provides new capabilities to help users analyze and understand binary programs.\n\n## Limited Public Release\n\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. The ability to purchase a Sidekick plan is available to a limited number of Sidekick account holders. To sign up for a Sidekick account and get on the waitlist, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n# Release Notes\n\nSidekick Client Revision: 0.3.91\n\n## Major Changes\n\n### Struct/Field Naming in Large Contexts\n\nWe have made some improvements to our backend service to better handle requests to name structs/fields under large contexts ... since we know everyone likes analyzing large, unwieldy binaries.\n\n### Component Creation\n\nSince we were in the area of the backend service, we stopped off to improve our ability to detect components.\n\n## Other Updates\n\n- Improvement: (Suggestions) Improve naming during large struct/field naming requests\n- Improvement: (Component Creation) Backend improvements in component detection\n- Improvement: (Suggestions) Display demangled function names and truncate when large in context menu\n- Improvement: (Settings) Change Setting sidekick.online to sidekick.online_on_startup\n- Fix: Fix various backend bugs related to client errors reported by users\n",
+        "longdescription": "# Sidekick\n\nSidekick makes reversing easy. Sidekick is an extension to the BinaryNinja desktop application supported by an AI-powered service that provides new capabilities to help users analyze and understand binary programs.\n\n## Limited Public Release\n\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. To purchase a Sidekick plan, you must have a Sidekick account. To sign up for a Sidekick account, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n# Release Notes\n\nSidekick Client Revision: 0.3.92\n\n## Major Changes\n\n### Sidekick Open for All\n\nNo more waiting with bated breath in anticipation of getting access to Sidekick. Sidekick is now available to everyone for purchase!\n\n### Default High-Level Functions Indexer Returns Metadata\n\nWhile we have supported returning metadata from indexer scripts for display as additional columns within the Sidekick Index item list for some time now, we are now just making it the default behavior for the default high-level functions indexer script. For more information on writing indexer scripts that return metadata, read <a href='https://docs.sidekick.binary.ninja/guide/indexes/#returning-metadata-in-an-indexer-script'>this</a>.\n\n### Notify Users of High Demand\n\nWhile we will do our best to keep up with the demand now that Sidekick is open, you may experience temporary interruptions in service during periods of high demand. Don't worry though! We'll let you know when it happens, and you can try again later.\n\n### For New Users\n\nIf you're new to Sidekick or this is your first time looking at these notes, check out our <a href='https://docs.sidekick.binary.ninja'>user documentation</a> for more information about Sidekick.\n\nNow get out there and start battling those binaries. We just wanted to tell you good luck. We're all counting on you.\n\n## Other Updates\n\n- Fix: (Indexes) Fixed support for returning tuples from indexers\n- Enhancement: (Indexes) Return metadata in default high-level function indexer\n- Fix: (API) Notify user when service is unavailable due to high demand\n",
         "license": {
             "name": "Commercial",
             "text": "This plugin is fully copyright Vector 35 Inc except as otherwise noted in the source. While source is distributed, no rights to the source are granted beyond those to submodules described <a href='https://docs.sidekick.binary.ninja/about/open-source/'>here</a>. Use of this plugin should be consistent with the terms of service available <a href='https://docs.sidekick.binary.ninja/about/terms-of-service/'>here</a>."
@@ -26,18 +26,18 @@
             "Windows": "no special instructions, package manager is recommended"
         },
         "dependencies": "requests>=2.28.2,<3\npygments>=2.14.0,<3\nnetworkx>=3.0.0,<4\nintervaltree>=3.0.2,<4\nsentence-transformers>=2.2.2,<3\nscikit-learn>=1.1.3,<2\npyjarowinkler>=1.8,<2\nmarkdown\nwatchdog\npydantic>=1.10,<2\n",
-        "version": "0.3.91",
+        "version": "0.3.92",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 4450,
-        "lastUpdated": 1706202175,
+        "lastUpdated": 1707287141,
         "projectUrl": "https://github.com/vector35/sidekick-public",
         "projectData": {
             "full_name": "Vector35/Sidekick",
             "stargazers_count": 1,
-            "updated_at": "2024-01-25T12:02:55"
+            "updated_at": "2024-02-07T01:25:41"
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://plugin.sidekick.binary.ninja/plugins/sidekick-0.3.91.zip",
+        "packageUrl": "https://plugin.sidekick.binary.ninja/plugins/sidekick-0.3.92.zip",
         "path": "Vector35_Sidekick"
     },
     {
@@ -749,8 +749,8 @@
             "svn_url": "https://github.com/Vector35/6502",
             "homepage": null,
             "size": 179,
-            "stargazers_count": 4,
-            "watchers_count": 4,
+            "stargazers_count": 5,
+            "watchers_count": 5,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -771,7 +771,7 @@
             "visibility": "public",
             "forks": 2,
             "open_issues": 1,
-            "watchers": 4,
+            "watchers": 5,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -943,8 +943,8 @@
             "svn_url": "https://github.com/Vector35/kaitai",
             "homepage": null,
             "size": 11452,
-            "stargazers_count": 32,
-            "watchers_count": 32,
+            "stargazers_count": 33,
+            "watchers_count": 33,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -965,7 +965,7 @@
             "visibility": "public",
             "forks": 4,
             "open_issues": 1,
-            "watchers": 32,
+            "watchers": 33,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1139,8 +1139,8 @@
             "svn_url": "https://github.com/Vector35/snippets",
             "homepage": null,
             "size": 4229,
-            "stargazers_count": 18,
-            "watchers_count": 18,
+            "stargazers_count": 20,
+            "watchers_count": 20,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1167,7 +1167,7 @@
             "visibility": "public",
             "forks": 6,
             "open_issues": 13,
-            "watchers": 18,
+            "watchers": 20,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
