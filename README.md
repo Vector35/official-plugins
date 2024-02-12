@@ -3,6 +3,7 @@
 | PluginName | Author | Description | Last Updated | Type | License |
 |------------|--------|-------------|--------------|------|---------|
 |[6502 Architecture Plugin](https://github.com/Vector35/6502)|[Vector 35 Inc](https://github.com/Vector35)|An architecture plugin for 6502 and binary view for NES roms.|2023-05-30|architecture|MIT|
+|[COMpanion](https://github.com/Vector35/COMpanion)|[Vector 35 Inc](https://github.com/Vector35)|COMpanion is a plugin for Binary Ninja helps automate working with COM objects in Windows binaries.|2024-02-12|helper|MIT|
 |[EFI Resolver](https://github.com/Vector35/efi-resolver)|[Vector 35 Inc](https://github.com/Vector35)|A Binary Ninja plugin that automatically resolves type information for EFI protocol usage.|2023-06-15|platform|Apache-2.0|
 |[Kaitai UI Plugin](https://github.com/Vector35/kaitai)|[Vector 35 Inc](https://github.com/Vector35)|Browse hex with a tree view populated from Kaitai Struct formats.|2023-09-06|ui|MIT|
 |[Opaque Predicate Patcher](https://github.com/Vector35/OpaquePredicatePatcher)|[Vector 35 Inc](https://github.com/Vector35)|Automatically patch opaque predicates|2022-05-02|helper|MIT|
