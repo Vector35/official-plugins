@@ -4,6 +4,10 @@
         "site": "https://plugin.sidekick.binary.ninja/plugins.json"
     },
     {
+        "name": "Vector35/COMpanion",
+        "auto_update": true
+    },
+    {
         "name": "Vector35/efi-resolver",
         "auto_update": true
     },
