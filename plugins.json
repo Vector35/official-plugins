@@ -10,7 +10,7 @@
             "python3"
         ],
         "description": "Binary Ninja Sidekick",
-        "longdescription": "# Sidekick\n\nSidekick makes reversing easy. Sidekick is an extension to the BinaryNinja desktop application supported by an AI-powered service that provides new capabilities to help users analyze and understand binary programs.\n\n## Limited Public Release\n\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. To purchase a Sidekick plan, you must have a Sidekick account. To sign up for a Sidekick account, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n# Release Notes\n\nSidekick Client Revision: 0.3.92\n\n## Major Changes\n\n### Sidekick Open for All\n\nNo more waiting with bated breath in anticipation of getting access to Sidekick. Sidekick is now available to everyone for purchase!\n\n### Default High-Level Functions Indexer Returns Metadata\n\nWhile we have supported returning metadata from indexer scripts for display as additional columns within the Sidekick Index item list for some time now, we are now just making it the default behavior for the default high-level functions indexer script. For more information on writing indexer scripts that return metadata, read <a href='https://docs.sidekick.binary.ninja/guide/indexes/#returning-metadata-in-an-indexer-script'>this</a>.\n\n### Notify Users of High Demand\n\nWhile we will do our best to keep up with the demand now that Sidekick is open, you may experience temporary interruptions in service during periods of high demand. Don't worry though! We'll let you know when it happens, and you can try again later.\n\n### For New Users\n\nIf you're new to Sidekick or this is your first time looking at these notes, check out our <a href='https://docs.sidekick.binary.ninja'>user documentation</a> for more information about Sidekick.\n\nNow get out there and start battling those binaries. We just wanted to tell you good luck. We're all counting on you.\n\n## Other Updates\n\n- Fix: (Indexes) Fixed support for returning tuples from indexers\n- Enhancement: (Indexes) Return metadata in default high-level function indexer\n- Fix: (API) Notify user when service is unavailable due to high demand\n",
+        "longdescription": "# Sidekick\n\nSidekick makes reversing easy. Sidekick is an extension to the BinaryNinja desktop application supported by an AI-powered service that provides new capabilities to help users analyze and understand binary programs.\n\n## Limited Public Release\n\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. To purchase a Sidekick plan, you must have a Sidekick account. To sign up for a Sidekick account, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n# Release Notes\n\nSidekick Client Revision: 0.3.93\n\n## Major Changes\n\nNone\n\n## Other Updates\n\n- Fix: Fix import of ILException to be compatible with Binary Ninja 3.5 stable\n- Enhancement:  Add info log messages for actions that update the binary\n",
         "license": {
             "name": "Commercial",
             "text": "This plugin is fully copyright Vector 35 Inc except as otherwise noted in the source. While source is distributed, no rights to the source are granted beyond those to submodules described <a href='https://docs.sidekick.binary.ninja/about/open-source/'>here</a>. Use of this plugin should be consistent with the terms of service available <a href='https://docs.sidekick.binary.ninja/about/terms-of-service/'>here</a>."
@@ -26,18 +26,18 @@
             "Windows": "no special instructions, package manager is recommended"
         },
         "dependencies": "requests>=2.28.2,<3\npygments>=2.14.0,<3\nnetworkx>=3.0.0,<4\nintervaltree>=3.0.2,<4\nsentence-transformers>=2.2.2,<3\nscikit-learn>=1.1.3,<2\npyjarowinkler>=1.8,<2\nmarkdown\nwatchdog\npydantic>=1.10,<2\n",
-        "version": "0.3.92",
+        "version": "0.3.93",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 4450,
-        "lastUpdated": 1707287141,
+        "lastUpdated": 1707795911,
         "projectUrl": "https://github.com/vector35/sidekick-public",
         "projectData": {
             "full_name": "Vector35/Sidekick",
             "stargazers_count": 1,
-            "updated_at": "2024-02-07T01:25:41"
+            "updated_at": "2024-02-12T22:45:11"
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://plugin.sidekick.binary.ninja/plugins/sidekick-0.3.92.zip",
+        "packageUrl": "https://plugin.sidekick.binary.ninja/plugins/sidekick-0.3.93.zip",
         "path": "Vector35_Sidekick"
     },
     {
