@@ -10,7 +10,7 @@
             "python3"
         ],
         "description": "Binary Ninja Sidekick",
-        "longdescription": "# Sidekick\n\nSidekick makes reversing easy. Sidekick is an extension to the BinaryNinja desktop application supported by an AI-powered service that provides new capabilities to help users analyze and understand binary programs.\n\n## Limited Public Release\n\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. To purchase a Sidekick plan, you must have a Sidekick account. To sign up for a Sidekick account, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n# Release Notes\n\nSidekick Client Revision: 0.3.93\n\n## Major Changes\n\nNone\n\n## Other Updates\n\n- Fix: Fix import of ILException to be compatible with Binary Ninja 3.5 stable\n- Enhancement:  Add info log messages for actions that update the binary\n",
+        "longdescription": "# Sidekick\n\nSidekick makes reversing easy. Sidekick is an extension to the BinaryNinja desktop application supported by an AI-powered service that provides new capabilities to help users analyze and understand binary programs.\n\n## Limited Public Release\n\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. To purchase a Sidekick plan, you must have a Sidekick account. To sign up for a Sidekick account, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n# Release Notes\n\nSidekick Client Revision: 0.3.94\n\n## Major Changes\n\n### Code Comment Improvements\n\nWe have updated our backend system to generate better quality comments for a selection of code lines. In case you were not aware of this feature, you can select a set of code lines and click `Plugins->Sidekick->Add Comment for Selected Lines` from the main menu to have Sidekick generate an inline comment for the selection.\n\n## Other Updates\n\n- Fix: (Indexes) Convert index row address to 8-byte hex sterings when address is too large for signed integer type\n- Enhancement:  Refinements to inline comments\n- Fix: (Backend) Various backend fixes related to customer-reported client errors\n",
         "license": {
             "name": "Commercial",
             "text": "This plugin is fully copyright Vector 35 Inc except as otherwise noted in the source. While source is distributed, no rights to the source are granted beyond those to submodules described <a href='https://docs.sidekick.binary.ninja/about/open-source/'>here</a>. Use of this plugin should be consistent with the terms of service available <a href='https://docs.sidekick.binary.ninja/about/terms-of-service/'>here</a>."
@@ -26,18 +26,18 @@
             "Windows": "no special instructions, package manager is recommended"
         },
         "dependencies": "requests>=2.28.2,<3\npygments>=2.14.0,<3\nnetworkx>=3.0.0,<4\nintervaltree>=3.0.2,<4\nsentence-transformers>=2.2.2,<3\nscikit-learn>=1.1.3,<2\npyjarowinkler>=1.8,<2\nmarkdown\nwatchdog\npydantic>=1.10,<2\n",
-        "version": "0.3.93",
+        "version": "0.3.94",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 4450,
-        "lastUpdated": 1707795911,
+        "lastUpdated": 1708049763,
         "projectUrl": "https://github.com/vector35/sidekick-public",
         "projectData": {
             "full_name": "Vector35/Sidekick",
             "stargazers_count": 1,
-            "updated_at": "2024-02-12T22:45:11"
+            "updated_at": "2024-02-15T21:16:03"
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://plugin.sidekick.binary.ninja/plugins/sidekick-0.3.93.zip",
+        "packageUrl": "https://plugin.sidekick.binary.ninja/plugins/sidekick-0.3.94.zip",
         "path": "Vector35_Sidekick"
     },
     {
@@ -140,8 +140,8 @@
             "svn_url": "https://github.com/Vector35/COMpanion",
             "homepage": null,
             "size": 6,
-            "stargazers_count": 0,
-            "watchers_count": 0,
+            "stargazers_count": 1,
+            "watchers_count": 1,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -168,7 +168,7 @@
             "visibility": "public",
             "forks": 0,
             "open_issues": 0,
-            "watchers": 0,
+            "watchers": 1,
             "default_branch": "main",
             "permissions": {
                 "admin": true,
@@ -342,8 +342,8 @@
             "svn_url": "https://github.com/Vector35/efi-resolver",
             "homepage": null,
             "size": 10,
-            "stargazers_count": 28,
-            "watchers_count": 28,
+            "stargazers_count": 29,
+            "watchers_count": 29,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -370,7 +370,7 @@
             "visibility": "public",
             "forks": 2,
             "open_issues": 0,
-            "watchers": 28,
+            "watchers": 29,
             "default_branch": "main",
             "permissions": {
                 "admin": true,
