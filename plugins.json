@@ -1255,10 +1255,10 @@
             "Windows": "no special instructions, package manager is recommended"
         },
         "dependencies": "pygments>=2.7.0\n",
-        "version": "1.22",
+        "version": "1.23",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 1528,
-        "lastUpdated": 1681746765,
+        "lastUpdated": 1708897308,
         "projectUrl": "https://github.com/Vector35/snippets",
         "projectData": {
             "id": 211351389,
@@ -1327,8 +1327,8 @@
             "releases_url": "https://api.github.com/repos/Vector35/snippets/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/snippets/deployments",
             "created_at": "2019-09-27T15:39:09Z",
-            "updated_at": "2023-04-17T15:52:45",
-            "pushed_at": "2024-01-12T19:17:58Z",
+            "updated_at": "2024-02-25T21:41:48",
+            "pushed_at": "2024-02-25T21:41:42Z",
             "git_url": "git://github.com/Vector35/snippets.git",
             "ssh_url": "git@github.com:Vector35/snippets.git",
             "clone_url": "https://github.com/Vector35/snippets.git",
@@ -1423,10 +1423,10 @@
             "subscribers_count": 7
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/snippets/zipball/refs/tags/1.22",
-        "packageShortUrl": "https://v35.us/vzvzkxz",
+        "packageUrl": "https://api.github.com/repos/Vector35/snippets/zipball/refs/tags/1.23",
+        "packageShortUrl": "https://v35.us/bs1zyn2",
         "path": "Vector35_snippets",
-        "commit": "50035d3ae0a05e919f7e5b27ecb6b94b756fdf82",
+        "commit": "8fcf9af4fc0d743861772f69859a3e41b0b06b35",
         "minimumBinaryNinjaVersion": 0
     },
     {
