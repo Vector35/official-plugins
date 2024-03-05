@@ -153,7 +153,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 0,
+            "open_issues_count": 1,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -167,7 +167,7 @@
             "topics": [],
             "visibility": "public",
             "forks": 0,
-            "open_issues": 0,
+            "open_issues": 1,
             "watchers": 1,
             "default_branch": "main",
             "permissions": {
@@ -225,7 +225,7 @@
                 }
             },
             "network_count": 0,
-            "subscribers_count": 2
+            "subscribers_count": 3
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/COMpanion/zipball/refs/tags/0.1.1",
@@ -828,7 +828,7 @@
                 }
             },
             "network_count": 1,
-            "subscribers_count": 8
+            "subscribers_count": 9
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/tanto/zipball/refs/tags/1.0.1",
@@ -1024,7 +1024,7 @@
                 }
             },
             "network_count": 2,
-            "subscribers_count": 6
+            "subscribers_count": 7
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/6502/zipball/refs/tags/2.0.1",
@@ -1218,7 +1218,7 @@
                 }
             },
             "network_count": 4,
-            "subscribers_count": 8
+            "subscribers_count": 9
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/kaitai/zipball/refs/tags/1.1.7",
@@ -1255,10 +1255,10 @@
             "Windows": "no special instructions, package manager is recommended"
         },
         "dependencies": "pygments>=2.7.0\n",
-        "version": "1.23",
+        "version": "1.24",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 1528,
-        "lastUpdated": 1708897308,
+        "lastUpdated": 1709666092,
         "projectUrl": "https://github.com/Vector35/snippets",
         "projectData": {
             "id": 211351389,
@@ -1327,16 +1327,16 @@
             "releases_url": "https://api.github.com/repos/Vector35/snippets/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/snippets/deployments",
             "created_at": "2019-09-27T15:39:09Z",
-            "updated_at": "2024-02-25T21:41:48",
-            "pushed_at": "2024-02-25T21:41:42Z",
+            "updated_at": "2024-03-05T19:14:52",
+            "pushed_at": "2024-03-05T19:14:45Z",
             "git_url": "git://github.com/Vector35/snippets.git",
             "ssh_url": "git@github.com:Vector35/snippets.git",
             "clone_url": "https://github.com/Vector35/snippets.git",
             "svn_url": "https://github.com/Vector35/snippets",
             "homepage": null,
-            "size": 4229,
-            "stargazers_count": 20,
-            "watchers_count": 20,
+            "size": 4111,
+            "stargazers_count": 21,
+            "watchers_count": 21,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1348,7 +1348,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 14,
+            "open_issues_count": 15,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -1362,8 +1362,8 @@
             "topics": [],
             "visibility": "public",
             "forks": 6,
-            "open_issues": 14,
-            "watchers": 20,
+            "open_issues": 15,
+            "watchers": 21,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1420,13 +1420,13 @@
                 }
             },
             "network_count": 6,
-            "subscribers_count": 7
+            "subscribers_count": 8
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/snippets/zipball/refs/tags/1.23",
-        "packageShortUrl": "https://v35.us/bs1zyn2",
+        "packageUrl": "https://api.github.com/repos/Vector35/snippets/zipball/refs/tags/1.24",
+        "packageShortUrl": "https://v35.us/p1qaigq",
         "path": "Vector35_snippets",
-        "commit": "8fcf9af4fc0d743861772f69859a3e41b0b06b35",
+        "commit": "41675f1e13bccf2892a29504359b706ef627046b",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -1827,7 +1827,7 @@
                 }
             },
             "network_count": 10,
-            "subscribers_count": 6
+            "subscribers_count": 7
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/sample_plugin/zipball/refs/tags/1.3.5",
@@ -1936,7 +1936,7 @@
             "deployments_url": "https://api.github.com/repos/Vector35/Z80/deployments",
             "created_at": "2019-08-05T15:04:30Z",
             "updated_at": "2023-09-06T14:00:41",
-            "pushed_at": "2023-09-06T14:01:17Z",
+            "pushed_at": "2024-03-05T07:37:12Z",
             "git_url": "git://github.com/Vector35/Z80.git",
             "ssh_url": "git@github.com:Vector35/Z80.git",
             "clone_url": "https://github.com/Vector35/Z80.git",
@@ -1956,7 +1956,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 0,
+            "open_issues_count": 6,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -1970,7 +1970,7 @@
             "topics": [],
             "visibility": "public",
             "forks": 3,
-            "open_issues": 0,
+            "open_issues": 6,
             "watchers": 6,
             "default_branch": "master",
             "permissions": {
@@ -2028,7 +2028,7 @@
                 }
             },
             "network_count": 3,
-            "subscribers_count": 5
+            "subscribers_count": 6
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/Z80/zipball/refs/tags/1.5",
@@ -2146,8 +2146,8 @@
             "svn_url": "https://github.com/Vector35/sigkit",
             "homepage": "https://binary.ninja/2020/03/11/signature-libraries.html",
             "size": 538,
-            "stargazers_count": 45,
-            "watchers_count": 45,
+            "stargazers_count": 46,
+            "watchers_count": 46,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -2155,7 +2155,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 7,
+            "forks_count": 8,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -2176,9 +2176,9 @@
                 "reverse-engineering"
             ],
             "visibility": "public",
-            "forks": 7,
+            "forks": 8,
             "open_issues": 7,
-            "watchers": 45,
+            "watchers": 46,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -2234,8 +2234,8 @@
                     "status": "disabled"
                 }
             },
-            "network_count": 7,
-            "subscribers_count": 9
+            "network_count": 8,
+            "subscribers_count": 10
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/sigkit/zipball/refs/tags/1.2.1",
