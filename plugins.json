@@ -10,7 +10,7 @@
             "python3"
         ],
         "description": "Binary Ninja Sidekick",
-        "longdescription": "# Sidekick\n\nSidekick makes reversing easy. Sidekick is an extension to the BinaryNinja desktop application supported by an AI-powered service that provides new capabilities to help users analyze and understand binary programs.\n\n## Limited Public Release\n\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. To purchase a Sidekick plan, you must have a Sidekick account. To sign up for a Sidekick account, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n# Release Notes\n\nSidekick Client Revision: 0.3.96\n\n## Notable Changes\n\n### Main Menu Actions for Specific Suggestion Types\n\nTired of always clicking the hamburger menu in the Suggestions Sidebar to run specific suggestion types such as \"Suggest Function Comment\" or \"Suggestion Variable Names\"? Well, now you can click on the `Plugins->Sidekick` main menu instead. More importantly, you can bind these actions to a hot-key in your key bindings (and replace the sound of mouse clicks with key presses).\n\n### Backend Service Stability Improvements\n\nNobody likes experiencing service errors, so we fixed some bugs and added a few improvements to our backend service that should result in better overall stability.\n\n## Other Updates\n\n- Improvement: (Suggestions) Add actions to Plugins->Sidekick main menu for specific suggestion types (e.g. Suggest Function Comment)\n- Fix: (Backend) Various backend fixes related to customer reporte client errors\n- Improvement: (Backend) Improve stability of the service\n- Improvement: Use QTimer (instead of threading) to delay getting api key from user on main thread\n- Fix: (Indexes) Use only plain text in indexer description widget\n",
+        "longdescription": "# Sidekick\n\nSidekick makes reversing easy. Sidekick is an extension to the BinaryNinja desktop application supported by an AI-powered service that provides new capabilities to help users analyze and understand binary programs.\n\n## Limited Public Release\n\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. To purchase a Sidekick plan, you must have a Sidekick account. To sign up for a Sidekick account, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n# Release Notes\n\nSidekick Client Revision: 0.3.102\n\n## Notable Changes\n\n### Notebook Context/Location Improvements\n\nWe made some improvements to the Notebook assistant to be smarter and more efficient about capturing context when responding to your messages.\n\nAlso, did you ever notice that when moving around in the binary that the Notebook assistant would sometimes lose track of where you are in the binary? Well, we've fixed that ... along with its GPS receiver. (Just kidding about the GPS receiver part.)\n\n### Backend Service Improvements to Handle Large Functions\n\nWe know some of you like looking at big functions, so we made some changes to better support handling large functions, most notably in the Notebook chat.\n\n### Download of Models for Index Catalog Search\n\nSome of you may have experienced a slight hang when opening the Indexes sidebar the first time after installing Sidekick while Sidekick downloads a model it uses to search the Index catalog. We fixed that along with the pesky dialog notification that seemed to keep coming back on restart for some users. You're welcome.\n\n## Other Updates\n\n- Improvement: (Backend) Improve handling of large functions\n- Fix: Handle unavailable MLIL\n- Fix: (Structure Recovery) Fix exception raising\n- Improvement: (Notebook) Improve notebook's handling of user location\n- Improvement: (Notebook) Improve handling of HLIL\n- Improvement: (Notebook) Provide line and block context for requests\n- Improvement: Replace uses of Binary Ninja \"visit\" API with \"traverse\" API\n- Fix: (Indexes) Cleanup tab control and enter to accept on Indexes dialog\n- Fix: (Notebook) Fix copying of text selections to clipboard using \"Cmd/Cntrl + C\"\n- Fix: (Indexes) Download models used to search the indexers catalog on a background thread\n- Fix: Fix code block colors for dark/light theme\n- Fix: (Suggestions) Fix selection behavior in suggestions\n- Fix: (Notebook) Fix sending messages in Binary Ninja 3.5 stable\n- Fix: (Notebook) Fix page naming when page name already exists\n",
         "license": {
             "name": "Commercial",
             "text": "This plugin is fully copyright Vector 35 Inc except as otherwise noted in the source. While source is distributed, no rights to the source are granted beyond those to submodules described <a href='https://docs.sidekick.binary.ninja/about/open-source/'>here</a>. Use of this plugin should be consistent with the terms of service available <a href='https://docs.sidekick.binary.ninja/about/terms-of-service/'>here</a>."
@@ -26,18 +26,18 @@
             "Windows": "no special instructions, package manager is recommended"
         },
         "dependencies": "requests>=2.28.2,<3\npygments>=2.14.0,<3\nnetworkx>=3.0.0,<4\nintervaltree>=3.0.2,<4\nsentence-transformers>=2.2.2,<3\nscikit-learn>=1.1.3,<2\npyjarowinkler>=1.8,<2\nmarkdown\nwatchdog\npydantic>=1.10,<2\n",
-        "version": "0.3.96",
+        "version": "0.3.102",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 4450,
-        "lastUpdated": 1708666107,
+        "lastUpdated": 1710265702,
         "projectUrl": "https://github.com/vector35/sidekick-public",
         "projectData": {
             "full_name": "Vector35/Sidekick",
             "stargazers_count": 1,
-            "updated_at": "2024-02-23T00:28:27"
+            "updated_at": "2024-03-12T13:48:22"
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://plugin.sidekick.binary.ninja/plugins/sidekick-0.3.96.zip",
+        "packageUrl": "https://plugin.sidekick.binary.ninja/plugins/sidekick-0.3.102.zip",
         "path": "Vector35_Sidekick"
     },
     {
@@ -1328,15 +1328,15 @@
             "deployments_url": "https://api.github.com/repos/Vector35/snippets/deployments",
             "created_at": "2019-09-27T15:39:09Z",
             "updated_at": "2024-03-05T19:14:52",
-            "pushed_at": "2024-03-05T19:14:45Z",
+            "pushed_at": "2024-03-09T01:20:11Z",
             "git_url": "git://github.com/Vector35/snippets.git",
             "ssh_url": "git@github.com:Vector35/snippets.git",
             "clone_url": "https://github.com/Vector35/snippets.git",
             "svn_url": "https://github.com/Vector35/snippets",
             "homepage": null,
-            "size": 4111,
-            "stargazers_count": 21,
-            "watchers_count": 21,
+            "size": 4112,
+            "stargazers_count": 22,
+            "watchers_count": 22,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1348,7 +1348,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 15,
+            "open_issues_count": 16,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -1362,8 +1362,8 @@
             "topics": [],
             "visibility": "public",
             "forks": 6,
-            "open_issues": 15,
-            "watchers": 21,
+            "open_issues": 16,
+            "watchers": 22,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1536,8 +1536,8 @@
             "svn_url": "https://github.com/Vector35/OpaquePredicatePatcher",
             "homepage": null,
             "size": 2317,
-            "stargazers_count": 55,
-            "watchers_count": 55,
+            "stargazers_count": 56,
+            "watchers_count": 56,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1564,7 +1564,7 @@
             "visibility": "public",
             "forks": 3,
             "open_issues": 1,
-            "watchers": 55,
+            "watchers": 56,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
