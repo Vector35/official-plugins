@@ -10,10 +10,10 @@
             "python3"
         ],
         "description": "Binary Ninja Sidekick",
-        "longdescription": "# Sidekick\n\nSidekick makes reversing easy. Sidekick is an extension to the BinaryNinja desktop application supported by an AI-powered service that provides new capabilities to help users analyze and understand binary programs.\n\n## Limited Public Release\n\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. To purchase a Sidekick plan, you must have a Sidekick account. To sign up for a Sidekick account, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n# Release Notes\n\nSidekick Client Revision: 0.3.102\n\n## Notable Changes\n\n### Notebook Context/Location Improvements\n\nWe made some improvements to the Notebook assistant to be smarter and more efficient about capturing context when responding to your messages.\n\nAlso, did you ever notice that when moving around in the binary that the Notebook assistant would sometimes lose track of where you are in the binary? Well, we've fixed that ... along with its GPS receiver. (Just kidding about the GPS receiver part.)\n\n### Backend Service Improvements to Handle Large Functions\n\nWe know some of you like looking at big functions, so we made some changes to better support handling large functions, most notably in the Notebook chat.\n\n### Download of Models for Index Catalog Search\n\nSome of you may have experienced a slight hang when opening the Indexes sidebar the first time after installing Sidekick while Sidekick downloads a model it uses to search the Index catalog. We fixed that along with the pesky dialog notification that seemed to keep coming back on restart for some users. You're welcome.\n\n## Other Updates\n\n- Improvement: (Backend) Improve handling of large functions\n- Fix: Handle unavailable MLIL\n- Fix: (Structure Recovery) Fix exception raising\n- Improvement: (Notebook) Improve notebook's handling of user location\n- Improvement: (Notebook) Improve handling of HLIL\n- Improvement: (Notebook) Provide line and block context for requests\n- Improvement: Replace uses of Binary Ninja \"visit\" API with \"traverse\" API\n- Fix: (Indexes) Cleanup tab control and enter to accept on Indexes dialog\n- Fix: (Notebook) Fix copying of text selections to clipboard using \"Cmd/Cntrl + C\"\n- Fix: (Indexes) Download models used to search the indexers catalog on a background thread\n- Fix: Fix code block colors for dark/light theme\n- Fix: (Suggestions) Fix selection behavior in suggestions\n- Fix: (Notebook) Fix sending messages in Binary Ninja 3.5 stable\n- Fix: (Notebook) Fix page naming when page name already exists\n",
+        "longdescription": "# Sidekick\n\nSidekick makes reversing easy. Sidekick is an extension to the BinaryNinja desktop application supported by an AI-powered service that provides new capabilities to help users analyze and understand binary programs.\n\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. To purchase a Sidekick plan, you must have a Sidekick account. To sign up for a Sidekick account, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n# Release Notes\n\nSidekick Client Revision: 0.4.115\n\n## Notable Changes\n\n### Legal Terms and Conditions\n\nWe have updated our <a href='https://docs.sidekick.binary.ninja/about/legal-terms-and-conditions/'>Legal Terms and Conditions</a>, which includes our Terms of Service and Data Privacy Policy. Please review them as your continued use of Sidekick constitutes acceptance of these terms.\n\n### Sidekick Assistant (formerly known as Sidekick Notebook)\n\nWhat shall we say first?\n\n1. Well, we gave this feature a new name to be more consistent with the primary service it provides.\n2. We gave the Assistant a more personalized icon too.\n3. We swapped things around a little by moving the page drop-down menu up and the search text box down. Hopefully you won't get motion sick.\n4. We added a button to create new pages more easily.\n5. Speaking of pages, we now set the page title automatically to something relevant to the content of the first request/response in the page, so you don't have to come up with one yourself (if you don't want to).\n6. We more clearly (and continually) display the current location so you (and the Assistant) always know where you're at.\n7. The Assistant now responds with nicer messages when making requests from non-code addresses.\n8. Did you ever notice when the Assistant used to get all shy and apologetic and not know what to say at times? Well, we've made some encouragements so that that doesn't happen as often and hopefully at all.\n\nThat should be about it ... for now.\n\n### Indexes Sidebar\n\nWe made some minor cosmetic changes to this sidebar by swapping positions of the index set drop-down menu and the search text box. We also added a button to add indexes more easily and to be consistent with our other sidebar buttons. We moved the previous button for re-running an index to the hamburger menu as an action. Since we were in the spirit of making new icons, we gave this one a new icon that better represents its function of generating tables of things in the binary.\n\n### Suggestions Sidebar\n\nWe changed the icon to be more illuminating (like what suggestions do). Nothing major, but worth noting since it's different.\n\n### Component Naming\n\nFor a long time we have viewed components as notionally representing compilation units. We have updated our component naming to be more consistent with that concept.\n\n### Sidekick Investigations Sidebar\n\nIt's about time we introduced a new feature sidebar. With Investigations, you can now automatically generate documentation tailored from a set of available pre-defined topics such as general man-page-like information, use-after-free instances, SQL injection instances, null pointer dereference instances, and more. The main concept for this feature is to launch topic-specific investigations for a given function and gather those results in one place.\n\n### Future Deprecation of Documentation View\n\nSince the new Sidekick Investigations feature includes everything that the Documentation View provides, we will be deprecating the Documentation View in a future release.\n\n## Release Changes\n\n- Change: (Legal) Update legal terms and conditions\n- Fix: Fix uses of `traverse` API\n- Improvement: (Backend) Refactor backend to improve service quality\n- Improvement: (Suggestions) Change double-click on suggestions to navigate only (i.e. do not select)\n- Fix: (Suggestions) Fix selection behavior in suggestions to follow Binary Ninja behavior for lists/trees\n- Improvement: (Assistant) Swap locations of search text box and page drop-down menu for better usability; always display current location\n- Improvement: (Components) Improve naming of components\n- Fix: Make sidekick online status visible from offline using address theme color\n- Improvement: Display Sidekick version number in the status bar\n- Improvement: (Indexes) Improve column resizing behavior in indexes sidebar\n- Fix: (Documentation) Fix quoting of documentation content for markdown rendering\n- Fix: (Assistant) Fix crash when sending Notebook message from an unsupported view location\n- Improvement: (Assistant) Enable right-click copy of entire message when no text is selected\n- Fix: (Indexes) Compile/evaluate indexer functions on a background thread\n- Feature: (Investigations) Implement new Invesigations Sidebar feature\n",
         "license": {
             "name": "Commercial",
-            "text": "This plugin is fully copyright Vector 35 Inc except as otherwise noted in the source. While source is distributed, no rights to the source are granted beyond those to submodules described <a href='https://docs.sidekick.binary.ninja/about/open-source/'>here</a>. Use of this plugin should be consistent with the terms of service available <a href='https://docs.sidekick.binary.ninja/about/terms-of-service/'>here</a>."
+            "text": "This plugin is fully copyright Vector 35 Inc except as otherwise noted in the source. While source is distributed, no rights to the source are granted beyond those to submodules described <a href='https://docs.sidekick.binary.ninja/about/open-source/'>here</a>. Use of this plugin should be consistent with the terms of service available <a href='https://docs.sidekick.binary.ninja/about/legal-terms-and-conditions/'>here</a>."
         },
         "platforms": [
             "Darwin",
@@ -21,23 +21,23 @@
             "Windows"
         ],
         "installinstructions": {
-            "Darwin": "no special instructions, package manager is recommended",
-            "Linux": "no special instructions, package manager is recommended",
-            "Windows": "no special instructions, package manager is recommended"
+            "Darwin": "Install Sidekick using the Binary Ninja Plugin Manager. We recommend setting Binary Ninja's Python to the default, bundled version of Python. If you configure a different version, then ensure that Sidekick's package dependencies are met in your site packages.",
+            "Linux": "Install Sidekick using the Binary Ninja Plugin Manager. We recommend setting Binary Ninja's Python to Python 3.10. If you configure a different version, then ensure that Sidekick's package dependencies are met in your site packages.",
+            "Windows": "Install Sidekick using the Binary Ninja Plugin Manager. We recommend setting Binary Ninja's Python to the default, bundled version of Python. If you configure a different version, then ensure that Sidekick's package dependencies are met in your site packages."
         },
         "dependencies": "requests>=2.28.2,<3\npygments>=2.14.0,<3\nnetworkx>=3.0.0,<4\nintervaltree>=3.0.2,<4\nsentence-transformers>=2.2.2,<3\nscikit-learn>=1.1.3,<2\npyjarowinkler>=1.8,<2\nmarkdown\nwatchdog\npydantic>=1.10,<2\n",
-        "version": "0.3.102",
+        "version": "0.4.115",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 4450,
-        "lastUpdated": 1710265702,
+        "lastUpdated": 1711656698,
         "projectUrl": "https://github.com/vector35/sidekick-public",
         "projectData": {
             "full_name": "Vector35/Sidekick",
             "stargazers_count": 1,
-            "updated_at": "2024-03-12T13:48:22"
+            "updated_at": "2024-03-28T16:11:38"
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://plugin.sidekick.binary.ninja/plugins/sidekick-0.3.102.zip",
+        "packageUrl": "https://plugin.sidekick.binary.ninja/plugins/sidekick-0.4.115.zip",
         "path": "Vector35_Sidekick"
     },
     {
@@ -828,7 +828,7 @@
                 }
             },
             "network_count": 1,
-            "subscribers_count": 9
+            "subscribers_count": 8
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/tanto/zipball/refs/tags/1.0.1",
@@ -1024,7 +1024,7 @@
                 }
             },
             "network_count": 2,
-            "subscribers_count": 7
+            "subscribers_count": 6
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/6502/zipball/refs/tags/2.0.1",
@@ -1139,8 +1139,8 @@
             "svn_url": "https://github.com/Vector35/kaitai",
             "homepage": null,
             "size": 11452,
-            "stargazers_count": 34,
-            "watchers_count": 34,
+            "stargazers_count": 35,
+            "watchers_count": 35,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1161,7 +1161,7 @@
             "visibility": "public",
             "forks": 4,
             "open_issues": 1,
-            "watchers": 34,
+            "watchers": 35,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1218,7 +1218,7 @@
                 }
             },
             "network_count": 4,
-            "subscribers_count": 9
+            "subscribers_count": 8
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/kaitai/zipball/refs/tags/1.1.7",
@@ -1328,7 +1328,7 @@
             "deployments_url": "https://api.github.com/repos/Vector35/snippets/deployments",
             "created_at": "2019-09-27T15:39:09Z",
             "updated_at": "2024-03-05T19:14:52",
-            "pushed_at": "2024-03-09T01:20:11Z",
+            "pushed_at": "2024-03-21T17:07:42Z",
             "git_url": "git://github.com/Vector35/snippets.git",
             "ssh_url": "git@github.com:Vector35/snippets.git",
             "clone_url": "https://github.com/Vector35/snippets.git",
@@ -1420,7 +1420,7 @@
                 }
             },
             "network_count": 6,
-            "subscribers_count": 8
+            "subscribers_count": 7
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/snippets/zipball/refs/tags/1.24",
@@ -1536,8 +1536,8 @@
             "svn_url": "https://github.com/Vector35/OpaquePredicatePatcher",
             "homepage": null,
             "size": 2317,
-            "stargazers_count": 56,
-            "watchers_count": 56,
+            "stargazers_count": 57,
+            "watchers_count": 57,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1564,7 +1564,7 @@
             "visibility": "public",
             "forks": 3,
             "open_issues": 1,
-            "watchers": 56,
+            "watchers": 57,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1827,7 +1827,7 @@
                 }
             },
             "network_count": 10,
-            "subscribers_count": 7
+            "subscribers_count": 6
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/sample_plugin/zipball/refs/tags/1.3.5",
@@ -2028,7 +2028,7 @@
                 }
             },
             "network_count": 3,
-            "subscribers_count": 6
+            "subscribers_count": 5
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/Z80/zipball/refs/tags/1.5",
@@ -2146,8 +2146,8 @@
             "svn_url": "https://github.com/Vector35/sigkit",
             "homepage": "https://binary.ninja/2020/03/11/signature-libraries.html",
             "size": 538,
-            "stargazers_count": 46,
-            "watchers_count": 46,
+            "stargazers_count": 47,
+            "watchers_count": 47,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -2178,7 +2178,7 @@
             "visibility": "public",
             "forks": 8,
             "open_issues": 7,
-            "watchers": 46,
+            "watchers": 47,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -2235,7 +2235,7 @@
                 }
             },
             "network_count": 8,
-            "subscribers_count": 10
+            "subscribers_count": 9
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/sigkit/zipball/refs/tags/1.2.1",
