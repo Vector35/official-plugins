@@ -225,7 +225,7 @@
                 }
             },
             "network_count": 0,
-            "subscribers_count": 3
+            "subscribers_count": 4
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/COMpanion/zipball/refs/tags/0.1.2",
@@ -240,13 +240,13 @@
         "pluginmetadataversion": 2,
         "name": "EFI Resolver",
         "type": [
-            "platform"
+            "helper"
         ],
         "api": [
             "python3"
         ],
         "description": "A Binary Ninja plugin that automatically resolves type information for EFI protocol usage.",
-        "longdescription": "EFI Resolver is a Binary Ninja plugin that automates the task of resolving EFI protocol type information. It propagates pointers to system table, boot services, and runtime services to any global variables where they are stored. The plugin also identifies references to the boot services protocol functions and applies type information according to the GUID passed to these functions. The plugin supports all of the core UEFI specification, but does not support vendor protocols.",
+        "longdescription": "EFI Resolver is a Binary Ninja plugin that automates the task of resolving EFI protocol type information. It propagates pointers to system table, MM system table, boot services, and runtime services to any global variables where they are stored. The plugin also identifies references to the boot services and MM protocol functions and applies type information according to the GUID passed to these functions. The plugin supports the core UEFI specification, but does not support vendor protocols.",
         "license": {
             "name": "Apache-2.0",
             "text": "Copyright 2023 Vector 35 Inc.\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License."
@@ -262,10 +262,10 @@
             "Windows": "no special instructions, package manager is recommended"
         },
         "dependencies": "",
-        "version": "1.0.1",
+        "version": "1.1.0",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 4333,
-        "lastUpdated": 1686854538,
+        "lastUpdated": 1715009133,
         "projectUrl": "https://github.com/Vector35/efi-resolver",
         "projectData": {
             "id": 653873241,
@@ -334,14 +334,14 @@
             "releases_url": "https://api.github.com/repos/Vector35/efi-resolver/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/efi-resolver/deployments",
             "created_at": "2023-06-14T23:44:54Z",
-            "updated_at": "2023-06-15T18:42:18",
-            "pushed_at": "2024-04-12T18:56:35Z",
+            "updated_at": "2024-05-06T15:25:33",
+            "pushed_at": "2024-05-06T15:02:01Z",
             "git_url": "git://github.com/Vector35/efi-resolver.git",
             "ssh_url": "git@github.com:Vector35/efi-resolver.git",
             "clone_url": "https://github.com/Vector35/efi-resolver.git",
             "svn_url": "https://github.com/Vector35/efi-resolver",
             "homepage": null,
-            "size": 16,
+            "size": 18,
             "stargazers_count": 30,
             "watchers_count": 30,
             "language": "Python",
@@ -430,10 +430,10 @@
             "subscribers_count": 5
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/efi-resolver/zipball/refs/tags/1.0.1",
-        "packageShortUrl": "https://v35.us/cqwlpra",
+        "packageUrl": "https://api.github.com/repos/Vector35/efi-resolver/zipball/refs/tags/1.1.0",
+        "packageShortUrl": "https://v35.us/xean4mt",
         "path": "Vector35_efiresolver",
-        "commit": "d570038d91e3579aaed58487a4c0c6a87f70465c",
+        "commit": "8748b19d9c3223a1f004efd99858b149d25badda",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -1335,8 +1335,8 @@
             "svn_url": "https://github.com/Vector35/snippets",
             "homepage": null,
             "size": 4127,
-            "stargazers_count": 22,
-            "watchers_count": 22,
+            "stargazers_count": 23,
+            "watchers_count": 23,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1363,7 +1363,7 @@
             "visibility": "public",
             "forks": 6,
             "open_issues": 17,
-            "watchers": 22,
+            "watchers": 23,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1536,8 +1536,8 @@
             "svn_url": "https://github.com/Vector35/OpaquePredicatePatcher",
             "homepage": null,
             "size": 2317,
-            "stargazers_count": 58,
-            "watchers_count": 58,
+            "stargazers_count": 59,
+            "watchers_count": 59,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1564,7 +1564,7 @@
             "visibility": "public",
             "forks": 3,
             "open_issues": 1,
-            "watchers": 58,
+            "watchers": 59,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1740,8 +1740,8 @@
             "svn_url": "https://github.com/Vector35/sample_plugin",
             "homepage": "",
             "size": 33,
-            "stargazers_count": 15,
-            "watchers_count": 15,
+            "stargazers_count": 16,
+            "watchers_count": 16,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -1770,7 +1770,7 @@
             "visibility": "public",
             "forks": 10,
             "open_issues": 0,
-            "watchers": 15,
+            "watchers": 16,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -2146,8 +2146,8 @@
             "svn_url": "https://github.com/Vector35/sigkit",
             "homepage": "https://binary.ninja/2020/03/11/signature-libraries.html",
             "size": 538,
-            "stargazers_count": 50,
-            "watchers_count": 50,
+            "stargazers_count": 51,
+            "watchers_count": 51,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -2178,7 +2178,7 @@
             "visibility": "public",
             "forks": 8,
             "open_issues": 7,
-            "watchers": 50,
+            "watchers": 51,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
