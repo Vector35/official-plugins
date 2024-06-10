@@ -1,7 +1,7 @@
 [
     {
         "name": "Sidekick",
-        "site": "https://plugin.staging.sidekick.binary.ninja/plugins.json" 
+        "site": "https://plugin.sidekick.binary.ninja/plugins.json" 
     },
     {
         "name": "Vector35/efi-resolver",
