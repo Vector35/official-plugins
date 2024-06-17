@@ -10,7 +10,7 @@
             "python3"
         ],
         "description": "Binary Ninja Sidekick",
-        "longdescription": "# Sidekick\n\nSidekick makes reversing easy. Sidekick is an extension to the BinaryNinja desktop application supported by an AI-powered service that provides new capabilities to help users analyze and understand binary programs.\n\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. To purchase a Sidekick plan, you must have a Sidekick account. To sign up for a Sidekick account, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n\n# Features\n\n## Recover Structures\n\nWhen the code contains a lot of references to structures and fields, things can get rather cluttered with all of the dereferenced pointers, field offsets, and nesting going on. Let Sidekick clean up and simplify all that by automatically identifying and creating referenced structures through its sophisticated program analyses.\n\nBefore Structure Recovery\n\n![structure recovery before](https://sidekick.binary.ninja/static/images/features-structure-recovery-before.png?raw=true)\n\nAfter Structure Recovery\n\n![structure recovery after](https://sidekick.binary.ninja/static/images/features-structure-recovery-after.png?raw=true)\n\n## Generate Meaningful Names\n\nGood names convey meaning and help you immediately understand what something is. Without them, it takes valuable time to understand the code. Thankfully, Sidekick analyzes your code and automatically generates meaningful names for functions, structures, fields, and variables.\n\n![naming](https://sidekick.binary.ninja/static/images/features-naming.png?raw=true)\n\n## Summarize Code\n\nSometimes, the code you're looking at can be quite large and complex. Sidekick can help cut down on the time you spend figuring out the bigger picture by automatically summarizing entire functions with an informative comment. Also, when you're focusing on the finer details, Sidekick has you covered. It can quickly produce clear, descriptive inline comments that explain any logic you encounter.\n\n![comments](https://sidekick.binary.ninja/static/images/features-comments.png?raw=true)\n\n## Answer Your Questions\n\nDon't know something about the code? Delve deeper into analysis of the binary as you drive discussions with the Sidekick AI assistant that possesses a vast amount of knowledge and code reasoning capabilities useful for reversing.\n\n![assistant](https://sidekick.binary.ninja/static/images/features-assistant.png?raw=true)\n\n## Launch Investigations\n\nSoftware is complex and can take significant resources to analyze. Sidekick is equipped and ready for you to launch focused investigations of the binary, where Sidekick guides the analysis, looking for evidences of the topic you want to research.\n\n![investigations](https://sidekick.binary.ninja/static/images/features-investigations.png?raw=true)\n\n## Search Effectively\n\nLooking for something in the binary and not sure where to find it? Sidekick comes with a catalog of powerful scripts that find items you care about. Need something more? Just describe what you want and let Sidekick generate the script for you automatically.\n\n![indexes](https://sidekick.binary.ninja/static/images/features-indexes.png?raw=true)\n\n## Visualize Behaviors\n\nTired of looking at busy, cluttered graphs to understand what the code is doing? Sidekick comes with the Code Insight Map view to help you quickly obtain a top-level understanding of the structure and functionality in the binary. Use this graph-based interface to selectively explore the content of and relationships among a focused set of topics.\n\n![code insight map](https://sidekick.binary.ninja/static/images/features-code-insight-map.png?raw=true)\n# Release Notes\n\nSidekick Client Revision: 1.1.119\n\n## Notable Changes\n\n### Fix for Sidekick Issue 1: API Key Stored in Binary Ninja Database (BNDB)\n\n#### Issue Summary\n\nIn versions of Sidekick below 1.1, the user's Sidekick API key was unintentionally stored inside of any BNDB when it was saved. No customer data or private information can be accessed with this API key and Sidekick does not have metered billing for API usage. But, because this API key can be leaked without the user's knowledge if a BNDB is shared with another person, we are revoking all API keys that have been used with these older versions of the Sidekick plugin out of an abundance of caution.\n\n#### Required Actions\n\nIf you are a Sidekick user with an active API key, you will not be able to access the Sidekick service again until you:\n\n* Update your Sidekick plugin to 1.1 or greater via the Plugin Manager\n* Log into your <a href='https://sidekick.binary.ninja/account'>Sidekick account</a> and navigate to your <a href='https://sidekick.binary.ninja/account#api-keys'>API Keys</a> to retrieve your new API key\n* Update your `sidekick.api_key` setting in Binary Ninja to use the new API key\n\nAt this point, Sidekick functionality should be restored. If this is not the case, <a href='mailto:sidekick@vector35.com'>contact us</a>.\n\nFor more information, read <a href='https://docs.sidekick.binary.ninja/issues/ski-1/'>Sidekick Issue 1</a>.\n\n## Release Changes\n\n- Fix: Fix Sidekick Issue 1 - API Key Stored in Binary Ninja Database\n- Fix: Add torch python package requirement to fix installation errors on Windows clients\n",
+        "longdescription": "# Sidekick\n\nSidekick makes reversing easy. Sidekick is an extension to the BinaryNinja desktop application supported by an AI-powered service that provides new capabilities to help users analyze and understand binary programs.\n\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. To purchase a Sidekick plan, you must have a Sidekick account. To sign up for a Sidekick account, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n\n# Features\n\n## Recover Structures\n\nWhen the code contains a lot of references to structures and fields, things can get rather cluttered with all of the dereferenced pointers, field offsets, and nesting going on. Let Sidekick clean up and simplify all that by automatically identifying and creating referenced structures through its sophisticated program analyses.\n\nBefore Structure Recovery\n\n![structure recovery before](https://sidekick.binary.ninja/static/images/features-structure-recovery-before.png?raw=true)\n\nAfter Structure Recovery\n\n![structure recovery after](https://sidekick.binary.ninja/static/images/features-structure-recovery-after.png?raw=true)\n\n## Generate Meaningful Names\n\nGood names convey meaning and help you immediately understand what something is. Without them, it takes valuable time to understand the code. Thankfully, Sidekick analyzes your code and automatically generates meaningful names for functions, structures, fields, and variables.\n\n![naming](https://sidekick.binary.ninja/static/images/features-naming.png?raw=true)\n\n## Summarize Code\n\nSometimes, the code you're looking at can be quite large and complex. Sidekick can help cut down on the time you spend figuring out the bigger picture by automatically summarizing entire functions with an informative comment. Also, when you're focusing on the finer details, Sidekick has you covered. It can quickly produce clear, descriptive inline comments that explain any logic you encounter.\n\n![comments](https://sidekick.binary.ninja/static/images/features-comments.png?raw=true)\n\n## Answer Your Questions\n\nDon't know something about the code? Delve deeper into analysis of the binary as you drive discussions with the Sidekick AI assistant that possesses a vast amount of knowledge and code reasoning capabilities useful for reversing.\n\n![assistant](https://sidekick.binary.ninja/static/images/features-assistant.png?raw=true)\n\n## Launch Investigations\n\nSoftware is complex and can take significant resources to analyze. Sidekick is equipped and ready for you to launch focused investigations of the binary, where Sidekick guides the analysis, looking for evidences of the topic you want to research.\n\n![investigations](https://sidekick.binary.ninja/static/images/features-investigations.png?raw=true)\n\n## Search Effectively\n\nLooking for something in the binary and not sure where to find it? Sidekick comes with a catalog of powerful scripts that find items you care about. Need something more? Just describe what you want and let Sidekick generate the script for you automatically.\n\n![indexes](https://sidekick.binary.ninja/static/images/features-indexes.png?raw=true)\n\n## Visualize Behaviors\n\nTired of looking at busy, cluttered graphs to understand what the code is doing? Sidekick comes with the Code Insight Map view to help you quickly obtain a top-level understanding of the structure and functionality in the binary. Use this graph-based interface to selectively explore the content of and relationships among a focused set of topics.\n\n![code insight map](https://sidekick.binary.ninja/static/images/features-code-insight-map.png?raw=true)\n# Release Notes\n\nSidekick Client Revision: 1.1.131\n\n## Notable Changes\n\n### Fix for Sidekick Issue 1: API Key Stored in Binary Ninja Database (BNDB)\n\n#### Issue Summary\n\nIn versions of Sidekick below 1.1, the user's Sidekick API key was unintentionally stored inside of any BNDB when it was saved. No customer data or private information can be accessed with this API key and Sidekick does not have metered billing for API usage. But, because this API key can be leaked without the user's knowledge if a BNDB is shared with another person, we are revoking all API keys that have been used with these older versions of the Sidekick plugin out of an abundance of caution.\n\n#### Required Actions\n\nIf you are a Sidekick user with an active API key, you will not be able to access the Sidekick service again until you:\n\n* Update your Sidekick plugin to 1.1 or greater via the Plugin Manager\n* Log into your <a href='https://sidekick.binary.ninja/account'>Sidekick account</a> and navigate to your <a href='https://sidekick.binary.ninja/account#api-keys'>API Keys</a> to retrieve your new API key\n* Update your `sidekick.api_key` setting in Binary Ninja to use the new API key\n\nAt this point, Sidekick functionality should be restored. If this is not the case, <a href='mailto:sidekick@vector35.com'>contact us</a>.\n\nFor more information, read <a href='https://docs.sidekick.binary.ninja/issues/ski-1/'>Sidekick Issue 1</a>.\n\n## Release Changes\n\n- Fix: Fix Sidekick Issue 1 - API Key Stored in Binary Ninja Database\n- Fix: Add torch python package requirement to fix installation errors on Windows clients\n",
         "license": {
             "name": "Commercial",
             "text": "This plugin is fully copyright Vector 35 Inc except as otherwise noted in the source. While source is distributed, no rights to the source are granted beyond those to submodules described <a href='https://docs.sidekick.binary.ninja/about/open-source/'>here</a>. Use of this plugin should be consistent with the terms of service available <a href='https://docs.sidekick.binary.ninja/about/legal-terms-and-conditions/'>here</a>."
@@ -25,19 +25,19 @@
             "Linux": "Install Sidekick using the Binary Ninja Plugin Manager. We recommend setting Binary Ninja's Python to Python 3.10. If you configure a different version, then ensure that Sidekick's package dependencies are met in your site packages.",
             "Windows": "Install Sidekick using the Binary Ninja Plugin Manager. We recommend setting Binary Ninja's Python to the default, bundled version of Python. If you configure a different version, then ensure that Sidekick's package dependencies are met in your site packages."
         },
-        "dependencies": "requests>=2.28.2,<3\npygments>=2.14.0,<3\nnetworkx>=3.0.0,<4\nintervaltree>=3.0.2,<4\ntorch>=2.2.2,<2.3.0\nsentence-transformers>=2.2.2,<3\nscikit-learn>=1.1.3,<2\npyjarowinkler>=1.8,<2\nmarkdown\nwatchdog\npydantic>=1.10,<2\n",
-        "version": "1.1.119",
+        "dependencies": "requests>=2.28.2,<3\npygments>=2.14.0,<3\nnetworkx>=3.0.0,<4\nintervaltree>=3.0.2,<4\nnumpy>=1.26,<2\ntorch>=2.2.2,<2.3.0\nsentence-transformers>=2.2.2,<3\nscikit-learn>=1.1.3,<2\npyjarowinkler>=1.8,<2\nmarkdown\nwatchdog\npydantic>=1.10,<2\n",
+        "version": "1.1.131",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 4450,
-        "lastUpdated": 1716523686,
+        "lastUpdated": 1718642971,
         "projectUrl": "https://github.com/vector35/sidekick-public",
         "projectData": {
             "full_name": "Vector35/Sidekick",
             "stargazers_count": 1,
-            "updated_at": "2024-05-24T00:08:06"
+            "updated_at": "2024-06-17T12:49:31"
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://plugin.sidekick.binary.ninja/plugins/sidekick-1.1.119.zip",
+        "packageUrl": "https://plugin.sidekick.binary.ninja/plugins/sidekick-1.1.131.zip",
         "path": "Vector35_Sidekick"
     },
     {
@@ -140,8 +140,8 @@
             "svn_url": "https://github.com/Vector35/COMpanion",
             "homepage": null,
             "size": 8,
-            "stargazers_count": 1,
-            "watchers_count": 1,
+            "stargazers_count": 2,
+            "watchers_count": 2,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -168,7 +168,7 @@
             "visibility": "public",
             "forks": 0,
             "open_issues": 0,
-            "watchers": 1,
+            "watchers": 2,
             "default_branch": "main",
             "permissions": {
                 "admin": true,
@@ -335,13 +335,13 @@
             "deployments_url": "https://api.github.com/repos/Vector35/efi-resolver/deployments",
             "created_at": "2023-06-14T23:44:54Z",
             "updated_at": "2024-05-06T15:25:33",
-            "pushed_at": "2024-05-06T15:02:01Z",
+            "pushed_at": "2024-06-10T19:49:11Z",
             "git_url": "git://github.com/Vector35/efi-resolver.git",
             "ssh_url": "git@github.com:Vector35/efi-resolver.git",
             "clone_url": "https://github.com/Vector35/efi-resolver.git",
             "svn_url": "https://github.com/Vector35/efi-resolver",
             "homepage": null,
-            "size": 18,
+            "size": 25,
             "stargazers_count": 31,
             "watchers_count": 31,
             "language": "Python",
@@ -351,11 +351,11 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 3,
+            "forks_count": 6,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 2,
+            "open_issues_count": 3,
             "license": {
                 "key": "other",
                 "name": "Other",
@@ -368,8 +368,8 @@
             "web_commit_signoff_required": false,
             "topics": [],
             "visibility": "public",
-            "forks": 3,
-            "open_issues": 2,
+            "forks": 6,
+            "open_issues": 3,
             "watchers": 31,
             "default_branch": "main",
             "permissions": {
@@ -426,7 +426,7 @@
                     "status": "disabled"
                 }
             },
-            "network_count": 3,
+            "network_count": 6,
             "subscribers_count": 5
         },
         "authorUrl": "https://github.com/Vector35",
@@ -1344,11 +1344,11 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 6,
+            "forks_count": 7,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 18,
+            "open_issues_count": 19,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -1361,8 +1361,8 @@
             "web_commit_signoff_required": false,
             "topics": [],
             "visibility": "public",
-            "forks": 6,
-            "open_issues": 18,
+            "forks": 7,
+            "open_issues": 19,
             "watchers": 23,
             "default_branch": "master",
             "permissions": {
@@ -1419,7 +1419,7 @@
                     "status": "disabled"
                 }
             },
-            "network_count": 6,
+            "network_count": 7,
             "subscribers_count": 7
         },
         "authorUrl": "https://github.com/Vector35",
@@ -1536,8 +1536,8 @@
             "svn_url": "https://github.com/Vector35/OpaquePredicatePatcher",
             "homepage": null,
             "size": 2317,
-            "stargazers_count": 59,
-            "watchers_count": 59,
+            "stargazers_count": 60,
+            "watchers_count": 60,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1564,7 +1564,7 @@
             "visibility": "public",
             "forks": 3,
             "open_issues": 1,
-            "watchers": 59,
+            "watchers": 60,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1740,8 +1740,8 @@
             "svn_url": "https://github.com/Vector35/sample_plugin",
             "homepage": "",
             "size": 33,
-            "stargazers_count": 16,
-            "watchers_count": 16,
+            "stargazers_count": 18,
+            "watchers_count": 18,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -1770,7 +1770,7 @@
             "visibility": "public",
             "forks": 10,
             "open_issues": 0,
-            "watchers": 16,
+            "watchers": 18,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
