@@ -1,12 +1,13 @@
 name: Update Plugin Repository
 on:
-  push:
-    paths:
-      - 'listing.json'
+#  push:
+#    paths:
+#      - 'listing.json'
   workflow_dispatch:
     inputs:
       message:
-        description: 'automatically update readme and plugin.json based on updates and latest listing'
+        #description: 'automatically update readme and plugin.json based on updates and latest listing'
+        description: 'DISABLED -- USE EXTENSION MANAGER'
         required: true
 
 jobs:
