@@ -8,6 +8,8 @@ on:
       message:
         #description: 'automatically update readme and plugin.json based on updates and latest listing'
         description: 'DISABLED -- USE EXTENSION MANAGER'
+        options: 
+        - DISABLED
         required: true
 
 jobs:
