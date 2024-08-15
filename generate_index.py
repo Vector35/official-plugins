@@ -120,7 +120,9 @@ def getPluginJson(plugin, shortUrls):
     else:
         pluginjson = f"{projectUrl}/contents/plugin.json?ref={plugin['tag']}"
     try:
-        content = getfile(pluginjson).json()['content']
+        if (content := getfile(pluginjson).json().get("content")) is None:
+            print(f"Unable to get content from {pluginjson}")
+            return None
         try:
             data = json.loads(base64.b64decode(content))
         except:
