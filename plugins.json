@@ -10,7 +10,7 @@
             "python3"
         ],
         "description": "Binary Ninja Sidekick",
-        "longdescription": "# Sidekick\n\nSidekick makes reversing easy. Sidekick is an extension to the BinaryNinja desktop application supported by an AI-powered service that provides new capabilities to help users analyze and understand binary programs.\n\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. To purchase a Sidekick plan, you must have a Sidekick account. To sign up for a Sidekick account, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n\n# Features\n\n## Accomplish Tasks Effectively\n\nWanting to explore the binary or analyze something specific? Sidekick comes with a powerful scripting workbench to help you quickly accomplish the tasks you care about. Just describe what you want and let Sidekick generate the script for you automatically.\n\n![analysis workbench](https://sidekick.binary.ninja/static/images/features-analysis-workbench.png?raw=true)\n\n## Answer Your Questions\n\nDon't know something about the code? Delve deeper into analysis of the binary as you drive discussions with the Sidekick AI assistant that possesses a vast amount of knowledge and code reasoning capabilities useful for reversing.\n\n![assistant](https://sidekick.binary.ninja/static/images/features-assistant.png?raw=true)\n\n## Generate Meaningful Names\n\nGood names convey meaning and help you immediately understand what something is. Without them, it takes valuable time to understand the code. Thankfully, Sidekick analyzes your code and automatically generates meaningful names for functions, structures, fields, and variables.\n\n![naming](https://sidekick.binary.ninja/static/images/features-naming.png?raw=true)\n\n\n## Visualize Behaviors\n\nTired of looking at busy, cluttered graphs to understand what the code is doing? Sidekick comes with the Code Insight Map view to help you quickly obtain a top-level understanding of the structure and functionality in the binary. Use this graph-based interface to selectively explore the content of and relationships among a focused set of topics.\n\n![code insight map](https://sidekick.binary.ninja/static/images/features-code-insight-map.png?raw=true)\n\n## Recover Structures\n\nWhen the code contains a lot of references to structures and fields, things can get rather cluttered with all of the dereferenced pointers, field offsets, and nesting going on. Let Sidekick clean up and simplify all that by automatically identifying and creating referenced structures through its sophisticated program analyses.\n\nBefore Structure Recovery\n\n![structure recovery before](https://sidekick.binary.ninja/static/images/features-structure-recovery-before.png?raw=true)\n\nAfter Structure Recovery\n\n![structure recovery after](https://sidekick.binary.ninja/static/images/features-structure-recovery-after.png?raw=true)\n\n## Show Points of Interest\n\nOnce you've found something worth keeping, it's nice to see and use it again. Sidekick allows you to store and organize items in the binary for easy reference using its Indexes feature.\n\n![indexes](https://sidekick.binary.ninja/static/images/features-indexes.png?raw=true)\n\n## Summarize Code\n\nSometimes the code you're looking at can be quite large and complex. Sidekick can help cut down on the time you spend figuring out the bigger picture by automatically summarizing entire functions with an informative comment. Also, when you're focusing on the finer details, Sidekick has you covered. It can quickly produce clear, descriptive inline comments that explain any logic you encounter.\n\n![comments](https://sidekick.binary.ninja/static/images/features-comments.png?raw=true)\n\n## Launch Investigations\n\nSoftware is complex and can take significant resources to analyze. Sidekick is equipped and ready for you to launch focused investigations of the binary, where Sidekick guides the analysis, looking for evidences of the topic you want to research.\n\n![investigations](https://sidekick.binary.ninja/static/images/features-investigations.png?raw=true)\n# Release Notes\n\nSidekick Client Revision: 2.0.176\n\n## Update Instructions\n\nIf you are updating from a current installation of the Sidekick plugin, then complete the following instructions based on the version of Binary Ninja currently installed:\n\nBinary Ninja version 4.2.5814 or later:\n\n* Open the Plugin Manager\n* Locate the Sidekick plugin\n* Click `Update`\n\nBinary Ninja version before 4.2.5814:\n\n* Open the Plugin Manager\n* Locate the Sidekick plugin\n* Click `Uninstall`\n* Restart Binary Ninja\n* Open the Plugin Manager\n* Locate the Sidekick plugin\n* Click `Install`\n\n## Notable Changes\n\n### Minimum Binary Ninja Version\n\nWe have updated the minimum version of Binary Ninja required for the Sidekick plugin to 4.0.4958. (We checked first to ensure that everyone currently using the Sidekick service already meets the requirement.)\n\n### Analysis Workbench\n\nPreviously, we released a <a href='https://www.youtube.com/watch?v=IdNFMIQ9roQ&t=4681s'>sneak preview</a> of the Analysis Workbench and the initial <a href='https://binary.ninja/2024/06/28/sidekick-beyond-chatgpt.html'>blog post</a> describing some of its features. Well now it's here and ready for you. The Sidekick Analysis Workbench Sidebar provides an interface for creating, modifying, and running scripts that blend both the capabilities of Python code and large language models to perform a wide variety of program analysis tasks.\n\nDescribe the task you want Sidekick to perform, iterate with Sidekick on the script, run it, and then review the results.\n\n![Analysis Workbench](https://docs.sidekick.binary.ninja/images/analysis_workbench_run_script_in_editor.png)\n\nExecute existing scripts directly at any time from the main workbench by selecting a script and clicking `Run`.\n\n![Analysis Workbench Run Script](https://docs.sidekick.binary.ninja/images/indexes_high_level_functions.png)\n\nTo learn more about the Analysis Workbench, check out our <a href='https://docs.sidekick.binary.ninja/guide/analysis_workbench'>docs</a>.\n\n### Sidekick Indexes\n\nIndexes have been simplified to focus on their main purpose of storing and displaying items in the binary. The prior ability to create scripts that add items to indexes has been moved to the Analysis Workbench.\n\nTo help make the transition easier, we have provided two mechanisms to convert your previous indexer scripts to Analysis Workbench scripts so that you can regenerate those indexes. You can import them from a Binary Ninja Database (BNDB) that contains them or from the Indexer Catalog in your Binary Ninja User Directory. From the top-level Sidekick Plugin menu, select one of these `Import Indexer Scripts` actions.\n\nLastly, we have added the feature to pin an index to a separate pane within the main view frame. This enables you to look at multiple indexes at a time.\n\nTo learn more about Indexes, check out our <a href='https://docs.sidekick.binary.ninja/guide/indexes'>docs</a>.\n\n### Suggestions Improvements\n\nWe have made several improvements to the Suggestions feature that should result in better stability, accuracy, and quality. One noticeable update is that despite suggestions being ... well ... suggestions (as the name suggests), for variable names, we now ensure that name suggestions are unique and do not conflict with existing names or suggested names. This means that you can now click `Accept All` with more confidence knowing that multiple variables will not have the same name.\n\n### Service Improvements\n\nWe regularly update our backend service to improve the overall quality of results from Sidekick. We have included several of those for this release that should make things faster and more accurate. You're welcome!\n\n## Release Changes\n\n* Feature: Analysis Workbench\n* Feature: Index Pinning\n* Feature: Cell preview of Index entry metadata columns\n* Feature: Mark Index entries as read-only (to prevent over-writing when re-freshing indexes)\n* Feature: (Indexes/UI) Main menu actions for importing legacy indexer scripts\n* Feature: (Suggestions) Provide feedback through accepted/rejected suggestions\n* Feature: (Suggestions) Symbol Alias suggestion\n* Improvement: Added support for symbol objects in indexes\n* Improvement: New icons for all Sidekick sidebars\n* Improvement: (Code Insight Map) New pin icon\n* Improvement: Check for updates; install and restart upon user approval\n* Improvement: Add main-menu actions for opening user guide, faq, plan purchase, and account sign-in\n* Improvement: Status bar indicator icon is clickable\n* Fix: (Assistant) Ensure unique page titles in the Assistant when auto-generated\n* Fix: (Code Insight Map) Do not recenter code insight map when double-clicking node in pinned mode\n* Fix: (Suggestions) Fix crash when making new suggestions for existing suggestions\n* Fix: (Suggestions) Do not duplicate existing function name and function comment suggestions\n* Fix: (Suggestions) Use unique names for variable, structure, and field name suggestions",
+        "longdescription": "# Sidekick\n\nSidekick makes reversing easy. Sidekick is an extension to the BinaryNinja desktop application supported by an AI-powered service that provides new capabilities to help users analyze and understand binary programs.\n\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. To purchase a Sidekick plan, you must have a Sidekick account. To sign up for a Sidekick account, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n\n# Features\n\n## Accomplish Tasks Effectively\n\nWanting to explore the binary or analyze something specific? Sidekick comes with a powerful scripting workbench to help you quickly accomplish the tasks you care about. Just describe what you want and let Sidekick generate the script for you automatically.\n\n![analysis workbench](https://sidekick.binary.ninja/static/images/features-analysis-workbench.png?raw=true)\n\n## Answer Your Questions\n\nDon't know something about the code? Delve deeper into analysis of the binary as you drive discussions with the Sidekick AI assistant that possesses a vast amount of knowledge and code reasoning capabilities useful for reversing.\n\n![assistant](https://sidekick.binary.ninja/static/images/features-assistant.png?raw=true)\n\n## Generate Meaningful Names\n\nGood names convey meaning and help you immediately understand what something is. Without them, it takes valuable time to understand the code. Thankfully, Sidekick analyzes your code and automatically generates meaningful names for functions, structures, fields, and variables.\n\n![naming](https://sidekick.binary.ninja/static/images/features-naming.png?raw=true)\n\n\n## Visualize Behaviors\n\nTired of looking at busy, cluttered graphs to understand what the code is doing? Sidekick comes with the Code Insight Map view to help you quickly obtain a top-level understanding of the structure and functionality in the binary. Use this graph-based interface to selectively explore the content of and relationships among a focused set of topics.\n\n![code insight map](https://sidekick.binary.ninja/static/images/features-code-insight-map.png?raw=true)\n\n## Recover Structures\n\nWhen the code contains a lot of references to structures and fields, things can get rather cluttered with all of the dereferenced pointers, field offsets, and nesting going on. Let Sidekick clean up and simplify all that by automatically identifying and creating referenced structures through its sophisticated program analyses.\n\nBefore Structure Recovery\n\n![structure recovery before](https://sidekick.binary.ninja/static/images/features-structure-recovery-before.png?raw=true)\n\nAfter Structure Recovery\n\n![structure recovery after](https://sidekick.binary.ninja/static/images/features-structure-recovery-after.png?raw=true)\n\n## Show Points of Interest\n\nOnce you've found something worth keeping, it's nice to see and use it again. Sidekick allows you to store and organize items in the binary for easy reference using its Indexes feature.\n\n![indexes](https://sidekick.binary.ninja/static/images/features-indexes.png?raw=true)\n\n## Summarize Code\n\nSometimes the code you're looking at can be quite large and complex. Sidekick can help cut down on the time you spend figuring out the bigger picture by automatically summarizing entire functions with an informative comment. Also, when you're focusing on the finer details, Sidekick has you covered. It can quickly produce clear, descriptive inline comments that explain any logic you encounter.\n\n![comments](https://sidekick.binary.ninja/static/images/features-comments.png?raw=true)\n\n## Launch Investigations\n\nSoftware is complex and can take significant resources to analyze. Sidekick is equipped and ready for you to launch focused investigations of the binary, where Sidekick guides the analysis, looking for evidences of the topic you want to research.\n\n![investigations](https://sidekick.binary.ninja/static/images/features-investigations.png?raw=true)\n# Release Notes\n\nSidekick Client Revision: 2.0.180\n\n## Update Instructions\n\nIf you are updating from a current installation of the Sidekick plugin, then complete the following instructions based on the version of Binary Ninja currently installed:\n\nBinary Ninja version 4.2.5814 or later:\n\n* Open the Plugin Manager\n* Locate the Sidekick plugin\n* Click `Update`\n\nBinary Ninja version before 4.2.5814:\n\n* Open the Plugin Manager\n* Locate the Sidekick plugin\n* Click `Uninstall`\n* Restart Binary Ninja\n* Open the Plugin Manager\n* Locate the Sidekick plugin\n* Click `Install`\n\n## Notable Changes\n\n### Headless Support for Sidekick API Client\n\nThe Sidekick client plugin interacts with the Sidekick service using a collection of APIs. Previously, those APIs were only accessible when running the Sidekick plugin in the UI. Now, we have updated the Sidekick plugin to allow headless interaction with the Sidekick service using the SidekickAPIClient class. Add the path of the Sidekick plugin to your PYTHONPATH, `from Vector35_Sidekick.sidekick_api_client import SidekickAPIClient`, and you're off to the races.\n\n## Release Changes\n\n* Feature: Headless SidekickAPIClient\n* Fix: (Assistant) Fix calls to getILViewType() to support latest Binary Ninja dev",
         "license": {
             "name": "Commercial",
             "text": "This plugin is fully copyright Vector 35 Inc except as otherwise noted in the source. While source is distributed, no rights to the source are granted beyond those to submodules described <a href='https://docs.sidekick.binary.ninja/about/open-source/'>here</a>. Use of this plugin should be consistent with the terms of service available <a href='https://docs.sidekick.binary.ninja/about/legal-terms-and-conditions/'>here</a>."
@@ -26,18 +26,18 @@
             "Windows": "Install Sidekick using the Binary Ninja Plugin Manager. We recommend setting Binary Ninja's Python to the default, bundled version of Python. If you configure a different version, then ensure that Sidekick's package dependencies are met in your site packages."
         },
         "dependencies": "requests>=2.28.2,<3\npygments>=2.14.0,<3\nnetworkx>=3.0.0,<4\nintervaltree>=3.0.2,<4\nnumpy>=1.26,<2\ntorch>=2.2.2,<2.3.0\nscikit-learn>=1.1.3,<2\npyjarowinkler>=1.8,<2\nmarkdown\nwatchdog\npydantic>=2.7,<3\narrow>=1.3,<2\njsonschema>=4.22,<5\naccelerate>=0.33.0,<1\ntransformers>=4.41.0,<5\ntiktoken>=0.7.0,<1",
-        "version": "2.0.176",
+        "version": "2.0.180",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 4958,
-        "lastUpdated": 1723500438,
+        "lastUpdated": 1730396848,
         "projectUrl": "https://github.com/vector35/sidekick-public",
         "projectData": {
             "full_name": "Vector35/Sidekick",
             "stargazers_count": 1,
-            "updated_at": "2024-08-12T18:07:18"
+            "updated_at": "2024-10-31T13:47:28"
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://plugin.sidekick.binary.ninja/plugins/sidekick-2.0.176.zip",
+        "packageUrl": "https://plugin.sidekick.binary.ninja/plugins/sidekick-2.0.180.zip",
         "path": "Vector35_Sidekick"
     },
     {
@@ -89,6 +89,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "html_url": "https://github.com/Vector35/COMpanion",
@@ -208,6 +209,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "security_and_analysis": {
@@ -294,6 +296,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "html_url": "https://github.com/Vector35/efi-resolver",
@@ -345,8 +348,8 @@
             "svn_url": "https://github.com/Vector35/efi-resolver",
             "homepage": null,
             "size": 100,
-            "stargazers_count": 33,
-            "watchers_count": 33,
+            "stargazers_count": 36,
+            "watchers_count": 36,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -354,7 +357,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 5,
+            "forks_count": 4,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -371,9 +374,9 @@
             "web_commit_signoff_required": false,
             "topics": [],
             "visibility": "public",
-            "forks": 5,
+            "forks": 4,
             "open_issues": 10,
-            "watchers": 33,
+            "watchers": 36,
             "default_branch": "main",
             "permissions": {
                 "admin": true,
@@ -413,6 +416,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "security_and_analysis": {
@@ -432,7 +436,7 @@
                     "status": "disabled"
                 }
             },
-            "network_count": 5,
+            "network_count": 4,
             "subscribers_count": 5
         },
         "authorUrl": "https://github.com/Vector35",
@@ -497,6 +501,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "html_url": "https://github.com/Vector35/unpacme",
@@ -616,6 +621,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "security_and_analysis": {
@@ -696,6 +702,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "html_url": "https://github.com/Vector35/tanto",
@@ -747,8 +754,8 @@
             "svn_url": "https://github.com/Vector35/tanto",
             "homepage": "",
             "size": 478,
-            "stargazers_count": 45,
-            "watchers_count": 45,
+            "stargazers_count": 46,
+            "watchers_count": 46,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -780,7 +787,7 @@
             "visibility": "public",
             "forks": 1,
             "open_issues": 3,
-            "watchers": 45,
+            "watchers": 46,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -820,6 +827,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "security_and_analysis": {
@@ -906,6 +914,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "html_url": "https://github.com/Vector35/6502",
@@ -1019,6 +1028,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "security_and_analysis": {
@@ -1073,11 +1083,11 @@
             "Windows": "no special instructions, package manager is recommended"
         },
         "dependencies": "kaitaistruct",
-        "version": "1.2.1",
+        "version": "1.2.2",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 3164,
         "longdescription": "This Binary Ninja UI plugin allows you to browse a hex dump within Binary Ninja with a tree view informed by [Kaitai Struct](https://kaitai.io/).\n\n![](https://github.com/Vector35/kaitai/blob/master/media/kaitai.gif?raw=true)\n\nThis wires up Kaitai Struct as a parsing library to produce templated dissection of binary files. Of course, this concept itself isn\u2019t new. Plenty of great tools like 010, Hexinator and Synalyze It! have this feature (last two by the same company for different platforms). Thanks to the Kaitai Project not only for the project in general, but also for working with us to resolve some small issues while we were developing the plugin.\n\n## License\n\nThis plugin is released under a MIT license.\n\n",
-        "lastUpdated": 1721242196,
+        "lastUpdated": 1730394316,
         "projectUrl": "https://github.com/Vector35/kaitai",
         "projectData": {
             "id": 211350672,
@@ -1103,6 +1113,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "html_url": "https://github.com/Vector35/kaitai",
@@ -1146,16 +1157,16 @@
             "releases_url": "https://api.github.com/repos/Vector35/kaitai/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/kaitai/deployments",
             "created_at": "2019-09-27T15:35:34Z",
-            "updated_at": "2024-07-17T18:49:56",
-            "pushed_at": "2024-07-18T11:44:37Z",
+            "updated_at": "2024-10-31T17:05:16",
+            "pushed_at": "2024-10-31T17:05:16Z",
             "git_url": "git://github.com/Vector35/kaitai.git",
             "ssh_url": "git@github.com:Vector35/kaitai.git",
             "clone_url": "https://github.com/Vector35/kaitai.git",
             "svn_url": "https://github.com/Vector35/kaitai",
             "homepage": null,
-            "size": 11500,
-            "stargazers_count": 36,
-            "watchers_count": 36,
+            "size": 11501,
+            "stargazers_count": 38,
+            "watchers_count": 38,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1176,7 +1187,7 @@
             "visibility": "public",
             "forks": 4,
             "open_issues": 0,
-            "watchers": 36,
+            "watchers": 38,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1216,6 +1227,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "security_and_analysis": {
@@ -1239,10 +1251,10 @@
             "subscribers_count": 8
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/kaitai/zipball/refs/tags/1.2.1",
-        "packageShortUrl": "https://v35.us/y23g7ej",
+        "packageUrl": "https://api.github.com/repos/Vector35/kaitai/zipball/refs/tags/1.2.2",
+        "packageShortUrl": "https://v35.us/9rzmebm",
         "path": "Vector35_kaitai",
-        "commit": "fd04e649253236d1c209f7b7ffb1b5714f5e38d9",
+        "commit": "7218794270524321997868290836149656078260",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -1272,10 +1284,10 @@
             "Windows": "no special instructions, package manager is recommended"
         },
         "dependencies": "pygments>=2.7.0\n",
-        "version": "1.27",
+        "version": "1.28",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 1528,
-        "lastUpdated": 1720731243,
+        "lastUpdated": 1724994487,
         "projectUrl": "https://github.com/Vector35/snippets",
         "projectData": {
             "id": 211351389,
@@ -1301,6 +1313,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "html_url": "https://github.com/Vector35/snippets",
@@ -1344,14 +1357,14 @@
             "releases_url": "https://api.github.com/repos/Vector35/snippets/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/snippets/deployments",
             "created_at": "2019-09-27T15:39:09Z",
-            "updated_at": "2024-07-11T20:54:03",
-            "pushed_at": "2024-07-11T20:53:57Z",
+            "updated_at": "2024-08-30T05:08:07",
+            "pushed_at": "2024-08-30T05:08:01Z",
             "git_url": "git://github.com/Vector35/snippets.git",
             "ssh_url": "git@github.com:Vector35/snippets.git",
             "clone_url": "https://github.com/Vector35/snippets.git",
             "svn_url": "https://github.com/Vector35/snippets",
             "homepage": null,
-            "size": 4142,
+            "size": 4155,
             "stargazers_count": 22,
             "watchers_count": 22,
             "language": "Python",
@@ -1361,7 +1374,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 7,
+            "forks_count": 9,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -1378,7 +1391,7 @@
             "web_commit_signoff_required": false,
             "topics": [],
             "visibility": "public",
-            "forks": 7,
+            "forks": 9,
             "open_issues": 19,
             "watchers": 22,
             "default_branch": "master",
@@ -1420,6 +1433,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "security_and_analysis": {
@@ -1439,14 +1453,14 @@
                     "status": "disabled"
                 }
             },
-            "network_count": 7,
+            "network_count": 9,
             "subscribers_count": 7
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/snippets/zipball/refs/tags/1.27",
-        "packageShortUrl": "https://v35.us/dq7nqrv",
+        "packageUrl": "https://api.github.com/repos/Vector35/snippets/zipball/refs/tags/1.28",
+        "packageShortUrl": "https://v35.us/4t13bhk",
         "path": "Vector35_snippets",
-        "commit": "4e7196a09d7f220cda1aacb2b14375583c2e31ab",
+        "commit": "130636ae51c1cacc901e72f63941cbe904087cb6",
         "minimumBinaryNinjaVersion": 0
     },
     {
@@ -1505,6 +1519,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "html_url": "https://github.com/Vector35/OpaquePredicatePatcher",
@@ -1556,8 +1571,8 @@
             "svn_url": "https://github.com/Vector35/OpaquePredicatePatcher",
             "homepage": null,
             "size": 2317,
-            "stargazers_count": 62,
-            "watchers_count": 62,
+            "stargazers_count": 63,
+            "watchers_count": 63,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1584,7 +1599,7 @@
             "visibility": "public",
             "forks": 3,
             "open_issues": 1,
-            "watchers": 62,
+            "watchers": 63,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1624,6 +1639,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "security_and_analysis": {
@@ -1712,6 +1728,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "html_url": "https://github.com/Vector35/sample_plugin",
@@ -1833,6 +1850,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "security_and_analysis": {
@@ -1918,6 +1936,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "html_url": "https://github.com/Vector35/Z80",
@@ -1969,8 +1988,8 @@
             "svn_url": "https://github.com/Vector35/Z80",
             "homepage": null,
             "size": 257,
-            "stargazers_count": 6,
-            "watchers_count": 6,
+            "stargazers_count": 8,
+            "watchers_count": 8,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1997,7 +2016,7 @@
             "visibility": "public",
             "forks": 3,
             "open_issues": 6,
-            "watchers": 6,
+            "watchers": 8,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -2037,6 +2056,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "security_and_analysis": {
@@ -2095,10 +2115,10 @@
             "Darwin": ""
         },
         "dependencies": "flatbuffers\n",
-        "version": "1.2.1",
+        "version": "1.2.2",
         "author": "Vector 35 Inc",
         "minimumbinaryninjaversion": 1997,
-        "lastUpdated": 1638456402,
+        "lastUpdated": 1725913751,
         "projectUrl": "https://github.com/Vector35/sigkit",
         "projectData": {
             "id": 193125707,
@@ -2124,6 +2144,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "html_url": "https://github.com/Vector35/sigkit",
@@ -2167,16 +2188,16 @@
             "releases_url": "https://api.github.com/repos/Vector35/sigkit/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/sigkit/deployments",
             "created_at": "2019-06-21T15:58:59Z",
-            "updated_at": "2021-12-02T14:46:42",
-            "pushed_at": "2022-05-04T14:40:39Z",
+            "updated_at": "2024-09-09T20:29:11",
+            "pushed_at": "2024-09-10T13:50:59Z",
             "git_url": "git://github.com/Vector35/sigkit.git",
             "ssh_url": "git@github.com:Vector35/sigkit.git",
             "clone_url": "https://github.com/Vector35/sigkit.git",
             "svn_url": "https://github.com/Vector35/sigkit",
             "homepage": "https://binary.ninja/2020/03/11/signature-libraries.html",
-            "size": 538,
-            "stargazers_count": 56,
-            "watchers_count": 56,
+            "size": 547,
+            "stargazers_count": 64,
+            "watchers_count": 64,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -2184,7 +2205,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 9,
+            "forks_count": 10,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -2205,9 +2226,9 @@
                 "reverse-engineering"
             ],
             "visibility": "public",
-            "forks": 9,
+            "forks": 10,
             "open_issues": 7,
-            "watchers": 56,
+            "watchers": 64,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -2247,6 +2268,7 @@
                 "events_url": "https://api.github.com/users/Vector35/events{/privacy}",
                 "received_events_url": "https://api.github.com/users/Vector35/received_events",
                 "type": "Organization",
+                "user_view_type": "public",
                 "site_admin": false
             },
             "security_and_analysis": {
@@ -2266,14 +2288,14 @@
                     "status": "disabled"
                 }
             },
-            "network_count": 9,
+            "network_count": 10,
             "subscribers_count": 9
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/sigkit/zipball/refs/tags/1.2.1",
-        "packageShortUrl": "https://v35.us/xrqu8dz",
+        "packageUrl": "https://api.github.com/repos/Vector35/sigkit/zipball/refs/tags/1.2.2",
+        "packageShortUrl": "https://v35.us/3j7bo1i",
         "path": "Vector35_sigkit",
-        "commit": "29920895c6422cdf1ddd85ad892ea18d22b25026",
+        "commit": "67cbb7f755f5ecfb03da7c3953ff484ed7e6494b",
         "minimumBinaryNinjaVersion": 0
     }
 ]
