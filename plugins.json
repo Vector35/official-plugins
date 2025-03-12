@@ -10,7 +10,7 @@
             "python3"
         ],
         "description": "Binary Ninja Sidekick",
-        "longdescription": "# Sidekick\n\nSidekick makes reversing easy. Sidekick is an extension to the BinaryNinja desktop application supported by an AI-powered service that provides new capabilities to help users analyze and understand binary programs.\n\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. To purchase a Sidekick plan, you must have a Sidekick account. To sign up for a Sidekick account, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n\n# Features\n\n## Accomplish Tasks Effectively\n\nWanting to explore the binary or analyze something specific? Sidekick comes with a powerful scripting workbench to help you quickly accomplish the tasks you care about. Just describe what you want and let Sidekick generate the script for you automatically.\n\n![analysis workbench](https://sidekick.binary.ninja/static/images/features-analysis-workbench.png?raw=true)\n\n## Answer Your Questions\n\nDon't know something about the code? Delve deeper into analysis of the binary as you drive discussions with the Sidekick AI assistant that possesses a vast amount of knowledge and code reasoning capabilities useful for reversing.\n\n![assistant](https://sidekick.binary.ninja/static/images/features-assistant.png?raw=true)\n\n## Generate Meaningful Names\n\nGood names convey meaning and help you immediately understand what something is. Without them, it takes valuable time to understand the code. Thankfully, Sidekick analyzes your code and automatically generates meaningful names for functions, structures, fields, and variables.\n\n![naming](https://sidekick.binary.ninja/static/images/features-naming.png?raw=true)\n\n\n## Visualize Behaviors\n\nTired of looking at busy, cluttered graphs to understand what the code is doing? Sidekick comes with the Code Insight Map view to help you quickly obtain a top-level understanding of the structure and functionality in the binary. Use this graph-based interface to selectively explore the content of and relationships among a focused set of topics.\n\n![code insight map](https://sidekick.binary.ninja/static/images/features-code-insight-map.png?raw=true)\n\n## Recover Structures\n\nWhen the code contains a lot of references to structures and fields, things can get rather cluttered with all of the dereferenced pointers, field offsets, and nesting going on. Let Sidekick clean up and simplify all that by automatically identifying and creating referenced structures through its sophisticated program analyses.\n\nBefore Structure Recovery\n\n![structure recovery before](https://sidekick.binary.ninja/static/images/features-structure-recovery-before.png?raw=true)\n\nAfter Structure Recovery\n\n![structure recovery after](https://sidekick.binary.ninja/static/images/features-structure-recovery-after.png?raw=true)\n\n## Show Points of Interest\n\nOnce you've found something worth keeping, it's nice to see and use it again. Sidekick allows you to store and organize items in the binary for easy reference using its Indexes feature.\n\n![indexes](https://sidekick.binary.ninja/static/images/features-indexes.png?raw=true)\n\n## Summarize Code\n\nSometimes the code you're looking at can be quite large and complex. Sidekick can help cut down on the time you spend figuring out the bigger picture by automatically summarizing entire functions with an informative comment. Also, when you're focusing on the finer details, Sidekick has you covered. It can quickly produce clear, descriptive inline comments that explain any logic you encounter.\n\n![comments](https://sidekick.binary.ninja/static/images/features-comments.png?raw=true)\n\n## Launch Investigations\n\nSoftware is complex and can take significant resources to analyze. Sidekick is equipped and ready for you to launch focused investigations of the binary, where Sidekick guides the analysis, looking for evidences of the topic you want to research.\n\n![investigations](https://sidekick.binary.ninja/static/images/features-investigations.png?raw=true)\n# Release Notes\n\nSidekick Client Revision: 2.0.183\n\n## Update Instructions\n\nIf you are updating from a current installation of the Sidekick plugin, then complete the following instructions based on the version of Binary Ninja currently installed:\n\nBinary Ninja version 4.2.5814 or later:\n\n* Open the Plugin Manager\n* Locate the Sidekick plugin\n* Click `Update`\n\nBinary Ninja version before 4.2.5814:\n\n* Open the Plugin Manager\n* Locate the Sidekick plugin\n* Click `Uninstall`\n* Restart Binary Ninja\n* Open the Plugin Manager\n* Locate the Sidekick plugin\n* Click `Install`\n\n## Release Changes\n\n* Fix: (Analysis Workbench) Fix error in checking the context builder type against a supported context. This fixes the 'enum' error when running Analysis Workbench script.",
+        "longdescription": "# Sidekick\n\nSidekick makes reversing easy. Sidekick is an extension to the BinaryNinja desktop application supported by an AI-powered service that provides new capabilities to help users analyze and understand binary programs.\n\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. To purchase a Sidekick plan, you must have a Sidekick account. To sign up for a Sidekick account, click <a href='https://sidekick.binary.ninja/sign_in'>here</a>.\n\n## Deep Analysis for Binaries\n\n### Let Sidekick Search for Answers\n\nWant to know more about the code? Use the Analysis Console to gain deeper insights as you drive discussions with its Assistant that explores and analyzes the binary for you.\n\n![analysis console](https://sidekick.binary.ninja/static/images/carousel-analysis-console.png?raw=true)\n\n### Create Points of Interest\n\nAnalysis Indexes organize points of interest from the binary by topic, which can be added by the Analysis Console Assistant and scripts. Indexes can store intermediate results, which are then used as inputs for further analysis.\n\n![analysis indexes](https://sidekick.binary.ninja/static/images/carousel-analysis-indexes.png?raw=true)\n\n### Visualize Relationships\n\nTired of looking at busy, cluttered graphs to understand what the code is doing? Sidekick comes with the Code Insight Map view to help you quickly obtain a top-level understanding of the structure and functionality in the binary. Use this graph-based interface to selectively explore the content of and relationships among a focused set of topics.\n\n![code insight map](https://sidekick.binary.ninja/static/images/carousel-code-insight-map.png?raw=true)\n\n## Smart Automation\n\n### Apply Large Language Models to Program Analysis\n\nSeamlessly leverage the advanced capabilities of Large Language Models for program analysis using the Automation Workbench. For these models, select from a catalog of available models or even bring your own model.\n\n![automation workbench llm operators](https://sidekick.binary.ninja/static/images/carousel-automation-workbench-scripts.png?raw=true)\n\n### Let Sidekick Write the Scripts and Prompts\n\nNot a Binary Ninja API expert or prompt engineer? Work together with the Scripting Assistant to write your scripts and LLM prompts, saving you valuable development time.\n\n![automation workbench scripting assistant](https://sidekick.binary.ninja/static/images/carousel-automation-workbench-scripting-assistant.png?raw=true)\n\n## Improved Decompilation\n\n### Recover Structures\n\nWhen the code contains a lot of references to structures and fields, things can get rather cluttered with all of the dereferenced pointers, field offsets, and nesting going on. Let Sidekick clean up and simplify all that by automatically identifying and creating referenced structures through its sophisticated program analyses.\n\n![structure recovery before](https://sidekick.binary.ninja/static/images/carousel-structure-recovery.png?raw=true)\n\n### Name Your Functions and Variables\n\nGood names convey meaning and help you immediately understand what something is. Without them, it takes valuable time to understand the code. Let Sidekick analyze your code and give you meaningful names for functions, structures, fields, and variables.\n\n![naming](https://sidekick.binary.ninja/static/images/carousel-improved-decompilation.png?raw=true)\n\n### Summarize Code\n\nSometimes the code you're looking at can be quite large and complex. Sidekick can help cut down on the time you spend figuring out the bigger picture by automatically summarizing entire functions with an informative comment. Also, when you're focusing on the finer details, Sidekick has you covered. It can quickly produce clear, descriptive inline comments that explain any logic you encounter.\n\n![comments](https://sidekick.binary.ninja/static/images/carousel-decompilation-comments.png?raw=true)\n# Release Notes\n\nSidekick Client Revision: 3.0.217\n\n## Update Instructions\n\nIf you are updating from a current installation of the Sidekick plugin, then complete the following instructions based on the version of Binary Ninja currently installed:\n\nBinary Ninja version 4.2.5814 or later:\n\n* Open the Plugin Manager\n* Locate the Sidekick plugin\n* Click `Update`\n\nBinary Ninja version before 4.2.5814:\n\n* Open the Plugin Manager\n* Locate the Sidekick plugin\n* Click `Uninstall`\n* Restart Binary Ninja\n* Open the Plugin Manager\n* Locate the Sidekick plugin\n* Click `Install`\n\n## Notable Changes\n\n### Analysis Console\n\nWe have completely revamped the feature formerly known as the Sidekick Assistant and relabeled it as the Analysis Console to convey its purpose more clearly. The Analysis Console is now the place you go to gain deeper insights into your binary. It includes an interactive Analysis Assistant that can:\n\n* Interpret and analyze both the code and the content of your conversation\n* Search for items in the binary\n* Store and retrieve analysis results using Sidekick Analysis Indexes\n* Search, create, register, and run tools that perform tasks to assist in completing your request\n* Edit the binary (e.g. rename functions and variables, add comments, etc.)\n\nThe Analysis Console is now well-equipped to search for answers to your questions about the binary.\n\nTo get more familiar with the new Analysis Console, check out our <a href=\"https://docs.sidekick.binary.ninja/latest/guide/analysis/analysis_console/\"> documentation</a>.\n\n#### Binary Ninja Query Language (BNQL)\n\nIn order to make the Analysis Console more effective at searching for items in the binary, we developed a new, custom query language called Binary Ninja Query Language (BNQL) that it uses. BNQL is designed to retrieve Binary Ninja API objects that represent the functions, variables, sections, strings, symbols, and various other entities of a binary. Queries make use of relationships between these entities to efficiently find the right objects.\n\nTo learn more about this powerful new language, read our <a href=\"https://docs.sidekick.binary.ninja/latest/guide/analysis/bnql/\">BNQL documentation</a>.\n\n### Analysis Indexes\n\nIn addition to giving it a more suitable name, we have also added support to Analysis Indexes so that the new Analysis Assistant and Automation Workbench scripts can make better use of them. Additionally, we have provided the ability for you to add results from a BNQL query as entries to an index.\n\n### Automation Workbench\n\nThe Automation Workbench (formerly known as the Analysis Workbench) provides two key features that let you write smarter, more capable scripts:\n\n- Large Language Models (LLMs) can be leveraged for program analysis tasks directly from within your script. This is done using the `LLMOperator` construct. For each `LLMOperator`, you can select the model it uses from among a catalog of available models or even one that you provide.\n- The Scripting Assistant (formerly called the Coding Assistant) works with you to write both your script and also the prompts for the LLMs used by the `LLMOperators` of your script.\n\nThe Automation Workbench includes the following new features:\n\n* Scripts now support parameters, allowing you to reuse and run with different inputs.\n* Scripts are now tools that can be executed by the Analysis Console, providing input parameters when needed.\n* Both the main script code and the `LLMOperator` specifications it uses are now combined into a single unit, generated together by the Scripting Assistant.\n* You can now manually add `LLMOperators` to a script and reference them by name.\n\n#### Migrating Existing Scripts\n\nStarting in Sidekick 3.0, `LLMOperators` accept a single input argument during construction. This argument is the name of the `LLMOperator` specification that the `LLMOperator` should use. If you have existing scripts that use `LLMOperators`, you will need to update them to use the new format. The easiest way to do this is to use the Scripting Assistant to generate the new code for you. However, if you wish to do this yourself, then you will need to assign a name to each defined `LLMOperator` specification and then pass that name as the only argument to the `LLMOperator` constructor.\n\n### Decompilation Suggestions\n\nIn addition to renaming Suggestions to Decompilation Suggestions, we have made the following changes:\n\n* Dead Store Elimination suggestions are removed due to their low utility, noisy generation, and incorrectness (in some cases).\n* Function Name suggestions now include a quality value to help users understand the confidence level of the suggestion.\n* The presentation of suggestions is slightly improved to make them more intuitive.\n\n### Sidekick Change Log Sidebar\n\nThe new Sidekick Change Log sidebar displays a list of changes that Sidekick has made through the Analysis Assistant, such as renaming functions, adding comments, and more so that you can keep track of the amazing things it's done.\n\n### Investigations\n\nThe Investigations sidebar (from Sidekick 2.0) has been removed and replaced by the more capable Analysis Console. Previously, Investigations explored a fixed number of topics and could only examine a single function. Now, the Analysis Console can perform multi-step investigations of any topic, exploring potentially the entire binary.\n\n### Improved Models\n\nWe continually update our service behind the scenes to make the best use of the latest available models, and we've done exactly that for this release so that each feature performs optimally.\n\n### Minimum Requirements\n\nTo take advantage of all of the awesome improvements to Binary Ninja, Sidekick 3.0 now requires a minimum version of Binary Ninja 4.2.6455 (latest stable).\n\n## Release Changes\n\n* Feature: Analysis Console sidebar\n* Feature: Binary Ninja Query Language\n* Feature: Sidekick Change Log sidebar\n* Improvement: Refactor Automation Workbench to unify grouping and generation of scripts and LLMOperator specifications\n* Improvement: Add support to pass parameters to Automation Workbench scripts\n* Improvement: Add ability to add entries to Analysis Index through BNQL query\n* Feature: Removed Dead Store Elimination suggestions\n* Improvement: Add quality value to Function Name suggestions\n* Fix: Retain suggestions in the list that fail to apply and warn user\n* Fix: Handle deprecated scoping style setting\n* Improvement: Notify user submitting feedback when feedback collection is not enabled\n* Fix: Update code insight map on index renaming\n* Improvement: Update logger initialization in LLMOperator to not log prompts\n* Fix: Fix naming of structs/fields.\n* Improvement: Update feedback submission to use chat widget\n* Fix: Add offline message handling in Analysis Console to prevent sending messages when offline\n* Improvement: Add stop button functionality and associated icons in Analysis Console message editor\n* Improvement: Format location display in Analysis Console with HTML code tags\n* Fix: Fix error with large addresses going through shiboken\n* Fix: Fix issue when editing Analysis Console messages in fullscreen mode\n* Fix: Fix bug accessing deleted C++ object\n* Fix: Fix Analysis Console page selection change handling and delete logic\n* Improvement: Add ability to navigate history based on cursor position\n* Improvement: Add script management with multi-selection for run and delete actions\n* Feature: Add automatic generation of titles for Automation Workbench scripts\n* Improvement: Refactor Automation Workbench execution monitor out of the sidebar\n* Fix: Fix bug in points\u2011to analysis\n* Improvement: Refactor Suggestions Sidebar and related classes and improve rendering\n* Fix: Ensure chat title only after assistant message\n* Improvement: Added ability to rename Analysis Index\n* Improvement: Added button to create a new index\n",
         "license": {
             "name": "Commercial",
             "text": "This plugin is fully copyright Vector 35 Inc except as otherwise noted in the source. While source is distributed, no rights to the source are granted beyond those to submodules described <a href='https://docs.sidekick.binary.ninja/about/open-source/'>here</a>. Use of this plugin should be consistent with the terms of service available <a href='https://docs.sidekick.binary.ninja/about/legal-terms-and-conditions/'>here</a>."
@@ -25,19 +25,19 @@
             "Linux": "Install Sidekick using the Binary Ninja Plugin Manager. We recommend setting Binary Ninja's Python to Python 3.10. If you configure a different version, then ensure that Sidekick's package dependencies are met in your site packages.",
             "Windows": "Install Sidekick using the Binary Ninja Plugin Manager. We recommend setting Binary Ninja's Python to the default, bundled version of Python. If you configure a different version, then ensure that Sidekick's package dependencies are met in your site packages."
         },
-        "dependencies": "requests>=2.28.2,<3\npygments>=2.14.0,<3\nnetworkx>=3.0.0,<4\nintervaltree>=3.0.2,<4\nnumpy>=1.26,<2\ntorch>=2.2.2,<2.3.0\nscikit-learn>=1.1.3,<2\npyjarowinkler>=1.8,<2\nmarkdown\nwatchdog\npydantic>=2.7,<3\narrow>=1.3,<2\njsonschema>=4.22,<5\naccelerate>=0.33.0,<1\ntransformers>=4.41.0,<5\ntiktoken>=0.7.0,<1",
-        "version": "2.0.183",
+        "dependencies": "requests>=2.28.2,<3\npygments>=2.14.0,<3\nnetworkx>=3.0.0,<4\nintervaltree>=3.0.2,<4\nnumpy>=1.26,<2\ntorch>=2.2.2,<2.3.0\nscikit-learn>=1.1.3,<2\npyjarowinkler>=1.8,<2\nmarkdown\nwatchdog\npydantic>=2.7,<3\narrow>=1.3,<2\njsonschema>=4.22,<5\naccelerate>=0.33.0,<1\ntransformers>=4.41.0,<5\ntiktoken>=0.7.0,<1\nmarkdown_it_py>=3.0.0,<4",
+        "version": "3.0.217",
         "author": "Vector 35 Inc",
-        "minimumbinaryninjaversion": 4958,
-        "lastUpdated": 1735920731,
+        "minimumbinaryninjaversion": 6454,
+        "lastUpdated": 1740685022,
         "projectUrl": "https://github.com/vector35/sidekick-public",
         "projectData": {
             "full_name": "Vector35/Sidekick",
             "stargazers_count": 1,
-            "updated_at": "2025-01-03T11:12:11"
+            "updated_at": "2025-02-27T14:37:02"
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://plugin.sidekick.binary.ninja/plugins/sidekick-2.0.183.zip",
+        "packageUrl": "https://plugin.sidekick.binary.ninja/plugins/sidekick-3.0.217.zip",
         "path": "Vector35_Sidekick"
     },
     {
@@ -230,7 +230,7 @@
                 }
             },
             "network_count": 0,
-            "subscribers_count": 5
+            "subscribers_count": 4
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/COMpanion/zipball/refs/tags/0.1.3",
@@ -662,10 +662,10 @@
             "python3"
         ],
         "description": "Tant\u014d slices functions to help you can understand them faster.",
-        "longdescription": "# Tant\u014d\nAuthor: **Vector 35, Inc.**\n\n## Description:\nTant\u014d is a plugin for [Binary Ninja](https://binary.ninja/) that slices functions so you can understand them faster.\n\n<img align=\"center\" src=\"https://github.com/Vector35/tanto/blob/master/tanto_preview.png?raw=true\">\n\nFor a more detailed explanation of what Tant\u014d does, please check out [this blog post](https://binary.ninja/2022/06/20/introducing-tanto.html).\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 3.0.3223\n\n## License\n\nThis plugin has been released under the [MIT license](./LICENSE.txt).\n\n## Metadata Version\n\n2\n",
+        "longdescription": "# Tant\u014d\nAuthor: **Vector 35, Inc.**\n\n## Description:\nTant\u014d is a plugin for [Binary Ninja](https://binary.ninja/) that slices programs so you can understand them faster.\n\n<img align=\"center\" src=\"https://github.com/Vector35/tanto/blob/master/tanto_preview.png?raw=true\">\n\nFor a more detailed explanation of what Tant\u014d does, please check out [this blog post](https://binary.ninja/2022/06/20/introducing-tanto.html).\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 4.0.5336\n\n## License\n\nThis plugin has been released under the [MIT license](./LICENSE.txt).\n\n## Metadata Version\n\n2\n",
         "license": {
             "name": "MIT",
-            "text": "Copyright (c) 2021-2024 Vector 35 Inc\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+            "text": "Copyright (c) 2021-2025 Vector 35 Inc\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
         },
         "platforms": [
             "Darwin",
@@ -673,10 +673,10 @@
             "Windows"
         ],
         "dependencies": "",
-        "version": "1.0.3",
+        "version": "2.0.0",
         "author": "Vector 35 Inc",
-        "minimumbinaryninjaversion": 3164,
-        "lastUpdated": 1731272804,
+        "minimumbinaryninjaversion": 5336,
+        "lastUpdated": 1741661696,
         "projectUrl": "https://github.com/Vector35/tanto",
         "projectData": {
             "id": 442626280,
@@ -746,16 +746,16 @@
             "releases_url": "https://api.github.com/repos/Vector35/tanto/releases{/id}",
             "deployments_url": "https://api.github.com/repos/Vector35/tanto/deployments",
             "created_at": "2021-12-29T01:21:17Z",
-            "updated_at": "2024-11-10T21:06:44",
-            "pushed_at": "2024-11-10T21:06:43Z",
+            "updated_at": "2025-03-11T02:54:56",
+            "pushed_at": "2025-03-11T02:54:56Z",
             "git_url": "git://github.com/Vector35/tanto.git",
             "ssh_url": "git@github.com:Vector35/tanto.git",
             "clone_url": "https://github.com/Vector35/tanto.git",
             "svn_url": "https://github.com/Vector35/tanto",
             "homepage": "",
-            "size": 486,
-            "stargazers_count": 47,
-            "watchers_count": 47,
+            "size": 509,
+            "stargazers_count": 49,
+            "watchers_count": 49,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -767,7 +767,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 4,
+            "open_issues_count": 2,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -786,8 +786,8 @@
             ],
             "visibility": "public",
             "forks": 1,
-            "open_issues": 4,
-            "watchers": 47,
+            "open_issues": 2,
+            "watchers": 49,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -851,10 +851,10 @@
             "subscribers_count": 8
         },
         "authorUrl": "https://github.com/Vector35",
-        "packageUrl": "https://api.github.com/repos/Vector35/tanto/zipball/refs/tags/1.0.3",
-        "packageShortUrl": "https://v35.us/47ydlsg",
+        "packageUrl": "https://api.github.com/repos/Vector35/tanto/zipball/refs/tags/2.0.0",
+        "packageShortUrl": "https://v35.us/w04u3l5",
         "path": "Vector35_tanto",
-        "commit": "4b29b8b138d0351db33a07f6d38d92d915a298e8",
+        "commit": "2ad45635b2724e661ccaa1663dfba6d2784ca535",
         "minimumBinaryNinjaVersion": 0,
         "installinstructions": {}
     },
@@ -1049,7 +1049,7 @@
                 }
             },
             "network_count": 2,
-            "subscribers_count": 6
+            "subscribers_count": 5
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/6502/zipball/refs/tags/2.0.1",
@@ -1165,8 +1165,8 @@
             "svn_url": "https://github.com/Vector35/kaitai",
             "homepage": null,
             "size": 11503,
-            "stargazers_count": 38,
-            "watchers_count": 38,
+            "stargazers_count": 40,
+            "watchers_count": 40,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1187,7 +1187,7 @@
             "visibility": "public",
             "forks": 4,
             "open_issues": 0,
-            "watchers": 38,
+            "watchers": 40,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1248,7 +1248,7 @@
                 }
             },
             "network_count": 4,
-            "subscribers_count": 8
+            "subscribers_count": 7
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/kaitai/zipball/refs/tags/1.2.2",
@@ -1378,7 +1378,7 @@
             "mirror_url": null,
             "archived": false,
             "disabled": false,
-            "open_issues_count": 19,
+            "open_issues_count": 20,
             "license": {
                 "key": "mit",
                 "name": "MIT License",
@@ -1392,7 +1392,7 @@
             "topics": [],
             "visibility": "public",
             "forks": 9,
-            "open_issues": 19,
+            "open_issues": 20,
             "watchers": 22,
             "default_branch": "master",
             "permissions": {
@@ -1454,7 +1454,7 @@
                 }
             },
             "network_count": 9,
-            "subscribers_count": 7
+            "subscribers_count": 6
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/snippets/zipball/refs/tags/1.28",
@@ -1570,8 +1570,8 @@
             "svn_url": "https://github.com/Vector35/OpaquePredicatePatcher",
             "homepage": null,
             "size": 2321,
-            "stargazers_count": 63,
-            "watchers_count": 63,
+            "stargazers_count": 64,
+            "watchers_count": 64,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -1598,7 +1598,7 @@
             "visibility": "public",
             "forks": 3,
             "open_issues": 2,
-            "watchers": 63,
+            "watchers": 64,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1659,7 +1659,7 @@
                 }
             },
             "network_count": 3,
-            "subscribers_count": 6
+            "subscribers_count": 5
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/OpaquePredicatePatcher/zipball/refs/tags/v1.1.6",
@@ -1779,8 +1779,8 @@
             "svn_url": "https://github.com/Vector35/sample_plugin",
             "homepage": "",
             "size": 33,
-            "stargazers_count": 18,
-            "watchers_count": 18,
+            "stargazers_count": 21,
+            "watchers_count": 21,
             "language": "Python",
             "has_issues": true,
             "has_projects": false,
@@ -1809,7 +1809,7 @@
             "visibility": "public",
             "forks": 10,
             "open_issues": 0,
-            "watchers": 18,
+            "watchers": 21,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -1870,7 +1870,7 @@
                 }
             },
             "network_count": 10,
-            "subscribers_count": 6
+            "subscribers_count": 5
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/sample_plugin/zipball/refs/tags/1.3.5",
@@ -1996,7 +1996,7 @@
             "has_wiki": true,
             "has_pages": false,
             "has_discussions": false,
-            "forks_count": 3,
+            "forks_count": 4,
             "mirror_url": null,
             "archived": false,
             "disabled": false,
@@ -2013,7 +2013,7 @@
             "web_commit_signoff_required": false,
             "topics": [],
             "visibility": "public",
-            "forks": 3,
+            "forks": 4,
             "open_issues": 6,
             "watchers": 10,
             "default_branch": "master",
@@ -2075,8 +2075,8 @@
                     "status": "disabled"
                 }
             },
-            "network_count": 3,
-            "subscribers_count": 5
+            "network_count": 4,
+            "subscribers_count": 4
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/Z80/zipball/refs/tags/1.5",
@@ -2195,8 +2195,8 @@
             "svn_url": "https://github.com/Vector35/sigkit",
             "homepage": "https://binary.ninja/2020/03/11/signature-libraries.html",
             "size": 547,
-            "stargazers_count": 67,
-            "watchers_count": 67,
+            "stargazers_count": 70,
+            "watchers_count": 70,
             "language": "Python",
             "has_issues": true,
             "has_projects": true,
@@ -2227,7 +2227,7 @@
             "visibility": "public",
             "forks": 11,
             "open_issues": 7,
-            "watchers": 67,
+            "watchers": 70,
             "default_branch": "master",
             "permissions": {
                 "admin": true,
@@ -2288,7 +2288,7 @@
                 }
             },
             "network_count": 11,
-            "subscribers_count": 9
+            "subscribers_count": 8
         },
         "authorUrl": "https://github.com/Vector35",
         "packageUrl": "https://api.github.com/repos/Vector35/sigkit/zipball/refs/tags/1.2.2",
