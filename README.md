@@ -1,16 +1,15 @@
-# Binary Ninja Plugins
-
-| PluginName | Author | Description | Last Updated | Type | License |
-|------------|--------|-------------|--------------|------|---------|
-|[6502 Architecture Plugin](https://github.com/Vector35/6502)|[Vector 35 Inc](https://github.com/Vector35)|An architecture plugin for 6502 and binary view for NES roms.|2023-05-30|architecture|MIT|
-|[COMpanion](https://github.com/Vector35/COMpanion)|[Vector 35 Inc](https://github.com/Vector35)|COMpanion is a plugin for Binary Ninja helps automate working with COM objects in Windows binaries.|2024-07-25|helper|MIT|
-|[EFI Resolver](https://github.com/Vector35/efi-resolver)|[Vector 35 Inc](https://github.com/Vector35)|A Binary Ninja plugin that automatically resolves type information for EFI protocol usage.|2024-07-18|helper|Apache-2.0|
-|[Kaitai UI Plugin](https://github.com/Vector35/kaitai)|[Vector 35 Inc](https://github.com/Vector35)|Browse hex with a tree view populated from Kaitai Struct formats.|2024-10-31|ui|MIT|
-|[Opaque Predicate Patcher](https://github.com/Vector35/OpaquePredicatePatcher)|[Vector 35 Inc](https://github.com/Vector35)|Automatically patch opaque predicates|2024-11-19|helper|MIT|
-|[Sample Plugin](https://github.com/Vector35/sample_plugin)|[Vector 35 Inc](https://github.com/Vector35)|This is a short description meant to fit on one line.|2021-11-22|architecture, binaryview, core, helper, ui|MIT|
-|[Sidekick](https://github.com/vector35/sidekick-public)|[Vector 35 Inc](https://github.com/Vector35)|Binary Ninja Sidekick|2025-02-27|helper, ui|Commercial|
-|[Signature Kit Plugin](https://github.com/Vector35/sigkit)|[Vector 35 Inc](https://github.com/Vector35)|Python tools for working with Signature Libraries|2024-09-09|core, helper, ui|MIT|
-|[Snippet UI Plugin](https://github.com/Vector35/snippets)|[Vector 35 Inc](https://github.com/Vector35)|Powerful code-editing plugin for writing and managing python code-snippets with syntax highlighting, hotkey binding and other features|2024-08-30|ui|MIT|
-|[Tantō](https://github.com/Vector35/tanto)|[Vector 35 Inc](https://github.com/Vector35)|Tantō slices functions to help you can understand them faster.|2025-03-11|helper, ui|MIT|
-|[UnPack.Me Automation](https://github.com/Vector35/unpacme)|[Vector 35 Inc](https://github.com/Vector35)|Automatically analyze a binary via unpac.me|2023-09-13|ui|MIT|
-|[Z80 Architecture Plugin](https://github.com/Vector35/Z80)|[Vector 35 Inc](https://github.com/Vector35)|Sample Z80 architecture plugin written to accompany the <a href='https://binary.ninja/2020/01/08/guide-to-architecture-plugins-part1.html'>introductory blog post</a>.|2023-09-06|architecture|MIT|
+| Name|Author|Description|Last Updated|Type|API|License |
+| ----|------|-----------|------------|----|---|------- |
+| [6502 Architecture Plugin](https://github.com/Vector35/6502)|Vector 35 Inc|An architecture plugin for 6502 and binary view for NES roms.|2025-05-30|architecture|python2, python3|MIT |
+| [Blob Extractor](https://github.com/Vector35/blob_extractor/)|Vector 35 Inc|Plugin for extracting files from container formats|2024-11-19|binaryview, helper|python3|MIT |
+| [COMpanion](https://github.com/Vector35/COMpanion)|Vector 35 Inc|COMpanion is a plugin for Binary Ninja helps automate working with COM objects in Windows binaries.|2024-07-25|helper|python3|MIT |
+| [Kaitai UI Plugin](https://github.com/Vector35/kaitai)|Vector 35 Inc|Browse hex with a tree view populated from Kaitai Struct formats.|2025-04-18|ui|python3|MIT |
+| [Opaque Predicate Patcher](https://github.com/Vector35/OpaquePredicatePatcher)|Vector 35 Inc|Automatically patch opaque predicates|2024-11-19|helper|python2, python3|MIT |
+| [SVD Mapper](https://github.com/Vector35/svdmap)|Vector 35 Inc|SVD Mapper is a plugin for Binary Ninja that helps automate the process of mapping in SVD peripherals|2024-11-14|helper|python3|Apache 2.0 |
+| [Sample Plugin](https://github.com/Vector35/sample_plugin)|Vector 35 Inc|This is a short description meant to fit on one line.|2024-06-07|architecture, binaryview, core, helper, ui|python3|MIT |
+| [Sidekick](https://github.com/vector35/sidekick-public)|Vector 35 Inc|Binary Ninja Sidekick|2025-08-08|helper, ui|python3|Commercial |
+| [Signature Kit Plugin](https://github.com/Vector35/sigkit)|Vector 35 Inc|Python tools for working with Signature Libraries|2024-09-09|core, helper, ui|python2, python3|MIT |
+| [Snippet UI Plugin](https://github.com/Vector35/snippets)|Vector 35 Inc|Powerful code-editing plugin for writing and managing python code-snippets with syntax highlighting, hotkey binding and other features|2025-07-11|ui|python2, python3|MIT |
+| [Tantō](https://github.com/Vector35/tanto)|Vector 35 Inc|Tantō slices programs to help you can understand them faster.|2025-04-17|helper, ui|python3|MIT |
+| [UnPack.Me Automation](https://github.com/Vector35/unpacme)|Vector 35 Inc|Automatically analyze a binary via unpac.me|2025-04-24|ui|python3|MIT |
+| [Z80 Architecture Plugin](https://github.com/Vector35/Z80)|Vector 35 Inc|Sample Z80 architecture plugin written to accompany the <a href='https://binary.ninja/2020/01/08/guide-to-architecture-plugins-part1.html'>introductory blog post</a>.|2024-06-07|architecture|python2, python3|MIT |
