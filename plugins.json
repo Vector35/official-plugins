@@ -7,16 +7,17 @@
     "dependencies": "requests>=2.28.2,<3\npygments>=2.14.0,<3\nnetworkx>=3.0.0,<4\nintervaltree>=3.0.2,<4\nnumpy>=1.26,<2\ntorch>=2.4.0,<2.5.0\nscikit-learn>=1.1.3,<2\npyjarowinkler>=1.8,<2\nmarkdown\nwatchdog\npydantic>=2.7,<3\narrow>=1.3,<2\njsonschema>=4.22,<5\naccelerate>=0.33.0,<1\ntransformers>=4.41.0,<4.50\ntiktoken>=0.7.0,<1\nmarkdown_it_py>=3.0.0,<4",
     "description": "Binary Ninja Sidekick",
     "installinstructions": {},
-    "lastUpdated": 1757018028,
+    "is_paid": false,
+    "lastUpdated": 1758315675,
     "license": {
       "name": "Commercial",
       "text": "This plugin is fully copyright Vector 35 Inc except as otherwise noted in the source. While source is distributed, no rights to the source are granted beyond those to submodules described <a href='https://docs.sidekick.binary.ninja/about/open-source/'>here</a>. Use of this plugin should be consistent with the terms of service available <a href='https://docs.sidekick.binary.ninja/about/legal-terms-and-conditions/'>here</a>."
     },
-    "longdescription": "# Sidekick\r\n\r\nSidekick is [Binary Ninja's](https://binary.ninja) official AI-powered plugin and service, delivering seamless integration for effortless reverse engineering.\r\n\r\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. To purchase a Sidekick plan, you must have a Sidekick account. To sign up for a Sidekick account, click [here](https://sidekick.binary.ninja/sign_in).\r\n\r\n## Collaborative AI\r\nYour AI collaborator monitors context, runs complementary analyses, and delivers results without interruptions.\r\n\r\n### Work Side-by-Side\r\nSidekick continuously tracks your analysis context, intelligently inferring your current focus to proactively run tasks that complement your efforts without requiring your supervision.\r\n\r\n![tasks sidebar](https://sidekick.binary.ninja/static/images/features-tasks-sidebar.png?raw=true)\r\n\r\n*Sidekick recommends tasks that complement your analysis.*\r\n\r\n![task results](https://sidekick.binary.ninja/static/images/features-tasks-results.png?raw=true)\r\n\r\n*Stay in control by reviewing and accepting task results.*\r\n\r\n![task log](https://sidekick.binary.ninja/static/images/features-tasks-log.png?raw=true)\r\n\r\n*Understand how Sidekick arrived at the results by inspecting the task Log.*\r\n\r\n### Delegated Tasks\r\nDescribe specific tasks you want Sidekick to handle while you focus on other priorities. Sidekick independently works in the background, preparing results and insights.\r\n\r\n![tasks new](https://sidekick.binary.ninja/static/images/features-tasks-new-task.png?raw=true)\r\n\r\n*New Task dialog allows you to describe a task for Sidekick to work on.*\r\n\r\n![tasks review](https://sidekick.binary.ninja/static/images/features-delegate-tasks-review.png?raw=true)\r\n\r\n*Task results are ready for review at your convenience.*\r\n\r\n![task log](https://sidekick.binary.ninja/static/images/features-delegate-tasks-review-results.png?raw=true)\r\n\r\n*Review results of the task and decide whether to apply them to the binary.*\r\n\r\n### Chat Interactively\r\nEngage in a dynamic conversation with Sidekick, asking questions and receiving instant feedback. Chat allows for a more fluid exchange of ideas and information, enhancing your overall experience.\r\n\r\n![chat sidebar](https://sidekick.binary.ninja/static/images/features-chat-sidebar.png?raw=true)\r\n\r\n*The Chat sidebar allows you to interact with Sidekick's Chat Assistant to analyze the binary.*\r\n\r\n![chat edit](https://sidekick.binary.ninja/static/images/features-chat-edit.png?raw=true)\r\n\r\n*Ask the Chat Assistant to directly apply changes to the binary for you.*\r\n\r\n### Get Code Suggestions\r\nSidekick improves the clarity and readability of your decompiled code: automatically recovers and applies structure types, renames functions, variables, structures and fields, and produces descriptive comments for code selections or entire functions.\r\n\r\n![suggestions sidebar](https://sidekick.binary.ninja/static/images/features-suggestions-sidebar.png?raw=true)\r\n\r\n*Sidekick recovers structures, renames functions and variables, and comments your code.*\r\n\r\n![suggestions applied](https://sidekick.binary.ninja/static/images/features-suggestions-applied.png?raw=true)\r\n\r\n*Easily review and apply the suggestions to your code.*\r\n\r\n![suggestions structure recovery](https://sidekick.binary.ninja/static/images/features-suggestions-structure-recovery.png?raw=true)\r\n\r\n*The Types sidebar shows structures recovered by Sidekick.*\r\n\r\n## Binary-Wide Context\r\nIntegrate findings across an entire binary into an actively maintained context for downstream analyses.\r\n\r\n### Capture Binary Insights\r\nSidekick maintains a working notebook of insights captured across the binary, continuously leveraging them to enhance its analysis. You can also record your own findings for easy reference and control.\r\n\r\n![notebook sidebar](https://sidekick.binary.ninja/static/images/features-notebook-sidebar.png?raw=true)\r\n\r\n*The Notebook sidebar presents findings captured automatically by Sidekick during analysis.*\r\n\r\n![notebook add](https://sidekick.binary.ninja/static/images/features-notebook-add.png?raw=true)\r\n\r\n*Add your own findings to the Notebook to keep track of important information.*\r\n\r\n### Index Points of Interest\r\nQuickly capture, categorize and reference important locations discovered during analysis using Indexes, making it easier to manage and navigate large binaries.\r\n\r\n![indexes sidebar](https://sidekick.binary.ninja/static/images/features-indexes-sidebar.png?raw=true)\r\n\r\n*The Indexes sidebar manages tables of important locations discovered during analysis.*\r\n\r\n![indexes code insight map](https://sidekick.binary.ninja/static/images/features-indexes-code-insight-map.png?raw=true)\r\n\r\n*Visualize relationships between indexed locations in the Code Insight Map.*\r\n\r\n![indexes from scripts](https://sidekick.binary.ninja/static/images/features-indexes-workbench.png?raw=true)\r\n\r\n*Indexes can be created, accessed, and updated by Automation Workbench scripts.*\r\n\r\n## Smart Automation\r\nEasily create scripts blending code and Large Language Models for complex workflows and routine tasks.\r\n\r\n### Expand Your Toolset\r\nWork together with Sidekick to write your scripts and prompts, enabling you to build more tools even faster.\r\n\r\n![automation workbench sidebar](https://sidekick.binary.ninja/static/images/features-workbench-scripts.png?raw=true)\r\n\r\n*The Automation Workbench allows you to quickly build and easily manage an extensive library of scripts.*\r\n\r\n![automation workbench script with llm operator](https://sidekick.binary.ninja/static/images/features-workbench-script-llmoperator.png?raw=true)\r\n\r\n*Sidekick generates both the code and prompts for your scripts.*\r\n\r\n![automation workbench tool from chat](https://sidekick.binary.ninja/static/images/features-workbench-chat-create-tool.png?raw=true)\r\n\r\n*Tools can be created and run from the Chat Assistant.*\r\n\r\n### Use AI in Scripts\r\nApply LLMs to program analysis tasks directly within your scripts. For these models, select from a catalog of available models or even bring your own.\r\n\r\n![automation workbench llm operator script running](https://sidekick.binary.ninja/static/images/features-workbench-llmoperator-script-running.png?raw=true)\r\n\r\n*Run scripts that apply LLMs directly to program analysis tasks.*\r\n\r\n![automation workbench script results](https://sidekick.binary.ninja/static/images/features-workbench-results.png?raw=true)\r\n\r\n*View results of LLM analyses captured in indexes during script execution.*\r\n\r\n# Release Notes\r\n\r\nSidekick Client Revision: 5.0.365\r\n\r\n## Update Instructions\r\n\r\nIf you are updating from a current installation of the Sidekick plugin, then complete the following instructions:\r\n\r\n* Open the Plugin Manager\r\n* Locate the Sidekick plugin\r\n* Click `Update`\r\n\r\n## Notable Changes\r\n\r\nThis release is a patch release that includes several improvements and bug fixes. Refer to the Release Changes section below for more details.\r\n\r\n## Release Changes\r\n\r\n* Enhancement: Improved management of large conversations in the Chat interface.\r\n* Fix: Fixed task planning validation errors caused by the presence of some automation workbench tools.\r\n* Fix: Trimmed user location context for Chat messages prior to sending request\r\n* Enhancement: Added option to filter tasks by current binary view\r\n* Fix: Trimmed description of fields in the Automation Workbench Parameter dialog form\r\n* Enhancement: Improved Binary Ninja startup time when Sidekick plugin is installed\r\n* Fix: Maintain focus on current archived task when new tasks are added to the archived list\r\n* Fix: Fixed error that occurs when saving indexes with no entries\r\n* Fix: Added fix to prevent recommending tasks if the Tasks sidebar is not open\r\n* Enhancement: Updated BNQL to support querying immediate values\r\n* Enhancement: Added support for tracking Binary Ninja tag details in user activity for additional context for task recommendations",
+    "longdescription": "# Sidekick\r\n\r\nSidekick is [Binary Ninja's](https://binary.ninja) official AI-powered plugin and service, delivering seamless integration for effortless reverse engineering.\r\n\r\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. To purchase a Sidekick plan, you must have a Sidekick account. To sign up for a Sidekick account, click [here](https://sidekick.binary.ninja/sign_in).\r\n\r\n## Collaborative AI\r\nYour AI collaborator monitors context, runs complementary analyses, and delivers results without interruptions.\r\n\r\n### Work Side-by-Side\r\nSidekick continuously tracks your analysis context, intelligently inferring your current focus to proactively run tasks that complement your efforts without requiring your supervision.\r\n\r\n![tasks sidebar](https://sidekick.binary.ninja/static/images/features-tasks-sidebar.png?raw=true)\r\n\r\n*Sidekick recommends tasks that complement your analysis.*\r\n\r\n![task results](https://sidekick.binary.ninja/static/images/features-tasks-results.png?raw=true)\r\n\r\n*Stay in control by reviewing and accepting task results.*\r\n\r\n![task log](https://sidekick.binary.ninja/static/images/features-tasks-log.png?raw=true)\r\n\r\n*Understand how Sidekick arrived at the results by inspecting the task Log.*\r\n\r\n### Delegated Tasks\r\nDescribe specific tasks you want Sidekick to handle while you focus on other priorities. Sidekick independently works in the background, preparing results and insights.\r\n\r\n![tasks new](https://sidekick.binary.ninja/static/images/features-tasks-new-task.png?raw=true)\r\n\r\n*New Task dialog allows you to describe a task for Sidekick to work on.*\r\n\r\n![tasks review](https://sidekick.binary.ninja/static/images/features-delegate-tasks-review.png?raw=true)\r\n\r\n*Task results are ready for review at your convenience.*\r\n\r\n![task log](https://sidekick.binary.ninja/static/images/features-delegate-tasks-review-results.png?raw=true)\r\n\r\n*Review results of the task and decide whether to apply them to the binary.*\r\n\r\n### Chat Interactively\r\nEngage in a dynamic conversation with Sidekick, asking questions and receiving instant feedback. Chat allows for a more fluid exchange of ideas and information, enhancing your overall experience.\r\n\r\n![chat sidebar](https://sidekick.binary.ninja/static/images/features-chat-sidebar.png?raw=true)\r\n\r\n*The Chat sidebar allows you to interact with Sidekick's Chat Assistant to analyze the binary.*\r\n\r\n![chat edit](https://sidekick.binary.ninja/static/images/features-chat-edit.png?raw=true)\r\n\r\n*Ask the Chat Assistant to directly apply changes to the binary for you.*\r\n\r\n### Get Code Suggestions\r\nSidekick improves the clarity and readability of your decompiled code: automatically recovers and applies structure types, renames functions, variables, structures and fields, and produces descriptive comments for code selections or entire functions.\r\n\r\n![suggestions sidebar](https://sidekick.binary.ninja/static/images/features-suggestions-sidebar.png?raw=true)\r\n\r\n*Sidekick recovers structures, renames functions and variables, and comments your code.*\r\n\r\n![suggestions applied](https://sidekick.binary.ninja/static/images/features-suggestions-applied.png?raw=true)\r\n\r\n*Easily review and apply the suggestions to your code.*\r\n\r\n![suggestions structure recovery](https://sidekick.binary.ninja/static/images/features-suggestions-structure-recovery.png?raw=true)\r\n\r\n*The Types sidebar shows structures recovered by Sidekick.*\r\n\r\n## Binary-Wide Context\r\nIntegrate findings across an entire binary into an actively maintained context for downstream analyses.\r\n\r\n### Capture Binary Insights\r\nSidekick maintains a working notebook of insights captured across the binary, continuously leveraging them to enhance its analysis. You can also record your own findings for easy reference and control.\r\n\r\n![notebook sidebar](https://sidekick.binary.ninja/static/images/features-notebook-sidebar.png?raw=true)\r\n\r\n*The Notebook sidebar presents findings captured automatically by Sidekick during analysis.*\r\n\r\n![notebook add](https://sidekick.binary.ninja/static/images/features-notebook-add.png?raw=true)\r\n\r\n*Add your own findings to the Notebook to keep track of important information.*\r\n\r\n### Index Points of Interest\r\nQuickly capture, categorize and reference important locations discovered during analysis using Indexes, making it easier to manage and navigate large binaries.\r\n\r\n![indexes sidebar](https://sidekick.binary.ninja/static/images/features-indexes-sidebar.png?raw=true)\r\n\r\n*The Indexes sidebar manages tables of important locations discovered during analysis.*\r\n\r\n![indexes code insight map](https://sidekick.binary.ninja/static/images/features-indexes-code-insight-map.png?raw=true)\r\n\r\n*Visualize relationships between indexed locations in the Code Insight Map.*\r\n\r\n![indexes from scripts](https://sidekick.binary.ninja/static/images/features-indexes-workbench.png?raw=true)\r\n\r\n*Indexes can be created, accessed, and updated by Automation Workbench scripts.*\r\n\r\n## Smart Automation\r\nEasily create scripts blending code and Large Language Models for complex workflows and routine tasks.\r\n\r\n### Expand Your Toolset\r\nWork together with Sidekick to write your scripts and prompts, enabling you to build more tools even faster.\r\n\r\n![automation workbench sidebar](https://sidekick.binary.ninja/static/images/features-workbench-scripts.png?raw=true)\r\n\r\n*The Automation Workbench allows you to quickly build and easily manage an extensive library of scripts.*\r\n\r\n![automation workbench script with llm operator](https://sidekick.binary.ninja/static/images/features-workbench-script-llmoperator.png?raw=true)\r\n\r\n*Sidekick generates both the code and prompts for your scripts.*\r\n\r\n![automation workbench tool from chat](https://sidekick.binary.ninja/static/images/features-workbench-chat-create-tool.png?raw=true)\r\n\r\n*Tools can be created and run from the Chat Assistant.*\r\n\r\n### Use AI in Scripts\r\nApply LLMs to program analysis tasks directly within your scripts. For these models, select from a catalog of available models or even bring your own.\r\n\r\n![automation workbench llm operator script running](https://sidekick.binary.ninja/static/images/features-workbench-llmoperator-script-running.png?raw=true)\r\n\r\n*Run scripts that apply LLMs directly to program analysis tasks.*\r\n\r\n![automation workbench script results](https://sidekick.binary.ninja/static/images/features-workbench-results.png?raw=true)\r\n\r\n*View results of LLM analyses captured in indexes during script execution.*\r\n\r\n# Release Notes\r\n\r\nSidekick Client Revision: 5.0.366\r\n\r\n## Update Instructions\r\n\r\nIf you are updating from a current installation of the Sidekick plugin, then complete the following instructions:\r\n\r\n* Open the Plugin Manager\r\n* Locate the Sidekick plugin\r\n* Click `Update`\r\n\r\n## Notable Changes\r\n\r\nThis release is a patch release that includes several improvements and bug fixes. Refer to the Release Changes section below for more details.\r\n\r\n## Release Changes\r\n\r\n* Enhancement: Improved management of large conversations in the Chat interface.\r\n* Fix: Fixed task planning validation errors caused by the presence of some automation workbench tools.\r\n* Fix: Trimmed user location context for Chat messages prior to sending request\r\n* Enhancement: Added option to filter tasks by current binary view\r\n* Fix: Trimmed description of fields in the Automation Workbench Parameter dialog form\r\n* Enhancement: Improved Binary Ninja startup time when Sidekick plugin is installed\r\n* Fix: Maintain focus on current archived task when new tasks are added to the archived list\r\n* Fix: Fixed error that occurs when saving indexes with no entries\r\n* Fix: Added fix to prevent recommending tasks if the Tasks sidebar is not open\r\n* Enhancement: Updated BNQL to support querying immediate values\r\n* Enhancement: Added support for tracking Binary Ninja tag details in user activity for additional context for task recommendations\r\n* Fix: Fixed typing syntax error when loading the Code Insight Map view",
     "minimumbinaryninjaversion": 8005,
     "name": "Sidekick",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/21efa4ff-9499-4dff-affc-8715225b5b2d/versions/a1684ac0-f5b7-480a-9be0-1bf6c08dc6b9/platforms/2647/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/21efa4ff-9499-4dff-affc-8715225b5b2d/versions/a1684ac0-f5b7-480a-9be0-1bf6c08dc6b9/platforms/2647/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/21efa4ff-9499-4dff-affc-8715225b5b2d/versions/f45bc0a9-0ed3-4bd0-96d8-27ad8746860e/platforms/2671/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/21efa4ff-9499-4dff-affc-8715225b5b2d/versions/f45bc0a9-0ed3-4bd0-96d8-27ad8746860e/platforms/2671/download?notrack=1",
     "path": "Vector35_Sidekick",
     "platforms": [
       "Darwin",
@@ -25,7 +26,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "updated_at": "2025-09-04 20:33:48+00:00"
+      "updated_at": "2025-09-19 21:01:15+00:00"
     },
     "projectUrl": "https://github.com/vector35/sidekick-public",
     "subdir": "",
@@ -33,7 +34,7 @@
       "helper",
       "ui"
     ],
-    "version": "5.0.365"
+    "version": "5.0.366"
   },
   {
     "api": [
@@ -43,6 +44,7 @@
     "dependencies": "",
     "description": "COMpanion is a plugin for Binary Ninja helps automate working with COM objects in Windows binaries.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1721868534,
     "license": {
       "name": "MIT",
@@ -79,6 +81,7 @@
     "dependencies": "requests\n",
     "description": "Automatically analyze a binary via unpac.me",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1745535303,
     "license": {
       "name": "MIT",
@@ -116,6 +119,7 @@
     "dependencies": "",
     "description": "An architecture plugin for 6502 and binary view for NES roms.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1748626807,
     "license": {
       "name": "MIT",
@@ -153,6 +157,7 @@
     "dependencies": "pygments>=2.7.0\n",
     "description": "Powerful code-editing plugin for writing and managing python code-snippets with syntax highlighting, hotkey binding and other features",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1752213736,
     "license": {
       "name": "MIT",
@@ -171,7 +176,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 24,
+      "stargazers_count": 25,
       "updated_at": "2025-07-11 06:02:16+00:00"
     },
     "projectUrl": "https://github.com/Vector35/snippets",
@@ -190,6 +195,7 @@
     "dependencies": "",
     "description": "Automatically patch opaque predicates",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1732046033,
     "license": {
       "name": "MIT",
@@ -226,6 +232,7 @@
     "dependencies": "",
     "description": "This is a short description meant to fit on one line.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1717781527,
     "license": {
       "name": "MIT",
@@ -267,6 +274,7 @@
     "dependencies": "z80dis\n",
     "description": "Sample Z80 architecture plugin written to accompany the <a href='https://binary.ninja/2020/01/08/guide-to-architecture-plugins-part1.html'>introductory blog post</a>.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1717781527,
     "license": {
       "name": "MIT",
@@ -304,6 +312,7 @@
     "dependencies": "flatbuffers\n",
     "description": "Python tools for working with Signature Libraries",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1725913743,
     "license": {
       "name": "MIT",
@@ -342,6 +351,7 @@
     "dependencies": "kaitaistruct",
     "description": "Browse hex with a tree view populated from Kaitai Struct formats.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1744997183,
     "license": {
       "name": "MIT",
@@ -360,7 +370,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 42,
+      "stargazers_count": 44,
       "updated_at": "2025-04-18 17:26:23+00:00"
     },
     "projectUrl": "https://github.com/Vector35/kaitai",
@@ -378,6 +388,7 @@
     "dependencies": "click==8.1.7 ; python_version >= \"3.9\" and python_version < \"4.0\"\ncolorama==0.4.6 ; python_version >= \"3.9\" and python_version < \"4.0\" and platform_system == \"Windows\"\npyyaml==6.0.2 ; python_version >= \"3.9\" and python_version < \"4.0\"\nsvd2py==1.0.2 ; python_version >= \"3.9\" and python_version < \"4.0\"\n",
     "description": "SVD Mapper is a plugin for Binary Ninja that helps automate the process of mapping in SVD peripherals",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1731605910,
     "license": {
       "name": "Apache 2.0",
@@ -414,6 +425,7 @@
     "dependencies": "unblob==24.11.13\npython-magic==0.4.27\n",
     "description": "Plugin for extracting files from container formats",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1732023514,
     "license": {
       "name": "MIT",
@@ -451,6 +463,7 @@
     "dependencies": "",
     "description": "Tant\u014d slices programs to help you can understand them faster.",
     "installinstructions": {},
+    "is_paid": false,
     "lastUpdated": 1744902984,
     "license": {
       "name": "MIT",
