@@ -8,16 +8,16 @@
     "description": "Binary Ninja Sidekick",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1760027675,
+    "lastUpdated": 1762541568,
     "license": {
       "name": "Commercial",
       "text": "This plugin is fully copyright Vector 35 Inc except as otherwise noted in the source. While source is distributed, no rights to the source are granted beyond those to submodules described <a href='https://docs.sidekick.binary.ninja/about/open-source/'>here</a>. Use of this plugin should be consistent with the terms of service available <a href='https://docs.sidekick.binary.ninja/about/legal-terms-and-conditions/'>here</a>."
     },
-    "longdescription": "# Sidekick\r\n\r\nSidekick is [Binary Ninja's](https://binary.ninja) official AI-powered plugin and service, delivering seamless integration for effortless reverse engineering.\r\n\r\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. To purchase a Sidekick plan, you must have a Sidekick account. To sign up for a Sidekick account, click [here](https://sidekick.binary.ninja/sign_in).\r\n\r\n## Collaborative AI\r\nYour AI collaborator monitors context, runs complementary analyses, and delivers results without interruptions.\r\n\r\n### Work Side-by-Side\r\nSidekick continuously tracks your analysis context, intelligently inferring your current focus to proactively run tasks that complement your efforts without requiring your supervision.\r\n\r\n![tasks sidebar](https://sidekick.binary.ninja/static/images/features-tasks-sidebar.png?raw=true)\r\n\r\n*Sidekick recommends tasks that complement your analysis.*\r\n\r\n![task results](https://sidekick.binary.ninja/static/images/features-tasks-results.png?raw=true)\r\n\r\n*Stay in control by reviewing and accepting task results.*\r\n\r\n![task log](https://sidekick.binary.ninja/static/images/features-tasks-log.png?raw=true)\r\n\r\n*Understand how Sidekick arrived at the results by inspecting the task Log.*\r\n\r\n### Delegated Tasks\r\nDescribe specific tasks you want Sidekick to handle while you focus on other priorities. Sidekick independently works in the background, preparing results and insights.\r\n\r\n![tasks new](https://sidekick.binary.ninja/static/images/features-tasks-new-task.png?raw=true)\r\n\r\n*New Task dialog allows you to describe a task for Sidekick to work on.*\r\n\r\n![tasks review](https://sidekick.binary.ninja/static/images/features-delegate-tasks-review.png?raw=true)\r\n\r\n*Task results are ready for review at your convenience.*\r\n\r\n![task log](https://sidekick.binary.ninja/static/images/features-delegate-tasks-review-results.png?raw=true)\r\n\r\n*Review results of the task and decide whether to apply them to the binary.*\r\n\r\n### Chat Interactively\r\nEngage in a dynamic conversation with Sidekick, asking questions and receiving instant feedback. Chat allows for a more fluid exchange of ideas and information, enhancing your overall experience.\r\n\r\n![chat sidebar](https://sidekick.binary.ninja/static/images/features-chat-sidebar.png?raw=true)\r\n\r\n*The Chat sidebar allows you to interact with Sidekick's Chat Assistant to analyze the binary.*\r\n\r\n![chat edit](https://sidekick.binary.ninja/static/images/features-chat-edit.png?raw=true)\r\n\r\n*Ask the Chat Assistant to directly apply changes to the binary for you.*\r\n\r\n### Get Code Suggestions\r\nSidekick improves the clarity and readability of your decompiled code: automatically recovers and applies structure types, renames functions, variables, structures and fields, and produces descriptive comments for code selections or entire functions.\r\n\r\n![suggestions sidebar](https://sidekick.binary.ninja/static/images/features-suggestions-sidebar.png?raw=true)\r\n\r\n*Sidekick recovers structures, renames functions and variables, and comments your code.*\r\n\r\n![suggestions applied](https://sidekick.binary.ninja/static/images/features-suggestions-applied.png?raw=true)\r\n\r\n*Easily review and apply the suggestions to your code.*\r\n\r\n![suggestions structure recovery](https://sidekick.binary.ninja/static/images/features-suggestions-structure-recovery.png?raw=true)\r\n\r\n*The Types sidebar shows structures recovered by Sidekick.*\r\n\r\n## Binary-Wide Context\r\nIntegrate findings across an entire binary into an actively maintained context for downstream analyses.\r\n\r\n### Capture Binary Insights\r\nSidekick maintains a working notebook of insights captured across the binary, continuously leveraging them to enhance its analysis. You can also record your own findings for easy reference and control.\r\n\r\n![notebook sidebar](https://sidekick.binary.ninja/static/images/features-notebook-sidebar.png?raw=true)\r\n\r\n*The Notebook sidebar presents findings captured automatically by Sidekick during analysis.*\r\n\r\n![notebook add](https://sidekick.binary.ninja/static/images/features-notebook-add.png?raw=true)\r\n\r\n*Add your own findings to the Notebook to keep track of important information.*\r\n\r\n### Index Points of Interest\r\nQuickly capture, categorize and reference important locations discovered during analysis using Indexes, making it easier to manage and navigate large binaries.\r\n\r\n![indexes sidebar](https://sidekick.binary.ninja/static/images/features-indexes-sidebar.png?raw=true)\r\n\r\n*The Indexes sidebar manages tables of important locations discovered during analysis.*\r\n\r\n![indexes code insight map](https://sidekick.binary.ninja/static/images/features-indexes-code-insight-map.png?raw=true)\r\n\r\n*Visualize relationships between indexed locations in the Code Insight Map.*\r\n\r\n![indexes from scripts](https://sidekick.binary.ninja/static/images/features-indexes-workbench.png?raw=true)\r\n\r\n*Indexes can be created, accessed, and updated by Automation Workbench scripts.*\r\n\r\n## Smart Automation\r\nEasily create scripts blending code and Large Language Models for complex workflows and routine tasks.\r\n\r\n### Expand Your Toolset\r\nWork together with Sidekick to write your scripts and prompts, enabling you to build more tools even faster.\r\n\r\n![automation workbench sidebar](https://sidekick.binary.ninja/static/images/features-workbench-scripts.png?raw=true)\r\n\r\n*The Automation Workbench allows you to quickly build and easily manage an extensive library of scripts.*\r\n\r\n![automation workbench script with llm operator](https://sidekick.binary.ninja/static/images/features-workbench-script-llmoperator.png?raw=true)\r\n\r\n*Sidekick generates both the code and prompts for your scripts.*\r\n\r\n![automation workbench tool from chat](https://sidekick.binary.ninja/static/images/features-workbench-chat-create-tool.png?raw=true)\r\n\r\n*Tools can be created and run from the Chat Assistant.*\r\n\r\n### Use AI in Scripts\r\nApply LLMs to program analysis tasks directly within your scripts. For these models, select from a catalog of available models or even bring your own.\r\n\r\n![automation workbench llm operator script running](https://sidekick.binary.ninja/static/images/features-workbench-llmoperator-script-running.png?raw=true)\r\n\r\n*Run scripts that apply LLMs directly to program analysis tasks.*\r\n\r\n![automation workbench script results](https://sidekick.binary.ninja/static/images/features-workbench-results.png?raw=true)\r\n\r\n*View results of LLM analyses captured in indexes during script execution.*\r\n\r\n# Release Notes\r\n\r\nSidekick Client Revision: 5.0.371\r\n\r\n## Update Instructions\r\n\r\nIf you are updating from a current installation of the Sidekick plugin, then complete the following instructions:\r\n\r\n* Open the Plugin Manager\r\n* Locate the Sidekick plugin\r\n* Click `Update`\r\n\r\n## Notable Changes\r\n\r\nThis release is a patch release that includes several improvements and bug fixes. Refer to the Release Changes section below for more details.\r\n\r\n## Release Changes\r\n\r\n* **Enhancement:** Implemented contextual BNQL assistance.\r\n* **Enhancement:** Improved handling of BNQL on the API server.\r\n* **Enhancement:** Improved Chat's knowledge of facts in the Notebook.\r\n* **Enhancement:** Added new tools in the Chat for retrieving the current selection and visible content within Binary Ninja views.\r\n* **Enhancement:** Added contextual collation of chat messages by role for improved readability in conversation history.\r\n* **Fix:** Handled exceptions during migration of legacy signal formats for backward compatibility.",
+    "longdescription": "# Sidekick\r\n\r\nSidekick is [Binary Ninja's](https://binary.ninja) official AI-powered plugin and service, delivering seamless integration for effortless reverse engineering.\r\n\r\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. To purchase a Sidekick plan, you must have a Sidekick account. To sign up for a Sidekick account, click [here](https://sidekick.binary.ninja/sign_in).\r\n\r\n## Collaborative AI\r\nYour AI collaborator monitors context, runs complementary analyses, and delivers results without interruptions.\r\n\r\n### Work Side-by-Side\r\nSidekick continuously tracks your analysis context, intelligently inferring your current focus to proactively run tasks that complement your efforts without requiring your supervision.\r\n\r\n![tasks sidebar](https://sidekick.binary.ninja/static/images/features-tasks-sidebar.png?raw=true)\r\n\r\n*Sidekick recommends tasks that complement your analysis.*\r\n\r\n![task results](https://sidekick.binary.ninja/static/images/features-tasks-results.png?raw=true)\r\n\r\n*Stay in control by reviewing and accepting task results.*\r\n\r\n![task log](https://sidekick.binary.ninja/static/images/features-tasks-log.png?raw=true)\r\n\r\n*Understand how Sidekick arrived at the results by inspecting the task Log.*\r\n\r\n### Delegated Tasks\r\nDescribe specific tasks you want Sidekick to handle while you focus on other priorities. Sidekick independently works in the background, preparing results and insights.\r\n\r\n![tasks new](https://sidekick.binary.ninja/static/images/features-tasks-new-task.png?raw=true)\r\n\r\n*New Task dialog allows you to describe a task for Sidekick to work on.*\r\n\r\n![tasks review](https://sidekick.binary.ninja/static/images/features-delegate-tasks-review.png?raw=true)\r\n\r\n*Task results are ready for review at your convenience.*\r\n\r\n![task log](https://sidekick.binary.ninja/static/images/features-delegate-tasks-review-results.png?raw=true)\r\n\r\n*Review results of the task and decide whether to apply them to the binary.*\r\n\r\n### Chat Interactively\r\nEngage in a dynamic conversation with Sidekick, asking questions and receiving instant feedback. Chat allows for a more fluid exchange of ideas and information, enhancing your overall experience.\r\n\r\n![chat sidebar](https://sidekick.binary.ninja/static/images/features-chat-sidebar.png?raw=true)\r\n\r\n*The Chat sidebar allows you to interact with Sidekick's Chat Assistant to analyze the binary.*\r\n\r\n![chat edit](https://sidekick.binary.ninja/static/images/features-chat-edit.png?raw=true)\r\n\r\n*Ask the Chat Assistant to directly apply changes to the binary for you.*\r\n\r\n### Get Code Suggestions\r\nSidekick improves the clarity and readability of your decompiled code: automatically recovers and applies structure types, renames functions, variables, structures and fields, and produces descriptive comments for code selections or entire functions.\r\n\r\n![suggestions sidebar](https://sidekick.binary.ninja/static/images/features-suggestions-sidebar.png?raw=true)\r\n\r\n*Sidekick recovers structures, renames functions and variables, and comments your code.*\r\n\r\n![suggestions applied](https://sidekick.binary.ninja/static/images/features-suggestions-applied.png?raw=true)\r\n\r\n*Easily review and apply the suggestions to your code.*\r\n\r\n![suggestions structure recovery](https://sidekick.binary.ninja/static/images/features-suggestions-structure-recovery.png?raw=true)\r\n\r\n*The Types sidebar shows structures recovered by Sidekick.*\r\n\r\n## Binary-Wide Context\r\nIntegrate findings across an entire binary into an actively maintained context for downstream analyses.\r\n\r\n### Capture Binary Insights\r\nSidekick maintains a working notebook of insights captured across the binary, continuously leveraging them to enhance its analysis. You can also record your own findings for easy reference and control.\r\n\r\n![notebook sidebar](https://sidekick.binary.ninja/static/images/features-notebook-sidebar.png?raw=true)\r\n\r\n*The Notebook sidebar presents findings captured automatically by Sidekick during analysis.*\r\n\r\n![notebook add](https://sidekick.binary.ninja/static/images/features-notebook-add.png?raw=true)\r\n\r\n*Add your own findings to the Notebook to keep track of important information.*\r\n\r\n### Index Points of Interest\r\nQuickly capture, categorize and reference important locations discovered during analysis using Indexes, making it easier to manage and navigate large binaries.\r\n\r\n![indexes sidebar](https://sidekick.binary.ninja/static/images/features-indexes-sidebar.png?raw=true)\r\n\r\n*The Indexes sidebar manages tables of important locations discovered during analysis.*\r\n\r\n![indexes code insight map](https://sidekick.binary.ninja/static/images/features-indexes-code-insight-map.png?raw=true)\r\n\r\n*Visualize relationships between indexed locations in the Code Insight Map.*\r\n\r\n![indexes from scripts](https://sidekick.binary.ninja/static/images/features-indexes-workbench.png?raw=true)\r\n\r\n*Indexes can be created, accessed, and updated by Automation Workbench scripts.*\r\n\r\n## Smart Automation\r\nEasily create scripts blending code and Large Language Models for complex workflows and routine tasks.\r\n\r\n### Expand Your Toolset\r\nWork together with Sidekick to write your scripts and prompts, enabling you to build more tools even faster.\r\n\r\n![automation workbench sidebar](https://sidekick.binary.ninja/static/images/features-workbench-scripts.png?raw=true)\r\n\r\n*The Automation Workbench allows you to quickly build and easily manage an extensive library of scripts.*\r\n\r\n![automation workbench script with llm operator](https://sidekick.binary.ninja/static/images/features-workbench-script-llmoperator.png?raw=true)\r\n\r\n*Sidekick generates both the code and prompts for your scripts.*\r\n\r\n![automation workbench tool from chat](https://sidekick.binary.ninja/static/images/features-workbench-chat-create-tool.png?raw=true)\r\n\r\n*Tools can be created and run from the Chat Assistant.*\r\n\r\n### Use AI in Scripts\r\nApply LLMs to program analysis tasks directly within your scripts. For these models, select from a catalog of available models or even bring your own.\r\n\r\n![automation workbench llm operator script running](https://sidekick.binary.ninja/static/images/features-workbench-llmoperator-script-running.png?raw=true)\r\n\r\n*Run scripts that apply LLMs directly to program analysis tasks.*\r\n\r\n![automation workbench script results](https://sidekick.binary.ninja/static/images/features-workbench-results.png?raw=true)\r\n\r\n*View results of LLM analyses captured in indexes during script execution.*\r\n\r\n# Release Notes\r\n\r\nSidekick Client Revision: 5.0.390\r\n\r\n## Update Instructions\r\n\r\nIf you are updating from a current installation of the Sidekick plugin, then complete the following instructions:\r\n\r\n* Open the Plugin Manager\r\n* Locate the Sidekick plugin\r\n* Click `Update`\r\n\r\n## Notable Changes\r\n\r\nThis release is a patch release that includes bug fixes. Refer to the Release Changes section below for more details.\r\n\r\n## Release Changes\r\n\r\n* **Fix:** Fixed an issue where Sidekick would leak Binary Views on closing them, leading to increased memory usage over time.\r\n* **Fix:** Fixed an issue when enabling the Sidekick plugin that prevented initialization of the Sidekick status bar and tracking of already open binary views for user intent tracking and task recommendations.",
     "minimumbinaryninjaversion": 8005,
     "name": "Sidekick",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/21efa4ff-9499-4dff-affc-8715225b5b2d/versions/d134147c-631b-4d49-9b7a-d7376e836661/platforms/2719/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/21efa4ff-9499-4dff-affc-8715225b5b2d/versions/d134147c-631b-4d49-9b7a-d7376e836661/platforms/2719/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/21efa4ff-9499-4dff-affc-8715225b5b2d/versions/9ad1c929-6753-43ca-860c-b9268a0d65f7/platforms/2791/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/21efa4ff-9499-4dff-affc-8715225b5b2d/versions/9ad1c929-6753-43ca-860c-b9268a0d65f7/platforms/2791/download?notrack=1",
     "path": "Vector35_Sidekick",
     "platforms": [
       "Darwin",
@@ -26,7 +26,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "updated_at": "2025-10-09 16:34:35+00:00"
+      "updated_at": "2025-11-07 18:52:48+00:00"
     },
     "projectUrl": "https://github.com/vector35/sidekick-public",
     "subdir": "",
@@ -34,7 +34,7 @@
       "helper",
       "ui"
     ],
-    "version": "5.0.371"
+    "version": "5.0.390"
   },
   {
     "api": [
@@ -53,8 +53,8 @@
     "longdescription": "# COMpanion (v0.1.2)\nAuthor: **Vector 35 Inc**\n\n_COMpanion is a plugin for Binary Ninja helps automate working with COM objects in Windows binaries._\n\n## Description:\n\n\nNone\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 4860\n\n\n## License\n\nThis plugin is released under a MIT license.\n## Metadata Version\n\n2\n",
     "minimumbinaryninjaversion": 4860,
     "name": "COMpanion",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/55096ae1-c19c-4103-a2c5-209ce87fc71d/versions/86fda630-e457-4bec-b77f-e7769e7ce81d/platforms/122/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/55096ae1-c19c-4103-a2c5-209ce87fc71d/versions/86fda630-e457-4bec-b77f-e7769e7ce81d/platforms/122/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/55096ae1-c19c-4103-a2c5-209ce87fc71d/versions/86fda630-e457-4bec-b77f-e7769e7ce81d/platforms/123/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/55096ae1-c19c-4103-a2c5-209ce87fc71d/versions/86fda630-e457-4bec-b77f-e7769e7ce81d/platforms/123/download?notrack=1",
     "path": "Vector35_COMpanion",
     "platforms": [
       "Darwin",
@@ -100,7 +100,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 8,
+      "stargazers_count": 9,
       "updated_at": "2025-04-24 22:55:03+00:00"
     },
     "projectUrl": "https://github.com/Vector35/unpacme",
@@ -176,7 +176,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 25,
+      "stargazers_count": 26,
       "updated_at": "2025-07-11 06:02:16+00:00"
     },
     "projectUrl": "https://github.com/Vector35/snippets",
@@ -214,7 +214,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 66,
+      "stargazers_count": 67,
       "updated_at": "2024-11-19 19:53:53+00:00"
     },
     "projectUrl": "https://github.com/Vector35/OpaquePredicatePatcher",
@@ -241,8 +241,8 @@
     "longdescription": "# Sample Plugin\nAuthor: **Vector 35 Inc**\n\n_This is a short description meant to fit on one line._\n\n## Description:\nThis is a longer description meant for a sample plugin that demonstrates the metadata format for Binary Ninja plugins. Note that the [community-plugins repo](https://github.com/Vector35/community-plugins) contains a useful [utility](https://github.com/Vector35/community-plugins/blob/master/generate_plugininfo.py) to validate the plugin.json. Additionally, the [release helper](https://github.com/Vector35/release_helper) plugin is helpful for more easily pushing new releases, incrementing versions, and creating the appropriate GitHub tags.\n\nNote that originally we recommended specifying the contents of this entire file inside of the [plugin.json](./plugin.json) but the latest repository generator will use the readme contents directly which means you should simply leave an empty longdescription field. \n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n * 3000\n\n## License\n\nThis plugin is released under an [MIT license](./license).\n\n## Metadata Version\n\n2\n",
     "minimumbinaryninjaversion": 3000,
     "name": "Sample Plugin",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/a2041ccb-3df5-456a-8ca8-67e39e3d7d79/versions/aee01364-266f-40fb-9d66-ddac0381e98b/platforms/55/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/a2041ccb-3df5-456a-8ca8-67e39e3d7d79/versions/aee01364-266f-40fb-9d66-ddac0381e98b/platforms/55/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/a2041ccb-3df5-456a-8ca8-67e39e3d7d79/versions/aee01364-266f-40fb-9d66-ddac0381e98b/platforms/57/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/a2041ccb-3df5-456a-8ca8-67e39e3d7d79/versions/aee01364-266f-40fb-9d66-ddac0381e98b/platforms/57/download?notrack=1",
     "path": "Vector35_sample_plugin",
     "platforms": [
       "Darwin",
@@ -283,8 +283,8 @@
     "longdescription": "<p>This Z80 architecture plugin was originally written as an example architecture to introduce how to easily add support to Binary Ninja for any new architecture given an existing disassembly library. It originally used the <a href='https://skoolkit.ca/'>SchoolKit</a> python library as a disassembler, but later was updated to work with a <a href='https://github.com/lwerdna/z80dis'>dedicated library</a>.</p><p>This repository has several checkpoints from the <a href='https://binary.ninja/2020/01/08/guide-to-architecture-plugins-part1.html'>blog post</a> that are associated with specific comments.</p>",
     "minimumbinaryninjaversion": 776,
     "name": "Z80 Architecture Plugin",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/27f18699-eaa9-4ecb-95eb-5aeab736b162/versions/eb4d63b8-8ae6-4c72-8d3a-eb05d40287e5/platforms/62/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/27f18699-eaa9-4ecb-95eb-5aeab736b162/versions/eb4d63b8-8ae6-4c72-8d3a-eb05d40287e5/platforms/62/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/27f18699-eaa9-4ecb-95eb-5aeab736b162/versions/eb4d63b8-8ae6-4c72-8d3a-eb05d40287e5/platforms/63/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/27f18699-eaa9-4ecb-95eb-5aeab736b162/versions/eb4d63b8-8ae6-4c72-8d3a-eb05d40287e5/platforms/63/download?notrack=1",
     "path": "Vector35_Z80",
     "platforms": [
       "Darwin",
@@ -321,8 +321,8 @@
     "longdescription": "This plugin provides Python tools for generating, manipulating, viewing, loading, and saving signature libraries (.sig) for the Signature System. This plugin also provides UI integration for easy access from the Binary Ninja UI to common functions in the `Tools\\Signature Library` menu.\n\n\n![Signature Explorer](https://raw.githubusercontent.com/vector35/sigkit/master/images/explorer.png)\n\nAlso included are [example scripts](https://github.com/Vector35/sigkit/tree/master/examples) which demonstrate batch processing and automatic creation of signature libraries for Ubuntu libc.\nYou can also run the Signature Explorer GUI as a standalone app.",
     "minimumbinaryninjaversion": 1997,
     "name": "Signature Kit Plugin",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/51fa529d-82ce-419b-8214-b3d60882c804/versions/5ed9ae29-7049-4ae5-8dd3-dce131ed76ec/platforms/149/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/51fa529d-82ce-419b-8214-b3d60882c804/versions/5ed9ae29-7049-4ae5-8dd3-dce131ed76ec/platforms/149/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/51fa529d-82ce-419b-8214-b3d60882c804/versions/5ed9ae29-7049-4ae5-8dd3-dce131ed76ec/platforms/146/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/51fa529d-82ce-419b-8214-b3d60882c804/versions/5ed9ae29-7049-4ae5-8dd3-dce131ed76ec/platforms/146/download?notrack=1",
     "path": "Vector35_sigkit",
     "platforms": [
       "Darwin",
@@ -331,7 +331,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 75,
+      "stargazers_count": 76,
       "updated_at": "2024-09-09 20:29:03+00:00"
     },
     "projectUrl": "https://github.com/Vector35/sigkit",
@@ -482,7 +482,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 71,
+      "stargazers_count": 73,
       "updated_at": "2025-04-17 15:16:24+00:00"
     },
     "projectUrl": "https://github.com/Vector35/tanto",
