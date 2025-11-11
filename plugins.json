@@ -313,16 +313,16 @@
     "description": "Python tools for working with Signature Libraries",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1725913743,
+    "lastUpdated": 1762896627,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2019-2020 Vector 35 Inc\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "This plugin provides Python tools for generating, manipulating, viewing, loading, and saving signature libraries (.sig) for the Signature System. This plugin also provides UI integration for easy access from the Binary Ninja UI to common functions in the `Tools\\Signature Library` menu.\n\n\n![Signature Explorer](https://raw.githubusercontent.com/vector35/sigkit/master/images/explorer.png)\n\nAlso included are [example scripts](https://github.com/Vector35/sigkit/tree/master/examples) which demonstrate batch processing and automatic creation of signature libraries for Ubuntu libc.\nYou can also run the Signature Explorer GUI as a standalone app.",
+    "longdescription": "# Signature Kit Plugin (v1.2.2)\nAuthor: **Vector 35 Inc**\n\n_Python tools for working with Signature Libraries_\n\n## \u26a0\ufe0f Deprecation Notice\n\n**SigKit is no longer under active development.  For more information, please see https://binary.ninja/2025/08/22/warp.html**.\n\n## Description:\n\nThis plugin provides Python tools for generating, manipulating, viewing, loading, and saving signature libraries (.sig) for the Signature System. This plugin also provides UI integration for easy access from the Binary Ninja UI to common functions in the `Plugins\\Signature Library` menu.\n\n\n![Signature Explorer](https://raw.githubusercontent.com/vector35/sigkit/master/images/explorer.png)\n\nAlso included are [example scripts](https://github.com/Vector35/sigkit/tree/master/examples) which demonstrate batch processing and automatic creation of signature libraries for Ubuntu libc.\nYou can also run the Signature Explorer GUI as a standalone app.\n\n\n## Installation Instructions\n\n### Windows\n\n\n\n### Linux\n\n\n\n### Darwin\n\n\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 1997\n\n\n\n## Required Dependencies\n\nThe following dependencies are required for this plugin:\n\n * pip - flatbuffers\n\n\n## License\n\nThis plugin is released under a MIT license.\n## Metadata Version\n\n2\n\n\n### Changelog\n- Added deprecation notice",
     "minimumbinaryninjaversion": 1997,
     "name": "Signature Kit Plugin",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/51fa529d-82ce-419b-8214-b3d60882c804/versions/5ed9ae29-7049-4ae5-8dd3-dce131ed76ec/platforms/146/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/51fa529d-82ce-419b-8214-b3d60882c804/versions/5ed9ae29-7049-4ae5-8dd3-dce131ed76ec/platforms/146/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/51fa529d-82ce-419b-8214-b3d60882c804/versions/ec68844f-60d6-4ceb-9be2-bb096d29d95e/platforms/2797/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/51fa529d-82ce-419b-8214-b3d60882c804/versions/ec68844f-60d6-4ceb-9be2-bb096d29d95e/platforms/2797/download?notrack=1",
     "path": "Vector35_sigkit",
     "platforms": [
       "Darwin",
@@ -332,7 +332,7 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 76,
-      "updated_at": "2024-09-09 20:29:03+00:00"
+      "updated_at": "2025-11-11 21:30:27+00:00"
     },
     "projectUrl": "https://github.com/Vector35/sigkit",
     "subdir": "",
@@ -341,7 +341,7 @@
       "helper",
       "ui"
     ],
-    "version": "1.2.2"
+    "version": "1.2.3"
   },
   {
     "api": [
