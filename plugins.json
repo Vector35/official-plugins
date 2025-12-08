@@ -34,7 +34,8 @@
       "helper",
       "ui"
     ],
-    "version": "5.0.390"
+    "version": "5.0.390",
+    "view_only": false
   },
   {
     "api": [
@@ -71,7 +72,8 @@
     "type": [
       "helper"
     ],
-    "version": "0.1.3"
+    "version": "0.1.3",
+    "view_only": false
   },
   {
     "api": [
@@ -108,7 +110,8 @@
     "type": [
       "ui"
     ],
-    "version": "1.2"
+    "version": "1.2",
+    "view_only": false
   },
   {
     "api": [
@@ -146,7 +149,8 @@
     "type": [
       "architecture"
     ],
-    "version": "2.0.2"
+    "version": "2.0.2",
+    "view_only": false
   },
   {
     "api": [
@@ -176,7 +180,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 26,
+      "stargazers_count": 28,
       "updated_at": "2025-07-11 06:02:16+00:00"
     },
     "projectUrl": "https://github.com/Vector35/snippets",
@@ -184,7 +188,8 @@
     "type": [
       "ui"
     ],
-    "version": "1.29"
+    "version": "1.29",
+    "view_only": false
   },
   {
     "api": [
@@ -214,7 +219,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 67,
+      "stargazers_count": 69,
       "updated_at": "2024-11-19 19:53:53+00:00"
     },
     "projectUrl": "https://github.com/Vector35/OpaquePredicatePatcher",
@@ -222,7 +227,8 @@
     "type": [
       "helper"
     ],
-    "version": "1.1.6"
+    "version": "1.1.6",
+    "view_only": false
   },
   {
     "api": [
@@ -263,7 +269,8 @@
       "helper",
       "ui"
     ],
-    "version": "1.3.5"
+    "version": "1.3.5",
+    "view_only": false
   },
   {
     "api": [
@@ -301,7 +308,8 @@
     "type": [
       "architecture"
     ],
-    "version": "1.5"
+    "version": "1.5",
+    "view_only": false
   },
   {
     "api": [
@@ -321,8 +329,8 @@
     "longdescription": "# Signature Kit Plugin (v1.2.2)\nAuthor: **Vector 35 Inc**\n\n_Python tools for working with Signature Libraries_\n\n## \u26a0\ufe0f Deprecation Notice\n\n**SigKit is no longer under active development.  For more information, please see https://binary.ninja/2025/08/22/warp.html**.\n\n## Description:\n\nThis plugin provides Python tools for generating, manipulating, viewing, loading, and saving signature libraries (.sig) for the Signature System. This plugin also provides UI integration for easy access from the Binary Ninja UI to common functions in the `Plugins\\Signature Library` menu.\n\n\n![Signature Explorer](https://raw.githubusercontent.com/vector35/sigkit/master/images/explorer.png)\n\nAlso included are [example scripts](https://github.com/Vector35/sigkit/tree/master/examples) which demonstrate batch processing and automatic creation of signature libraries for Ubuntu libc.\nYou can also run the Signature Explorer GUI as a standalone app.\n\n\n## Installation Instructions\n\n### Windows\n\n\n\n### Linux\n\n\n\n### Darwin\n\n\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 1997\n\n\n\n## Required Dependencies\n\nThe following dependencies are required for this plugin:\n\n * pip - flatbuffers\n\n\n## License\n\nThis plugin is released under a MIT license.\n## Metadata Version\n\n2\n\n\n### Changelog\n- Added deprecation notice",
     "minimumbinaryninjaversion": 1997,
     "name": "Signature Kit Plugin",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/51fa529d-82ce-419b-8214-b3d60882c804/versions/ec68844f-60d6-4ceb-9be2-bb096d29d95e/platforms/2797/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/51fa529d-82ce-419b-8214-b3d60882c804/versions/ec68844f-60d6-4ceb-9be2-bb096d29d95e/platforms/2797/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/51fa529d-82ce-419b-8214-b3d60882c804/versions/ec68844f-60d6-4ceb-9be2-bb096d29d95e/platforms/2798/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/51fa529d-82ce-419b-8214-b3d60882c804/versions/ec68844f-60d6-4ceb-9be2-bb096d29d95e/platforms/2798/download?notrack=1",
     "path": "Vector35_sigkit",
     "platforms": [
       "Darwin",
@@ -341,7 +349,8 @@
       "helper",
       "ui"
     ],
-    "version": "1.2.3"
+    "version": "1.2.3",
+    "view_only": false
   },
   {
     "api": [
@@ -378,7 +387,8 @@
     "type": [
       "ui"
     ],
-    "version": "1.2.3"
+    "version": "1.2.3",
+    "view_only": false
   },
   {
     "api": [
@@ -415,7 +425,8 @@
     "type": [
       "helper"
     ],
-    "version": "0.1.6"
+    "version": "0.1.6",
+    "view_only": false
   },
   {
     "api": [
@@ -453,7 +464,8 @@
       "binaryview",
       "helper"
     ],
-    "version": "1.0.3"
+    "version": "1.0.3",
+    "view_only": false
   },
   {
     "api": [
@@ -464,16 +476,16 @@
     "description": "Tant\u014d slices programs to help you can understand them faster.",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1744902984,
+    "lastUpdated": 1765221425,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2021-2025 Vector 35 Inc\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "",
+    "longdescription": "# Tant\u014d\nAuthor: **Vector 35, Inc.**\n\n## Description:\nTant\u014d is a plugin for [Binary Ninja](https://binary.ninja/) that slices programs so you can understand them faster.\n\n![slices](https://github.com/Vector35/tanto/blob/master/tanto_preview.png?raw=true)\n\nFor a more detailed explanation of what Tant\u014d does, please check out [this blog post](https://binary.ninja/2022/06/20/introducing-tanto.html).\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 4.0.5336\n\n## License\n\nThis plugin has been released under the [MIT license](./LICENSE.txt).\n\n## Metadata Version\n\n2\n\n## Insomni'Hack 2025 Slides\n\n[Here are the slides](./A%20Slice%20of%20Modern%20Program%20Analysis%20-%20Insomni%27hack%202025.pdf) for the talk [@ElykDeer](https://github.com/ElykDeer) gave at Insomni'Hack 2025: [\"A Slice of\" Modern Program Analysis](https://www.youtube.com/watch?v=I0PoE0IdtmE)\n\n## Original Blog Post / Documentation\n\n[Here's the original blog post](https://binary.ninja/2022/06/20/introducing-tanto.html) announcing Tanto and explaining how to use the original two slice types, Variable Slices and Basic Block Slices.\n",
     "minimumbinaryninjaversion": 5336,
     "name": "Tant\u014d",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/5b073562-1af6-4736-839b-960d0961344e/versions/25d94c15-e2bf-4618-9bb3-2bf6c741450d/platforms/2281/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/5b073562-1af6-4736-839b-960d0961344e/versions/25d94c15-e2bf-4618-9bb3-2bf6c741450d/platforms/2281/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/5b073562-1af6-4736-839b-960d0961344e/versions/67ad5b15-351f-4aad-a6e0-21a8cb273d32/platforms/2911/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/5b073562-1af6-4736-839b-960d0961344e/versions/67ad5b15-351f-4aad-a6e0-21a8cb273d32/platforms/2911/download?notrack=1",
     "path": "tanto",
     "platforms": [
       "Darwin",
@@ -482,8 +494,8 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 73,
-      "updated_at": "2025-04-17 15:16:24+00:00"
+      "stargazers_count": 76,
+      "updated_at": "2025-12-08 19:17:05+00:00"
     },
     "projectUrl": "https://github.com/Vector35/tanto",
     "subdir": "",
@@ -491,6 +503,7 @@
       "helper",
       "ui"
     ],
-    "version": "2.0.1"
+    "version": "2.0.2",
+    "view_only": false
   }
 ]
