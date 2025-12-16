@@ -7,9 +7,10 @@
 | [Opaque Predicate Patcher](https://github.com/Vector35/OpaquePredicatePatcher)|Vector 35 Inc|Automatically patch opaque predicates|2024-11-19|helper|python2, python3|MIT |
 | [SVD Mapper](https://github.com/Vector35/svdmap)|Vector 35 Inc|SVD Mapper is a plugin for Binary Ninja that helps automate the process of mapping in SVD peripherals|2024-11-14|helper|python3|Apache 2.0 |
 | [Sample Plugin](https://github.com/Vector35/sample_plugin)|Vector 35 Inc|This is a short description meant to fit on one line.|2024-06-07|architecture, binaryview, core, helper, ui|python3|MIT |
-| [Sidekick](https://github.com/vector35/sidekick-public)|Vector 35 Inc|Binary Ninja Sidekick|2025-11-07|helper, ui|python3|Commercial |
+| [Sidekick](https://github.com/vector35/sidekick-public)|Vector 35 Inc|Binary Ninja Sidekick|2025-11-07|ui, helper|python3|Commercial |
 | [Signature Kit Plugin](https://github.com/Vector35/sigkit)|Vector 35 Inc|Python tools for working with Signature Libraries|2025-11-11|core, helper, ui|python2, python3|MIT |
 | [Snippet UI Plugin](https://github.com/Vector35/snippets)|Vector 35 Inc|Powerful code-editing plugin for writing and managing python code-snippets with syntax highlighting, hotkey binding and other features|2025-07-11|ui|python2, python3|MIT |
-| [Tantō](https://github.com/Vector35/tanto)|Vector 35 Inc|Tantō slices programs to help you can understand them faster.|2025-12-08|helper, ui|python3|MIT |
+| [Tantō](https://github.com/Vector35/tanto)|Vector 35 Inc|Tantō slices programs to help you can understand them faster.|2025-12-08|ui, helper|python3|MIT |
 | [UnPack.Me Automation](https://github.com/Vector35/unpacme)|Vector 35 Inc|Automatically analyze a binary via unpac.me|2025-04-24|ui|python3|MIT |
 | [Z80 Architecture Plugin](https://github.com/Vector35/Z80)|Vector 35 Inc|Sample Z80 architecture plugin written to accompany the <a href='https://binary.ninja/2020/01/08/guide-to-architecture-plugins-part1.html'>introductory blog post</a>.|2024-06-07|architecture|python2, python3|MIT |
+| [vt-binary-ninja-plugin](https://github.com/kevinmuoz/vt-binary-ninja-plugin)|Kevin Muñoz|Integrates VirusTotal's powerful analysis capabilities directly into your reverse engineering workflow.|2025-12-15|core, helper, ui|python3|Apache-2.0 |
