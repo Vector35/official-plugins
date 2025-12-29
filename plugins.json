@@ -162,16 +162,16 @@
     "description": "Powerful code-editing plugin for writing and managing python code-snippets with syntax highlighting, hotkey binding and other features",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1752213736,
+    "lastUpdated": 1767030572,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2019 Vector 35 Inc\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "The snippet editor started as a simple example UI plugin to demonstrate new features available to UI plugins. It has turned into a functionally useful plugin in its own right. The snippet editor allows you to write small bits of code that might not be big enough to warrant the effort of a full plugin but are long enough that you don't want to retype them every time in the python-console!\n\nAs an added bonus, all snippets are added to the snippets menu and hot-keys can be associated with them as they make use of the action system. All action-system items are also available through the command-palette (CTL/CMD-p).\n\n![](https://github.com/Vector35/snippets/blob/master/media/snippets.gif?raw=true)\n\n.",
+    "longdescription": "The snippet editor started as a simple example UI plugin to demonstrate new features available to UI plugins. It has turned into a functionally useful plugin in its own right. The snippet editor allows you to write small bits of code that might not be big enough to warrant the effort of a full plugin but are long enough that you don't want to retype them every time in the python-console!\n\nAs an added bonus, all snippets are added to the snippets menu and hot-keys can be associated with them as they make use of the action system. All action-system items are also available through the command-palette (CTL/CMD-p).\n\n![](https://github.com/Vector35/snippets/blob/master/media/snippets.gif?raw=true)\n\n.\n\n### Changelog\nfix updater example",
     "minimumbinaryninjaversion": 1528,
     "name": "Snippet UI Plugin",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/d4f64609-246f-4130-970d-3f928d667c81/versions/807e4bd3-f485-4c23-8141-6422eda35bb0/platforms/2497/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/d4f64609-246f-4130-970d-3f928d667c81/versions/807e4bd3-f485-4c23-8141-6422eda35bb0/platforms/2497/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/d4f64609-246f-4130-970d-3f928d667c81/versions/3fcfa829-c44f-4149-b6c3-f57a24fa848a/platforms/3007/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/d4f64609-246f-4130-970d-3f928d667c81/versions/3fcfa829-c44f-4149-b6c3-f57a24fa848a/platforms/3007/download?notrack=1",
     "path": "Vector35_snippets",
     "platforms": [
       "Darwin",
@@ -181,14 +181,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 28,
-      "updated_at": "2025-07-11 06:02:16+00:00"
+      "updated_at": "2025-12-29 17:49:32+00:00"
     },
     "projectUrl": "https://github.com/Vector35/snippets",
     "subdir": "",
     "type": [
       "ui"
     ],
-    "version": "1.29",
+    "version": "1.30",
     "view_only": false
   },
   {
