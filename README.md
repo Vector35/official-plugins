@@ -13,4 +13,4 @@
 | [Tantō](https://github.com/Vector35/tanto)|Vector 35 Inc|Tantō slices programs to help you can understand them faster.|2025-12-08|ui, helper|python3|MIT |
 | [UnPack.Me Automation](https://github.com/Vector35/unpacme)|Vector 35 Inc|Automatically analyze a binary via unpac.me|2025-04-24|ui|python3|MIT |
 | [Z80 Architecture Plugin](https://github.com/Vector35/Z80)|Vector 35 Inc|Sample Z80 architecture plugin written to accompany the <a href='https://binary.ninja/2020/01/08/guide-to-architecture-plugins-part1.html'>introductory blog post</a>.|2024-06-07|architecture|python2, python3|MIT |
-| [vt-binary-ninja-plugin](https://github.com/kevinmuoz/vt-binary-ninja-plugin)|Kevin Muñoz|Integrates VirusTotal's powerful analysis capabilities directly into your reverse engineering workflow.|2025-12-17|core, helper, ui|python3|Apache-2.0 |
+| [vt-binary-ninja-plugin](https://github.com/kevinmuoz/vt-binary-ninja-plugin)|Kevin Muñoz|Integrates VirusTotal's powerful analysis capabilities directly into your reverse engineering workflow.|2026-02-15|core, helper, ui|python3|Apache-2.0 |
