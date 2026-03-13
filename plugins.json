@@ -533,7 +533,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 7,
+      "stargazers_count": 9,
       "updated_at": "2026-02-15 23:33:35+00:00"
     },
     "projectUrl": "https://github.com/kevinmuoz/vt-binary-ninja-plugin",
@@ -544,6 +544,45 @@
       "ui"
     ],
     "version": "1.1.1",
+    "view_only": false
+  },
+  {
+    "api": [
+      "python3"
+    ],
+    "author": "buzzer-re",
+    "dependencies": "# Rikugan - LLM provider clients\nanthropic>=0.39.0\nopenai>=1.50.0\ngoogle-genai>=1.0.0\n\n# MCP client support\nmcp>=1.0.0\n\n# TOML parsing (stdlib tomllib backport for Python <3.11, e.g. IDA Pro 9.x)\ntomli>=2.0.0\n\n# IDA Pro deobfuscation skill (optional, IDA only)\nida-domain>=0.1.0\n",
+    "description": "Rikugan reverse engineering companion for Binary Ninja.\",",
+    "installinstructions": {},
+    "is_paid": false,
+    "lastUpdated": 1773075690,
+    "license": {
+      "name": "MIT",
+      "text": "Copyright 2026, buzzer-re\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \u201cSoftware\u201d), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \u201cAS IS\u201d, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    },
+    "longdescription": "Rikugan embeds an agentic LLM workflow into Binary Ninja with native tooling, skills, and an integrated chat sidebar. Supports multiple LLM providers (Anthropic, OpenAI, Google, Ollama) and MCP tool servers.\n\n### Changelog\nRelease Notes \u2014 Rikugan v1.1\r\n                                                                                                                                                                                                                                                                           \r\n  Agent Stability & Performance                                   \r\n\r\n  - 5-phase agent refactor \u2014 extracted mode runners from monolithic loop, added error hysteresis, tool caching, running token counter, knowledge base dedup, and bounded message queue\r\n  - Race condition fixes \u2014 MCP watchdog, proper thread synchronization across the agent loop\r\n  - AST-based script guard \u2014 scripts are now validated via AST analysis instead of string matching\r\n\r\n  Security Hardening\r\n\r\n  - Anti-LLM evasion \u2014 obfuscation-resistant IOC filtering, self-injection defense, hexdump bypass protection\r\n  - Sanitization hardening \u2014 tag breakout prevention, error bypass mitigation, Anthropic magic string defense\r\n  - Profile-aware security \u2014 granular IOC filters and tool restrictions tied to analysis profiles\r\n\r\n  Profiles\r\n\r\n  - Dynamic denied tools \u2014 profile tool restrictions now read from the live registry and are enforced at execution time\r\n  - Profile name fix \u2014 profiles now save under the displayed name instead of an internal slug\r\n\r\n  MCP Client\r\n\r\n  - Hot reload \u2014 MCP servers reload automatically when settings change\r\n  - Compatibility fixes \u2014 handle both server_info and serverInfo on InitializeResult, unwrap ExceptionGroup for clearer startup errors, handle IDA's IDAPythonStdOut lacking fileno()\r\n\r\n  Installer\r\n\r\n  - Universal one-line installer \u2014 single curl | bash (or PowerShell) command auto-detects IDA Pro, Binary Ninja, or both\r\n  - Bundled Python fix \u2014 installers now use each host's bundled Python for pip install instead of the system Python\r\n\r\n  UI\r\n\r\n  - Scroll lock \u2014 auto-scroll stops when you scroll up during an agent run\r\n  - Typewriter removed \u2014 buffered text reveal caused noticeable chat slowness, reverted to direct rendering\r\n\r\n  Tools & Skills\r\n\r\n  - Pseudocode comment tools for IDA \u2014 add/edit comments directly in decompiled output\r\n  - IDA 9.x type migration \u2014 structs, enums, and lvar retyping ported to the new API\r\n  - Unified deobfuscation skill with host-specific references for both IDA and Binary Ninja\r\n  - Configurable rate-limit and stop-during-retries for IDA provider calls\r\n\r\n  Token Tracking\r\n\r\n  - Anthropic prompt caching fix \u2014 context window display now correctly accounts for cache read/creation tokens\r\n\r\n  CI & Code Quality\r\n\r\n  - Full CI pipeline \u2014 ruff format, ruff lint, mypy, 1072 pytest tests, desloppify objective score gate\r\n  - Provider error handling \u2014 graceful fallback when SDK packages aren't installed\r\n\r\n  Docs\r\n\r\n  - Slimmed README focused on pitch + quick start, full docs on https://rikugan.reversing.codes\r\n  - Shiboken Python 3.14 warning documented",
+    "minimumbinaryninjaversion": 3164,
+    "name": "Rikugan",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/79abb228-6c9e-4a79-8e57-bd2bdd4c1a82/versions/7ec06a4f-88b9-4fd6-b4d1-8509964b4fa5/platforms/3217/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/79abb228-6c9e-4a79-8e57-bd2bdd4c1a82/versions/7ec06a4f-88b9-4fd6-b4d1-8509964b4fa5/platforms/3217/download?notrack=1",
+    "path": "buzzerre_rikugan",
+    "platforms": [
+      "Darwin",
+      "Linux",
+      "Windows"
+    ],
+    "pluginmetadataversion": 2,
+    "projectData": {
+      "stargazers_count": 0,
+      "updated_at": "2026-03-09 17:01:30+00:00"
+    },
+    "projectUrl": "https://github.com/buzzer-re/Rikugan/",
+    "subdir": "",
+    "type": [
+      "ui",
+      "helper"
+    ],
+    "version": "1.1",
     "view_only": false
   }
 ]
