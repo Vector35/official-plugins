@@ -339,7 +339,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 77,
+      "stargazers_count": 78,
       "updated_at": "2025-11-11 21:30:27+00:00"
     },
     "projectUrl": "https://github.com/Vector35/sigkit",
@@ -379,7 +379,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 44,
+      "stargazers_count": 45,
       "updated_at": "2025-04-18 17:26:23+00:00"
     },
     "projectUrl": "https://github.com/Vector35/kaitai",
@@ -533,7 +533,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 9,
+      "stargazers_count": 10,
       "updated_at": "2026-02-15 23:33:35+00:00"
     },
     "projectUrl": "https://github.com/kevinmuoz/vt-binary-ninja-plugin",
@@ -555,16 +555,16 @@
     "description": "Rikugan reverse engineering companion for Binary Ninja.\",",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1773075690,
+    "lastUpdated": 1773895342,
     "license": {
       "name": "MIT",
       "text": "Copyright 2026, buzzer-re\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \u201cSoftware\u201d), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \u201cAS IS\u201d, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "Rikugan embeds an agentic LLM workflow into Binary Ninja with native tooling, skills, and an integrated chat sidebar. Supports multiple LLM providers (Anthropic, OpenAI, Google, Ollama) and MCP tool servers.\n\n### Changelog\nRelease Notes \u2014 Rikugan v1.1\r\n                                                                                                                                                                                                                                                                           \r\n  Agent Stability & Performance                                   \r\n\r\n  - 5-phase agent refactor \u2014 extracted mode runners from monolithic loop, added error hysteresis, tool caching, running token counter, knowledge base dedup, and bounded message queue\r\n  - Race condition fixes \u2014 MCP watchdog, proper thread synchronization across the agent loop\r\n  - AST-based script guard \u2014 scripts are now validated via AST analysis instead of string matching\r\n\r\n  Security Hardening\r\n\r\n  - Anti-LLM evasion \u2014 obfuscation-resistant IOC filtering, self-injection defense, hexdump bypass protection\r\n  - Sanitization hardening \u2014 tag breakout prevention, error bypass mitigation, Anthropic magic string defense\r\n  - Profile-aware security \u2014 granular IOC filters and tool restrictions tied to analysis profiles\r\n\r\n  Profiles\r\n\r\n  - Dynamic denied tools \u2014 profile tool restrictions now read from the live registry and are enforced at execution time\r\n  - Profile name fix \u2014 profiles now save under the displayed name instead of an internal slug\r\n\r\n  MCP Client\r\n\r\n  - Hot reload \u2014 MCP servers reload automatically when settings change\r\n  - Compatibility fixes \u2014 handle both server_info and serverInfo on InitializeResult, unwrap ExceptionGroup for clearer startup errors, handle IDA's IDAPythonStdOut lacking fileno()\r\n\r\n  Installer\r\n\r\n  - Universal one-line installer \u2014 single curl | bash (or PowerShell) command auto-detects IDA Pro, Binary Ninja, or both\r\n  - Bundled Python fix \u2014 installers now use each host's bundled Python for pip install instead of the system Python\r\n\r\n  UI\r\n\r\n  - Scroll lock \u2014 auto-scroll stops when you scroll up during an agent run\r\n  - Typewriter removed \u2014 buffered text reveal caused noticeable chat slowness, reverted to direct rendering\r\n\r\n  Tools & Skills\r\n\r\n  - Pseudocode comment tools for IDA \u2014 add/edit comments directly in decompiled output\r\n  - IDA 9.x type migration \u2014 structs, enums, and lvar retyping ported to the new API\r\n  - Unified deobfuscation skill with host-specific references for both IDA and Binary Ninja\r\n  - Configurable rate-limit and stop-during-retries for IDA provider calls\r\n\r\n  Token Tracking\r\n\r\n  - Anthropic prompt caching fix \u2014 context window display now correctly accounts for cache read/creation tokens\r\n\r\n  CI & Code Quality\r\n\r\n  - Full CI pipeline \u2014 ruff format, ruff lint, mypy, 1072 pytest tests, desloppify objective score gate\r\n  - Provider error handling \u2014 graceful fallback when SDK packages aren't installed\r\n\r\n  Docs\r\n\r\n  - Slimmed README focused on pitch + quick start, full docs on https://rikugan.reversing.codes\r\n  - Shiboken Python 3.14 warning documented",
+    "longdescription": "Rikugan embeds an agentic LLM workflow into Binary Ninja with native tooling, skills, and an integrated chat sidebar. Supports multiple LLM providers (Anthropic, OpenAI, Google, Ollama) and MCP tool servers.\n\n### Changelog\nRikugan v1.2 Release Notes\r\n\r\n  New Features\r\n\r\n  ### Research Mode\r\n\r\n-   New /research command that performs goal-driven deep analysis of a binary and produces structured documentation. Unlike exploration mode (which gathers context for the agent), research mode outputs\r\n-   Obsidian/Logseq-compatible Markdown files into a notes/ directory \u2014 building a persistent knowledge base you can browse, link, and search outside of Rikugan. Includes an option to preserve full\r\n-   context by disabling tool result truncation for thorough sessions.\r\n\r\n\r\n\r\n   ### Bulk Renamer\r\n\r\n-   Agent that batch-renames symbols across the binary using subagent orchestration. Configurable batch size and concurrency limits in settings. The tools panel is now embedded as a Chat|Tools tab in\r\n-   the sidebar for easier access during rename sessions.\r\n\r\n<img width=\"1170\" height=\"537\" alt=\"bulk-rename\" src=\"https://github.com/user-attachments/assets/9fa6736d-0fa8-4f39-9f37-99e8816c713d\" />\r\n\r\n   ### OAuth Auto-Detection for Anthropic\r\n\r\n-   Automatically loads your Claude Code OAuth token from the macOS Keychain when using the Anthropic provider. Controlled via a \"Use OAuth from Claude Code\" checkbox in settings (hidden for\r\n-   non-Anthropic providers), with a consent dialog and billing header support.\r\n\r\n   ### API Key Encryption at Rest\r\n\r\n-   All stored API keys can now be encrypted with a user-provided password using AES-256-GCM with PBKDF2-HMAC-SHA256 key derivation (600k iterations). When enabled via the \"Encrypt API keys with\r\n-   password\" checkbox in settings, plaintext keys are zeroed out in config.json. The password is required on every session start and is never persisted to disk. Degrades gracefully if the cryptography package is unavailable.\r\n\r\n  Fixes\r\n\r\n  - Agent pipeline: correct phase resume after cancel, preserve mode pseudo-tools across cancel+continue, let CancellationError propagate instead of being swallowed, continue interrupted phase on\r\n  resume instead of skipping it\r\n  - Auth: removed startup OAuth dialog that caused QDialogButtonBox crash, fixed modal-on-modal deadlock when accepting settings with OAuth consent\r\n  - Settings: preserve user-customized context_window when reopening the dialog\r\n  - Research: exclude research_note from exploration phase tools to avoid tool conflicts\r\n  - UI: fix blank tools panel, chat responsiveness, text wrapping issues; prevent crash from orphaned PySide6 QFrames on plugin close; add PyQt5 runtime detection for IDA 9.1 32-bit Windows\r\n  - CI: pin Python 3.11 for reproducible builds, make CI block merges on failure",
     "minimumbinaryninjaversion": 3164,
     "name": "Rikugan",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/79abb228-6c9e-4a79-8e57-bd2bdd4c1a82/versions/7ec06a4f-88b9-4fd6-b4d1-8509964b4fa5/platforms/3217/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/79abb228-6c9e-4a79-8e57-bd2bdd4c1a82/versions/7ec06a4f-88b9-4fd6-b4d1-8509964b4fa5/platforms/3217/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/79abb228-6c9e-4a79-8e57-bd2bdd4c1a82/versions/7a7cd41c-0841-43b0-ae04-003720f2392e/platforms/3247/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/79abb228-6c9e-4a79-8e57-bd2bdd4c1a82/versions/7a7cd41c-0841-43b0-ae04-003720f2392e/platforms/3247/download?notrack=1",
     "path": "buzzerre_rikugan",
     "platforms": [
       "Darwin",
@@ -573,8 +573,8 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 0,
-      "updated_at": "2026-03-09 17:01:30+00:00"
+      "stargazers_count": 480,
+      "updated_at": "2026-03-19 04:42:22+00:00"
     },
     "projectUrl": "https://github.com/buzzer-re/Rikugan/",
     "subdir": "",
@@ -582,7 +582,7 @@
       "ui",
       "helper"
     ],
-    "version": "1.1",
+    "version": "1.2",
     "view_only": false
   }
 ]
