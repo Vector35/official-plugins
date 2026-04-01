@@ -5,7 +5,7 @@
 | [COMpanion](https://github.com/Vector35/COMpanion)|Vector 35 Inc|COMpanion is a plugin for Binary Ninja helps automate working with COM objects in Windows binaries.|2024-07-25|helper|python3|MIT |
 | [Kaitai UI Plugin](https://github.com/Vector35/kaitai)|Vector 35 Inc|Browse hex with a tree view populated from Kaitai Struct formats.|2025-04-18|ui|python3|MIT |
 | [Opaque Predicate Patcher](https://github.com/Vector35/OpaquePredicatePatcher)|Vector 35 Inc|Automatically patch opaque predicates|2024-11-19|helper|python2, python3|MIT |
-| [Rikugan](https://github.com/buzzer-re/Rikugan/)|buzzer-re|Rikugan reverse engineering companion for Binary Ninja.",|2026-03-19|ui, helper|python3|MIT |
+| [Rikugan](https://github.com/buzzer-re/Rikugan/)|buzzer-re|Rikugan reverse engineering companion for Binary Ninja.",|2026-03-28|ui, helper|python3|MIT |
 | [SVD Mapper](https://github.com/Vector35/svdmap)|Vector 35 Inc|SVD Mapper is a plugin for Binary Ninja that helps automate the process of mapping in SVD peripherals|2024-11-14|helper|python3|Apache 2.0 |
 | [Sample Plugin](https://github.com/Vector35/sample_plugin)|Vector 35 Inc|This is a short description meant to fit on one line.|2024-06-07|architecture, binaryview, core, helper, ui|python3|MIT |
 | [Sidekick](https://github.com/vector35/sidekick-public)|Vector 35 Inc|Binary Ninja Sidekick|2026-02-24|ui, helper|python3|Commercial |
