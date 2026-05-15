@@ -4,20 +4,20 @@
       "python3"
     ],
     "author": "Vector 35 Inc",
-    "dependencies": "requests>=2.28.2,<3\npygments>=2.14.0,<3\nnetworkx>=3.0.0,<4\nintervaltree>=3.0.2,<4\nnumpy>=1.26,<2\ntorch>=2.4.0,<2.5.0\nscikit-learn>=1.1.3,<2\npyjarowinkler>=1.8,<2\nmarkdown\nwatchdog\npydantic>=2.7,<3\narrow>=1.3,<2\njsonschema>=4.22,<5\naccelerate>=0.33.0,<1\ntransformers>=4.41.0,<4.50\ntiktoken>=0.7.0,<1\nmarkdown_it_py>=3.0.0,<4",
+    "dependencies": "arrow>=1.3.0\nhttpx>=0.27.0,<1\njinja2\nmarkdown-it-py>=3.0.0\nnetworkx>=3.4.2\nnumpy>=2.2.6\norjson>=3.10.0\npsutil>=6.1.0\npydantic>=2.11.7\npygments>=2.19.2\npyright[nodejs]>=1.1.405\npysqlite3>=0.5.0\npyyaml>=6.0\nrequests>=2.32.4\nsqlite-vec>=0.1.6\ntenacity>=8.5.0,<9",
     "description": "Binary Ninja Sidekick",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1771950823,
+    "lastUpdated": 1778860876,
     "license": {
       "name": "Commercial",
       "text": "This plugin is fully copyright Vector 35 Inc except as otherwise noted in the source. While source is distributed, no rights to the source are granted beyond those to submodules described <a href='https://docs.sidekick.binary.ninja/about/open-source/'>here</a>. Use of this plugin should be consistent with the terms of service available <a href='https://docs.sidekick.binary.ninja/about/legal-terms-and-conditions/'>here</a>."
     },
-    "longdescription": "# Sidekick\r\n\r\nSidekick is [Binary Ninja's](https://binary.ninja) official AI-powered plugin and service, delivering seamless integration for effortless reverse engineering.\r\n\r\nThe Sidekick plugin is currently available as an official plugin from the Binary Ninja plugin manager.  The plugin will not be fully functional without a Sidekick service plan. To purchase a Sidekick plan, you must have a Sidekick account. To sign up for a Sidekick account, click [here](https://sidekick.binary.ninja/sign_in).\r\n\r\n## Collaborative AI\r\nYour AI collaborator monitors context, runs complementary analyses, and delivers results without interruptions.\r\n\r\n### Work Side-by-Side\r\nSidekick continuously tracks your analysis context, intelligently inferring your current focus to proactively run tasks that complement your efforts without requiring your supervision.\r\n\r\n![tasks sidebar](https://sidekick.binary.ninja/static/images/features-tasks-sidebar.png?raw=true)\r\n\r\n*Sidekick recommends tasks that complement your analysis.*\r\n\r\n![task results](https://sidekick.binary.ninja/static/images/features-tasks-results.png?raw=true)\r\n\r\n*Stay in control by reviewing and accepting task results.*\r\n\r\n![task log](https://sidekick.binary.ninja/static/images/features-tasks-log.png?raw=true)\r\n\r\n*Understand how Sidekick arrived at the results by inspecting the task Log.*\r\n\r\n### Delegated Tasks\r\nDescribe specific tasks you want Sidekick to handle while you focus on other priorities. Sidekick independently works in the background, preparing results and insights.\r\n\r\n![tasks new](https://sidekick.binary.ninja/static/images/features-tasks-new-task.png?raw=true)\r\n\r\n*New Task dialog allows you to describe a task for Sidekick to work on.*\r\n\r\n![tasks review](https://sidekick.binary.ninja/static/images/features-delegate-tasks-review.png?raw=true)\r\n\r\n*Task results are ready for review at your convenience.*\r\n\r\n![task log](https://sidekick.binary.ninja/static/images/features-delegate-tasks-review-results.png?raw=true)\r\n\r\n*Review results of the task and decide whether to apply them to the binary.*\r\n\r\n### Chat Interactively\r\nEngage in a dynamic conversation with Sidekick, asking questions and receiving instant feedback. Chat allows for a more fluid exchange of ideas and information, enhancing your overall experience.\r\n\r\n![chat sidebar](https://sidekick.binary.ninja/static/images/features-chat-sidebar.png?raw=true)\r\n\r\n*The Chat sidebar allows you to interact with Sidekick's Chat Assistant to analyze the binary.*\r\n\r\n![chat edit](https://sidekick.binary.ninja/static/images/features-chat-edit.png?raw=true)\r\n\r\n*Ask the Chat Assistant to directly apply changes to the binary for you.*\r\n\r\n### Get Code Suggestions\r\nSidekick improves the clarity and readability of your decompiled code: automatically recovers and applies structure types, renames functions, variables, structures and fields, and produces descriptive comments for code selections or entire functions.\r\n\r\n![suggestions sidebar](https://sidekick.binary.ninja/static/images/features-suggestions-sidebar.png?raw=true)\r\n\r\n*Sidekick recovers structures, renames functions and variables, and comments your code.*\r\n\r\n![suggestions applied](https://sidekick.binary.ninja/static/images/features-suggestions-applied.png?raw=true)\r\n\r\n*Easily review and apply the suggestions to your code.*\r\n\r\n![suggestions structure recovery](https://sidekick.binary.ninja/static/images/features-suggestions-structure-recovery.png?raw=true)\r\n\r\n*The Types sidebar shows structures recovered by Sidekick.*\r\n\r\n## Binary-Wide Context\r\nIntegrate findings across an entire binary into an actively maintained context for downstream analyses.\r\n\r\n### Capture Binary Insights\r\nSidekick maintains a working notebook of insights captured across the binary, continuously leveraging them to enhance its analysis. You can also record your own findings for easy reference and control.\r\n\r\n![notebook sidebar](https://sidekick.binary.ninja/static/images/features-notebook-sidebar.png?raw=true)\r\n\r\n*The Notebook sidebar presents findings captured automatically by Sidekick during analysis.*\r\n\r\n![notebook add](https://sidekick.binary.ninja/static/images/features-notebook-add.png?raw=true)\r\n\r\n*Add your own findings to the Notebook to keep track of important information.*\r\n\r\n### Index Points of Interest\r\nQuickly capture, categorize and reference important locations discovered during analysis using Indexes, making it easier to manage and navigate large binaries.\r\n\r\n![indexes sidebar](https://sidekick.binary.ninja/static/images/features-indexes-sidebar.png?raw=true)\r\n\r\n*The Indexes sidebar manages tables of important locations discovered during analysis.*\r\n\r\n![indexes code insight map](https://sidekick.binary.ninja/static/images/features-indexes-code-insight-map.png?raw=true)\r\n\r\n*Visualize relationships between indexed locations in the Code Insight Map.*\r\n\r\n![indexes from scripts](https://sidekick.binary.ninja/static/images/features-indexes-workbench.png?raw=true)\r\n\r\n*Indexes can be created, accessed, and updated by Automation Workbench scripts.*\r\n\r\n## Smart Automation\r\nEasily create scripts blending code and Large Language Models for complex workflows and routine tasks.\r\n\r\n### Expand Your Toolset\r\nWork together with Sidekick to write your scripts and prompts, enabling you to build more tools even faster.\r\n\r\n![automation workbench sidebar](https://sidekick.binary.ninja/static/images/features-workbench-scripts.png?raw=true)\r\n\r\n*The Automation Workbench allows you to quickly build and easily manage an extensive library of scripts.*\r\n\r\n![automation workbench script with llm operator](https://sidekick.binary.ninja/static/images/features-workbench-script-llmoperator.png?raw=true)\r\n\r\n*Sidekick generates both the code and prompts for your scripts.*\r\n\r\n![automation workbench tool from chat](https://sidekick.binary.ninja/static/images/features-workbench-chat-create-tool.png?raw=true)\r\n\r\n*Tools can be created and run from the Chat Assistant.*\r\n\r\n### Use AI in Scripts\r\nApply LLMs to program analysis tasks directly within your scripts. For these models, select from a catalog of available models or even bring your own.\r\n\r\n![automation workbench llm operator script running](https://sidekick.binary.ninja/static/images/features-workbench-llmoperator-script-running.png?raw=true)\r\n\r\n*Run scripts that apply LLMs directly to program analysis tasks.*\r\n\r\n![automation workbench script results](https://sidekick.binary.ninja/static/images/features-workbench-results.png?raw=true)\r\n\r\n*View results of LLM analyses captured in indexes during script execution.*\r\n\r\n# Release Notes\r\n\r\nSidekick Client Revision: 5.0.399\r\n\r\n## Update Instructions\r\n\r\nIf you are updating from a current installation of the Sidekick plugin, then complete the following instructions:\r\n\r\n* Open the Plugin Manager\r\n* Locate the Sidekick plugin\r\n* Click `Update`\r\n\r\n## Notable Changes\r\n\r\nThis release is a patch release that includes enhancements and bug fixes. Refer to the Release Changes section below for more details.\r\n\r\n## Release Changes\r\n\r\n* **Enhancement:** Updated the chat assistant within Tasks to use the 'sidekick.notebook.max_tool_turns' setting to determine when to stop calling tools and return the final answer, which allows users to configure this behavior.\r\n* **Fix:** Fixed an issue that prevented the Chat assistant from automatically registering and calling new scripted tools when needed.\r\n* **Enhancement:** Updated the chat assistant to provide feedback when the maximum number of tool turns has been reached and it is returning the final answer.\r\n* **Fix:** Fixed an issue that prevented the Chat assistant from proceeding to call tools to update the binary (or record findings) after it provided an intermediate answer in the previous turn.",
+    "longdescription": "# Sidekick\r\n\r\n**Reverse, fast.**\r\n\r\nSearch any binary. Understand what it does. Extract what matters.\r\n\r\nSidekick is Binary Ninja's official AI-powered plugin and service for reverse engineering. It is built for real binary analysis work: finding relevant code in stripped targets, repairing decompilation, validating claims against evidence, and keeping your findings organized as the investigation grows.\r\n\r\n![Sidekick in Binary Ninja](https://sidekick.binary.ninja/images/hero-screenshot.png)\r\n\r\nThe plugin is free to install from the Binary Ninja Plugin Manager. Many of Sidekick's service-backed features require a Sidekick plan. Start here:\r\n\r\n- Sign in: [https://sidekick.binary.ninja/sign_in](https://sidekick.binary.ninja/sign_in)\r\n- Free trial: [https://sidekick.binary.ninja/free-trial/](https://sidekick.binary.ninja/free-trial/)\r\n- Pricing: [https://sidekick.binary.ninja/pricing/](https://sidekick.binary.ninja/pricing/)\r\n- Documentation: [https://docs.sidekick.binary.ninja/](https://docs.sidekick.binary.ninja/)\r\n\r\n## Find what matters\r\n\r\nPoint Sidekick at a binary and ask what you need to know. Sidekick's agents can break a broad question into focused searches across the binary, then return a shortlist of relevant functions with evidence you can inspect immediately. On especially large or difficult targets, semantic indexing can help surface the right code even faster.\r\n\r\n![Sidekick search results](https://sidekick.binary.ninja/assets/home-search.BwxUqqz9.png)\r\n\r\nLearn more: [Search](https://sidekick.binary.ninja/product/search/)\r\n\r\n## Make it understandable\r\n\r\nSidekick recovers types, names, class relationships, vtables, and other missing structure from stripped or obfuscated binaries. When the decompiler gets something wrong, such as bad type propagation, collapsed control flow, or broken metadata, Sidekick helps repair the analysis so you can keep moving.\r\n\r\n![Recovered decompilation](https://sidekick.binary.ninja/assets/home-simplify-c__-after.BTmbbyxE.png)\r\n\r\nLearn more: [Simplify](https://sidekick.binary.ninja/product/simplify/)\r\n\r\n## Extract what you need\r\n\r\nFindings accumulate in a persistent notebook attached to your analysis. Sidekick helps produce the artifacts your workflow needs, including IOC lists, capability profiles, ATT&CK mappings, and vulnerability assessments, with evidence links preserved for handoff and reporting.\r\n\r\nLearn more: [Surface](https://sidekick.binary.ninja/product/surface/)\r\n\r\n## Analysis that cross-examines itself\r\n\r\nSidekick does not stop at generating answers. A separate validation flow checks findings against the binary and marks them clearly as draft, verified, or rejected. Claims stay attached to concrete evidence so you can review what matters quickly and keep unsupported conclusions out of your workflow.\r\n\r\nLearn more: [Verification](https://sidekick.binary.ninja/product/verification/)\r\n\r\n## Works how you work\r\n\r\nSidekick is available as a native Binary Ninja plugin and can also support headless and automated workflows. Hosted plans are available for individuals and teams, and Sidekick can also be deployed self-hosted for private, regulated, or air-gapped environments.\r\n\r\nLearn more:\r\n\r\n- Features: [https://sidekick.binary.ninja/product/capabilities/](https://sidekick.binary.ninja/product/capabilities/)\r\n- Self-Hosted: [https://sidekick.binary.ninja/product/deployment/](https://sidekick.binary.ninja/product/deployment/)\r\n- FAQ: [https://sidekick.binary.ninja/faq/](https://sidekick.binary.ninja/faq/)\r\n\r\n## Requirements\r\n\r\n- Binary Ninja 5.3 or newer with an active license\r\n- Linux, macOS, or Windows\r\n- Sidekick service features require a valid Sidekick account and plan\r\n\r\n## Previous major version\r\n\r\nIf you need to migrate back to the previous major version, you can download it here: [sidekick-5.0.399.zip](https://plugin.sidekick.binary.ninja/plugins/sidekick-5.0.399.zip).\r\n\r\n# Release Notes\r\n\r\nSidekick Client Revision: 26.0.487\r\n\r\n## Update Instructions\r\n\r\nIf you are updating from a current installation of the Sidekick plugin, then complete the following instructions:\r\n\r\n* Open the Plugin Manager\r\n* Locate the Sidekick plugin\r\n* Click `Update`\r\n\r\n## Notable Changes\r\n\r\nThis release is a major redesign of Sidekick. It introduces agentic reverse engineering workflows, a revamped UI, expanded API and project support, and new capabilities like semantic search, MCP integration, and transaction logging.\r\n\r\n## Release Changes\r\n\r\n* **Enhancement:** Introduced specialist modes for Research, Transform, Repair Analysis, Modeling, Debugger, and Automation workflows.\r\n* **New:** Added a validation agent that cross-checks findings against IL, assembly, and memory traces, and repairs analysis issues when needed.\r\n* **New:** Added a persistent Behavioral Model to carry forward descriptions of binary behavior across sessions outside the BNDB.\r\n* **Enhancement:** Expanded the Notebook to track goals, tasks, findings, artifacts, blockers, and outcomes with explicit status.\r\n* **New:** Added reusable Skills playbooks that load based on context for common reverse engineering tasks.\r\n* **Enhancement:** Revamped the UI with an inspectable chat tree so subagent work is fully visible.\r\n* **New:** Added Code Maps for auto-built call graphs and manual JSON diagrams with live index entries inside function nodes.\r\n* **Enhancement:** Improved indexes with BNQL, Script, and Manual modes, sortable metadata fields, and support across all binaries in a project.\r\n* **New:** Added a Suggest menu for repairs, types, names, and comments.\r\n* **New:** Expanded the Sidekick API with completion pools, model templates, and headless `sidekick()` access for full-workspace automation from Python.\r\n* **Enhancement:** Added Binary Ninja Project support with a shared workspace, cross-binary BNQL, and project-scoped AI across multiple binaries.\r\n* **New:** Added semantic search powered by a local vector database, with the `concept()` operator available in BNQL, chat, and scripts.\r\n* **New:** Added MCP support so Sidekick can use external tools through Model Context Protocol servers.\r\n* **New:** Added debugger specialist mode for breakpoint-driven runtime observation with resumable threads.\r\n* **New:** Added hierarchical tool permissions scoped per chat, per workspace, or globally.\r\n* **New:** Added a transaction log so every database change is tracked and can be undone step by step.",
     "minimumbinaryninjaversion": 8005,
     "name": "Sidekick",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/21efa4ff-9499-4dff-affc-8715225b5b2d/versions/3a5158f0-4825-4d71-b966-0a3b8ef4040b/platforms/3181/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/21efa4ff-9499-4dff-affc-8715225b5b2d/versions/3a5158f0-4825-4d71-b966-0a3b8ef4040b/platforms/3181/download?notrack=1",
+    "packageShortUrl": "https://localhost/v1/extensions/21efa4ff-9499-4dff-affc-8715225b5b2d/versions/eeaf8eaa-77e4-4146-9b17-88303057b080/platforms/3475/download",
+    "packageUrl": "https://localhost/v1/extensions/21efa4ff-9499-4dff-affc-8715225b5b2d/versions/eeaf8eaa-77e4-4146-9b17-88303057b080/platforms/3475/download?notrack=1",
     "path": "Vector35_Sidekick",
     "platforms": [
       "Darwin",
@@ -26,7 +26,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "updated_at": "2026-02-24 16:33:43+00:00"
+      "updated_at": "2026-05-15 16:01:16+00:00"
     },
     "projectUrl": "https://github.com/vector35/sidekick-public",
     "subdir": "",
@@ -34,7 +34,7 @@
       "ui",
       "helper"
     ],
-    "version": "5.0.399",
+    "version": "26.0.487",
     "view_only": false
   },
   {
@@ -54,8 +54,8 @@
     "longdescription": "# COMpanion (v0.1.2)\nAuthor: **Vector 35 Inc**\n\n_COMpanion is a plugin for Binary Ninja helps automate working with COM objects in Windows binaries._\n\n## Description:\n\n\nNone\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 4860\n\n\n## License\n\nThis plugin is released under a MIT license.\n## Metadata Version\n\n2\n",
     "minimumbinaryninjaversion": 4860,
     "name": "COMpanion",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/55096ae1-c19c-4103-a2c5-209ce87fc71d/versions/86fda630-e457-4bec-b77f-e7769e7ce81d/platforms/123/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/55096ae1-c19c-4103-a2c5-209ce87fc71d/versions/86fda630-e457-4bec-b77f-e7769e7ce81d/platforms/123/download?notrack=1",
+    "packageShortUrl": "https://localhost/v1/extensions/55096ae1-c19c-4103-a2c5-209ce87fc71d/versions/86fda630-e457-4bec-b77f-e7769e7ce81d/platforms/123/download",
+    "packageUrl": "https://localhost/v1/extensions/55096ae1-c19c-4103-a2c5-209ce87fc71d/versions/86fda630-e457-4bec-b77f-e7769e7ce81d/platforms/123/download?notrack=1",
     "path": "Vector35_COMpanion",
     "platforms": [
       "Darwin",
@@ -80,7 +80,7 @@
       "python3"
     ],
     "author": "Vector 35 Inc",
-    "dependencies": "requests\n",
+    "dependencies": "requests",
     "description": "Automatically analyze a binary via unpac.me",
     "installinstructions": {},
     "is_paid": false,
@@ -92,8 +92,8 @@
     "longdescription": "# Unpac.Me Plugin (v1.2)\r\n\r\nAuthor: **Vector 35 Inc**\r\n\r\n_Simple plugin to interface Binary Ninja with the UnpacMe automatic unpacking service_\r\n\r\n## Description:\r\n\r\nThis plugin lets you easily submit binaries and download unpacked results from [unpac.me](https://unpac.me/).\r\n\r\nYou will first need to sign up for a free account before you can use it. The first time you try to upload or download you will be prompted for your API Key which is available from your [account page](https://www.unpac.me/account).\r\n\r\nCurrent features:\r\n\r\n- Upload a file to be unpacked. Available from the `Plugins/UnpacMe` menu and command-palette, works on the currently open file.\r\n- Download a previously extracted file. Available from the `Plugins/UnpacMe` menu and command-palette.\r\n\r\n![](https://github.com/Vector35/unpacme/blob/master/media/download.png?raw=true)\r\n![](https://github.com/Vector35/unpacme/blob/master/media/menu.png?raw=true)\r\n\r\n## Installation Instructions\r\n\r\nUse the plugin manager or clone this to your [user plugin folder](https://docs.binary.ninja/getting-started.html#user-folder).\r\n\r\n## Minimum Version\r\n\r\nThis plugin requires the following minimum version of Binary Ninja:\r\n\r\n* 3469\r\n\r\n## Troubleshooting\r\n\r\nIf you receive python errors, you may need to upgrade your version of python to support requests with HTTPS support.\r\n\r\n## License\r\n\r\nThis plugin is released under a MIT license.\r\n\r\n## Metadata Version\r\n\r\n2\n\n### Changelog\n**Full Changelog**: https://github.com/Vector35/unpacme/compare/1.1...1.2",
     "minimumbinaryninjaversion": 3469,
     "name": "UnPack.Me Automation",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/cfbbd32f-bad6-4311-b904-e159baae987f/versions/0260cc76-eca6-4f89-89bb-588686282bbe/platforms/2293/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/cfbbd32f-bad6-4311-b904-e159baae987f/versions/0260cc76-eca6-4f89-89bb-588686282bbe/platforms/2293/download?notrack=1",
+    "packageShortUrl": "https://localhost/v1/extensions/cfbbd32f-bad6-4311-b904-e159baae987f/versions/0260cc76-eca6-4f89-89bb-588686282bbe/platforms/2293/download",
+    "packageUrl": "https://localhost/v1/extensions/cfbbd32f-bad6-4311-b904-e159baae987f/versions/0260cc76-eca6-4f89-89bb-588686282bbe/platforms/2293/download?notrack=1",
     "path": "Vector35_unpacme",
     "platforms": [
       "Darwin",
@@ -102,7 +102,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 12,
+      "stargazers_count": 13,
       "updated_at": "2025-04-24 22:55:03+00:00"
     },
     "projectUrl": "https://github.com/Vector35/unpacme",
@@ -131,8 +131,8 @@
     "longdescription": "An architecture plugin for the <a href='https://en.wikipedia.org/wiki/MOS_Technology_6502'>6502</a> processsor and a binary view for NES roms. <img src='https://raw.githubusercontent.com/Vector35/6502/master/media/nes.png'>\n\n### Changelog\n[Correct crashing call to perform_get_address_size](https://github.com/Vector35/6502/commit/73d3760a16e7e95ee2f30cf7caabe8302bfdddef)",
     "minimumbinaryninjaversion": 1200,
     "name": "6502 Architecture Plugin",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/6e30e6f0-9d4a-4415-806e-b3bcd6ff7f20/versions/6b99468c-1bd3-42ab-994f-78d12339b2a4/platforms/2425/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/6e30e6f0-9d4a-4415-806e-b3bcd6ff7f20/versions/6b99468c-1bd3-42ab-994f-78d12339b2a4/platforms/2425/download?notrack=1",
+    "packageShortUrl": "https://localhost/v1/extensions/6e30e6f0-9d4a-4415-806e-b3bcd6ff7f20/versions/6b99468c-1bd3-42ab-994f-78d12339b2a4/platforms/2425/download",
+    "packageUrl": "https://localhost/v1/extensions/6e30e6f0-9d4a-4415-806e-b3bcd6ff7f20/versions/6b99468c-1bd3-42ab-994f-78d12339b2a4/platforms/2425/download?notrack=1",
     "path": "Vector35_6502",
     "platforms": [
       "Darwin",
@@ -158,7 +158,7 @@
       "python3"
     ],
     "author": "Vector 35 Inc",
-    "dependencies": "pygments>=2.7.0\n",
+    "dependencies": "pygments>=2.7.0",
     "description": "Powerful code-editing plugin for writing and managing python code-snippets with syntax highlighting, hotkey binding and other features",
     "installinstructions": {},
     "is_paid": false,
@@ -170,8 +170,8 @@
     "longdescription": "The snippet editor started as a simple example UI plugin to demonstrate new features available to UI plugins. It has turned into a functionally useful plugin in its own right. The snippet editor allows you to write small bits of code that might not be big enough to warrant the effort of a full plugin but are long enough that you don't want to retype them every time in the python-console!\n\nAs an added bonus, all snippets are added to the snippets menu and hot-keys can be associated with them as they make use of the action system. All action-system items are also available through the command-palette (CTL/CMD-p).\n\n![](https://github.com/Vector35/snippets/blob/master/media/snippets.gif?raw=true)\n\n.\n\n### Changelog\nfix updater example",
     "minimumbinaryninjaversion": 1528,
     "name": "Snippet UI Plugin",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/d4f64609-246f-4130-970d-3f928d667c81/versions/3fcfa829-c44f-4149-b6c3-f57a24fa848a/platforms/3007/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/d4f64609-246f-4130-970d-3f928d667c81/versions/3fcfa829-c44f-4149-b6c3-f57a24fa848a/platforms/3007/download?notrack=1",
+    "packageShortUrl": "https://localhost/v1/extensions/d4f64609-246f-4130-970d-3f928d667c81/versions/3fcfa829-c44f-4149-b6c3-f57a24fa848a/platforms/3007/download",
+    "packageUrl": "https://localhost/v1/extensions/d4f64609-246f-4130-970d-3f928d667c81/versions/3fcfa829-c44f-4149-b6c3-f57a24fa848a/platforms/3007/download?notrack=1",
     "path": "Vector35_snippets",
     "platforms": [
       "Darwin",
@@ -209,8 +209,8 @@
     "longdescription": "This script will automatically remove conditional branches which have constant conditions. It can be run from the command line via `python -mOpaquePredicatePatcher.__main__` (if the BinaryNinja python library is in your path) or installed as a plugin in your user plugin directory. Read more about how this tool works on our blog: [Automated Opaque Predicate Removal](https://binary.ninja/2017/10/01/automated-opaque-predicate-removal.html)\n\n###Example\n\n![Before and After](opaque_predicate_elimination.gif =400x400 'Before and After')",
     "minimumbinaryninjaversion": 0,
     "name": "Opaque Predicate Patcher",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/b762e370-af90-4abe-8643-1fc4567d9b41/versions/7e808d6c-aac6-4218-b0c3-ecc1f3d6ca83/platforms/217/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/b762e370-af90-4abe-8643-1fc4567d9b41/versions/7e808d6c-aac6-4218-b0c3-ecc1f3d6ca83/platforms/217/download?notrack=1",
+    "packageShortUrl": "https://localhost/v1/extensions/b762e370-af90-4abe-8643-1fc4567d9b41/versions/7e808d6c-aac6-4218-b0c3-ecc1f3d6ca83/platforms/217/download",
+    "packageUrl": "https://localhost/v1/extensions/b762e370-af90-4abe-8643-1fc4567d9b41/versions/7e808d6c-aac6-4218-b0c3-ecc1f3d6ca83/platforms/217/download?notrack=1",
     "path": "Vector35_OpaquePredicatePatcher",
     "platforms": [
       "Darwin",
@@ -247,8 +247,8 @@
     "longdescription": "# Sample Plugin\nAuthor: **Vector 35 Inc**\n\n_This is a short description meant to fit on one line._\n\n## Description:\nThis is a longer description meant for a sample plugin that demonstrates the metadata format for Binary Ninja plugins. Note that the [community-plugins repo](https://github.com/Vector35/community-plugins) contains a useful [utility](https://github.com/Vector35/community-plugins/blob/master/generate_plugininfo.py) to validate the plugin.json. Additionally, the [release helper](https://github.com/Vector35/release_helper) plugin is helpful for more easily pushing new releases, incrementing versions, and creating the appropriate GitHub tags.\n\nNote that originally we recommended specifying the contents of this entire file inside of the [plugin.json](./plugin.json) but the latest repository generator will use the readme contents directly which means you should simply leave an empty longdescription field. \n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n * 3000\n\n## License\n\nThis plugin is released under an [MIT license](./license).\n\n## Metadata Version\n\n2\n",
     "minimumbinaryninjaversion": 3000,
     "name": "Sample Plugin",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/a2041ccb-3df5-456a-8ca8-67e39e3d7d79/versions/aee01364-266f-40fb-9d66-ddac0381e98b/platforms/57/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/a2041ccb-3df5-456a-8ca8-67e39e3d7d79/versions/aee01364-266f-40fb-9d66-ddac0381e98b/platforms/57/download?notrack=1",
+    "packageShortUrl": "https://localhost/v1/extensions/a2041ccb-3df5-456a-8ca8-67e39e3d7d79/versions/aee01364-266f-40fb-9d66-ddac0381e98b/platforms/57/download",
+    "packageUrl": "https://localhost/v1/extensions/a2041ccb-3df5-456a-8ca8-67e39e3d7d79/versions/aee01364-266f-40fb-9d66-ddac0381e98b/platforms/57/download?notrack=1",
     "path": "Vector35_sample_plugin",
     "platforms": [
       "Darwin",
@@ -257,7 +257,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 22,
+      "stargazers_count": 23,
       "updated_at": "2024-06-07 17:32:07.890430+00:00"
     },
     "projectUrl": "https://github.com/Vector35/sample_plugin",
@@ -278,7 +278,7 @@
       "python3"
     ],
     "author": "Vector 35 Inc",
-    "dependencies": "z80dis\n",
+    "dependencies": "z80dis",
     "description": "Sample Z80 architecture plugin written to accompany the <a href='https://binary.ninja/2020/01/08/guide-to-architecture-plugins-part1.html'>introductory blog post</a>.",
     "installinstructions": {},
     "is_paid": false,
@@ -290,8 +290,8 @@
     "longdescription": "<p>This Z80 architecture plugin was originally written as an example architecture to introduce how to easily add support to Binary Ninja for any new architecture given an existing disassembly library. It originally used the <a href='https://skoolkit.ca/'>SchoolKit</a> python library as a disassembler, but later was updated to work with a <a href='https://github.com/lwerdna/z80dis'>dedicated library</a>.</p><p>This repository has several checkpoints from the <a href='https://binary.ninja/2020/01/08/guide-to-architecture-plugins-part1.html'>blog post</a> that are associated with specific comments.</p>",
     "minimumbinaryninjaversion": 776,
     "name": "Z80 Architecture Plugin",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/27f18699-eaa9-4ecb-95eb-5aeab736b162/versions/eb4d63b8-8ae6-4c72-8d3a-eb05d40287e5/platforms/63/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/27f18699-eaa9-4ecb-95eb-5aeab736b162/versions/eb4d63b8-8ae6-4c72-8d3a-eb05d40287e5/platforms/63/download?notrack=1",
+    "packageShortUrl": "https://localhost/v1/extensions/27f18699-eaa9-4ecb-95eb-5aeab736b162/versions/eb4d63b8-8ae6-4c72-8d3a-eb05d40287e5/platforms/63/download",
+    "packageUrl": "https://localhost/v1/extensions/27f18699-eaa9-4ecb-95eb-5aeab736b162/versions/eb4d63b8-8ae6-4c72-8d3a-eb05d40287e5/platforms/63/download?notrack=1",
     "path": "Vector35_Z80",
     "platforms": [
       "Darwin",
@@ -301,7 +301,7 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 10,
-      "updated_at": "2024-06-07 17:32:07.932004+00:00"
+      "updated_at": "2024-06-07 17:32:07+00:00"
     },
     "projectUrl": "https://github.com/Vector35/Z80",
     "subdir": "",
@@ -317,7 +317,7 @@
       "python3"
     ],
     "author": "Vector 35 Inc",
-    "dependencies": "flatbuffers\n",
+    "dependencies": "flatbuffers",
     "description": "Python tools for working with Signature Libraries",
     "installinstructions": {},
     "is_paid": false,
@@ -329,8 +329,8 @@
     "longdescription": "# Signature Kit Plugin (v1.2.2)\nAuthor: **Vector 35 Inc**\n\n_Python tools for working with Signature Libraries_\n\n## \u26a0\ufe0f Deprecation Notice\n\n**SigKit is no longer under active development.  For more information, please see https://binary.ninja/2025/08/22/warp.html**.\n\n## Description:\n\nThis plugin provides Python tools for generating, manipulating, viewing, loading, and saving signature libraries (.sig) for the Signature System. This plugin also provides UI integration for easy access from the Binary Ninja UI to common functions in the `Plugins\\Signature Library` menu.\n\n\n![Signature Explorer](https://raw.githubusercontent.com/vector35/sigkit/master/images/explorer.png)\n\nAlso included are [example scripts](https://github.com/Vector35/sigkit/tree/master/examples) which demonstrate batch processing and automatic creation of signature libraries for Ubuntu libc.\nYou can also run the Signature Explorer GUI as a standalone app.\n\n\n## Installation Instructions\n\n### Windows\n\n\n\n### Linux\n\n\n\n### Darwin\n\n\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 1997\n\n\n\n## Required Dependencies\n\nThe following dependencies are required for this plugin:\n\n * pip - flatbuffers\n\n\n## License\n\nThis plugin is released under a MIT license.\n## Metadata Version\n\n2\n\n\n### Changelog\n- Added deprecation notice",
     "minimumbinaryninjaversion": 1997,
     "name": "Signature Kit Plugin",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/51fa529d-82ce-419b-8214-b3d60882c804/versions/ec68844f-60d6-4ceb-9be2-bb096d29d95e/platforms/2798/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/51fa529d-82ce-419b-8214-b3d60882c804/versions/ec68844f-60d6-4ceb-9be2-bb096d29d95e/platforms/2798/download?notrack=1",
+    "packageShortUrl": "https://localhost/v1/extensions/51fa529d-82ce-419b-8214-b3d60882c804/versions/ec68844f-60d6-4ceb-9be2-bb096d29d95e/platforms/2798/download",
+    "packageUrl": "https://localhost/v1/extensions/51fa529d-82ce-419b-8214-b3d60882c804/versions/ec68844f-60d6-4ceb-9be2-bb096d29d95e/platforms/2798/download?notrack=1",
     "path": "Vector35_sigkit",
     "platforms": [
       "Darwin",
@@ -369,8 +369,8 @@
     "longdescription": "This Binary Ninja UI plugin allows you to browse a hex dump within Binary Ninja with a tree view informed by [Kaitai Struct](https://kaitai.io/).\n\n![](https://github.com/Vector35/kaitai/blob/master/media/kaitai.gif?raw=true)\n\nThis wires up Kaitai Struct as a parsing library to produce templated dissection of binary files. Of course, this concept itself isn\u2019t new. Plenty of great tools like 010, Hexinator and Synalyze It! have this feature (last two by the same company for different platforms). Thanks to the Kaitai Project not only for the project in general, but also for working with us to resolve some small issues while we were developing the plugin.\n\n## License\n\nThis plugin is released under a MIT license.\n\n\n\n### Changelog\n- Removes the unused import for `audioop`.  It was officially deprecated in Python 3.11 and removed in Python 3.13 as part of [PEP 594](https://peps.python.org/pep-0594/#audioop).  This was causing plugin load errors on more recent Python interpreters. (#11) ",
     "minimumbinaryninjaversion": 3164,
     "name": "Kaitai UI Plugin",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/bc3c1432-7b94-4051-a264-6a5b92e7817a/versions/1e6eb984-9e20-4910-aa3a-eeee701656e7/platforms/2275/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/bc3c1432-7b94-4051-a264-6a5b92e7817a/versions/1e6eb984-9e20-4910-aa3a-eeee701656e7/platforms/2275/download?notrack=1",
+    "packageShortUrl": "https://localhost/v1/extensions/bc3c1432-7b94-4051-a264-6a5b92e7817a/versions/1e6eb984-9e20-4910-aa3a-eeee701656e7/platforms/2275/download",
+    "packageUrl": "https://localhost/v1/extensions/bc3c1432-7b94-4051-a264-6a5b92e7817a/versions/1e6eb984-9e20-4910-aa3a-eeee701656e7/platforms/2275/download?notrack=1",
     "path": "Vector35_kaitai",
     "platforms": [
       "Darwin",
@@ -395,7 +395,7 @@
       "python3"
     ],
     "author": "Vector 35 Inc",
-    "dependencies": "click==8.1.7 ; python_version >= \"3.9\" and python_version < \"4.0\"\ncolorama==0.4.6 ; python_version >= \"3.9\" and python_version < \"4.0\" and platform_system == \"Windows\"\npyyaml==6.0.2 ; python_version >= \"3.9\" and python_version < \"4.0\"\nsvd2py==1.0.2 ; python_version >= \"3.9\" and python_version < \"4.0\"\n",
+    "dependencies": "click==8.1.7 ; python_version >= \"3.9\" and python_version < \"4.0\"\ncolorama==0.4.6 ; python_version >= \"3.9\" and python_version < \"4.0\" and platform_system == \"Windows\"\npyyaml==6.0.2 ; python_version >= \"3.9\" and python_version < \"4.0\"\nsvd2py==1.0.2 ; python_version >= \"3.9\" and python_version < \"4.0\"",
     "description": "SVD Mapper is a plugin for Binary Ninja that helps automate the process of mapping in SVD peripherals",
     "installinstructions": {},
     "is_paid": false,
@@ -407,8 +407,8 @@
     "longdescription": "# SVD Mapper (svdmap)\r\n\r\nSupport loading SVD files into Binary Ninja.\r\n\r\n## Usage\r\n\r\n1. Open binary in Binary Ninja\r\n2. Run `Import SVD info` command.\r\n3. Select SVD file (i.e. `TC37XPD.svd`).\r\n4. New segments should now be automatically created for each peripheral along with the structure.\r\n\r\n## Configuration\r\n\r\n### Enable Bitfield Structuring\r\nAs Binary Ninja does not support bitfields, all bitfields will become unions, most will find this undesired so by default\r\nthis will be disabled. \r\n\r\nTo _enable_ bitfield structuring set `SVDMapper.enableBitfieldStructuring` to **true**.\r\n\r\n### Disable Comments\r\n\r\nComments can be displayed poorly in some instances so if that is the case you can turn comments off.\r\n\r\nTo _disable_ comments set `SVDMapper.enableComments` to **false**.",
     "minimumbinaryninjaversion": 4860,
     "name": "SVD Mapper",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/af490262-c7dd-462c-80d0-f375dfb7e572/versions/2de741f8-f318-477e-a713-6aa35566db80/platforms/205/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/af490262-c7dd-462c-80d0-f375dfb7e572/versions/2de741f8-f318-477e-a713-6aa35566db80/platforms/205/download?notrack=1",
+    "packageShortUrl": "https://localhost/v1/extensions/af490262-c7dd-462c-80d0-f375dfb7e572/versions/2de741f8-f318-477e-a713-6aa35566db80/platforms/205/download",
+    "packageUrl": "https://localhost/v1/extensions/af490262-c7dd-462c-80d0-f375dfb7e572/versions/2de741f8-f318-477e-a713-6aa35566db80/platforms/205/download?notrack=1",
     "path": "Vector35_SVDMapper",
     "platforms": [
       "Darwin",
@@ -433,7 +433,7 @@
       "python3"
     ],
     "author": "Vector 35 Inc",
-    "dependencies": "unblob==24.11.13\npython-magic==0.4.27\n",
+    "dependencies": "unblob==24.11.13\npython-magic==0.4.27",
     "description": "Plugin for extracting files from container formats",
     "installinstructions": {},
     "is_paid": false,
@@ -445,8 +445,8 @@
     "longdescription": "# Blob Extractor\r\nAuthor: **Vector 35 Inc.**\r\n\r\n_Binary Ninja plugin for extracting files from container formats_\r\n\r\n![preview](preview.png)\r\n\r\n## Description\r\n\r\nBlob Extractor is a Binary Ninja plugin that leverages the [Unblob API](https://github.com/onekey-sec/unblob) to\r\nidentify and extract compressed archives, file-systems, and other blobs embedded in container binaries such as flash\r\ndumps or firmware images.\r\n\r\n## Installation Instructions\r\n\r\nThe following dependencies are required by this plugin:\r\n\r\n* [unblob](https://github.com/onekey-sec/unblob) - Python package for extracting files from container formats\r\n* libmagic - Native libmagic file type identification library\r\n* [python-magic](https://github.com/ahupp/python-magic) - Python bindings for libmagic\r\n\r\n### Darwin\r\n\r\n1. Install the `libmagic` native library\r\n\r\n```\r\nbrew install libmagic\r\n```\r\n\r\n2. Install the dependency Python packages for the Python version in use by Binary Ninja. If you are using your system's\r\nPython interpeter, these packages can be installed using PIP.\r\n\r\n```\r\npip3 install unblob python-magic\r\n```\r\n\r\n3. Clone the repository into the Binary Ninja `plugins` directory\r\n\r\n```\r\ngit clone git@github.com:Vector35/blob_extractor.git \"/Users/$USER/Library/Application Support/Binary Ninja/plugins/blob_extractor\"\r\n```\r\n\r\n### Linux\r\n\r\n1. Install the `libmagic` native library\r\n\r\n```\r\nsudo apt-get install libmagic1\r\n```\r\n\r\n2. Install the dependency Python packages for the Python version in use by Binary Ninja.\r\n\r\n```\r\npip3 install unblob python-magic\r\n```\r\n\r\n3. Clone the repository into the Binary Ninja `plugins` directory\r\n\r\n```\r\ngit clone git@github.com:Vector35/blob_extractor.git \"~/.binaryninja/plugins/blob_extractor\"\r\n```\r\n\r\n### Windows\r\n\r\nWindows is not supported by this plugin. Blob Extractor depends on `libmagic`, Unblob, and Unblob's extractor utilities.\r\nThese dependencies do not run on Windows.\r\n\r\n## Extractor Utilities\r\n\r\nUnblob uses external utilities for file extraction. After installing Unblob (via the installation instructions above)\r\nrun the following command to identify missing external extractor utilties:\r\n\r\n```\r\n> unblob --show-external-dependencies\r\nThe following executables found installed, which are needed by unblob:\r\n    7z                          \u2713\r\n    debugfs                     \u2717\r\n    jefferson                   \u2713\r\n    lz4                         \u2713\r\n    lziprecover                 \u2713\r\n    lzop                        \u2713\r\n    sasquatch                   \u2717\r\n    sasquatch-v4be              \u2717\r\n    simg2img                    \u2713\r\n    ubireader_extract_files     \u2713\r\n```\r\n\r\n_Note: unblob is installed at `~/.local/bin/unblob` on Linux._\r\n\r\nMissing extractor utilities must be installed manually. Linux users can install the majority of the external\r\ndependencies using `apt`. MacOS users can use `brew`. Some of the external dependencies, such as `sasquatch`, must be\r\nbuilt from source. Blob Extractor will still run without external extractor utilities. However, it will be unable to\r\nextract certain blob formats. See the [Install Extractors](https://unblob.org/installation/#install-extractors) section\r\nfrom the Unblob documentation for more information.\r\n\r\n## Troubleshooting\r\n\r\n**The plugin icon is not appearing in the Binary Ninja sidebar**\r\n\r\nThis is most likely because the plugin dependencies have not been installed properly and the plugin failed to load. It\r\nis recommended to open the Binary Ninja log and see if there is a Python traceback originating from Blob Extractor. The\r\ntraceback should indicate what the issue is. If you are unable to run `unblob` from the command-line, it likely won't\r\nrun from the plugin either. Be sure to follow the installation steps above and verify that `unblob` and its dependencies\r\nare installed correctly by running `unblob --show-external-dependencies` from your terminal.\r\n\r\n**The plugin is not extracting any files, or extracted files are empty**\r\n\r\nThis is most likely because the required external dependencies for Unblob have not been installed. For example, if\r\nyou're extracting a flash dump that contains a squash file system, you must have sasquatch installed on your system. For\r\nJFFS2 you need jefferson, and so on. See the `Extractor Utilities` section above. Also reference the\r\n[Install Extractors](https://unblob.org/installation/#install-extractors) section from the Unblob documentation.\r\n\r\n## License\r\n\r\nThis plugin is released under an [MIT license](./LICENSE).",
     "minimumbinaryninjaversion": 5333,
     "name": "Blob Extractor",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/4aa03a24-1593-429f-8ba8-ea9f1a3e5f82/versions/b6fa0dee-4515-47e5-9243-aab561e764ed/platforms/211/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/4aa03a24-1593-429f-8ba8-ea9f1a3e5f82/versions/b6fa0dee-4515-47e5-9243-aab561e764ed/platforms/211/download?notrack=1",
+    "packageShortUrl": "https://localhost/v1/extensions/4aa03a24-1593-429f-8ba8-ea9f1a3e5f82/versions/b6fa0dee-4515-47e5-9243-aab561e764ed/platforms/211/download",
+    "packageUrl": "https://localhost/v1/extensions/4aa03a24-1593-429f-8ba8-ea9f1a3e5f82/versions/b6fa0dee-4515-47e5-9243-aab561e764ed/platforms/211/download?notrack=1",
     "path": "Vector35_blobextractor",
     "platforms": [
       "Darwin",
@@ -455,7 +455,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 26,
+      "stargazers_count": 27,
       "updated_at": "2024-11-19 13:38:34+00:00"
     },
     "projectUrl": "https://github.com/Vector35/blob_extractor/",
@@ -484,8 +484,8 @@
     "longdescription": "# Tant\u014d\nAuthor: **Vector 35, Inc.**\n\n## Description:\nTant\u014d is a plugin for [Binary Ninja](https://binary.ninja/) that slices programs so you can understand them faster.\n\n![slices](https://github.com/Vector35/tanto/blob/master/tanto_preview.png?raw=true)\n\nFor a more detailed explanation of what Tant\u014d does, please check out [this blog post](https://binary.ninja/2022/06/20/introducing-tanto.html).\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 4.0.5336\n\n## License\n\nThis plugin has been released under the [MIT license](./LICENSE.txt).\n\n## Metadata Version\n\n2\n\n## Insomni'Hack 2025 Slides\n\n[Here are the slides](./A%20Slice%20of%20Modern%20Program%20Analysis%20-%20Insomni%27hack%202025.pdf) for the talk [@ElykDeer](https://github.com/ElykDeer) gave at Insomni'Hack 2025: [\"A Slice of\" Modern Program Analysis](https://www.youtube.com/watch?v=I0PoE0IdtmE)\n\n## Original Blog Post / Documentation\n\n[Here's the original blog post](https://binary.ninja/2022/06/20/introducing-tanto.html) announcing Tanto and explaining how to use the original two slice types, Variable Slices and Basic Block Slices.\n",
     "minimumbinaryninjaversion": 5336,
     "name": "Tant\u014d",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/5b073562-1af6-4736-839b-960d0961344e/versions/67ad5b15-351f-4aad-a6e0-21a8cb273d32/platforms/2911/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/5b073562-1af6-4736-839b-960d0961344e/versions/67ad5b15-351f-4aad-a6e0-21a8cb273d32/platforms/2911/download?notrack=1",
+    "packageShortUrl": "https://localhost/v1/extensions/5b073562-1af6-4736-839b-960d0961344e/versions/67ad5b15-351f-4aad-a6e0-21a8cb273d32/platforms/2911/download",
+    "packageUrl": "https://localhost/v1/extensions/5b073562-1af6-4736-839b-960d0961344e/versions/67ad5b15-351f-4aad-a6e0-21a8cb273d32/platforms/2911/download?notrack=1",
     "path": "tanto",
     "platforms": [
       "Darwin",
