@@ -1,6 +1,6 @@
 | Name|Author|Description|Last Updated|Type|API|License |
 | ----|------|-----------|------------|----|---|------- |
-| [6502 Architecture Plugin](https://github.com/Vector35/6502)|Vector 35 Inc|An architecture plugin for 6502 and binary view for NES roms.|2025-05-30|architecture|python2, python3|MIT |
+| [6502 Architecture Plugin](https://github.com/Vector35/6502)|Vector 35 Inc|An architecture plugin for 6502 and binary view for NES roms.|2026-07-13|architecture|python2, python3|MIT |
 | [Blob Extractor](https://github.com/Vector35/blob_extractor/)|Vector 35 Inc|Plugin for extracting files from container formats|2024-11-19|binaryview, helper|python3|MIT |
 | [COMpanion](https://github.com/Vector35/COMpanion)|Vector 35 Inc|COMpanion is a plugin for Binary Ninja helps automate working with COM objects in Windows binaries.|2024-07-25|helper|python3|MIT |
 | [Kaitai UI Plugin](https://github.com/Vector35/kaitai)|Vector 35 Inc|Browse hex with a tree view populated from Kaitai Struct formats.|2025-04-18|ui|python3|MIT |
