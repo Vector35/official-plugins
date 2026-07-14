@@ -123,16 +123,16 @@
     "description": "An architecture plugin for 6502 and binary view for NES roms.",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1783970543,
+    "lastUpdated": 1784045147,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2019 Vector 35 Inc\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "# 6502 Architecture Plugin (v2.0.2)\nAuthor: **Vector 35 Inc**\n\n_An architecture plugin for 6502 and binary view for NES roms._\n\n## Description:\n\nAn architecture plugin for the <a href='https://en.wikipedia.org/wiki/MOS_Technology_6502'>6502</a> processsor and a binary view for NES roms. <img src=\"https://raw.githubusercontent.com/Vector35/6502/master/media/nes.png\" />\n\n## Installation Instructions\n\n### Darwin\n\nno special instructions, package manager is recommended\n\n### Linux\n\nno special instructions, package manager is recommended\n\n### Windows\n\nno special instructions, package manager is recommended\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 1200\n\n\n\n## Required Dependencies\n\nThe following dependencies are required for this plugin:\n\n\n\n## License\n\nThis plugin is released under a MIT license.\n## Metadata Version\n\n2\n",
+    "longdescription": "# 6502 Architecture Plugin\nAuthor: **Vector 35 Inc**\n\n_An architecture plugin for 6502 and binary view for NES roms._\n\n## Description:\n\nAn architecture plugin for the <a href='https://en.wikipedia.org/wiki/MOS_Technology_6502'>6502</a> processsor and a binary view for NES roms. \n![](https://raw.githubusercontent.com/Vector35/6502/refs/heads/master/media/nes.png)\n\n\n## Installation Instructions\n\n### Darwin\n\nno special instructions, package manager is recommended\n\n### Linux\n\nno special instructions, package manager is recommended\n\n### Windows\n\nno special instructions, package manager is recommended\n\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 1200\n\n\n## Required Dependencies\n\nThe following dependencies are required for this plugin:\n\n## License\n\nThis plugin is released under a MIT license.\n## Metadata Version\n\n2\n",
     "minimumbinaryninjaversion": 1200,
     "name": "6502 Architecture Plugin",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/6e30e6f0-9d4a-4415-806e-b3bcd6ff7f20/versions/68ab11e2-6401-4ba6-87fe-0c0ddb6b0f30/platforms/3661/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/6e30e6f0-9d4a-4415-806e-b3bcd6ff7f20/versions/68ab11e2-6401-4ba6-87fe-0c0ddb6b0f30/platforms/3661/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/6e30e6f0-9d4a-4415-806e-b3bcd6ff7f20/versions/e37615be-0cac-4a70-8c21-2d3034638f2d/platforms/3682/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/6e30e6f0-9d4a-4415-806e-b3bcd6ff7f20/versions/e37615be-0cac-4a70-8c21-2d3034638f2d/platforms/3682/download?notrack=1",
     "path": "Vector35_6502",
     "platforms": [
       "Darwin",
@@ -142,14 +142,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 9,
-      "updated_at": "2026-07-13 19:22:23+00:00"
+      "updated_at": "2026-07-14 16:05:47+00:00"
     },
     "projectUrl": "https://github.com/Vector35/6502",
     "subdir": "",
     "type": [
       "architecture"
     ],
-    "version": "2.0.4",
+    "version": "2.0.6",
     "view_only": false
   },
   {
