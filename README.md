@@ -2,7 +2,7 @@
 | ----|------|-----------|------------|----|---|------- |
 | [6502 Architecture Plugin](https://github.com/Vector35/6502)|Vector 35 Inc|An architecture plugin for 6502 and binary view for NES roms.|2026-07-14|architecture|python2, python3|MIT |
 | [Blob Extractor](https://github.com/Vector35/blob_extractor/)|Vector 35 Inc|Plugin for extracting files from container formats|2026-07-14|binaryview, helper|python3|MIT |
-| [COMpanion](https://github.com/Vector35/COMpanion)|Vector 35 Inc|COMpanion is a plugin for Binary Ninja helps automate working with COM objects in Windows binaries.|2024-07-25|helper|python3|MIT |
+| [COMpanion](https://github.com/Vector35/COMpanion)|Vector 35 Inc|COMpanion is a plugin for Binary Ninja helps automate working with COM objects in Windows binaries.|2026-07-15|helper|python3|MIT |
 | [Kaitai UI Plugin](https://github.com/Vector35/kaitai)|Vector 35 Inc|Browse hex with a tree view populated from Kaitai Struct formats.|2025-04-18|ui|python3|MIT |
 | [Opaque Predicate Patcher](https://github.com/Vector35/OpaquePredicatePatcher)|Vector 35 Inc|Automatically patch opaque predicates|2024-11-19|helper|python2, python3|MIT |
 | [Sample Plugin](https://github.com/Vector35/sample_plugin)|Vector 35 Inc|This is a short description meant to fit on one line.|2024-06-07|architecture, binaryview, core, helper, ui|python3|MIT |
