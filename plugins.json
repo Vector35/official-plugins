@@ -46,16 +46,16 @@
     "description": "COMpanion is a plugin for Binary Ninja helps automate working with COM objects in Windows binaries.",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1721868534,
+    "lastUpdated": 1784133710,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2024 Vector 35\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "# COMpanion (v0.1.2)\nAuthor: **Vector 35 Inc**\n\n_COMpanion is a plugin for Binary Ninja helps automate working with COM objects in Windows binaries._\n\n## Description:\n\n\nNone\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 4860\n\n\n## License\n\nThis plugin is released under a MIT license.\n## Metadata Version\n\n2\n",
+    "longdescription": "# COMpanion\nAuthor: **Vector 35 Inc**\n\n## Description:\n[COMpanion](https://binary.ninja/2024/02/12/enhancing-com-reverse-engineering.html) is a plugin for Binary Ninja helps automate working with COM objects in Windows binaries.\n\nBefore:\n![](https://raw.githubusercontent.com/Vector35/COMpanion/refs/heads/ashvika-creator-patch-1/media/COM_BeforeData.png)\n\nAfter:\n![](https://raw.githubusercontent.com/Vector35/COMpanion/refs/heads/ashvika-creator-patch-1/media/COM_AfterData.png)\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 4860\n\n\n## License\n\nThis plugin is released under a MIT license.\n## Metadata Version\n\n2\n",
     "minimumbinaryninjaversion": 4860,
     "name": "COMpanion",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/55096ae1-c19c-4103-a2c5-209ce87fc71d/versions/86fda630-e457-4bec-b77f-e7769e7ce81d/platforms/123/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/55096ae1-c19c-4103-a2c5-209ce87fc71d/versions/86fda630-e457-4bec-b77f-e7769e7ce81d/platforms/123/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/55096ae1-c19c-4103-a2c5-209ce87fc71d/versions/46e198d0-a6f4-4461-8c43-844afd1c2580/platforms/3715/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/55096ae1-c19c-4103-a2c5-209ce87fc71d/versions/46e198d0-a6f4-4461-8c43-844afd1c2580/platforms/3715/download?notrack=1",
     "path": "Vector35_COMpanion",
     "platforms": [
       "Darwin",
@@ -65,14 +65,14 @@
     "pluginmetadataversion": 2,
     "projectData": {
       "stargazers_count": 9,
-      "updated_at": "2024-07-25 00:48:54+00:00"
+      "updated_at": "2026-07-15 16:41:50+00:00"
     },
     "projectUrl": "https://github.com/Vector35/COMpanion",
     "subdir": "",
     "type": [
       "helper"
     ],
-    "version": "0.1.3",
+    "version": "0.1.4",
     "view_only": false
   },
   {
