@@ -131,8 +131,8 @@
     "longdescription": "# 6502 Architecture Plugin\nAuthor: **Vector 35 Inc**\n\n_An architecture plugin for 6502 and binary view for NES roms._\n\n## Description:\n\nAn architecture plugin for the <a href='https://en.wikipedia.org/wiki/MOS_Technology_6502'>6502</a> processsor and a binary view for NES roms. \n![](https://raw.githubusercontent.com/Vector35/6502/refs/heads/master/media/nes.png)\n\n\n## Installation Instructions\n\n### Darwin\n\nno special instructions, package manager is recommended\n\n### Linux\n\nno special instructions, package manager is recommended\n\n### Windows\n\nno special instructions, package manager is recommended\n\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 1200\n\n\n## Required Dependencies\n\nThe following dependencies are required for this plugin:\n\n## License\n\nThis plugin is released under a MIT license.\n## Metadata Version\n\n2\n",
     "minimumbinaryninjaversion": 1200,
     "name": "6502 Architecture Plugin",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/6e30e6f0-9d4a-4415-806e-b3bcd6ff7f20/versions/e37615be-0cac-4a70-8c21-2d3034638f2d/platforms/3682/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/6e30e6f0-9d4a-4415-806e-b3bcd6ff7f20/versions/e37615be-0cac-4a70-8c21-2d3034638f2d/platforms/3682/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/6e30e6f0-9d4a-4415-806e-b3bcd6ff7f20/versions/e37615be-0cac-4a70-8c21-2d3034638f2d/platforms/3679/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/6e30e6f0-9d4a-4415-806e-b3bcd6ff7f20/versions/e37615be-0cac-4a70-8c21-2d3034638f2d/platforms/3679/download?notrack=1",
     "path": "Vector35_6502",
     "platforms": [
       "Darwin",
@@ -201,16 +201,16 @@
     "description": "Automatically patch opaque predicates",
     "installinstructions": {},
     "is_paid": false,
-    "lastUpdated": 1732046033,
+    "lastUpdated": 1784564533,
     "license": {
       "name": "MIT",
       "text": "Copyright (c) 2017 Vector 35 Inc\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
     },
-    "longdescription": "This script will automatically remove conditional branches which have constant conditions. It can be run from the command line via `python -mOpaquePredicatePatcher.__main__` (if the BinaryNinja python library is in your path) or installed as a plugin in your user plugin directory. Read more about how this tool works on our blog: [Automated Opaque Predicate Removal](https://binary.ninja/2017/10/01/automated-opaque-predicate-removal.html)\n\n###Example\n\n![Before and After](opaque_predicate_elimination.gif =400x400 'Before and After')",
-    "minimumbinaryninjaversion": 0,
+    "longdescription": "# Opaque Predicate Patcher\nAuthor: **Vector 35 Inc**\n\n_Automatically patch opaque predicates_\n\n## Description:\n\nThis script will automatically remove conditional branches which have constant conditions. It can be run from the command line via `python -mOpaquePredicatePatcher.__main__` (if the BinaryNinja python library is in your path) or installed as a plugin in your user plugin directory. Read more about how this tool works on our blog: [Automated Opaque Predicate Removal](https://binary.ninja/2017/10/01/automated-opaque-predicate-removal.html)\n\n### Example\n\n![](https://raw.githubusercontent.com/Vector35/OpaquePredicatePatcher/refs/heads/master/opaque_predicate_elimination.gif)\n\n\n## Installation Instructions\n\n### Windows\n\n\n\n### Linux\n\n\n\n### Darwin\n\n\n\n## Minimum Version\n\nThis plugin requires the following minimum version of Binary Ninja:\n\n* 1904\n\n\n\n## Required Dependencies\n\nThe following dependencies are required for this plugin:\n\n\n\n## License\n\nThis plugin is released under a MIT license.\n## Metadata Version\n\n2\n",
+    "minimumbinaryninjaversion": 1904,
     "name": "Opaque Predicate Patcher",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/b762e370-af90-4abe-8643-1fc4567d9b41/versions/7e808d6c-aac6-4218-b0c3-ecc1f3d6ca83/platforms/217/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/b762e370-af90-4abe-8643-1fc4567d9b41/versions/7e808d6c-aac6-4218-b0c3-ecc1f3d6ca83/platforms/217/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/b762e370-af90-4abe-8643-1fc4567d9b41/versions/5dfd309d-446e-4d80-8b64-f6565b63300d/platforms/3721/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/b762e370-af90-4abe-8643-1fc4567d9b41/versions/5dfd309d-446e-4d80-8b64-f6565b63300d/platforms/3721/download?notrack=1",
     "path": "Vector35_OpaquePredicatePatcher",
     "platforms": [
       "Darwin",
@@ -219,15 +219,15 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 68,
-      "updated_at": "2024-11-19 19:53:53+00:00"
+      "stargazers_count": 69,
+      "updated_at": "2026-07-20 16:22:13+00:00"
     },
     "projectUrl": "https://github.com/Vector35/OpaquePredicatePatcher",
     "subdir": "",
     "type": [
       "helper"
     ],
-    "version": "1.1.6",
+    "version": "1.1.7",
     "view_only": false
   },
   {
@@ -415,7 +415,7 @@
     ],
     "pluginmetadataversion": 2,
     "projectData": {
-      "stargazers_count": 79,
+      "stargazers_count": 80,
       "updated_at": "2025-12-08 19:17:05+00:00"
     },
     "projectUrl": "https://github.com/Vector35/tanto",
